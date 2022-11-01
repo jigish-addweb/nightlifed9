@@ -1,0 +1,23 @@
+uuid: 15e597e7-8864-41a6-9194-0f5f8e0dbfbb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.unl
+  module:
+    - text
+id: node.unl.body
+field_name: body
+entity_type: node
+bundle: unl
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,25 @@
+uuid: 5eb321ac-f1be-45b6-a84d-356b655dd0ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_restaurant_type
+    - node.type.restaurants
+    - taxonomy.vocabulary.restaurant_type
+id: node.restaurants.field_restaurant_type
+field_name: field_restaurant_type
+entity_type: node
+bundle: restaurants
+label: 'Restaurant Type'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      restaurant_type: restaurant_type
+    auto_create: true
+field_type: entity_reference

@@ -1,0 +1,178 @@
+uuid: d38037f0-67c4-42c2-a76a-fabdc3802edc
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.rss
+    - field.field.node.hotel.body
+    - field.field.node.hotel.field_country
+    - field.field.node.hotel.field_hashtag
+    - field.field.node.hotel.field_hot_album
+    - field.field.node.hotel.field_hot_ccode
+    - field.field.node.hotel.field_hot_cont_email
+    - field.field.node.hotel.field_hot_cont_num
+    - field.field.node.hotel.field_hot_contname
+    - field.field.node.hotel.field_hot_mail_body
+    - field.field.node.hotel.field_hot_priority
+    - field.field.node.hotel.field_hot_res
+    - field.field.node.hotel.field_hot_specials
+    - field.field.node.hotel.field_hot_website
+    - field.field.node.hotel.field_hotel_and_resort_type
+    - field.field.node.hotel.field_hotel_ccode
+    - field.field.node.hotel.field_hotel_facebook
+    - field.field.node.hotel.field_hotel_google
+    - field.field.node.hotel.field_hotel_payment
+    - field.field.node.hotel.field_hotel_twitter
+    - field.field.node.hotel.field_private
+    - field.field.node.hotel.field_upload_image_0
+    - field.field.node.hotel.field_would_you_like_a_featured_
+    - node.type.hotel
+  module:
+    - image
+    - text
+    - user
+id: node.hotel.rss
+targetEntityType: node
+bundle: hotel
+mode: rss
+content:
+  field_hot_album:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_hot_ccode:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 14
+    region: content
+  field_hot_cont_email:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 16
+    region: content
+  field_hot_cont_num:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 15
+    region: content
+  field_hot_contname:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 13
+    region: content
+  field_hot_mail_body:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_hot_priority:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  field_hot_res:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_hot_specials:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_hot_website:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_hotel_ccode:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_hotel_facebook:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  field_hotel_google:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_hotel_payment:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  field_hotel_twitter:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  field_private:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 24
+    region: content
+  field_upload_image_0:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  field_country: true
+  field_hashtag: true
+  field_hotel_and_resort_type: true
+  field_would_you_like_a_featured_: true

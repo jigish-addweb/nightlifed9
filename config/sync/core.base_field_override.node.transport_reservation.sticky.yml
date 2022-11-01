@@ -1,0 +1,22 @@
+uuid: 077b268c-9f66-4f46-b842-526db5c10871
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.transport_reservation
+id: node.transport_reservation.sticky
+field_name: sticky
+entity_type: node
+bundle: transport_reservation
+label: 'Sticky at the top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,38 @@
+uuid: 37847d8e-364e-457b-a003-bb4ad3b46a0a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_music_image
+    - node.type.music
+  module:
+    - image
+id: node.music.field_music_image
+field_name: field_music_image
+entity_type: node
+bundle: music
+label: 'Upload Song or Artist Image'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: ''
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: 300x225
+  alt_field: false
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: null
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

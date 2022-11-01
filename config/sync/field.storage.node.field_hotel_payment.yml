@@ -1,0 +1,45 @@
+uuid: 3f3e5293-73ca-4427-9419-7ee4df63d867
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_hotel_payment
+field_name: field_hotel_payment
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Cash
+      label: Cash
+    -
+      value: AMEX
+      label: AMEX
+    -
+      value: 'Carte Blanche'
+      label: 'Carte Blanche'
+    -
+      value: 'Diners Club'
+      label: 'Diners Club'
+    -
+      value: Discover
+      label: Discover
+    -
+      value: JCB
+      label: JCB
+    -
+      value: MasterCard
+      label: MasterCard
+    -
+      value: Visa
+      label: Visa
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

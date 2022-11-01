@@ -1,0 +1,25 @@
+uuid: 41e7d67e-73ca-4654-9fa0-5778bd9883ea
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:f293335f-4b2e-4ca5-80eb-1e50fb3bf674'
+  module:
+    - block_content
+  theme:
+    - bluemarine
+id: block_30
+theme: bluemarine
+region: ''
+weight: 0
+provider: null
+plugin: 'block_content:f293335f-4b2e-4ca5-80eb-1e50fb3bf674'
+settings:
+  id: 'block_content:f293335f-4b2e-4ca5-80eb-1e50fb3bf674'
+  label: 'New footer'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

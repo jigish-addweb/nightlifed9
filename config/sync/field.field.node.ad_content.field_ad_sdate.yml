@@ -1,0 +1,21 @@
+uuid: 7127dfe1-d5c0-4b91-8edd-c47ff42c6d68
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ad_sdate
+    - node.type.ad_content
+  module:
+    - datetime
+id: node.ad_content.field_ad_sdate
+field_name: field_ad_sdate
+entity_type: node
+bundle: ad_content
+label: 'Start Date'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

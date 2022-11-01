@@ -1,0 +1,21 @@
+uuid: 6121c0e0-93e1-4af9-a70b-dab8aa550efa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hotb_rooms
+    - node.type.hotel_booking
+  module:
+    - options
+id: node.hotel_booking.field_hotb_rooms
+field_name: field_hotb_rooms
+entity_type: node
+bundle: hotel_booking
+label: 'Number of Rooms Requested'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

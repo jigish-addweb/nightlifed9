@@ -1,0 +1,42 @@
+uuid: 7140f6a9-17d0-460a-a28c-adad5a65e26a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_bars_days
+field_name: field_bars_days
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '0'
+      label: Sunday
+    -
+      value: '1'
+      label: Monday
+    -
+      value: '2'
+      label: Tuesday
+    -
+      value: '3'
+      label: Wednesday
+    -
+      value: '4'
+      label: Thursday
+    -
+      value: '5'
+      label: Friday
+    -
+      value: '6'
+      label: Saturday
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 7
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

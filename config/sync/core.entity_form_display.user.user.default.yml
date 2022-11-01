@@ -1,0 +1,150 @@
+uuid: 14614f21-0bf9-4135-b879-6ae6ea6051b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.profile_aboutu
+    - field.field.user.user.profile_cc
+    - field.field.user.user.profile_city
+    - field.field.user.user.profile_college
+    - field.field.user.user.profile_company
+    - field.field.user.user.profile_country
+    - field.field.user.user.profile_date
+    - field.field.user.user.profile_designation
+    - field.field.user.user.profile_dob
+    - field.field.user.user.profile_gender
+    - field.field.user.user.profile_lname
+    - field.field.user.user.profile_mobile
+    - field.field.user.user.profile_name
+    - field.field.user.user.profile_numberofguests
+    - field.field.user.user.profile_rss
+    - field.field.user.user.profile_school
+    - field.field.user.user.profile_state
+    - field.field.user.user.profile_tablereservation
+    - field.field.user.user.user_picture
+    - image.style.thumbnail
+  module:
+    - image
+    - text
+    - user
+_core:
+  default_config_hash: FaQ9Ptcpxpg30AtiqRDtl_8zbJArHP1LPfug_s59TOA
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  account:
+    weight: -10
+    region: content
+  contact:
+    weight: 5
+    region: content
+  language:
+    weight: 0
+    region: content
+  profile_city:
+    type: options_select
+    weight: 9
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  profile_college:
+    type: text_textfield
+    weight: 15
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  profile_company:
+    type: text_textfield
+    weight: 17
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  profile_country:
+    type: options_select
+    weight: 11
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  profile_date:
+    type: text_textfield
+    weight: 14
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  profile_designation:
+    type: text_textfield
+    weight: 8
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  profile_lname:
+    type: text_textfield
+    weight: 16
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  profile_name:
+    type: text_textfield
+    weight: 7
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  profile_numberofguests:
+    type: options_select
+    weight: 12
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  profile_school:
+    type: text_textfield
+    weight: 18
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  profile_state:
+    type: options_select
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  profile_tablereservation:
+    type: boolean_checkbox
+    weight: 13
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  timezone:
+    weight: 6
+    region: content
+  user_picture:
+    type: image_image
+    weight: 19
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+hidden:
+  profile_aboutu: true
+  profile_cc: true
+  profile_dob: true
+  profile_gender: true
+  profile_mobile: true
+  profile_rss: true

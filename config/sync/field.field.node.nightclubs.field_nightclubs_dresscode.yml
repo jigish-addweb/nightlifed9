@@ -1,0 +1,19 @@
+uuid: 3b9f41ef-2fa0-4cb1-8018-0db621a9d62c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nightclubs_dresscode
+    - node.type.nightclubs
+id: node.nightclubs.field_nightclubs_dresscode
+field_name: field_nightclubs_dresscode
+entity_type: node
+bundle: nightclubs
+label: 'Dress Code'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

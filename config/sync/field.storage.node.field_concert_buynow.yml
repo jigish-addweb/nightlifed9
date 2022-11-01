@@ -1,0 +1,24 @@
+uuid: 9d455225-9059-4e85-a48c-463b19db79a6
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_concert_buynow
+field_name: field_concert_buynow
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'Yes'
+      label: 'Yes'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

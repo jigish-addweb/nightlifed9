@@ -1,0 +1,25 @@
+uuid: 8d61f2bd-a3eb-48bf-8811-13a1115d9f5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_would_you_like_a_featured_
+    - node.type.nightclubs
+    - taxonomy.vocabulary.would_you_like_a_featured_or_p
+id: node.nightclubs.field_would_you_like_a_featured_
+field_name: field_would_you_like_a_featured_
+entity_type: node
+bundle: nightclubs
+label: 'Would you like a Featured or Promoted Listing?'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      would_you_like_a_featured_or_p: would_you_like_a_featured_or_p
+    auto_create: true
+field_type: entity_reference

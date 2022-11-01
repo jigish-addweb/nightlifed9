@@ -1,0 +1,295 @@
+uuid: a2de7950-258c-431a-9436-20bba8a1274a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.uprofile.field_uprofile_about_me
+    - field.field.node.uprofile.field_uprofile_aim
+    - field.field.node.uprofile.field_uprofile_blog
+    - field.field.node.uprofile.field_uprofile_children
+    - field.field.node.uprofile.field_uprofile_ethnicity
+    - field.field.node.uprofile.field_uprofile_facebook
+    - field.field.node.uprofile.field_uprofile_favorite1
+    - field.field.node.uprofile.field_uprofile_favorite2
+    - field.field.node.uprofile.field_uprofile_favorite3
+    - field.field.node.uprofile.field_uprofile_friendfeed
+    - field.field.node.uprofile.field_uprofile_gender
+    - field.field.node.uprofile.field_uprofile_google
+    - field.field.node.uprofile.field_uprofile_icq
+    - field.field.node.uprofile.field_uprofile_interests
+    - field.field.node.uprofile.field_uprofile_linkedin
+    - field.field.node.uprofile.field_uprofile_location
+    - field.field.node.uprofile.field_uprofile_name
+    - field.field.node.uprofile.field_uprofile_occupation
+    - field.field.node.uprofile.field_uprofile_political
+    - field.field.node.uprofile.field_uprofile_relationship
+    - field.field.node.uprofile.field_uprofile_religion
+    - field.field.node.uprofile.field_uprofile_skype
+    - field.field.node.uprofile.field_uprofile_twitter
+    - field.field.node.uprofile.field_uprofile_website
+    - field.field.node.uprofile.field_uprofile_yahoo
+    - field.field.node.uprofile.field_uprofile_zodiac_sign
+    - field.field.node.uprofile.upload
+    - node.type.uprofile
+  module:
+    - link
+    - path
+    - text
+id: node.uprofile.default
+targetEntityType: node
+bundle: uprofile
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_uprofile_about_me:
+    type: text_textarea
+    weight: -1
+    region: content
+    settings:
+      rows: 10
+      placeholder: ''
+    third_party_settings: {  }
+  field_uprofile_aim:
+    type: text_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_uprofile_blog:
+    type: link_default
+    weight: 9
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_uprofile_children:
+    type: options_select
+    weight: -7
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_uprofile_ethnicity:
+    type: text_textfield
+    weight: -8
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_uprofile_facebook:
+    type: link_default
+    weight: -7
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_uprofile_favorite1:
+    type: link_default
+    weight: 10
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_uprofile_favorite2:
+    type: link_default
+    weight: 11
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_uprofile_favorite3:
+    type: link_default
+    weight: 12
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_uprofile_friendfeed:
+    type: link_default
+    weight: -4
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_uprofile_gender:
+    type: options_select
+    weight: -9
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_uprofile_google:
+    type: text_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_uprofile_icq:
+    type: text_textfield
+    weight: 4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_uprofile_interests:
+    type: text_textarea
+    weight: 0
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_uprofile_linkedin:
+    type: link_default
+    weight: -5
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_uprofile_location:
+    type: text_textfield
+    weight: -2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_uprofile_name:
+    type: text_textfield
+    weight: -3
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_uprofile_occupation:
+    type: text_textfield
+    weight: -4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_uprofile_political:
+    type: text_textfield
+    weight: -2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_uprofile_relationship:
+    type: options_select
+    weight: -6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_uprofile_religion:
+    type: text_textfield
+    weight: -3
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_uprofile_skype:
+    type: text_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_uprofile_twitter:
+    type: link_default
+    weight: -6
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_uprofile_website:
+    type: link_default
+    weight: 8
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_uprofile_yahoo:
+    type: text_textfield
+    weight: 3
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_uprofile_zodiac_sign:
+    type: options_select
+    weight: -1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    weight: 15
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 120
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    weight: 16
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  upload: true

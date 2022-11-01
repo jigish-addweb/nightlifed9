@@ -1,0 +1,19 @@
+uuid: f9f39192-7027-4daf-87db-eff7ea7e6f54
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_bap_email
+field_name: field_bap_email
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

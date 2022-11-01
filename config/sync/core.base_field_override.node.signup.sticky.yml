@@ -1,0 +1,22 @@
+uuid: 568ab6b5-3324-443b-9332-01e476ec6068
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.signup
+id: node.signup.sticky
+field_name: sticky
+entity_type: node
+bundle: signup
+label: 'Sticky at the top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

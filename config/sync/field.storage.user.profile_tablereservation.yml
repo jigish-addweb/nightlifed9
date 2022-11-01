@@ -1,0 +1,18 @@
+uuid: b158c949-04a0-46b7-bb63-25959fb59704
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.profile_tablereservation
+field_name: profile_tablereservation
+entity_type: user
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

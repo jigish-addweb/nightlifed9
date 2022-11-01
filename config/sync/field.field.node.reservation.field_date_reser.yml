@@ -1,0 +1,19 @@
+uuid: 50d28d4e-157d-4b84-9426-f0ee4f90b50f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_reser
+    - node.type.reservation
+id: node.reservation.field_date_reser
+field_name: field_date_reser
+entity_type: node
+bundle: reservation
+label: 'Choose your date'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

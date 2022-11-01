@@ -1,0 +1,11 @@
+uuid: 689b9194-120f-4930-8c9a-f5f5ff1b2479
+langcode: en
+status: true
+dependencies: {  }
+name: Video
+type: video1
+description: 'Uploads Video'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

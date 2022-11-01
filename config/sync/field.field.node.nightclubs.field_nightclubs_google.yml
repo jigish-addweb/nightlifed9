@@ -1,0 +1,19 @@
+uuid: b6053a7f-8160-498e-91ee-46d100d1a9cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nightclubs_google
+    - node.type.nightclubs
+id: node.nightclubs.field_nightclubs_google
+field_name: field_nightclubs_google
+entity_type: node
+bundle: nightclubs
+label: 'Google+ link'
+description: 'Please type complete URL like ''http://www.example.com'''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

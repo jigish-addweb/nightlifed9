@@ -1,0 +1,19 @@
+uuid: f8f79e99-d315-46c6-a6a5-2bb7d6fff099
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fashion_dresscode
+    - node.type.fashion
+id: node.fashion.field_fashion_dresscode
+field_name: field_fashion_dresscode
+entity_type: node
+bundle: fashion
+label: 'Dress Code'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

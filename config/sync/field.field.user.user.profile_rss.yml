@@ -1,0 +1,21 @@
+uuid: 790e3f43-707c-4955-b164-12b873adee04
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.profile_rss
+  module:
+    - text
+    - user
+id: user.user.profile_rss
+field_name: profile_rss
+entity_type: user
+bundle: user
+label: 'Relationship status'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

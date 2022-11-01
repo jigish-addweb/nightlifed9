@@ -1,0 +1,11 @@
+uuid: 3165baf8-30ee-4bd9-b452-0a6f14a12ab8
+langcode: en
+status: true
+dependencies: {  }
+name: Bars
+type: bars
+description: Bars
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

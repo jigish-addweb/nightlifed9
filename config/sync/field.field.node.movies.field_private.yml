@@ -1,0 +1,21 @@
+uuid: 19c18c74-60d4-44f3-bc84-f744bb2353e9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_private
+    - node.type.movies
+  module:
+    - options
+id: node.movies.field_private
+field_name: field_private
+entity_type: node
+bundle: movies
+label: 'Publish this content?'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,19 @@
+uuid: 401da418-1ef8-4ab4-bd7f-455ffe7787c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bap_lname
+    - node.type.book_a_party
+id: node.book_a_party.field_bap_lname
+field_name: field_bap_lname
+entity_type: node
+bundle: book_a_party
+label: 'Last Name'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,38 @@
+uuid: 45ddeda0-dfef-4a80-b249-baa762c2d1a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fashion_album
+    - node.type.fashion
+  module:
+    - image
+id: node.fashion.field_fashion_album
+field_name: field_fashion_album
+entity_type: node
+bundle: fashion
+label: 'PHOTO GALLERY (Add more Fashion Event images)'
+description: 'This is your Fashion Photo Album.Here you can Upload your Pre-Fashion Event Photos to promote your Fashion Event and/or come back after your Fashion event and Post your favorite Photos from the Fashion event.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: ''
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: false
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: null
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

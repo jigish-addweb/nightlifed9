@@ -1,0 +1,22 @@
+uuid: f7b8d232-b7be-44dd-a280-994a06470a7f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.feed_fast
+id: node.feed_fast.status
+field_name: status
+entity_type: node
+bundle: feed_fast
+label: 'Publishing status'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

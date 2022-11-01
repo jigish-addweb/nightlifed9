@@ -1,0 +1,22 @@
+uuid: f4a6413e-bca2-45b1-8ffe-3b90cc9138d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.unl
+id: node.unl.sticky
+field_name: sticky
+entity_type: node
+bundle: unl
+label: 'Sticky at the top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,21 @@
+uuid: 4fb613aa-edd6-40b5-962c-1050f97dc0fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_uprofile_zodiac_sign
+    - node.type.uprofile
+  module:
+    - options
+id: node.uprofile.field_uprofile_zodiac_sign
+field_name: field_uprofile_zodiac_sign
+entity_type: node
+bundle: uprofile
+label: 'Zodiac Sign'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

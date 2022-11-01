@@ -1,0 +1,8 @@
+uuid: cc7bfca4-12da-4ef2-8667-31645d1e01a3
+langcode: en
+status: true
+dependencies: {  }
+name: 'Fashion type'
+vid: fashion_type
+description: ''
+weight: 1

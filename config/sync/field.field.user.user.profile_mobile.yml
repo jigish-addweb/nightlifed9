@@ -1,0 +1,21 @@
+uuid: 9e84d48c-6698-4dbe-9688-d740fbab5ea5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.profile_mobile
+  module:
+    - text
+    - user
+id: user.user.profile_mobile
+field_name: profile_mobile
+entity_type: user
+bundle: user
+label: 'Mobile No'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

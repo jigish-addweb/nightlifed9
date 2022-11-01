@@ -1,0 +1,8 @@
+uuid: e8af0127-17ed-433f-a14c-a985c3ef1fe5
+langcode: en
+status: true
+dependencies: {  }
+name: 'Photo Categories'
+vid: photo_categories
+description: ''
+weight: 6

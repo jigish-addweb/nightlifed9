@@ -1,0 +1,21 @@
+uuid: 1f4fd486-18d3-40e9-864e-165c6c4da9bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_private
+    - node.type.music
+  module:
+    - options
+id: node.music.field_private
+field_name: field_private
+entity_type: node
+bundle: music
+label: 'Publish this content?'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,19 @@
+uuid: 5b56115e-1c44-4fdf-a6e4-df8839bcb5fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_transport_price
+    - node.type.transportation
+id: node.transportation.field_transport_price
+field_name: field_transport_price
+entity_type: node
+bundle: transportation
+label: Prices
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,19 @@
+uuid: b637fbe0-4ba7-48b7-9ea5-ff9dbee1e56f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hot_cont_num
+    - node.type.hotel
+id: node.hotel.field_hot_cont_num
+field_name: field_hot_cont_num
+entity_type: node
+bundle: hotel
+label: ' Contact Mobile Number'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

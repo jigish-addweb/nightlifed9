@@ -1,0 +1,22 @@
+uuid: 8ca9c28b-cb1e-4e91-a2ca-5f9d83d669b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.music
+id: node.music.sticky
+field_name: sticky
+entity_type: node
+bundle: music
+label: 'Sticky at the top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

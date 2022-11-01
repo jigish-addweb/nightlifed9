@@ -1,0 +1,21 @@
+uuid: f6c8fce4-8349-4327-9549-d54a8bb38efe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bars_days
+    - node.type.bars
+  module:
+    - options
+id: node.bars.field_bars_days
+field_name: field_bars_days
+entity_type: node
+bundle: bars
+label: 'What days of the week are you open?'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,25 @@
+uuid: 25044bae-e254-4e5c-aaea-f809285a445d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hashtag
+    - node.type.hotel
+    - taxonomy.vocabulary.hashtag
+id: node.hotel.field_hashtag
+field_name: field_hashtag
+entity_type: node
+bundle: hotel
+label: Hashtag
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      hashtag: hashtag
+    auto_create: true
+field_type: entity_reference

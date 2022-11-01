@@ -1,0 +1,8 @@
+uuid: 4ebc7f6d-e9d6-4f58-92d2-dded862cf262
+langcode: en
+status: true
+dependencies: {  }
+name: Hashtag
+vid: hashtag
+description: ''
+weight: 0

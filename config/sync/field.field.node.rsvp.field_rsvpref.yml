@@ -1,0 +1,21 @@
+uuid: 7366cf60-0b2d-468c-8276-01c77decd84f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rsvpref
+    - node.type.rsvp
+id: node.rsvp.field_rsvpref
+field_name: field_rsvpref
+entity_type: node
+bundle: rsvp
+label: reference
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: entity_reference

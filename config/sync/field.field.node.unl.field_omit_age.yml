@@ -1,0 +1,21 @@
+uuid: 7a4160b6-35f9-423e-b971-ad6c7b3bd8ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_omit_age
+    - node.type.unl
+id: node.unl.field_omit_age
+field_name: field_omit_age
+entity_type: node
+bundle: unl
+label: Omit
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

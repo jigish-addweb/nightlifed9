@@ -1,0 +1,21 @@
+uuid: c899d095-6d25-4644-a337-f50a279dbd4f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_unl_req_featured
+    - node.type.unl
+  module:
+    - options
+id: node.unl.field_unl_req_featured
+field_name: field_unl_req_featured
+entity_type: node
+bundle: unl
+label: 'Would you like a Featured or Promoted Listing?'
+description: 'Select Yes to be contacted by a member of our Sales Team'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

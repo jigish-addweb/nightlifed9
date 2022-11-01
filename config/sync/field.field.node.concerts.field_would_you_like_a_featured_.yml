@@ -1,0 +1,25 @@
+uuid: 4f138151-4d84-4c4a-9e49-00f60f86dd83
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_would_you_like_a_featured_
+    - node.type.concerts
+    - taxonomy.vocabulary.would_you_like_a_featured_or_p
+id: node.concerts.field_would_you_like_a_featured_
+field_name: field_would_you_like_a_featured_
+entity_type: node
+bundle: concerts
+label: 'Would you like a Featured or Promoted Listing?'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      would_you_like_a_featured_or_p: would_you_like_a_featured_or_p
+    auto_create: true
+field_type: entity_reference

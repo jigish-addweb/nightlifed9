@@ -1,0 +1,21 @@
+uuid: af2a7c26-6aff-4361-83e0-1f53d811c4de
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_private
+    - node.type.hotel
+  module:
+    - options
+id: node.hotel.field_private
+field_name: field_private
+entity_type: node
+bundle: hotel
+label: 'Publish this content?'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

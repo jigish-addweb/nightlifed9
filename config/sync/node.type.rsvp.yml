@@ -1,0 +1,11 @@
+uuid: 7e847c9c-b55f-47bb-9d60-696befb6f97a
+langcode: en
+status: true
+dependencies: {  }
+name: RSVP
+type: rsvp
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

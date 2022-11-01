@@ -1,0 +1,22 @@
+uuid: a241dfc0-0573-4b7a-8f69-87e1c0177354
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.hotel_booking
+id: node.hotel_booking.status
+field_name: status
+entity_type: node
+bundle: hotel_booking
+label: 'Publishing status'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

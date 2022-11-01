@@ -1,0 +1,19 @@
+uuid: d4f52c8c-88f7-4598-a97c-7f56cf07bf55
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fashion_code
+    - node.type.fashion
+id: node.fashion.field_fashion_code
+field_name: field_fashion_code
+entity_type: node
+bundle: fashion
+label: 'Country code'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,19 @@
+uuid: 411a5693-6353-4100-99cd-9e5405accabb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_uprofile_yahoo
+    - node.type.uprofile
+id: node.uprofile.field_uprofile_yahoo
+field_name: field_uprofile_yahoo
+entity_type: node
+bundle: uprofile
+label: Yahoo
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

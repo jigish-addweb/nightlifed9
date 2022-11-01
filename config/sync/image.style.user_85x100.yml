@@ -1,0 +1,47 @@
+uuid: 8ae6de72-97c1-42e4-bd73-fac97e513476
+langcode: en
+status: true
+dependencies: {  }
+name: user_85x100
+label: user_85x100
+effects:
+  74892652-608b-4352-90e7-d9ff2539a010:
+    uuid: 74892652-608b-4352-90e7-d9ff2539a010
+    id: image_scale
+    weight: 0
+    data:
+      width: 180
+      height: null
+      upscale: false
+  96da40cd-a5f2-4914-bf92-5fa3f4aff061:
+    uuid: 96da40cd-a5f2-4914-bf92-5fa3f4aff061
+    id: image_scale
+    weight: 0
+    data:
+      width: null
+      height: 180
+      upscale: true
+  3d90d608-a29b-485e-bd9c-9db96d4fa374:
+    uuid: 3d90d608-a29b-485e-bd9c-9db96d4fa374
+    id: image_crop
+    weight: 0
+    data:
+      width: 180
+      height: 180
+      anchor: center-top
+  e3a835a8-87ce-4d88-ae0c-164d5f9433ae:
+    uuid: e3a835a8-87ce-4d88-ae0c-164d5f9433ae
+    id: image_scale
+    weight: 0
+    data:
+      width: null
+      height: 100
+      upscale: true
+  ee21e21c-306e-4dc1-b2aa-168de16c4137:
+    uuid: ee21e21c-306e-4dc1-b2aa-168de16c4137
+    id: image_crop
+    weight: 0
+    data:
+      width: 85
+      height: 100
+      anchor: center-top

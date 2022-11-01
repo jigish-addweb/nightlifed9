@@ -1,0 +1,19 @@
+uuid: 313cb130-d625-4f89-ac12-66ba6c78461a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_uprofile_political
+    - node.type.uprofile
+id: node.uprofile.field_uprofile_political
+field_name: field_uprofile_political
+entity_type: node
+bundle: uprofile
+label: 'Political views'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

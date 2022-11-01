@@ -1,0 +1,21 @@
+uuid: cff0a4e8-dcd2-4d68-bf68-ef8efbb82bb5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fash_store_ccode
+    - node.type.fashion_store
+  module:
+    - options
+id: node.fashion_store.field_fash_store_ccode
+field_name: field_fash_store_ccode
+entity_type: node
+bundle: fashion_store
+label: 'Country code'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

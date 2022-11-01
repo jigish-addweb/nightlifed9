@@ -1,0 +1,8 @@
+uuid: f25de7e6-1d98-476d-8b1f-454d29b4ad23
+langcode: en
+status: true
+dependencies: {  }
+name: 'Restaurant Type'
+vid: restaurant_type
+description: ''
+weight: 7

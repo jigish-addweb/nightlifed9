@@ -1,0 +1,23 @@
+uuid: eaa69b4f-61b6-45a7-9547-b98e8d0a624c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.simplenews
+  module:
+    - text
+id: node.simplenews.body
+field_name: body
+entity_type: node
+bundle: simplenews
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

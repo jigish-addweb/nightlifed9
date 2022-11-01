@@ -1,0 +1,8 @@
+uuid: f8623b9e-2c47-480a-8d36-5e18bd647c9a
+langcode: en
+status: true
+dependencies: {  }
+name: b_News_t
+vid: b_news_t
+description: ''
+weight: -1

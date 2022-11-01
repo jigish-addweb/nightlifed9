@@ -1,0 +1,23 @@
+uuid: 502cbc82-a9cf-4848-93c8-684e37f363fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.bars
+  module:
+    - text
+id: node.bars.body
+field_name: body
+entity_type: node
+bundle: bars
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

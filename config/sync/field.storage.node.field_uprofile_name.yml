@@ -1,0 +1,19 @@
+uuid: 9e9d2e27-55f8-4af5-89df-7c718825f047
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_uprofile_name
+field_name: field_uprofile_name
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

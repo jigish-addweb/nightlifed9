@@ -1,0 +1,27 @@
+uuid: e10b2729-ab0b-4266-b337-9fcc031cc600
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_private
+field_name: field_private
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'Public (for all viewers)'
+      label: 'Public (for all viewers)'
+    -
+      value: 'Privately (for my friends & followers only)'
+      label: 'Privately (for my friends & followers only)'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

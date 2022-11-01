@@ -1,0 +1,25 @@
+uuid: df95ee25-3e43-48cb-b812-221df332c085
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:35c08047-8e18-409b-83ad-5f3a6a4dadd2'
+  module:
+    - block_content
+  theme:
+    - zen
+id: block_48
+theme: zen
+region: ''
+weight: 0
+provider: null
+plugin: 'block_content:35c08047-8e18-409b-83ad-5f3a6a4dadd2'
+settings:
+  id: 'block_content:35c08047-8e18-409b-83ad-5f3a6a4dadd2'
+  label: ''
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

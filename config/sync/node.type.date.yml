@@ -1,0 +1,11 @@
+uuid: 899ba834-29eb-48bd-9c7a-5d3e3566972a
+langcode: en
+status: true
+dependencies: {  }
+name: Date
+type: date
+description: 'A date content type that is linked to a Views calendar.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

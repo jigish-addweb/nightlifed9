@@ -1,0 +1,21 @@
+uuid: 8175d468-c5de-4736-a46a-867d62539822
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_concerts_time
+    - node.type.concerts
+  module:
+    - datetime
+id: node.concerts.field_concerts_time
+field_name: field_concerts_time
+entity_type: node
+bundle: concerts
+label: Date
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

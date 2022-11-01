@@ -1,0 +1,87 @@
+uuid: c34d1907-f8c1-4e90-b582-0a4cfe1a992b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.print
+    - field.field.node.transportation.body
+    - field.field.node.transportation.field_country
+    - field.field.node.transportation.field_hashtag
+    - field.field.node.transportation.field_private
+    - field.field.node.transportation.field_trans_ccode
+    - field.field.node.transportation.field_trans_mail_body
+    - field.field.node.transportation.field_trans_priority
+    - field.field.node.transportation.field_trans_res
+    - field.field.node.transportation.field_transport_album
+    - field.field.node.transportation.field_transport_ccode
+    - field.field.node.transportation.field_transport_cont_email
+    - field.field.node.transportation.field_transport_cont_mobile
+    - field.field.node.transportation.field_transport_cont_name
+    - field.field.node.transportation.field_transport_facebook
+    - field.field.node.transportation.field_transport_google
+    - field.field.node.transportation.field_transport_payment
+    - field.field.node.transportation.field_transport_price
+    - field.field.node.transportation.field_transport_specials
+    - field.field.node.transportation.field_transport_timings
+    - field.field.node.transportation.field_transport_twitter
+    - field.field.node.transportation.field_transport_website
+    - field.field.node.transportation.field_transportation_image
+    - field.field.node.transportation.field_transportation_type
+    - field.field.node.transportation.field_would_you_like_a_featured_
+    - node.type.transportation
+  module:
+    - text
+    - user
+id: node.transportation.print
+targetEntityType: node
+bundle: transportation
+mode: print
+content:
+  field_private:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 26
+    region: content
+  field_trans_ccode:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 16
+    region: content
+  field_transport_ccode:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  field_country: true
+  field_hashtag: true
+  field_trans_mail_body: true
+  field_trans_priority: true
+  field_trans_res: true
+  field_transport_album: true
+  field_transport_cont_email: true
+  field_transport_cont_mobile: true
+  field_transport_cont_name: true
+  field_transport_facebook: true
+  field_transport_google: true
+  field_transport_payment: true
+  field_transport_price: true
+  field_transport_specials: true
+  field_transport_timings: true
+  field_transport_twitter: true
+  field_transport_website: true
+  field_transportation_image: true
+  field_transportation_type: true
+  field_would_you_like_a_featured_: true

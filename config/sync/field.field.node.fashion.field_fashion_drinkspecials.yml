@@ -1,0 +1,19 @@
+uuid: 40e9e10e-3810-4e96-bbf0-8e6bfdca63a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fashion_drinkspecials
+    - node.type.fashion
+id: node.fashion.field_fashion_drinkspecials
+field_name: field_fashion_drinkspecials
+entity_type: node
+bundle: fashion
+label: 'Drink Specials'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

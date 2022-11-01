@@ -1,0 +1,21 @@
+uuid: 34a03fb2-0fe9-4ecf-85a1-d704801d01df
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ad_ref
+    - node.type.ad_content
+id: node.ad_content.field_ad_ref
+field_name: field_ad_ref
+entity_type: node
+bundle: ad_content
+label: Reference
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: entity_reference

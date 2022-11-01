@@ -1,0 +1,226 @@
+uuid: a1cbcd2c-c33e-44a9-9996-9bdc2c19be9f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.search_result
+    - field.field.node.nightclubs.body
+    - field.field.node.nightclubs.field_country
+    - field.field.node.nightclubs.field_hashtag
+    - field.field.node.nightclubs.field_nightclub_ccode
+    - field.field.node.nightclubs.field_nightclub_priority
+    - field.field.node.nightclubs.field_nightclub_reserv
+    - field.field.node.nightclubs.field_nightclub_timings
+    - field.field.node.nightclubs.field_nightclub_type
+    - field.field.node.nightclubs.field_nightclubs_age
+    - field.field.node.nightclubs.field_nightclubs_album
+    - field.field.node.nightclubs.field_nightclubs_ccode
+    - field.field.node.nightclubs.field_nightclubs_cont_num
+    - field.field.node.nightclubs.field_nightclubs_contname
+    - field.field.node.nightclubs.field_nightclubs_days
+    - field.field.node.nightclubs.field_nightclubs_details
+    - field.field.node.nightclubs.field_nightclubs_dresscode
+    - field.field.node.nightclubs.field_nightclubs_facebook
+    - field.field.node.nightclubs.field_nightclubs_google
+    - field.field.node.nightclubs.field_nightclubs_image
+    - field.field.node.nightclubs.field_nightclubs_mail
+    - field.field.node.nightclubs.field_nightclubs_mail_body
+    - field.field.node.nightclubs.field_nightclubs_music
+    - field.field.node.nightclubs.field_nightclubs_price
+    - field.field.node.nightclubs.field_nightclubs_specials
+    - field.field.node.nightclubs.field_nightclubs_twitter
+    - field.field.node.nightclubs.field_nightclubs_website
+    - field.field.node.nightclubs.field_private
+    - field.field.node.nightclubs.field_would_you_like_a_featured_
+    - node.type.nightclubs
+  module:
+    - image
+    - text
+    - user
+id: node.nightclubs.search_result
+targetEntityType: node
+bundle: nightclubs
+mode: search_result
+content:
+  field_nightclub_ccode:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_nightclub_priority:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  field_nightclub_reserv:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_nightclub_timings:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_nightclubs_age:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_nightclubs_album:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 14
+    region: content
+  field_nightclubs_ccode:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 20
+    region: content
+  field_nightclubs_cont_num:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 21
+    region: content
+  field_nightclubs_contname:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 19
+    region: content
+  field_nightclubs_days:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  field_nightclubs_details:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  field_nightclubs_dresscode:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_nightclubs_facebook:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 15
+    region: content
+  field_nightclubs_google:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 17
+    region: content
+  field_nightclubs_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 13
+    region: content
+  field_nightclubs_mail:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 22
+    region: content
+  field_nightclubs_mail_body:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  field_nightclubs_music:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_nightclubs_price:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_nightclubs_specials:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  field_nightclubs_twitter:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 16
+    region: content
+  field_nightclubs_website:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_private:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 30
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  field_country: true
+  field_hashtag: true
+  field_nightclub_type: true
+  field_would_you_like_a_featured_: true

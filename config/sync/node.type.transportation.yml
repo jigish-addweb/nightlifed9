@@ -1,0 +1,11 @@
+uuid: d2651c0a-5de8-4458-89b2-a41ac2e86a89
+langcode: en
+status: true
+dependencies: {  }
+name: Transportation
+type: transportation
+description: 'Defines the transportation pages'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

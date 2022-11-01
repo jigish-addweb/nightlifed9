@@ -1,0 +1,22 @@
+uuid: 617b592c-25e3-4329-92ba-db476ba6ca33
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.profile_tablereservation
+  module:
+    - user
+id: user.user.profile_tablereservation
+field_name: profile_tablereservation
+entity_type: user
+bundle: user
+label: 'Would you like to request a Reserved VIP Area or Table Reservation if any available?'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

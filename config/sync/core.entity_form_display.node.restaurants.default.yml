@@ -1,0 +1,330 @@
+uuid: f7e3f196-c754-4b53-a46f-afd05af77272
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.restaurants.body
+    - field.field.node.restaurants.field_country
+    - field.field.node.restaurants.field_hashtag
+    - field.field.node.restaurants.field_mail_body
+    - field.field.node.restaurants.field_private
+    - field.field.node.restaurants.field_res_priority
+    - field.field.node.restaurants.field_rest_accept
+    - field.field.node.restaurants.field_rest_additional
+    - field.field.node.restaurants.field_rest_album
+    - field.field.node.restaurants.field_rest_ccode
+    - field.field.node.restaurants.field_rest_chef
+    - field.field.node.restaurants.field_rest_contmail
+    - field.field.node.restaurants.field_rest_contmobile
+    - field.field.node.restaurants.field_rest_contname
+    - field.field.node.restaurants.field_rest_dining
+    - field.field.node.restaurants.field_rest_dress_code
+    - field.field.node.restaurants.field_rest_facebook
+    - field.field.node.restaurants.field_rest_goole
+    - field.field.node.restaurants.field_rest_payment
+    - field.field.node.restaurants.field_rest_price
+    - field.field.node.restaurants.field_rest_specials
+    - field.field.node.restaurants.field_rest_twitter
+    - field.field.node.restaurants.field_rest_website
+    - field.field.node.restaurants.field_restallowrsvp
+    - field.field.node.restaurants.field_restau_menu
+    - field.field.node.restaurants.field_restaurant_ccode
+    - field.field.node.restaurants.field_restaurant_image
+    - field.field.node.restaurants.field_restaurant_type
+    - field.field.node.restaurants.field_restaurents_days
+    - field.field.node.restaurants.field_restuarants_timings
+    - field.field.node.restaurants.field_would_you_like_a_featured_
+    - image.style.thumbnail
+    - node.type.restaurants
+  module:
+    - file
+    - image
+    - path
+    - text
+id: node.restaurants.default
+targetEntityType: node
+bundle: restaurants
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 121
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_country:
+    type: options_select
+    weight: 20
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_hashtag:
+    type: entity_reference_autocomplete_tags
+    weight: 20
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_mail_body:
+    type: text_textarea
+    weight: 16
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_private:
+    type: options_buttons
+    weight: 36
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_res_priority:
+    type: number
+    weight: -4
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_rest_accept:
+    type: options_buttons
+    weight: 9
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_rest_additional:
+    type: text_textarea
+    weight: 12
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_rest_album:
+    type: image_image
+    weight: 18
+    region: content
+    settings:
+      progress_indicator: bar
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_rest_ccode:
+    type: text_textfield
+    weight: 26
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_rest_chef:
+    type: text_textfield
+    weight: 11
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_rest_contmail:
+    type: text_textfield
+    weight: 28
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_rest_contmobile:
+    type: text_textfield
+    weight: 27
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_rest_contname:
+    type: text_textfield
+    weight: 25
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_rest_dining:
+    type: options_select
+    weight: 7
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_rest_dress_code:
+    type: text_textfield
+    weight: 8
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_rest_facebook:
+    type: text_textfield
+    weight: 19
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_rest_goole:
+    type: text_textfield
+    weight: 21
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_rest_payment:
+    type: options_buttons
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_rest_price:
+    type: text_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_rest_specials:
+    type: text_textfield
+    weight: 10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_rest_twitter:
+    type: text_textfield
+    weight: 20
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_rest_website:
+    type: text_textfield
+    weight: 5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_restallowrsvp:
+    type: options_buttons
+    weight: 15
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_restau_menu:
+    type: file_generic
+    weight: 14
+    region: content
+    settings:
+      progress_indicator: bar
+    third_party_settings: {  }
+  field_restaurant_ccode:
+    type: options_select
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_restaurant_image:
+    type: image_image
+    weight: 17
+    region: content
+    settings:
+      progress_indicator: bar
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_restaurant_type:
+    type: options_select
+    weight: 20
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_restaurents_days:
+    type: options_buttons
+    weight: -1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_restuarants_timings:
+    type: text_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_would_you_like_a_featured_:
+    type: options_select
+    weight: 20
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    weight: 15
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 120
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    weight: 16
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

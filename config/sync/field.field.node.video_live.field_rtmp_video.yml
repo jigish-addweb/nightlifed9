@@ -1,0 +1,19 @@
+uuid: dbaf37a4-1d95-4b9a-8456-f07a06feb9ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rtmp_video
+    - node.type.video_live
+id: node.video_live.field_rtmp_video
+field_name: field_rtmp_video
+entity_type: node
+bundle: video_live
+label: 'Enter RTMP VIDEO URL'
+description: 'Please type complete URL like ''http://www.example.com'''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,155 @@
+uuid: c71fd6d0-7864-4d1a-a569-072c5908c333
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.search_result
+    - field.field.node.ad_content.field_ad_age_from
+    - field.field.node.ad_content.field_ad_age_omit
+    - field.field.node.ad_content.field_ad_age_to
+    - field.field.node.ad_content.field_ad_approval
+    - field.field.node.ad_content.field_ad_budget
+    - field.field.node.ad_content.field_ad_budget_amount
+    - field.field.node.ad_content.field_ad_click_cost
+    - field.field.node.ad_content.field_ad_cont_shedule
+    - field.field.node.ad_content.field_ad_edate
+    - field.field.node.ad_content.field_ad_gender
+    - field.field.node.ad_content.field_ad_gender_omit
+    - field.field.node.ad_content.field_ad_ref
+    - field.field.node.ad_content.field_ad_ref_priority
+    - field.field.node.ad_content.field_ad_reftype
+    - field.field.node.ad_content.field_ad_sdate
+    - node.type.ad_content
+  module:
+    - datetime
+    - text
+    - user
+id: node.ad_content.search_result
+targetEntityType: node
+bundle: ad_content
+mode: search_result
+content:
+  field_ad_age_from:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_ad_age_omit:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  field_ad_age_to:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_ad_approval:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_ad_budget:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_ad_budget_amount:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_ad_click_cost:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  field_ad_cont_shedule:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_ad_edate:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: fallback
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_ad_gender:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_ad_gender_omit:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_ad_ref:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  field_ad_ref_priority:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 21
+    region: content
+  field_ad_reftype:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  field_ad_sdate:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: fallback
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

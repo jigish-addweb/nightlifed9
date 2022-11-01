@@ -1,0 +1,19 @@
+uuid: 9ed517a8-f639-4721-a915-3313f883ce92
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_video_cont_mail
+    - node.type.video1
+id: node.video1.field_video_cont_mail
+field_name: field_video_cont_mail
+entity_type: node
+bundle: video1
+label: 'Contact Email'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

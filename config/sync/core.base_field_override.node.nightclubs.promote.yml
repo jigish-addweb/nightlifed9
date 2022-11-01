@@ -1,0 +1,22 @@
+uuid: fe2724e7-3be5-4a48-b933-2fd5c6aaf6e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.nightclubs
+id: node.nightclubs.promote
+field_name: promote
+entity_type: node
+bundle: nightclubs
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

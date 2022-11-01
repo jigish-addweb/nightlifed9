@@ -1,0 +1,21 @@
+uuid: 38f7c140-4134-4852-8bff-d0f246bca1ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bars_ad_sdate
+    - node.type.bars
+  module:
+    - datetime
+id: node.bars.field_bars_ad_sdate
+field_name: field_bars_ad_sdate
+entity_type: node
+bundle: bars
+label: 'Start Date'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

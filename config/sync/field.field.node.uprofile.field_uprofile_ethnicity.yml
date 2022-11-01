@@ -1,0 +1,19 @@
+uuid: 0e700844-9773-452d-b6ff-89d2fa6caf6e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_uprofile_ethnicity
+    - node.type.uprofile
+id: node.uprofile.field_uprofile_ethnicity
+field_name: field_uprofile_ethnicity
+entity_type: node
+bundle: uprofile
+label: Ethnicity
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,22 @@
+uuid: 2b986570-c9a9-495e-83dc-6b9e4361ae7a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.webform
+id: node.webform.sticky
+field_name: sticky
+entity_type: node
+bundle: webform
+label: 'Sticky at the top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

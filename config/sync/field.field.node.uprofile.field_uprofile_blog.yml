@@ -1,0 +1,23 @@
+uuid: 7c2165b7-15d7-4ce0-aa24-0295497b5955
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_uprofile_blog
+    - node.type.uprofile
+  module:
+    - link
+id: node.uprofile.field_uprofile_blog
+field_name: field_uprofile_blog
+entity_type: node
+bundle: uprofile
+label: 'Your blog'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

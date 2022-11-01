@@ -1,0 +1,11 @@
+uuid: 419674af-f765-4cbe-95da-be5e961251a7
+langcode: en
+status: true
+dependencies: {  }
+name: 'Fashion Stores & Boutiques'
+type: fashion_store
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

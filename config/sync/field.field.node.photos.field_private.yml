@@ -1,0 +1,21 @@
+uuid: 0cf2e202-0626-4796-a509-1cc466cf07e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_private
+    - node.type.photos
+  module:
+    - options
+id: node.photos.field_private
+field_name: field_private
+entity_type: node
+bundle: photos
+label: 'Publish this content?'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

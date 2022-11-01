@@ -1,0 +1,8 @@
+uuid: a78a4cd9-922b-4ba9-9a50-0e606d72ba06
+langcode: en
+status: true
+dependencies: {  }
+name: 'Display in blocks'
+vid: display_in_blocks
+description: ''
+weight: 0

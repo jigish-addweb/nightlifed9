@@ -1,0 +1,21 @@
+uuid: fe90cc19-9eff-4b59-abff-1152faa50fee
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_omit_gender
+    - node.type.unl
+id: node.unl.field_omit_gender
+field_name: field_omit_gender
+entity_type: node
+bundle: unl
+label: Omit
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

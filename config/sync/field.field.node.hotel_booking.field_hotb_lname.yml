@@ -1,0 +1,19 @@
+uuid: ef8510ea-426c-453a-b3bd-689c35108f0b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hotb_lname
+    - node.type.hotel_booking
+id: node.hotel_booking.field_hotb_lname
+field_name: field_hotb_lname
+entity_type: node
+bundle: hotel_booking
+label: 'Last Name'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

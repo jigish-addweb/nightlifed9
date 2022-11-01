@@ -1,0 +1,22 @@
+uuid: 7e9dcacd-2e0d-4674-b262-54c1a65ddc98
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.transportation
+id: node.transportation.status
+field_name: status
+entity_type: node
+bundle: transportation
+label: 'Publishing status'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

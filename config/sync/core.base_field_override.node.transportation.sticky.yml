@@ -1,0 +1,22 @@
+uuid: a8fa7336-ea35-4787-8dca-6e148e3024f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.transportation
+id: node.transportation.sticky
+field_name: sticky
+entity_type: node
+bundle: transportation
+label: 'Sticky at the top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

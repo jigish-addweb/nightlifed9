@@ -1,0 +1,22 @@
+uuid: f862cc8b-a22f-4172-9768-537a8d947924
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.nightclubs
+id: node.nightclubs.sticky
+field_name: sticky
+entity_type: node
+bundle: nightclubs
+label: 'Sticky at the top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

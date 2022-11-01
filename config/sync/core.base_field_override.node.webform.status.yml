@@ -1,0 +1,22 @@
+uuid: 3a31f2f6-5076-4778-80f7-7fcb702029df
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.webform
+id: node.webform.status
+field_name: status
+entity_type: node
+bundle: webform
+label: 'Publishing status'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,251 @@
+uuid: d82bdf9f-f5ee-415e-8112-868b501c4fc1
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.rss
+    - field.field.node.event.body
+    - field.field.node.event.field_country
+    - field.field.node.event.field_eve_buynow
+    - field.field.node.event.field_eve_ccode
+    - field.field.node.event.field_event_ccode
+    - field.field.node.event.field_event_cname
+    - field.field.node.event.field_event_cont_mail
+    - field.field.node.event.field_event_cont_mobile
+    - field.field.node.event.field_event_facebook
+    - field.field.node.event.field_event_google
+    - field.field.node.event.field_event_mail
+    - field.field.node.event.field_event_mail_body
+    - field.field.node.event.field_event_priority
+    - field.field.node.event.field_event_reservation
+    - field.field.node.event.field_event_time
+    - field.field.node.event.field_event_timezone_cust
+    - field.field.node.event.field_event_twitter
+    - field.field.node.event.field_event_type
+    - field.field.node.event.field_event_website
+    - field.field.node.event.field_eventallowrsvp
+    - field.field.node.event.field_hashtag
+    - field.field.node.event.field_mevent_agereq
+    - field.field.node.event.field_mevent_album
+    - field.field.node.event.field_mevent_dresscode
+    - field.field.node.event.field_mevent_drinkspecials
+    - field.field.node.event.field_mevent_image
+    - field.field.node.event.field_mevent_musicstyle
+    - field.field.node.event.field_mevent_parkingoptions
+    - field.field.node.event.field_mevent_prices
+    - field.field.node.event.field_private
+    - field.field.node.event.field_would_you_like_a_featured_
+    - node.type.event
+  module:
+    - datetime
+    - file
+    - image
+    - text
+    - user
+id: node.event.rss
+targetEntityType: node
+bundle: event
+mode: rss
+content:
+  field_eve_buynow:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 18
+    region: content
+  field_eve_ccode:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_event_ccode:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 28
+    region: content
+  field_event_cname:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 27
+    region: content
+  field_event_cont_mail:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 30
+    region: content
+  field_event_cont_mobile:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 29
+    region: content
+  field_event_facebook:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 23
+    region: content
+  field_event_google:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 25
+    region: content
+  field_event_mail:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_event_mail_body:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 21
+    region: content
+  field_event_priority:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  field_event_reservation:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 19
+    region: content
+  field_event_time:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: fallback
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_event_timezone_cust:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_event_twitter:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 24
+    region: content
+  field_event_website:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  field_eventallowrsvp:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 20
+    region: content
+  field_mevent_agereq:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_mevent_album:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 26
+    region: content
+  field_mevent_dresscode:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  field_mevent_drinkspecials:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 17
+    region: content
+  field_mevent_image:
+    type: file_default
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 22
+    region: content
+  field_mevent_musicstyle:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  field_mevent_parkingoptions:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 16
+    region: content
+  field_mevent_prices:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 15
+    region: content
+  field_private:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -3
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  field_country: true
+  field_event_type: true
+  field_hashtag: true
+  field_would_you_like_a_featured_: true

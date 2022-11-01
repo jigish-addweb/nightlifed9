@@ -1,0 +1,20 @@
+uuid: 2111f4c7-166d-40fd-9897-26eac21a1bea
+langcode: en
+status: true
+dependencies:
+  module:
+    - text
+    - user
+id: user.profile_mobile
+field_name: profile_mobile
+entity_type: user
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

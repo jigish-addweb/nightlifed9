@@ -1,0 +1,11 @@
+uuid: adec859b-ec45-49e9-a96c-c0f82c18a1d5
+langcode: en
+status: true
+dependencies: {  }
+name: 'Book A Party'
+type: book_a_party
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,20 @@
+uuid: 13efc0d6-3c04-4928-a120-cc1ca2706688
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_movie_priority
+field_name: field_movie_priority
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

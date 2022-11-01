@@ -1,0 +1,19 @@
+uuid: 17000eba-1c68-4437-81b5-999136233fcd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_photos_cont_num
+    - node.type.photos
+id: node.photos.field_photos_cont_num
+field_name: field_photos_cont_num
+entity_type: node
+bundle: photos
+label: 'Contact Mobile Number'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

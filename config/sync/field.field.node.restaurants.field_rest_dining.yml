@@ -1,0 +1,21 @@
+uuid: 66be0b77-1037-4b2e-a380-d992f9e1a9a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rest_dining
+    - node.type.restaurants
+  module:
+    - options
+id: node.restaurants.field_rest_dining
+field_name: field_rest_dining
+entity_type: node
+bundle: restaurants
+label: 'Dining Style'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

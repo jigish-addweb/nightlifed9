@@ -1,0 +1,14 @@
+uuid: d644de49-531d-4350-8f8f-0c3dfcb6a7e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.test_role
+  module:
+    - user
+id: user_add_role_action.test_role
+label: 'Add the Test role role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: test_role

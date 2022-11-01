@@ -1,0 +1,21 @@
+uuid: 10462dfe-a9ac-4d9d-bd63-81baac383201
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_private
+    - node.type.video_live
+  module:
+    - options
+id: node.video_live.field_private
+field_name: field_private
+entity_type: node
+bundle: video_live
+label: 'Publish this content?'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

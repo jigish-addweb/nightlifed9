@@ -1,0 +1,8 @@
+uuid: 27ed54af-cdc9-4ef8-9629-86b57d929b37
+langcode: en
+status: true
+dependencies: {  }
+name: Newsletter
+vid: newsletter
+description: null
+weight: 4

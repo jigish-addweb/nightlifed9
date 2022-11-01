@@ -1,0 +1,21 @@
+uuid: 1aec7c41-dcc9-408c-90c2-e3a5812b62b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_private
+    - node.type.transportation
+  module:
+    - options
+id: node.transportation.field_private
+field_name: field_private
+entity_type: node
+bundle: transportation
+label: 'Publish this content?'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

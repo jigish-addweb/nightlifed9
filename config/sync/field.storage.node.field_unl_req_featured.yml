@@ -1,0 +1,27 @@
+uuid: e93d8738-c0f2-4e9a-b364-f26d25a69deb
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_unl_req_featured
+field_name: field_unl_req_featured
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'Yes'
+      label: 'Yes'
+    -
+      value: 'No'
+      label: 'No'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

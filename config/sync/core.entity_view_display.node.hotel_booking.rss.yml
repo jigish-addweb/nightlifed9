@@ -1,0 +1,112 @@
+uuid: b98bc1e2-add0-49b9-98b3-220f08c73d25
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.rss
+    - field.field.node.hotel_booking.field_chkin_date
+    - field.field.node.hotel_booking.field_chkout_date
+    - field.field.node.hotel_booking.field_hotb_cc
+    - field.field.node.hotel_booking.field_hotb_comment
+    - field.field.node.hotel_booking.field_hotb_email
+    - field.field.node.hotel_booking.field_hotb_fname
+    - field.field.node.hotel_booking.field_hotb_lname
+    - field.field.node.hotel_booking.field_hotb_mobile
+    - field.field.node.hotel_booking.field_hotb_reser_share
+    - field.field.node.hotel_booking.field_hotb_reseref
+    - field.field.node.hotel_booking.field_hotb_rooms
+    - field.field.node.hotel_booking.upload
+    - node.type.hotel_booking
+  module:
+    - text
+    - user
+id: node.hotel_booking.rss
+targetEntityType: node
+bundle: hotel_booking
+mode: rss
+content:
+  field_chkin_date:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_chkout_date:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_hotb_cc:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -3
+    region: content
+  field_hotb_comment:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_hotb_email:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  field_hotb_fname:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  field_hotb_lname:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_hotb_mobile:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -2
+    region: content
+  field_hotb_reser_share:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_hotb_reseref:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_hotb_rooms:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  upload: true

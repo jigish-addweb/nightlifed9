@@ -1,0 +1,25 @@
+uuid: 5495d101-7c1d-43c2-aa1b-8308f9a3243d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hashtag
+    - node.type.fashion_store
+    - taxonomy.vocabulary.hashtag
+id: node.fashion_store.field_hashtag
+field_name: field_hashtag
+entity_type: node
+bundle: fashion_store
+label: Hashtag
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      hashtag: hashtag
+    auto_create: true
+field_type: entity_reference

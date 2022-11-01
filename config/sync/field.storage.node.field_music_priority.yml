@@ -1,0 +1,20 @@
+uuid: 2db20158-6b95-4f37-a967-774ba2efdfef
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_music_priority
+field_name: field_music_priority
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

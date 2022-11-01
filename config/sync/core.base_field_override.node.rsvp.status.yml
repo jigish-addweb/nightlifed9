@@ -1,0 +1,22 @@
+uuid: 24445766-b18a-4e81-b4de-88b717d8f163
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.rsvp
+id: node.rsvp.status
+field_name: status
+entity_type: node
+bundle: rsvp
+label: 'Publishing status'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

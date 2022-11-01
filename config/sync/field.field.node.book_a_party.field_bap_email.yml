@@ -1,0 +1,19 @@
+uuid: ece2e0e2-8eca-4fb2-90d7-65b19a84c7dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bap_email
+    - node.type.book_a_party
+id: node.book_a_party.field_bap_email
+field_name: field_bap_email
+entity_type: node
+bundle: book_a_party
+label: Email
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

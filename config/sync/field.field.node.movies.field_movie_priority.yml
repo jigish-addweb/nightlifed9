@@ -1,0 +1,25 @@
+uuid: ab89c64b-bc03-4c46-a2f8-ac061782021a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_movie_priority
+    - node.type.movies
+id: node.movies.field_movie_priority
+field_name: field_movie_priority
+entity_type: node
+bundle: movies
+label: Priority
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 100
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,12 @@
+uuid: af36b8e2-15d4-4f9f-8b76-4ec8de8d62c7
+langcode: en
+status: true
+dependencies: {  }
+id: send_an_autorespond_e_mail_for_transport_reservation_users
+label: 'Send an autorespond e-mail for Transport Reservation users'
+type: system
+plugin: action_send_email_action
+configuration:
+  recipient: '%author'
+  subject: 'Test - Thank you for making a Transport Reservation'
+  message: 'Test - Thank you for making a Transport Reservation'

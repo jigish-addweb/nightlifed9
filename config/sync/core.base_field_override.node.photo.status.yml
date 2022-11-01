@@ -1,0 +1,22 @@
+uuid: b249633b-5455-4af3-afaa-12afa5327b33
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.photo
+id: node.photo.status
+field_name: status
+entity_type: node
+bundle: photo
+label: 'Publishing status'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

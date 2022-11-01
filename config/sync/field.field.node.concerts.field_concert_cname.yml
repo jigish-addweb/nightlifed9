@@ -1,0 +1,19 @@
+uuid: 49b4bf03-091d-4ae2-9333-6fcf44c23485
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_concert_cname
+    - node.type.concerts
+id: node.concerts.field_concert_cname
+field_name: field_concert_cname
+entity_type: node
+bundle: concerts
+label: 'Contact Name'
+description: 'Make sure your contact info is up to date in case we need to verify your news info and/or sources.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

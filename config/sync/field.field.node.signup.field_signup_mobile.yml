@@ -1,0 +1,19 @@
+uuid: a74e3b96-0406-4815-af9e-9dde43260c9a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_signup_mobile
+    - node.type.signup
+id: node.signup.field_signup_mobile
+field_name: field_signup_mobile
+entity_type: node
+bundle: signup
+label: Mobile
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,19 @@
+uuid: a277e088-7573-4e02-9526-cfaeb00a0893
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_live_video
+    - node.type.video_live
+id: node.video_live.field_live_video
+field_name: field_live_video
+entity_type: node
+bundle: video_live
+label: 'Enter HLS VIDEO URL'
+description: 'Please type complete URL like ''http://www.example.com'''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

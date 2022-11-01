@@ -1,0 +1,21 @@
+uuid: 665450de-bff4-49c9-a468-f35f51b79f5f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_trans_ref
+    - node.type.transport_reservation
+id: node.transport_reservation.field_trans_ref
+field_name: field_trans_ref
+entity_type: node
+bundle: transport_reservation
+label: reference
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: entity_reference

@@ -1,0 +1,21 @@
+uuid: 7a330ade-f04e-40b4-b87c-9ba235c69af3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.profile_date
+  module:
+    - text
+    - user
+id: user.user.profile_date
+field_name: profile_date
+entity_type: user
+bundle: user
+label: Date
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

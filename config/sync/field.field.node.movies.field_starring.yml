@@ -1,0 +1,19 @@
+uuid: c56c329b-9ebb-4608-b1f1-c6e3fe653614
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_starring
+    - node.type.movies
+id: node.movies.field_starring
+field_name: field_starring
+entity_type: node
+bundle: movies
+label: Cast
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

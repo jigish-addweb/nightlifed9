@@ -1,0 +1,19 @@
+uuid: 9ceefe3e-0a98-4287-b923-cb9327cfc2d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_video_keywords
+    - node.type.video_live
+id: node.video_live.field_video_keywords
+field_name: field_video_keywords
+entity_type: node
+bundle: video_live
+label: Keywords
+description: 'Keywords will be usefull for search-algorithm to crawl your videos. Enter appropriate keywords with comma separated.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,22 @@
+uuid: c65fc4d6-0776-40c3-a18c-92e3832bdd80
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.book_a_party
+id: node.book_a_party.promote
+field_name: promote
+entity_type: node
+bundle: book_a_party
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

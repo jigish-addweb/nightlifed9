@@ -1,0 +1,19 @@
+uuid: 6a6784e2-1f80-4985-b616-b5a02dc25094
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_hotb_fname
+field_name: field_hotb_fname
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

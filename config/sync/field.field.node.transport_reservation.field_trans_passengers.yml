@@ -1,0 +1,19 @@
+uuid: d3d9ce22-8573-4be6-b6ab-3a48fb6a0884
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_trans_passengers
+    - node.type.transport_reservation
+id: node.transport_reservation.field_trans_passengers
+field_name: field_trans_passengers
+entity_type: node
+bundle: transport_reservation
+label: 'Number of Passengers Requested'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

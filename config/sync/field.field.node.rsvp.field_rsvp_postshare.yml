@@ -1,0 +1,21 @@
+uuid: 7b52d9cb-66a7-4f12-ae08-c24b1783cac1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rsvp_postshare
+    - node.type.rsvp
+  module:
+    - options
+id: node.rsvp.field_rsvp_postshare
+field_name: field_rsvp_postshare
+entity_type: node
+bundle: rsvp
+label: ' Post your Reservation ?'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

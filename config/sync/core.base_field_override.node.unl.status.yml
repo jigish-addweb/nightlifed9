@@ -1,0 +1,22 @@
+uuid: fbde2586-51e6-4c01-ae85-8ed4b0b81f5c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.unl
+id: node.unl.status
+field_name: status
+entity_type: node
+bundle: unl
+label: 'Publishing status'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

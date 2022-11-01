@@ -1,0 +1,19 @@
+uuid: 94fae962-e3d5-46b2-8d57-91089d51eec1
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_bars_email_body
+field_name: field_bars_email_body
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

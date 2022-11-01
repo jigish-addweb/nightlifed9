@@ -1,0 +1,30 @@
+uuid: 7440008c-1536-407a-8bb4-a2078df40e56
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.feed_item.body
+    - field.field.node.feed_item.upload
+    - node.type.feed_item
+  module:
+    - text
+    - user
+id: node.feed_item.default
+targetEntityType: node
+bundle: feed_item
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  upload: true

@@ -1,0 +1,19 @@
+uuid: ba6bbe7c-3bd0-48a2-b2c9-cc16be2bd79a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_guests
+field_name: field_guests
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

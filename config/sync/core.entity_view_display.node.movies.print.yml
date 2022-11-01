@@ -1,0 +1,79 @@
+uuid: 633da39c-c4c1-491b-8fad-fb54848be194
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.print
+    - field.field.node.movies.body
+    - field.field.node.movies.field_country
+    - field.field.node.movies.field_director
+    - field.field.node.movies.field_genres
+    - field.field.node.movies.field_hashtag
+    - field.field.node.movies.field_language
+    - field.field.node.movies.field_mov_cont_ccode
+    - field.field.node.movies.field_mov_cont_mail
+    - field.field.node.movies.field_mov_cont_num
+    - field.field.node.movies.field_movie_image
+    - field.field.node.movies.field_movie_priority
+    - field.field.node.movies.field_movie_rated
+    - field.field.node.movies.field_movie_status
+    - field.field.node.movies.field_movie_website
+    - field.field.node.movies.field_movies_contname
+    - field.field.node.movies.field_private
+    - field.field.node.movies.field_producers
+    - field.field.node.movies.field_rel_date
+    - field.field.node.movies.field_review_more_image
+    - field.field.node.movies.field_runtime
+    - field.field.node.movies.field_starring
+    - field.field.node.movies.field_would_you_like_a_featured_
+    - field.field.node.movies.field_writers
+    - node.type.movies
+  module:
+    - text
+    - user
+id: node.movies.print
+targetEntityType: node
+bundle: movies
+mode: print
+content:
+  field_mov_cont_ccode:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 20
+    region: content
+  field_private:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 24
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  field_country: true
+  field_director: true
+  field_genres: true
+  field_hashtag: true
+  field_language: true
+  field_mov_cont_mail: true
+  field_mov_cont_num: true
+  field_movie_image: true
+  field_movie_priority: true
+  field_movie_rated: true
+  field_movie_status: true
+  field_movie_website: true
+  field_movies_contname: true
+  field_producers: true
+  field_rel_date: true
+  field_review_more_image: true
+  field_runtime: true
+  field_starring: true
+  field_would_you_like_a_featured_: true
+  field_writers: true

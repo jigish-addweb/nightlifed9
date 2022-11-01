@@ -1,0 +1,8 @@
+uuid: 0aa8f44d-1f00-44e3-9a25-5738f0419def
+langcode: en
+status: true
+dependencies: {  }
+name: 'Transportation type'
+vid: transportation_type
+description: ''
+weight: 10

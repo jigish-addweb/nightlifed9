@@ -1,0 +1,22 @@
+uuid: 3884e41e-9fc3-41df-ae18-cb2c7a24e497
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.uprofile
+id: node.uprofile.sticky
+field_name: sticky
+entity_type: node
+bundle: uprofile
+label: 'Sticky at the top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

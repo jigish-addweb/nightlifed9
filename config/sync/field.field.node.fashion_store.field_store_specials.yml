@@ -1,0 +1,19 @@
+uuid: 8955d76b-c3f4-4c1d-a50b-2d49a490675b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_store_specials
+    - node.type.fashion_store
+id: node.fashion_store.field_store_specials
+field_name: field_store_specials
+entity_type: node
+bundle: fashion_store
+label: 'Special & Promotions'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,21 @@
+uuid: c2e14b58-8392-4bbe-9294-3a33b15f5973
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_restaurents_days
+    - node.type.restaurants
+  module:
+    - options
+id: node.restaurants.field_restaurents_days
+field_name: field_restaurents_days
+entity_type: node
+bundle: restaurants
+label: 'What days of the week are you open?'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

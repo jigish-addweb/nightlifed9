@@ -1,0 +1,21 @@
+uuid: ca796073-7105-4081-87df-8e9f70e7010b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bap_share
+    - node.type.book_a_party
+  module:
+    - options
+id: node.book_a_party.field_bap_share
+field_name: field_bap_share
+entity_type: node
+bundle: book_a_party
+label: 'Post your Reservation ?'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,177 @@
+uuid: 312f67df-c20f-4f83-a6a0-bc7df2433c05
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.search_index
+    - field.field.node.music.body
+    - field.field.node.music.field_artist
+    - field.field.node.music.field_country
+    - field.field.node.music.field_genre
+    - field.field.node.music.field_hashtag
+    - field.field.node.music.field_music_album
+    - field.field.node.music.field_music_ccode
+    - field.field.node.music.field_music_check_single
+    - field.field.node.music.field_music_cont_mail
+    - field.field.node.music.field_music_cont_num
+    - field.field.node.music.field_music_contname
+    - field.field.node.music.field_music_file
+    - field.field.node.music.field_music_image
+    - field.field.node.music.field_music_lang
+    - field.field.node.music.field_music_photo_album
+    - field.field.node.music.field_music_priority
+    - field.field.node.music.field_music_record_label
+    - field.field.node.music.field_music_release_date
+    - field.field.node.music.field_music_reservation
+    - field.field.node.music.field_musics_reservation
+    - field.field.node.music.field_private
+    - field.field.node.music.field_would_you_like_a_featured_
+    - node.type.music
+  module:
+    - datetime
+    - file
+    - image
+    - text
+    - user
+id: node.music.search_index
+targetEntityType: node
+bundle: music
+mode: search_index
+content:
+  field_music_album:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_music_ccode:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 15
+    region: content
+  field_music_check_single:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_music_cont_mail:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 17
+    region: content
+  field_music_cont_num:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 16
+    region: content
+  field_music_contname:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 14
+    region: content
+  field_music_file:
+    type: file_default
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  field_music_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  field_music_lang:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_music_photo_album:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 13
+    region: content
+  field_music_priority:
+    type: number_integer
+    label: hidden
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  field_music_record_label:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_music_release_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: fallback
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_music_reservation:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_musics_reservation:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_private:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 25
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  field_artist: true
+  field_country: true
+  field_genre: true
+  field_hashtag: true
+  field_would_you_like_a_featured_: true

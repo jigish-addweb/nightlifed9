@@ -1,0 +1,11 @@
+uuid: 7140e13e-bcf8-43e5-84eb-67f4db501d99
+langcode: en
+status: true
+dependencies: {  }
+name: 'videos live'
+type: video_live
+description: 'Uploads Live Video'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

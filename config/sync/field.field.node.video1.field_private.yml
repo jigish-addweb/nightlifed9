@@ -1,0 +1,21 @@
+uuid: 69e279cc-8a72-401a-b714-597e33c61c3e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_private
+    - node.type.video1
+  module:
+    - options
+id: node.video1.field_private
+field_name: field_private
+entity_type: node
+bundle: video1
+label: 'Publish this content?'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

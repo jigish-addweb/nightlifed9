@@ -1,0 +1,19 @@
+uuid: cd05e6ec-b121-4f63-b93f-8a7602ed8383
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bap_cc
+    - node.type.book_a_party
+id: node.book_a_party.field_bap_cc
+field_name: field_bap_cc
+entity_type: node
+bundle: book_a_party
+label: 'Country code'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

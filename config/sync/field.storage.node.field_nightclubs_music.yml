@@ -1,0 +1,21 @@
+uuid: 21ab2ec8-84ea-435a-8f91-7aa4970373ad
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_nightclubs_music
+field_name: field_nightclubs_music
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,21 @@
+uuid: e2394abb-281b-4bd3-a1a6-bd7543d9b956
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_reservation
+    - node.type.signup
+  module:
+    - options
+id: node.signup.field_reservation
+field_name: field_reservation
+entity_type: node
+bundle: signup
+label: 'Would you like to request a Reserved VIP Area or Table Reservation if any available?'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

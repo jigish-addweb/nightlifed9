@@ -1,0 +1,21 @@
+uuid: e8ec4225-7d08-496e-958b-61569f0ebc86
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_age_omit
+    - node.type.bars
+id: node.bars.field_age_omit
+field_name: field_age_omit
+entity_type: node
+bundle: bars
+label: Omit
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

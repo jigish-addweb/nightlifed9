@@ -1,0 +1,21 @@
+uuid: 1cd77cbd-2028-4d8d-b3fa-b935b6861964
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_eventref
+    - node.type.signup
+id: node.signup.field_eventref
+field_name: field_eventref
+entity_type: node
+bundle: signup
+label: reference
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: entity_reference

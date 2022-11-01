@@ -1,0 +1,55 @@
+uuid: f72c4917-8598-411f-b716-5dfc2c5ebbd2
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.print
+    - field.field.node.transport_reservation.field_trans_cc
+    - field.field.node.transport_reservation.field_trans_email
+    - field.field.node.transport_reservation.field_trans_fname
+    - field.field.node.transport_reservation.field_trans_lname
+    - field.field.node.transport_reservation.field_trans_mobile
+    - field.field.node.transport_reservation.field_trans_passengers
+    - field.field.node.transport_reservation.field_trans_ref
+    - field.field.node.transport_reservation.field_trans_reser_share
+    - field.field.node.transport_reservation.field_trns_comment
+    - field.field.node.transport_reservation.field_trns_date
+    - field.field.node.transport_reservation.upload
+    - node.type.transport_reservation
+  module:
+    - text
+    - user
+id: node.transport_reservation.print
+targetEntityType: node
+bundle: transport_reservation
+mode: print
+content:
+  field_trans_cc:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -3
+    region: content
+  field_trans_mobile:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -2
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_trans_email: true
+  field_trans_fname: true
+  field_trans_lname: true
+  field_trans_passengers: true
+  field_trans_ref: true
+  field_trans_reser_share: true
+  field_trns_comment: true
+  field_trns_date: true
+  upload: true

@@ -1,0 +1,61 @@
+uuid: 1d6efb87-e94c-432b-8dd0-bcb5288cf61b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.print
+    - field.field.node.video1.body
+    - field.field.node.video1.field_categories
+    - field.field.node.video1.field_country
+    - field.field.node.video1.field_hashtag
+    - field.field.node.video1.field_keywords
+    - field.field.node.video1.field_private
+    - field.field.node.video1.field_video
+    - field.field.node.video1.field_video_ccode
+    - field.field.node.video1.field_video_cont_mail
+    - field.field.node.video1.field_video_cont_num
+    - field.field.node.video1.field_video_contname
+    - field.field.node.video1.field_video_ref
+    - field.field.node.video1.field_videos_priority
+    - field.field.node.video1.field_would_you_like_a_featured_
+    - node.type.video1
+  module:
+    - text
+    - user
+id: node.video1.print
+targetEntityType: node
+bundle: video1
+mode: print
+content:
+  field_private:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 22
+    region: content
+  field_video_ccode:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 25
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  field_categories: true
+  field_country: true
+  field_hashtag: true
+  field_keywords: true
+  field_video: true
+  field_video_cont_mail: true
+  field_video_cont_num: true
+  field_video_contname: true
+  field_video_ref: true
+  field_videos_priority: true
+  field_would_you_like_a_featured_: true

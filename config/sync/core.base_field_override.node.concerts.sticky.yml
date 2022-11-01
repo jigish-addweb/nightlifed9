@@ -1,0 +1,22 @@
+uuid: 1c5cd480-08a1-4a37-a75c-5a42f4a5e4c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.concerts
+id: node.concerts.sticky
+field_name: sticky
+entity_type: node
+bundle: concerts
+label: 'Sticky at the top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

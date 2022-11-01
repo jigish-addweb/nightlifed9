@@ -1,0 +1,19 @@
+uuid: 41742c1a-47fa-452b-9176-5837eb06072d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hot_ccode
+    - node.type.hotel
+id: node.hotel.field_hot_ccode
+field_name: field_hot_ccode
+entity_type: node
+bundle: hotel
+label: 'Country code'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

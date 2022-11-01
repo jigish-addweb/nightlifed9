@@ -1,0 +1,38 @@
+uuid: b09aa727-a57a-4474-9eb4-799fb4d09baf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_restaurant_image
+    - node.type.restaurants
+  module:
+    - image
+id: node.restaurants.field_restaurant_image
+field_name: field_restaurant_image
+entity_type: node
+bundle: restaurants
+label: 'Upload Restaurant Image'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: ''
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: false
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: null
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

@@ -1,0 +1,21 @@
+uuid: 672c2f29-ecb8-4c6e-b0c5-ac6dce87bae8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bars_age_to
+    - node.type.bars
+  module:
+    - options
+id: node.bars.field_bars_age_to
+field_name: field_bars_age_to
+entity_type: node
+bundle: bars
+label: 'Age To'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

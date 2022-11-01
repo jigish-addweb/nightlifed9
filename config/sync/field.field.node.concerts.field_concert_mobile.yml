@@ -1,0 +1,19 @@
+uuid: bc91efef-6331-45b4-b132-6c8f7c4dee8d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_concert_mobile
+    - node.type.concerts
+id: node.concerts.field_concert_mobile
+field_name: field_concert_mobile
+entity_type: node
+bundle: concerts
+label: 'Contact Mobile Number'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,25 @@
+uuid: 913e1c63-075a-4b0f-bfd6-be11cf46f092
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hotel_and_resort_type
+    - node.type.hotel
+    - taxonomy.vocabulary.hotel_and_resort_type
+id: node.hotel.field_hotel_and_resort_type
+field_name: field_hotel_and_resort_type
+entity_type: node
+bundle: hotel
+label: 'Hotel and Resort Type'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      hotel_and_resort_type: hotel_and_resort_type
+    auto_create: true
+field_type: entity_reference

@@ -1,0 +1,25 @@
+uuid: c9fc91b3-ab0c-4d3c-a709-7c8463d5a1ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bars_priority
+    - node.type.bars
+id: node.bars.field_bars_priority
+field_name: field_bars_priority
+entity_type: node
+bundle: bars
+label: Priority
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 100
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

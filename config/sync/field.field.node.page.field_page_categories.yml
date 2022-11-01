@@ -1,0 +1,25 @@
+uuid: 1c9b83b0-b298-4b1d-b3aa-b7d9571b4f5b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_page_categories
+    - node.type.page
+    - taxonomy.vocabulary.page_categories
+id: node.page.field_page_categories
+field_name: field_page_categories
+entity_type: node
+bundle: page
+label: 'Page Categories'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      page_categories: page_categories
+    auto_create: true
+field_type: entity_reference

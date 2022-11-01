@@ -1,0 +1,21 @@
+uuid: 3ce730ce-3b15-4e46-8d75-9d40c75cd0b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bars_from_age
+    - node.type.unl
+  module:
+    - options
+id: node.unl.field_bars_from_age
+field_name: field_bars_from_age
+entity_type: node
+bundle: unl
+label: Age
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

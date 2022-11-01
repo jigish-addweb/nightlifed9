@@ -1,0 +1,39 @@
+uuid: 74e44574-ea8a-4732-b25a-dcedee475770
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_movie_rated
+field_name: field_movie_rated
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'NR- Not Rated'
+      label: 'NR- Not Rated'
+    -
+      value: 'G- General Audiences'
+      label: 'G- General Audiences'
+    -
+      value: 'PG- Parental Guidance Suggested'
+      label: 'PG- Parental Guidance Suggested'
+    -
+      value: 'PG-13- Parents Strongly Cautioned'
+      label: 'PG-13- Parents Strongly Cautioned'
+    -
+      value: 'R- Restricted'
+      label: 'R- Restricted'
+    -
+      value: 'NC-17- No One 17 and Under Admitted'
+      label: 'NC-17- No One 17 and Under Admitted'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

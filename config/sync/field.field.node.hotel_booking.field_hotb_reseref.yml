@@ -1,0 +1,21 @@
+uuid: 4bdabbc2-58dc-4590-ab26-79042966c19b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hotb_reseref
+    - node.type.hotel_booking
+id: node.hotel_booking.field_hotb_reseref
+field_name: field_hotb_reseref
+entity_type: node
+bundle: hotel_booking
+label: reservation
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: entity_reference

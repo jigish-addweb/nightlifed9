@@ -1,0 +1,141 @@
+uuid: adf1202c-512e-4b4c-a4b7-66bd49399e0b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.profile_aboutu
+    - field.field.user.user.profile_cc
+    - field.field.user.user.profile_city
+    - field.field.user.user.profile_college
+    - field.field.user.user.profile_company
+    - field.field.user.user.profile_country
+    - field.field.user.user.profile_date
+    - field.field.user.user.profile_designation
+    - field.field.user.user.profile_dob
+    - field.field.user.user.profile_gender
+    - field.field.user.user.profile_lname
+    - field.field.user.user.profile_mobile
+    - field.field.user.user.profile_name
+    - field.field.user.user.profile_numberofguests
+    - field.field.user.user.profile_rss
+    - field.field.user.user.profile_school
+    - field.field.user.user.profile_state
+    - field.field.user.user.profile_tablereservation
+    - field.field.user.user.user_picture
+  module:
+    - image
+    - options
+    - text
+    - user
+_core:
+  default_config_hash: mZLyuWM9CQx2ZJVqFGSbzgFnHzudVbHBYmdU256A5Wk
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  member_for:
+    weight: 5
+    region: content
+  profile_city:
+    type: list_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  profile_college:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 14
+    region: content
+  profile_company:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 16
+    region: content
+  profile_country:
+    type: list_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  profile_date:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 13
+    region: content
+  profile_designation:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  profile_lname:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 15
+    region: content
+  profile_name:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  profile_numberofguests:
+    type: list_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  profile_school:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 17
+    region: content
+  profile_state:
+    type: list_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  profile_tablereservation:
+    type: list_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  user_picture:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 18
+    region: content
+hidden:
+  profile_aboutu: true
+  profile_cc: true
+  profile_dob: true
+  profile_gender: true
+  profile_mobile: true
+  profile_rss: true

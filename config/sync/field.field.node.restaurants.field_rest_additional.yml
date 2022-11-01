@@ -1,0 +1,19 @@
+uuid: 9b41ae33-2281-4817-aa54-7315773cb8fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rest_additional
+    - node.type.restaurants
+id: node.restaurants.field_rest_additional
+field_name: field_rest_additional
+entity_type: node
+bundle: restaurants
+label: 'Additional Details'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,19 @@
+uuid: 28fd8800-2e3e-4879-b3e8-73c241634301
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bars_age
+    - node.type.bars
+id: node.bars.field_bars_age
+field_name: field_bars_age
+entity_type: node
+bundle: bars
+label: 'Age Requirements'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

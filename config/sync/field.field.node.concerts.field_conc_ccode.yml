@@ -1,0 +1,21 @@
+uuid: 9651e0b0-f1bb-4fd1-92e7-615b8f4d6a15
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_conc_ccode
+    - node.type.concerts
+  module:
+    - options
+id: node.concerts.field_conc_ccode
+field_name: field_conc_ccode
+entity_type: node
+bundle: concerts
+label: 'Country code'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,21 @@
+uuid: 30dc1a5b-60e3-4888-90d5-7a3365087818
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.profile_cc
+  module:
+    - options
+    - user
+id: user.user.profile_cc
+field_name: profile_cc
+entity_type: user
+bundle: user
+label: 'Country code'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

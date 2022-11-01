@@ -1,0 +1,19 @@
+uuid: e68d95c7-e90d-4124-a5a9-5eeca17fdb74
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_hotb_cc
+field_name: field_hotb_cc
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,22 @@
+uuid: faf22ffd-8024-49d2-b54c-bf18774fa5b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.restaurants
+id: node.restaurants.sticky
+field_name: sticky
+entity_type: node
+bundle: restaurants
+label: 'Sticky at the top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,19 @@
+uuid: 477ce5cb-233a-4905-97f8-dc9f4a516c2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_uprofile_aim
+    - node.type.uprofile
+id: node.uprofile.field_uprofile_aim
+field_name: field_uprofile_aim
+entity_type: node
+bundle: uprofile
+label: AIM
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

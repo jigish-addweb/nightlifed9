@@ -1,0 +1,33 @@
+uuid: 0e14cea1-1ab9-4f74-8fd2-69363ea32c27
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_movie_status
+field_name: field_movie_status
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'In Theatre'
+      label: 'In Theatre'
+    -
+      value: 'Coming Soon'
+      label: 'Coming Soon'
+    -
+      value: 'New on DVD and Blu-ray'
+      label: 'Now on DVD & Blu-ray or Streaming'
+    -
+      value: 'Waiting for Streaming or DVD Release'
+      label: 'Archived - Waiting for Streaming or DVD Release'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

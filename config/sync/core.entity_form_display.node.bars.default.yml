@@ -1,0 +1,400 @@
+uuid: af023f0b-71e0-422d-aeca-118217044902
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.bars.body
+    - field.field.node.bars.field_age_omit
+    - field.field.node.bars.field_bar_ccode
+    - field.field.node.bars.field_bar_reserv
+    - field.field.node.bars.field_bars_ad_sdate
+    - field.field.node.bars.field_bars_ad_shedule
+    - field.field.node.bars.field_bars_age
+    - field.field.node.bars.field_bars_age_from
+    - field.field.node.bars.field_bars_age_to
+    - field.field.node.bars.field_bars_album
+    - field.field.node.bars.field_bars_budjet
+    - field.field.node.bars.field_bars_budjet_amount
+    - field.field.node.bars.field_bars_ccode
+    - field.field.node.bars.field_bars_cont_mail
+    - field.field.node.bars.field_bars_cont_num
+    - field.field.node.bars.field_bars_contname
+    - field.field.node.bars.field_bars_days
+    - field.field.node.bars.field_bars_details
+    - field.field.node.bars.field_bars_dress_code
+    - field.field.node.bars.field_bars_edate
+    - field.field.node.bars.field_bars_email_body
+    - field.field.node.bars.field_bars_facebook
+    - field.field.node.bars.field_bars_gender
+    - field.field.node.bars.field_bars_google
+    - field.field.node.bars.field_bars_image
+    - field.field.node.bars.field_bars_music
+    - field.field.node.bars.field_bars_price
+    - field.field.node.bars.field_bars_priority
+    - field.field.node.bars.field_bars_specials
+    - field.field.node.bars.field_bars_status
+    - field.field.node.bars.field_bars_timings
+    - field.field.node.bars.field_bars_twitter
+    - field.field.node.bars.field_bars_website
+    - field.field.node.bars.field_click_cost
+    - field.field.node.bars.field_country
+    - field.field.node.bars.field_gender_omit
+    - field.field.node.bars.field_hashtag
+    - field.field.node.bars.field_private
+    - field.field.node.bars.field_type
+    - field.field.node.bars.field_would_you_like_a_featured_
+    - image.style.thumbnail
+    - node.type.bars
+  module:
+    - datetime
+    - image
+    - path
+    - text
+id: node.bars.default
+targetEntityType: node
+bundle: bars
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 121
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_age_omit:
+    type: boolean_checkbox
+    weight: 34
+    region: content
+    settings:
+      display_label: false
+    third_party_settings: {  }
+  field_bar_ccode:
+    type: options_select
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_bar_reserv:
+    type: options_buttons
+    weight: 11
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_bars_ad_sdate:
+    type: datetime_default
+    weight: 42
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_bars_ad_shedule:
+    type: options_select
+    weight: 41
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_bars_age:
+    type: text_textfield
+    weight: 6
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_bars_age_from:
+    type: options_select
+    weight: 35
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_bars_age_to:
+    type: options_select
+    weight: 36
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_bars_album:
+    type: image_image
+    weight: 14
+    region: content
+    settings:
+      progress_indicator: bar
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_bars_budjet:
+    type: options_select
+    weight: 39
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_bars_budjet_amount:
+    type: text_textfield
+    weight: 40
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_bars_ccode:
+    type: text_textfield
+    weight: 22
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_bars_cont_mail:
+    type: text_textfield
+    weight: 24
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_bars_cont_num:
+    type: text_textfield
+    weight: 23
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_bars_contname:
+    type: text_textfield
+    weight: 21
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_bars_days:
+    type: options_buttons
+    weight: -1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_bars_details:
+    type: text_textarea
+    weight: 10
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_bars_dress_code:
+    type: text_textfield
+    weight: 8
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_bars_edate:
+    type: datetime_default
+    weight: 43
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_bars_email_body:
+    type: text_textarea
+    weight: 12
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_bars_facebook:
+    type: text_textfield
+    weight: 15
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_bars_gender:
+    type: options_select
+    weight: 38
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_bars_google:
+    type: text_textfield
+    weight: 17
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_bars_image:
+    type: image_image
+    weight: 13
+    region: content
+    settings:
+      progress_indicator: bar
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_bars_music:
+    type: text_textfield
+    weight: 5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_bars_price:
+    type: text_textfield
+    weight: 7
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_bars_priority:
+    type: number
+    weight: -4
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_bars_specials:
+    type: text_textfield
+    weight: 9
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_bars_status:
+    type: options_select
+    weight: 25
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_bars_timings:
+    type: text_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_bars_twitter:
+    type: text_textfield
+    weight: 16
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_bars_website:
+    type: text_textfield
+    weight: 3
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_click_cost:
+    type: text_textfield
+    weight: 44
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_country:
+    type: options_select
+    weight: 20
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_gender_omit:
+    type: boolean_checkbox
+    weight: 37
+    region: content
+    settings:
+      display_label: false
+    third_party_settings: {  }
+  field_hashtag:
+    type: entity_reference_autocomplete_tags
+    weight: 20
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_private:
+    type: options_buttons
+    weight: 33
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_type:
+    type: options_select
+    weight: 20
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_would_you_like_a_featured_:
+    type: options_select
+    weight: 20
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    weight: 15
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 120
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    weight: 16
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

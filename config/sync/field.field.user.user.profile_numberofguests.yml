@@ -1,0 +1,21 @@
+uuid: c8f99ad2-2486-46b6-8bfb-6387a7cd18f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.profile_numberofguests
+  module:
+    - options
+    - user
+id: user.user.profile_numberofguests
+field_name: profile_numberofguests
+entity_type: user
+bundle: user
+label: 'Number of Guests Requested:'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

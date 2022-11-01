@@ -1,0 +1,27 @@
+uuid: 01d2386b-107e-4186-a097-41f960bd1dec
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_ad_shedule
+field_name: field_ad_shedule
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Continuously
+      label: Continuously
+    -
+      value: Limited
+      label: Limited
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

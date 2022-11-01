@@ -1,0 +1,25 @@
+uuid: fae4e336-0276-428b-9c0a-471172dc24c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_videos_priority
+    - node.type.video_live
+id: node.video_live.field_videos_priority
+field_name: field_videos_priority
+entity_type: node
+bundle: video_live
+label: Priority
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 100
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

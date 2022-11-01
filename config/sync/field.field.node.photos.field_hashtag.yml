@@ -1,0 +1,25 @@
+uuid: 9be33413-8cb2-45e8-927f-3a7dbd8693b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hashtag
+    - node.type.photos
+    - taxonomy.vocabulary.hashtag
+id: node.photos.field_hashtag
+field_name: field_hashtag
+entity_type: node
+bundle: photos
+label: Hashtag
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      hashtag: hashtag
+    auto_create: true
+field_type: entity_reference

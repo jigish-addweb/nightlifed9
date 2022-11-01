@@ -1,0 +1,25 @@
+uuid: aea4bb0a-7730-4f00-84ea-ab88b5464e11
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:a0b7b776-e47a-45b7-bd89-226c80afe37a'
+  module:
+    - block_content
+  theme:
+    - unl
+id: block_5
+theme: unl
+region: ''
+weight: -3
+provider: null
+plugin: 'block_content:a0b7b776-e47a-45b7-bd89-226c80afe37a'
+settings:
+  id: 'block_content:a0b7b776-e47a-45b7-bd89-226c80afe37a'
+  label: 'More Nightclubs'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

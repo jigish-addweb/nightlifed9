@@ -1,0 +1,25 @@
+uuid: 68d8d58d-f5ae-4dde-a265-435a28f3eef6
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:ff28f9c9-e7c2-4d47-acef-1fbe1169e964'
+  module:
+    - block_content
+  theme:
+    - unl_new
+id: block_17
+theme: unl_new
+region: ''
+weight: 0
+provider: null
+plugin: 'block_content:ff28f9c9-e7c2-4d47-acef-1fbe1169e964'
+settings:
+  id: 'block_content:ff28f9c9-e7c2-4d47-acef-1fbe1169e964'
+  label: 'Inner pages right block'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,47 @@
+uuid: 40700eac-70fd-42b3-9262-ce8fbc97d747
+langcode: en
+status: true
+dependencies: {  }
+name: user_170x200
+label: user_170x200
+effects:
+  b6375db8-cb7b-4531-a54b-944b7fc35ed8:
+    uuid: b6375db8-cb7b-4531-a54b-944b7fc35ed8
+    id: image_scale
+    weight: -9
+    data:
+      width: null
+      height: 300
+      upscale: true
+  ff22633c-01c9-4b35-a8ec-9e205dc1cf3c:
+    uuid: ff22633c-01c9-4b35-a8ec-9e205dc1cf3c
+    id: image_crop
+    weight: -8
+    data:
+      width: 300
+      height: 300
+      anchor: center-top
+  a0e92369-30df-4830-aade-5576ce34565f:
+    uuid: a0e92369-30df-4830-aade-5576ce34565f
+    id: image_scale
+    weight: -10
+    data:
+      width: 300
+      height: null
+      upscale: false
+  3f122a7c-f13a-4e7a-921d-054b2c4137d5:
+    uuid: 3f122a7c-f13a-4e7a-921d-054b2c4137d5
+    id: image_scale
+    weight: -7
+    data:
+      width: null
+      height: 200
+      upscale: true
+  1e25e43b-22ec-4084-87b1-471a6384b283:
+    uuid: 1e25e43b-22ec-4084-87b1-471a6384b283
+    id: image_crop
+    weight: -6
+    data:
+      width: 170
+      height: 200
+      anchor: center-top

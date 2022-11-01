@@ -1,0 +1,14 @@
+uuid: 046b9ad3-842a-429f-80db-a3d9a1869764
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.video_editors
+  module:
+    - user
+id: user_remove_role_action.video_editors
+label: 'Remove the video editors role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: video_editors

@@ -1,0 +1,27 @@
+uuid: e06b6566-c458-4483-9458-4e41acf5c75e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.upload
+    - node.type.reservation
+  module:
+    - file
+id: node.reservation.upload
+field_name: upload
+entity_type: node
+bundle: reservation
+label: upload
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'jpg jpeg gif png txt html doc xls pdf ppt pps avi mpeg mpg mov rm m4v flv wmv 3gp mp4 dir dcr ogg csv csv csv'
+  max_filesize: 500MB
+  description_field: true
+field_type: file

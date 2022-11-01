@@ -1,0 +1,156 @@
+uuid: c7679cb8-5576-4153-9a77-a020d2a18ea2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.hotel_booking.field_chkin_date
+    - field.field.node.hotel_booking.field_chkout_date
+    - field.field.node.hotel_booking.field_hotb_cc
+    - field.field.node.hotel_booking.field_hotb_comment
+    - field.field.node.hotel_booking.field_hotb_email
+    - field.field.node.hotel_booking.field_hotb_fname
+    - field.field.node.hotel_booking.field_hotb_lname
+    - field.field.node.hotel_booking.field_hotb_mobile
+    - field.field.node.hotel_booking.field_hotb_reser_share
+    - field.field.node.hotel_booking.field_hotb_reseref
+    - field.field.node.hotel_booking.field_hotb_rooms
+    - field.field.node.hotel_booking.upload
+    - node.type.hotel_booking
+  module:
+    - path
+    - text
+id: node.hotel_booking.default
+targetEntityType: node
+bundle: hotel_booking
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_chkin_date:
+    type: text_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_chkout_date:
+    type: text_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_hotb_cc:
+    type: text_textfield
+    weight: -3
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_hotb_comment:
+    type: text_textarea
+    weight: 7
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_hotb_email:
+    type: text_textfield
+    weight: -4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_hotb_fname:
+    type: text_textfield
+    weight: -1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_hotb_lname:
+    type: text_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_hotb_mobile:
+    type: text_textfield
+    weight: -2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_hotb_reser_share:
+    type: options_buttons
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_hotb_rooms:
+    type: options_select
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    weight: 15
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 120
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    weight: 16
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  field_hotb_reseref: true
+  upload: true

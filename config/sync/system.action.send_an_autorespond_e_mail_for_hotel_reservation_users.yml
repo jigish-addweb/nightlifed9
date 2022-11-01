@@ -1,0 +1,12 @@
+uuid: 7a779764-cc80-4249-b7da-dd5f186d5598
+langcode: en
+status: true
+dependencies: {  }
+id: send_an_autorespond_e_mail_for_hotel_reservation_users
+label: 'Send an autorespond e-mail for Hotel Reservation users'
+type: system
+plugin: action_send_email_action
+configuration:
+  recipient: '%author'
+  subject: 'Test - Thank you for making a Hotel Reservation'
+  message: 'Test - Thank you for making a Hotel Reservation'

@@ -1,0 +1,21 @@
+uuid: a95693ba-3582-48c6-8225-bdfaf729540e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_transport_ccode
+    - node.type.transportation
+  module:
+    - options
+id: node.transportation.field_transport_ccode
+field_name: field_transport_ccode
+entity_type: node
+bundle: transportation
+label: 'Country code'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

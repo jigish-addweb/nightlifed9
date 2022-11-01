@@ -1,0 +1,21 @@
+uuid: d035a611-422f-4381-b0f1-7aeba1f48fc4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.profile_designation
+  module:
+    - text
+    - user
+id: user.user.profile_designation
+field_name: profile_designation
+entity_type: user
+bundle: user
+label: 'Job Title'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

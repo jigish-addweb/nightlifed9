@@ -1,0 +1,195 @@
+uuid: 201e66e3-ab4f-4210-b336-63ff8f81a74e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.search_index
+    - field.field.node.movies.body
+    - field.field.node.movies.field_country
+    - field.field.node.movies.field_director
+    - field.field.node.movies.field_genres
+    - field.field.node.movies.field_hashtag
+    - field.field.node.movies.field_language
+    - field.field.node.movies.field_mov_cont_ccode
+    - field.field.node.movies.field_mov_cont_mail
+    - field.field.node.movies.field_mov_cont_num
+    - field.field.node.movies.field_movie_image
+    - field.field.node.movies.field_movie_priority
+    - field.field.node.movies.field_movie_rated
+    - field.field.node.movies.field_movie_status
+    - field.field.node.movies.field_movie_website
+    - field.field.node.movies.field_movies_contname
+    - field.field.node.movies.field_private
+    - field.field.node.movies.field_producers
+    - field.field.node.movies.field_rel_date
+    - field.field.node.movies.field_review_more_image
+    - field.field.node.movies.field_runtime
+    - field.field.node.movies.field_starring
+    - field.field.node.movies.field_would_you_like_a_featured_
+    - field.field.node.movies.field_writers
+    - node.type.movies
+  module:
+    - datetime
+    - image
+    - text
+    - user
+id: node.movies.search_index
+targetEntityType: node
+bundle: movies
+mode: search_index
+content:
+  field_director:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_genres:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_language:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  field_mov_cont_ccode:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 20
+    region: content
+  field_mov_cont_mail:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 22
+    region: content
+  field_mov_cont_num:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 21
+    region: content
+  field_movie_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_movie_priority:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  field_movie_rated:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_movie_status:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -3
+    region: content
+  field_movie_website:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  field_movies_contname:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 19
+    region: content
+  field_private:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 24
+    region: content
+  field_producers:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_rel_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: fallback
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_review_more_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  field_runtime:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_starring:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_writers:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  field_country: true
+  field_hashtag: true
+  field_would_you_like_a_featured_: true

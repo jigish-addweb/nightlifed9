@@ -1,0 +1,21 @@
+uuid: 6ea31ae2-0c8c-4376-81bb-a088d8ec8295
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_music_reservation
+    - node.type.music
+  module:
+    - options
+id: node.music.field_music_reservation
+field_name: field_music_reservation
+entity_type: node
+bundle: music
+label: 'Do You want to add a Buy now link for this Music?'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

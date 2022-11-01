@@ -1,0 +1,21 @@
+uuid: 5d495036-81af-45b3-8eeb-18b8c4d4d933
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nightclub_ccode
+    - node.type.nightclubs
+  module:
+    - options
+id: node.nightclubs.field_nightclub_ccode
+field_name: field_nightclub_ccode
+entity_type: node
+bundle: nightclubs
+label: 'Country code'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

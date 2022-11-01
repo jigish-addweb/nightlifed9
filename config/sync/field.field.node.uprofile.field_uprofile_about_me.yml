@@ -1,0 +1,21 @@
+uuid: a8743a90-b90a-40c0-a91c-a115f4b67a1f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_uprofile_about_me
+    - node.type.uprofile
+  module:
+    - text
+id: node.uprofile.field_uprofile_about_me
+field_name: field_uprofile_about_me
+entity_type: node
+bundle: uprofile
+label: 'About Me'
+description: 'General information about who you are, where you came from, and where you are going.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

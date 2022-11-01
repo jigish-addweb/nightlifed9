@@ -1,0 +1,252 @@
+uuid: f121d58d-04af-442a-b81b-af62597c15c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.rss
+    - field.field.node.restaurants.body
+    - field.field.node.restaurants.field_country
+    - field.field.node.restaurants.field_hashtag
+    - field.field.node.restaurants.field_mail_body
+    - field.field.node.restaurants.field_private
+    - field.field.node.restaurants.field_res_priority
+    - field.field.node.restaurants.field_rest_accept
+    - field.field.node.restaurants.field_rest_additional
+    - field.field.node.restaurants.field_rest_album
+    - field.field.node.restaurants.field_rest_ccode
+    - field.field.node.restaurants.field_rest_chef
+    - field.field.node.restaurants.field_rest_contmail
+    - field.field.node.restaurants.field_rest_contmobile
+    - field.field.node.restaurants.field_rest_contname
+    - field.field.node.restaurants.field_rest_dining
+    - field.field.node.restaurants.field_rest_dress_code
+    - field.field.node.restaurants.field_rest_facebook
+    - field.field.node.restaurants.field_rest_goole
+    - field.field.node.restaurants.field_rest_payment
+    - field.field.node.restaurants.field_rest_price
+    - field.field.node.restaurants.field_rest_specials
+    - field.field.node.restaurants.field_rest_twitter
+    - field.field.node.restaurants.field_rest_website
+    - field.field.node.restaurants.field_restallowrsvp
+    - field.field.node.restaurants.field_restau_menu
+    - field.field.node.restaurants.field_restaurant_ccode
+    - field.field.node.restaurants.field_restaurant_image
+    - field.field.node.restaurants.field_restaurant_type
+    - field.field.node.restaurants.field_restaurents_days
+    - field.field.node.restaurants.field_restuarants_timings
+    - field.field.node.restaurants.field_would_you_like_a_featured_
+    - node.type.restaurants
+  module:
+    - file
+    - image
+    - text
+    - user
+id: node.restaurants.rss
+targetEntityType: node
+bundle: restaurants
+mode: rss
+content:
+  field_mail_body:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 16
+    region: content
+  field_private:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 36
+    region: content
+  field_res_priority:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  field_rest_accept:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  field_rest_additional:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  field_rest_album:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 18
+    region: content
+  field_rest_ccode:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 26
+    region: content
+  field_rest_chef:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_rest_contmail:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 28
+    region: content
+  field_rest_contmobile:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 27
+    region: content
+  field_rest_contname:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 25
+    region: content
+  field_rest_dining:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_rest_dress_code:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_rest_facebook:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 19
+    region: content
+  field_rest_goole:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 21
+    region: content
+  field_rest_payment:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_rest_price:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_rest_specials:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  field_rest_twitter:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 20
+    region: content
+  field_rest_website:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_restallowrsvp:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 15
+    region: content
+  field_restau_menu:
+    type: file_default
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 14
+    region: content
+  field_restaurant_ccode:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_restaurant_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 17
+    region: content
+  field_restaurents_days:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  field_restuarants_timings:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  field_country: true
+  field_hashtag: true
+  field_restaurant_type: true
+  field_would_you_like_a_featured_: true

@@ -1,0 +1,25 @@
+uuid: 303d4723-760e-42ff-a6d8-76c6efa3af98
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_country
+    - node.type.concerts
+    - taxonomy.vocabulary.country
+id: node.concerts.field_country
+field_name: field_country
+entity_type: node
+bundle: concerts
+label: Country
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      country: country
+    auto_create: true
+field_type: entity_reference

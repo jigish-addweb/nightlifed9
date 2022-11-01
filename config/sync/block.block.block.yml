@@ -1,0 +1,25 @@
+uuid: 27150a52-c1d6-44e3-9a09-3f2fba3a6bca
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:d5c43114-2bd4-4007-95c0-6eea40d79554'
+  module:
+    - block_content
+  theme:
+    - unl
+id: block
+theme: unl
+region: ''
+weight: 0
+provider: null
+plugin: 'block_content:d5c43114-2bd4-4007-95c0-6eea40d79554'
+settings:
+  id: 'block_content:d5c43114-2bd4-4007-95c0-6eea40d79554'
+  label: ''
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

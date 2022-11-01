@@ -1,0 +1,25 @@
+uuid: 6f03e15e-16d8-48a9-8466-e54f2738fa93
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hashtag
+    - node.type.bars
+    - taxonomy.vocabulary.hashtag
+id: node.bars.field_hashtag
+field_name: field_hashtag
+entity_type: node
+bundle: bars
+label: Hashtag
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      hashtag: hashtag
+    auto_create: true
+field_type: entity_reference

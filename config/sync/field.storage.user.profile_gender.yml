@@ -1,0 +1,42 @@
+uuid: 705fdf2d-a525-4a4b-b95a-b3ae235b9876
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - user
+id: user.profile_gender
+field_name: profile_gender
+entity_type: user
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Male|Male
+      label: Male|Male
+    -
+      value: Female|Female
+      label: Female|Female
+    -
+      value: Female
+      label: Female
+    -
+      value: Male
+      label: Male
+    -
+      value: '0'
+      label: '0'
+    -
+      value: '-Select-'
+      label: '-Select-'
+    -
+      value: ''
+      label: ''
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

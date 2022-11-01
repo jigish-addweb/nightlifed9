@@ -1,0 +1,12 @@
+uuid: 0b680f55-98af-4a4d-b367-e651c89304b7
+langcode: en
+status: true
+dependencies: {  }
+id: send_e_mail
+label: 'Send e-mail'
+type: system
+plugin: action_send_email_action
+configuration:
+  recipient: '%author'
+  subject: ''
+  message: 'Hi  %username'

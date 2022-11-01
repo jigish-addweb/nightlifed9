@@ -1,0 +1,45 @@
+uuid: 5430b54b-1a75-41a3-bd9d-8198960573d2
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_transport_payment
+field_name: field_transport_payment
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Cash
+      label: Cash
+    -
+      value: AMEX
+      label: AMEX
+    -
+      value: 'Carte Blanche'
+      label: 'Carte Blanche'
+    -
+      value: 'Diners Club'
+      label: 'Diners Club'
+    -
+      value: Discover
+      label: Discover
+    -
+      value: JCB
+      label: JCB
+    -
+      value: MasterCard
+      label: MasterCard
+    -
+      value: Visa
+      label: Visa
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

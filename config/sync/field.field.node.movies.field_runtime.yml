@@ -1,0 +1,19 @@
+uuid: 883149a1-bedb-49d3-a375-6f42906c85a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_runtime
+    - node.type.movies
+id: node.movies.field_runtime
+field_name: field_runtime
+entity_type: node
+bundle: movies
+label: Runtime
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

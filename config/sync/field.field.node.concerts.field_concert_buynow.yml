@@ -1,0 +1,21 @@
+uuid: bae3b637-0ed9-4ef9-838a-f782a77376f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_concert_buynow
+    - node.type.concerts
+  module:
+    - options
+id: node.concerts.field_concert_buynow
+field_name: field_concert_buynow
+entity_type: node
+bundle: concerts
+label: 'Do You want to add a Buy Tickets link?'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

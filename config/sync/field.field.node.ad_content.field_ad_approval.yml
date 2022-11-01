@@ -1,0 +1,21 @@
+uuid: c7ba118d-01b6-4e7c-ad57-2755f2651de5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ad_approval
+    - node.type.ad_content
+  module:
+    - options
+id: node.ad_content.field_ad_approval
+field_name: field_ad_approval
+entity_type: node
+bundle: ad_content
+label: 'ads approval'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,38 @@
+uuid: 41cf3691-dc15-4d9d-a9d9-533e80b41d65
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_upload_image_0
+    - node.type.hotel
+  module:
+    - image
+id: node.hotel.field_upload_image_0
+field_name: field_upload_image_0
+entity_type: node
+bundle: hotel
+label: 'Upload Hotels Image'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: ''
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: 300x225
+  alt_field: false
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: null
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

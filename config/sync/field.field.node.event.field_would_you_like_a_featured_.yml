@@ -1,0 +1,25 @@
+uuid: b622ab0e-bfeb-4db9-858d-c9fecdc9f967
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_would_you_like_a_featured_
+    - node.type.event
+    - taxonomy.vocabulary.would_you_like_a_featured_or_p
+id: node.event.field_would_you_like_a_featured_
+field_name: field_would_you_like_a_featured_
+entity_type: node
+bundle: event
+label: 'Would you like a Featured or Promoted Listing?'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      would_you_like_a_featured_or_p: would_you_like_a_featured_or_p
+    auto_create: true
+field_type: entity_reference

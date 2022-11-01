@@ -1,0 +1,19 @@
+uuid: 76e78df2-3613-4d2f-8591-07501aa028c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fashion_prices
+    - node.type.fashion
+id: node.fashion.field_fashion_prices
+field_name: field_fashion_prices
+entity_type: node
+bundle: fashion
+label: Prices
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,21 @@
+uuid: 9c607ca1-c58f-43fc-8461-ad62676693a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ad_shedule
+    - node.type.unl
+  module:
+    - options
+id: node.unl.field_ad_shedule
+field_name: field_ad_shedule
+entity_type: node
+bundle: unl
+label: Shedule
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

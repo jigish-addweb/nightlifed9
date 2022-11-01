@@ -1,0 +1,21 @@
+uuid: 3e16198d-7bad-4b49-97cd-4afe8c80238c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_eventallowrsvp
+    - node.type.event
+  module:
+    - options
+id: node.event.field_eventallowrsvp
+field_name: field_eventallowrsvp
+entity_type: node
+bundle: event
+label: 'Allow RSVP Requests?'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

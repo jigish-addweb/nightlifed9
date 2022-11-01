@@ -1,0 +1,19 @@
+uuid: f2cb9fb0-fca3-406d-a8d2-bc5677173ea9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_uprofile_icq
+    - node.type.uprofile
+id: node.uprofile.field_uprofile_icq
+field_name: field_uprofile_icq
+entity_type: node
+bundle: uprofile
+label: ICQ
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

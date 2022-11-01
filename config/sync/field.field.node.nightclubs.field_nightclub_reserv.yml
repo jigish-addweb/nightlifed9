@@ -1,0 +1,21 @@
+uuid: 84e412bf-f69c-4812-aa9b-4fcf959b434b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nightclub_reserv
+    - node.type.nightclubs
+  module:
+    - options
+id: node.nightclubs.field_nightclub_reserv
+field_name: field_nightclub_reserv
+entity_type: node
+bundle: nightclubs
+label: 'Allow Reservation Requests?'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,25 @@
+uuid: 1f02e350-f6ce-4d05-a3df-5415c088c857
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:4aaa1c62-bcd5-4957-8c96-52c5791f297e'
+  module:
+    - block_content
+  theme:
+    - hhighlights
+id: block_119
+theme: hhighlights
+region: ''
+weight: -4
+provider: null
+plugin: 'block_content:4aaa1c62-bcd5-4957-8c96-52c5791f297e'
+settings:
+  id: 'block_content:4aaa1c62-bcd5-4957-8c96-52c5791f297e'
+  label: ''
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

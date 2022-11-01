@@ -1,0 +1,45 @@
+uuid: 2afe91d3-65ff-4559-9f88-b671594d1dac
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_ad_approval
+field_name: field_ad_approval
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: new
+      label: new
+    -
+      value: uia
+      label: 'Unapproved-informed author'
+    -
+      value: uba
+      label: 'Unapproved-updated by author'
+    -
+      value: 'waiting for payment'
+      label: 'waiting for payment'
+    -
+      value: 'payment done'
+      label: 'payment done'
+    -
+      value: approved
+      label: 'Approved - active'
+    -
+      value: 'waiting for sales team approval'
+      label: 'waiting for sales team approval'
+    -
+      value: expired
+      label: expired
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

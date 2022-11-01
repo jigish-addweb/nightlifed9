@@ -1,0 +1,19 @@
+uuid: 94709ee1-c552-433d-9d96-b8178feca8ff
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_store_google
+field_name: field_store_google
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

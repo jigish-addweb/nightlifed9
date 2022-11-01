@@ -1,0 +1,8 @@
+uuid: 73741c08-e8e7-455e-acc1-373657bc3886
+langcode: en
+status: true
+dependencies: {  }
+name: Categories
+vid: categories
+description: 'Content Categories '
+weight: -8

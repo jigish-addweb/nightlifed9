@@ -1,0 +1,22 @@
+uuid: 0232a941-1d66-4ff9-811f-ec29a8852168
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.feed_fast
+id: node.feed_fast.promote
+field_name: promote
+entity_type: node
+bundle: feed_fast
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,162 @@
+uuid: 12e8c96c-958b-451c-bced-ceadd92eac33
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.search_index
+    - field.field.node.fashion_store.body
+    - field.field.node.fashion_store.field_country
+    - field.field.node.fashion_store.field_fash_store_ccode
+    - field.field.node.fashion_store.field_fashion_store_priority
+    - field.field.node.fashion_store.field_hashtag
+    - field.field.node.fashion_store.field_private
+    - field.field.node.fashion_store.field_store_album
+    - field.field.node.fashion_store.field_store_ccode
+    - field.field.node.fashion_store.field_store_contmail
+    - field.field.node.fashion_store.field_store_contname
+    - field.field.node.fashion_store.field_store_contnum
+    - field.field.node.fashion_store.field_store_facebook
+    - field.field.node.fashion_store.field_store_google
+    - field.field.node.fashion_store.field_store_hours
+    - field.field.node.fashion_store.field_store_image
+    - field.field.node.fashion_store.field_store_specials
+    - field.field.node.fashion_store.field_store_twitter
+    - field.field.node.fashion_store.field_store_type
+    - field.field.node.fashion_store.field_store_website
+    - field.field.node.fashion_store.field_would_you_like_a_featured_
+    - node.type.fashion_store
+  module:
+    - image
+    - text
+    - user
+id: node.fashion_store.search_index
+targetEntityType: node
+bundle: fashion_store
+mode: search_index
+content:
+  field_fash_store_ccode:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_fashion_store_priority:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: -2
+    region: content
+  field_private:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -3
+    region: content
+  field_store_album:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_store_ccode:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 14
+    region: content
+  field_store_contmail:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 16
+    region: content
+  field_store_contname:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 13
+    region: content
+  field_store_contnum:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 15
+    region: content
+  field_store_facebook:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  field_store_google:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_store_hours:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_store_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_store_specials:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_store_twitter:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  field_store_website:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  field_country: true
+  field_hashtag: true
+  field_store_type: true
+  field_would_you_like_a_featured_: true

@@ -1,0 +1,8 @@
+uuid: bc5b2a9d-de1e-412f-95a1-22d6cab2eb02
+langcode: en
+status: true
+dependencies: {  }
+id: menu-photo-categories
+label: 'Photo Categories'
+description: ''
+locked: false

@@ -1,0 +1,277 @@
+uuid: b13fb19d-cdac-4370-97b3-f16d83053526
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.uprofile.field_uprofile_about_me
+    - field.field.node.uprofile.field_uprofile_aim
+    - field.field.node.uprofile.field_uprofile_blog
+    - field.field.node.uprofile.field_uprofile_children
+    - field.field.node.uprofile.field_uprofile_ethnicity
+    - field.field.node.uprofile.field_uprofile_facebook
+    - field.field.node.uprofile.field_uprofile_favorite1
+    - field.field.node.uprofile.field_uprofile_favorite2
+    - field.field.node.uprofile.field_uprofile_favorite3
+    - field.field.node.uprofile.field_uprofile_friendfeed
+    - field.field.node.uprofile.field_uprofile_gender
+    - field.field.node.uprofile.field_uprofile_google
+    - field.field.node.uprofile.field_uprofile_icq
+    - field.field.node.uprofile.field_uprofile_interests
+    - field.field.node.uprofile.field_uprofile_linkedin
+    - field.field.node.uprofile.field_uprofile_location
+    - field.field.node.uprofile.field_uprofile_name
+    - field.field.node.uprofile.field_uprofile_occupation
+    - field.field.node.uprofile.field_uprofile_political
+    - field.field.node.uprofile.field_uprofile_relationship
+    - field.field.node.uprofile.field_uprofile_religion
+    - field.field.node.uprofile.field_uprofile_skype
+    - field.field.node.uprofile.field_uprofile_twitter
+    - field.field.node.uprofile.field_uprofile_website
+    - field.field.node.uprofile.field_uprofile_yahoo
+    - field.field.node.uprofile.field_uprofile_zodiac_sign
+    - field.field.node.uprofile.upload
+    - node.type.uprofile
+  module:
+    - link
+    - text
+    - user
+id: node.uprofile.teaser
+targetEntityType: node
+bundle: uprofile
+mode: teaser
+content:
+  field_uprofile_about_me:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  field_uprofile_aim:
+    type: text_default
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_uprofile_blog:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  field_uprofile_children:
+    type: text_default
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: -7
+    region: content
+  field_uprofile_ethnicity:
+    type: text_default
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: -8
+    region: content
+  field_uprofile_facebook:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    weight: -7
+    region: content
+  field_uprofile_favorite1:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  field_uprofile_favorite2:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_uprofile_favorite3:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  field_uprofile_friendfeed:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  field_uprofile_gender:
+    type: text_default
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: -9
+    region: content
+  field_uprofile_google:
+    type: text_default
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_uprofile_icq:
+    type: text_default
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_uprofile_interests:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_uprofile_linkedin:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    weight: -5
+    region: content
+  field_uprofile_location:
+    type: text_default
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: -2
+    region: content
+  field_uprofile_name:
+    type: text_default
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: -3
+    region: content
+  field_uprofile_occupation:
+    type: text_default
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  field_uprofile_political:
+    type: text_default
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: -2
+    region: content
+  field_uprofile_relationship:
+    type: text_default
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: -6
+    region: content
+  field_uprofile_religion:
+    type: text_default
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: -3
+    region: content
+  field_uprofile_skype:
+    type: text_default
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_uprofile_twitter:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    weight: -6
+    region: content
+  field_uprofile_website:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_uprofile_yahoo:
+    type: text_default
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_uprofile_zodiac_sign:
+    type: text_default
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  upload: true

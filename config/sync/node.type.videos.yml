@@ -1,0 +1,11 @@
+uuid: 538d3d93-fcf1-4086-a88f-f39902ad51c3
+langcode: en
+status: true
+dependencies: {  }
+name: Videos
+type: videos
+description: 'Ooyala video player'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

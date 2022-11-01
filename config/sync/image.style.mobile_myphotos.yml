@@ -1,0 +1,23 @@
+uuid: 0d93df24-8e4d-42f3-8cfd-363bab38e4d8
+langcode: en
+status: true
+dependencies: {  }
+name: mobile_myphotos
+label: mobile_myphotos
+effects:
+  f6b67855-f9b1-422e-a7ef-415ba3364f02:
+    uuid: f6b67855-f9b1-422e-a7ef-415ba3364f02
+    id: image_scale
+    weight: 0
+    data:
+      width: null
+      height: 135
+      upscale: true
+  38cec399-a6db-481b-a8d9-f5c73160f571:
+    uuid: 38cec399-a6db-481b-a8d9-f5c73160f571
+    id: image_crop
+    weight: 0
+    data:
+      width: 138
+      height: 135
+      anchor: center-top

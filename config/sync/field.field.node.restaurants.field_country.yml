@@ -1,0 +1,25 @@
+uuid: db77a3bc-3c7c-4cbd-b520-266a030dfc5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_country
+    - node.type.restaurants
+    - taxonomy.vocabulary.country
+id: node.restaurants.field_country
+field_name: field_country
+entity_type: node
+bundle: restaurants
+label: Country
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      country: country
+    auto_create: true
+field_type: entity_reference

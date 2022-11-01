@@ -1,0 +1,19 @@
+uuid: 80c053d0-27f2-47f5-8a77-49f48a08b01f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_res_comment
+    - node.type.reservation
+id: node.reservation.field_res_comment
+field_name: field_res_comment
+entity_type: node
+bundle: reservation
+label: Comment
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

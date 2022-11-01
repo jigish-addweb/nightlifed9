@@ -1,0 +1,25 @@
+uuid: 76eab72b-0a41-4910-8cca-eec4439e1f47
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:214e01de-5690-43a5-b8ce-8405edce217f'
+  module:
+    - block_content
+  theme:
+    - zen
+id: block_44
+theme: zen
+region: ''
+weight: -2
+provider: null
+plugin: 'block_content:214e01de-5690-43a5-b8ce-8405edce217f'
+settings:
+  id: 'block_content:214e01de-5690-43a5-b8ce-8405edce217f'
+  label: ''
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

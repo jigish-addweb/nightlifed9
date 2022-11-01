@@ -1,0 +1,19 @@
+uuid: 71123f7a-3bbf-406b-a3d1-f978a60175de
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_res_lname
+    - node.type.reservation
+id: node.reservation.field_res_lname
+field_name: field_res_lname
+entity_type: node
+bundle: reservation
+label: 'Last Name'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

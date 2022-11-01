@@ -1,0 +1,19 @@
+uuid: 0c401c7d-0130-40ee-ac0c-af62d5ba1253
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bap_guests
+    - node.type.book_a_party
+id: node.book_a_party.field_bap_guests
+field_name: field_bap_guests
+entity_type: node
+bundle: book_a_party
+label: ' Number of Guests Requested'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

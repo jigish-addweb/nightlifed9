@@ -1,0 +1,21 @@
+uuid: 6b010c3a-4a16-4d4a-92b1-9134609c4efd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_uprofile_children
+    - node.type.uprofile
+  module:
+    - options
+id: node.uprofile.field_uprofile_children
+field_name: field_uprofile_children
+entity_type: node
+bundle: uprofile
+label: Children
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,22 @@
+uuid: 4d3b6fe5-4836-4c39-8129-c17eb7c3fef6
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.concerts
+id: node.concerts.promote
+field_name: promote
+entity_type: node
+bundle: concerts
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

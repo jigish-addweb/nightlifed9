@@ -1,0 +1,19 @@
+uuid: d0a9d0cc-bda0-4066-a7c5-5dbddc4ec2c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_vid_contname
+    - node.type.video_live
+id: node.video_live.field_vid_contname
+field_name: field_vid_contname
+entity_type: node
+bundle: video_live
+label: 'Contact Name'
+description: 'Please provide your contact info in case we need to verify your news info and/or sources.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

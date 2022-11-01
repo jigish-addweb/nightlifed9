@@ -1,0 +1,19 @@
+uuid: 942f791c-4859-49f0-a9c4-1177aa0fdbf5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hotel_twitter
+    - node.type.hotel
+id: node.hotel.field_hotel_twitter
+field_name: field_hotel_twitter
+entity_type: node
+bundle: hotel
+label: ' Twitter link'
+description: 'Please type complete URL like ''http://www.example.com'''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

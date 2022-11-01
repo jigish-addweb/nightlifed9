@@ -1,0 +1,15 @@
+uuid: f1825355-5965-4bc9-a128-50af09fea07b
+langcode: en
+status: true
+dependencies: {  }
+name: mobile_wall_content_thumb
+label: mobile_wall_content_thumb
+effects:
+  4da47fa1-9cab-4775-9e19-2ee7569fc6ff:
+    uuid: 4da47fa1-9cab-4775-9e19-2ee7569fc6ff
+    id: image_scale
+    weight: 0
+    data:
+      width: 289
+      height: 300
+      upscale: false

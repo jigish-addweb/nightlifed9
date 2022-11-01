@@ -1,0 +1,21 @@
+uuid: 963f0332-35de-438e-8267-d397a0c191c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.profile_state
+  module:
+    - options
+    - user
+id: user.user.profile_state
+field_name: profile_state
+entity_type: user
+bundle: user
+label: State
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,20 @@
+uuid: e2966dd8-4772-48c8-96d7-79cd106d499a
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+id: node.field_bars_edate
+field_name: field_bars_edate
+entity_type: node
+type: datetime
+settings:
+  datetime_type: datetime
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

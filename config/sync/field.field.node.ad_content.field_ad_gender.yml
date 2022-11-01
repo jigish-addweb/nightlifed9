@@ -1,0 +1,21 @@
+uuid: 83c36757-3ea5-44ae-a053-ab8440343f5c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ad_gender
+    - node.type.ad_content
+  module:
+    - options
+id: node.ad_content.field_ad_gender
+field_name: field_ad_gender
+entity_type: node
+bundle: ad_content
+label: Gender
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

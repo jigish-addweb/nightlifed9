@@ -1,0 +1,19 @@
+uuid: f48fa4f4-3d00-4e84-ba1e-bc7dd2a710b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bars_music
+    - node.type.bars
+id: node.bars.field_bars_music
+field_name: field_bars_music
+entity_type: node
+bundle: bars
+label: Music
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

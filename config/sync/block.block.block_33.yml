@@ -1,0 +1,25 @@
+uuid: 54ceb510-8ea8-4fdd-a269-bfb65ee22b86
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:ff28f9c9-e7c2-4d47-acef-1fbe1169e964'
+  module:
+    - block_content
+  theme:
+    - bluemarine
+id: block_33
+theme: bluemarine
+region: ''
+weight: 0
+provider: null
+plugin: 'block_content:ff28f9c9-e7c2-4d47-acef-1fbe1169e964'
+settings:
+  id: 'block_content:ff28f9c9-e7c2-4d47-acef-1fbe1169e964'
+  label: 'Inner pages right block'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

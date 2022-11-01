@@ -1,0 +1,19 @@
+uuid: 4751f793-7acd-49ea-a8ad-f140d51abce0
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_uprofile_icq
+field_name: field_uprofile_icq
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

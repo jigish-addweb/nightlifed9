@@ -1,0 +1,21 @@
+uuid: f510af1f-d0cb-4ffa-80f7-c7019cc0f6ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hotel_payment
+    - node.type.hotel
+  module:
+    - options
+id: node.hotel.field_hotel_payment
+field_name: field_hotel_payment
+entity_type: node
+bundle: hotel
+label: 'Payment Options'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

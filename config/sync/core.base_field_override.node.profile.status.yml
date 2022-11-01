@@ -1,0 +1,22 @@
+uuid: 4fbdc2df-2736-4e37-86db-d81d91a1531d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.profile
+id: node.profile.status
+field_name: status
+entity_type: node
+bundle: profile
+label: 'Publishing status'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

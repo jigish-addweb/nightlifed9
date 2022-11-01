@@ -1,0 +1,27 @@
+uuid: f363c361-0f57-4daa-8798-ae3170e96c0f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_music_file
+    - node.type.music
+  module:
+    - file
+id: node.music.field_music_file
+field_name: field_music_file
+entity_type: node
+bundle: music
+label: 'Upload Music Files'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: music
+  file_extensions: 'mp3 wav'
+  max_filesize: ''
+  description_field: true
+field_type: file

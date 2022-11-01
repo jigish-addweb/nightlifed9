@@ -1,0 +1,45 @@
+uuid: cc2be183-9a66-4e97-9934-b10e00c09198
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_rest_payment
+field_name: field_rest_payment
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Cash
+      label: Cash
+    -
+      value: AMEX
+      label: AMEX
+    -
+      value: 'Carte Blanche'
+      label: 'Carte Blanche'
+    -
+      value: 'Diners Club'
+      label: 'Diners Club'
+    -
+      value: Discover
+      label: Discover
+    -
+      value: JCB
+      label: JCB
+    -
+      value: MasterCard
+      label: MasterCard
+    -
+      value: Visa
+      label: Visa
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

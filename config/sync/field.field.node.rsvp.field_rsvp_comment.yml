@@ -1,0 +1,19 @@
+uuid: 113ad7e3-adbf-4fe5-9354-eee4a2de6bef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rsvp_comment
+    - node.type.rsvp
+id: node.rsvp.field_rsvp_comment
+field_name: field_rsvp_comment
+entity_type: node
+bundle: rsvp
+label: Comment
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

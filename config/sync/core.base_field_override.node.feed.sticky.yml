@@ -1,0 +1,22 @@
+uuid: 8a212b93-b18d-4178-978e-8d850a0de7cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.feed
+id: node.feed.sticky
+field_name: sticky
+entity_type: node
+bundle: feed
+label: 'Sticky at the top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

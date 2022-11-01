@@ -1,0 +1,11 @@
+uuid: 1ec75fd7-c374-488c-9398-95a69193417f
+langcode: en
+status: true
+dependencies: {  }
+name: 'Test Content Type'
+type: test_unl
+description: 'Test content type to test the fields'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

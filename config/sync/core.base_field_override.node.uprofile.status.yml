@@ -1,0 +1,22 @@
+uuid: 8c51464d-9de3-4063-a703-c261e0c2192b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.uprofile
+id: node.uprofile.status
+field_name: status
+entity_type: node
+bundle: uprofile
+label: 'Publishing status'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

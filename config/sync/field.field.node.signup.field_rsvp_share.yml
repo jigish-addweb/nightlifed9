@@ -1,0 +1,21 @@
+uuid: 5e4671da-0a55-48fd-ae4b-266afbdcb67b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rsvp_share
+    - node.type.signup
+  module:
+    - options
+id: node.signup.field_rsvp_share
+field_name: field_rsvp_share
+entity_type: node
+bundle: signup
+label: Share
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

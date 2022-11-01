@@ -1,0 +1,19 @@
+uuid: 6bdd1e97-1709-4cbc-8edb-8cc1d53bee06
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nightclubs_cont_num
+    - node.type.nightclubs
+id: node.nightclubs.field_nightclubs_cont_num
+field_name: field_nightclubs_cont_num
+entity_type: node
+bundle: nightclubs
+label: 'Contact Mobile Number'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

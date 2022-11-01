@@ -1,0 +1,19 @@
+uuid: e7ff64fa-0e39-4338-89be-7c1bdd14bb5c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_photos_cont_mail
+    - node.type.photos
+id: node.photos.field_photos_cont_mail
+field_name: field_photos_cont_mail
+entity_type: node
+bundle: photos
+label: 'Contact Email'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

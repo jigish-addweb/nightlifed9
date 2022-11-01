@@ -1,0 +1,23 @@
+uuid: 12ca29c1-5840-49a3-96e7-82fe829ecd10
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.book_a_party
+  module:
+    - text
+id: node.book_a_party.body
+field_name: body
+entity_type: node
+bundle: book_a_party
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,27 @@
+uuid: 70b068d7-4761-4cc1-ba3c-dddae5b5319d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_budget
+field_name: field_budget
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'Daily Budget'
+      label: 'Daily Budget'
+    -
+      value: 'Lifetime Budget'
+      label: 'Lifetime Budget'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

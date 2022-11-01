@@ -1,0 +1,22 @@
+uuid: 891d0e32-a4ef-4415-965b-0f99eb108161
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.transportation
+id: node.transportation.promote
+field_name: promote
+entity_type: node
+bundle: transportation
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

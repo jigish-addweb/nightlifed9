@@ -1,0 +1,21 @@
+uuid: 920a600c-2244-4942-86c8-bedee1119807
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_private
+    - node.type.concerts
+  module:
+    - options
+id: node.concerts.field_private
+field_name: field_private
+entity_type: node
+bundle: concerts
+label: 'Publish this content?'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

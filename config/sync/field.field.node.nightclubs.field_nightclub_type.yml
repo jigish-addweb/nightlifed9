@@ -1,0 +1,25 @@
+uuid: 5b02aeb0-c4db-49f1-9d9b-926f0a52fad4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nightclub_type
+    - node.type.nightclubs
+    - taxonomy.vocabulary.nightclub_type
+id: node.nightclubs.field_nightclub_type
+field_name: field_nightclub_type
+entity_type: node
+bundle: nightclubs
+label: 'Nightclub Type'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      nightclub_type: nightclub_type
+    auto_create: true
+field_type: entity_reference

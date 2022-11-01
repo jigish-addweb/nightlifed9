@@ -1,0 +1,21 @@
+uuid: 20ee255d-c805-4102-9629-6554a10c7cd0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fashion_buynow
+    - node.type.fashion
+  module:
+    - options
+id: node.fashion.field_fashion_buynow
+field_name: field_fashion_buynow
+entity_type: node
+bundle: fashion
+label: 'Do You want to add a Buy Tickets now link for this event?'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

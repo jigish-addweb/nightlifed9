@@ -1,0 +1,11 @@
+uuid: 3b39e44d-7f08-438a-92ea-054783f42403
+langcode: en
+status: true
+dependencies: {  }
+name: 'Concerts & Shows'
+type: concerts
+description: 'Concerts and shows information'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,25 @@
+uuid: 546802be-86de-4748-bd49-d52b68256927
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:6dc8c042-00f7-4a27-8aa5-d69b3359de6a'
+  module:
+    - block_content
+  theme:
+    - nltelevision
+id: block_92
+theme: nltelevision
+region: ''
+weight: 0
+provider: null
+plugin: 'block_content:6dc8c042-00f7-4a27-8aa5-d69b3359de6a'
+settings:
+  id: 'block_content:6dc8c042-00f7-4a27-8aa5-d69b3359de6a'
+  label: ''
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

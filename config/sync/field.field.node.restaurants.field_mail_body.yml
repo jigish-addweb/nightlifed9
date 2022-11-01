@@ -1,0 +1,19 @@
+uuid: 2a090056-85b5-4dc6-b8d0-720318ca3c67
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mail_body
+    - node.type.restaurants
+id: node.restaurants.field_mail_body
+field_name: field_mail_body
+entity_type: node
+bundle: restaurants
+label: 'Reservation confirmation message'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

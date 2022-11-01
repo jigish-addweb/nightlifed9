@@ -1,0 +1,22 @@
+uuid: 5030a690-a179-4d2b-ad05-6de49026da11
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.concerts
+id: node.concerts.status
+field_name: status
+entity_type: node
+bundle: concerts
+label: 'Publishing status'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

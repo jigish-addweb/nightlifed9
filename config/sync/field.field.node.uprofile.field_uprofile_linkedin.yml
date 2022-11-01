@@ -1,0 +1,23 @@
+uuid: fee60538-e371-48f3-a70b-5b0ca13c928c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_uprofile_linkedin
+    - node.type.uprofile
+  module:
+    - link
+id: node.uprofile.field_uprofile_linkedin
+field_name: field_uprofile_linkedin
+entity_type: node
+bundle: uprofile
+label: LinkedIn
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: null
+  link_type: 17
+field_type: link

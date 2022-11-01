@@ -1,0 +1,7 @@
+uuid: 334d60fa-fc98-4fd2-b813-473329ca261b
+langcode: en
+status: true
+dependencies: {  }
+name: delete_preset
+label: delete_preset
+effects: {  }

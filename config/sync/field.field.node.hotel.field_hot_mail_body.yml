@@ -1,0 +1,19 @@
+uuid: 298526c9-9332-4fd6-a703-4cdaf1cc9301
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hot_mail_body
+    - node.type.hotel
+id: node.hotel.field_hot_mail_body
+field_name: field_hot_mail_body
+entity_type: node
+bundle: hotel
+label: 'Reservation confirmation message'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

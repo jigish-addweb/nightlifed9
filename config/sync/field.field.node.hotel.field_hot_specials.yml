@@ -1,0 +1,19 @@
+uuid: e54223cb-ed5d-47f3-aba1-309d12888802
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hot_specials
+    - node.type.hotel
+id: node.hotel.field_hot_specials
+field_name: field_hot_specials
+entity_type: node
+bundle: hotel
+label: ' Specials & Promotions'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

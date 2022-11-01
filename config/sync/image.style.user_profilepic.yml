@@ -1,0 +1,23 @@
+uuid: 1f1d88b0-d557-4c99-a062-cb20e6672ddd
+langcode: en
+status: true
+dependencies: {  }
+name: user_profilepic
+label: user_profilepic
+effects:
+  ce2cca76-b4be-477a-9a77-f26fe5dbd2e8:
+    uuid: ce2cca76-b4be-477a-9a77-f26fe5dbd2e8
+    id: image_scale
+    weight: 0
+    data:
+      width: 356
+      height: 303
+      upscale: false
+  954ec95b-06bc-4e8f-b093-ba12ac0ce5f9:
+    uuid: 954ec95b-06bc-4e8f-b093-ba12ac0ce5f9
+    id: image_crop
+    weight: 0
+    data:
+      width: 170
+      height: 200
+      anchor: center-top

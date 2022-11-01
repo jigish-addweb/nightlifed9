@@ -1,0 +1,11 @@
+uuid: 758cc615-ad33-402f-97b1-99cbe1a3ab2e
+langcode: en
+status: true
+dependencies: {  }
+name: Photo
+type: photo
+description: 'An individual photograph posted by a site user.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

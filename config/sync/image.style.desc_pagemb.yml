@@ -1,0 +1,23 @@
+uuid: 1f792ac9-e239-4579-a038-9bbd5e2cff88
+langcode: en
+status: true
+dependencies: {  }
+name: desc_pagemb
+label: desc_pagemb
+effects:
+  d4eb8eb9-4932-4736-a704-98b811df7b57:
+    uuid: d4eb8eb9-4932-4736-a704-98b811df7b57
+    id: image_scale
+    weight: 0
+    data:
+      width: 320
+      height: null
+      upscale: true
+  ec7d996a-22c2-4324-8c80-bb7cb2e4a920:
+    uuid: ec7d996a-22c2-4324-8c80-bb7cb2e4a920
+    id: image_crop
+    weight: 0
+    data:
+      width: 320
+      height: 190
+      anchor: center-top

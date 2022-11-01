@@ -1,0 +1,19 @@
+uuid: 41cd2724-40ac-4adf-94e8-85a5af5c2437
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_fashion_prices
+field_name: field_fashion_prices
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

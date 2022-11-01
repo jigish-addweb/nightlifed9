@@ -1,0 +1,19 @@
+uuid: f6e573c9-8adc-453d-a91a-d5484b3ce4f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rest_contmail
+    - node.type.restaurants
+id: node.restaurants.field_rest_contmail
+field_name: field_rest_contmail
+entity_type: node
+bundle: restaurants
+label: 'Contact Email'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

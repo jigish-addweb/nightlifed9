@@ -1,0 +1,21 @@
+uuid: a511e689-9ff7-4964-a00c-9a3059f23e47
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bars_ad_shedule
+    - node.type.bars
+  module:
+    - options
+id: node.bars.field_bars_ad_shedule
+field_name: field_bars_ad_shedule
+entity_type: node
+bundle: bars
+label: Shedule
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

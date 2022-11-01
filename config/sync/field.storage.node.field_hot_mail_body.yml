@@ -1,0 +1,19 @@
+uuid: d730d0de-3fb3-446b-8a12-e2de11386bfa
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_hot_mail_body
+field_name: field_hot_mail_body
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

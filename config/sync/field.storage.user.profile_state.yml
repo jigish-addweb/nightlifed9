@@ -1,0 +1,69 @@
+uuid: 633bc658-4b15-4f71-9608-cb673b236408
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - user
+id: user.profile_state
+field_name: profile_state
+entity_type: user
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: ''
+      label: ''
+    -
+      value: '65898'
+      label: '65898'
+    -
+      value: '341978'
+      label: '341978'
+    -
+      value: '289143'
+      label: '289143'
+    -
+      value: '289139'
+      label: '289139'
+    -
+      value: '341974'
+      label: '341974'
+    -
+      value: '342010'
+      label: '342010'
+    -
+      value: '341992'
+      label: '341992'
+    -
+      value: '342151'
+      label: '342151'
+    -
+      value: '342012'
+      label: '342012'
+    -
+      value: '342003'
+      label: '342003'
+    -
+      value: '324614'
+      label: '324614'
+    -
+      value: '273182'
+      label: '273182'
+    -
+      value: '293147'
+      label: '293147'
+    -
+      value: '249221'
+      label: '249221'
+    -
+      value: '338884'
+      label: '338884'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

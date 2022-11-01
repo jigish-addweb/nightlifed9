@@ -1,0 +1,21 @@
+uuid: 5b8688b3-8601-42a7-81d7-4d38c19ef84f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_live_video_ref
+    - node.type.video_live
+id: node.video_live.field_live_video_ref
+field_name: field_live_video_ref
+entity_type: node
+bundle: video_live
+label: 'video reference'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: entity_reference

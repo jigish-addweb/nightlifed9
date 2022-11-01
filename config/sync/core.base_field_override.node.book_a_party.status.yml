@@ -1,0 +1,22 @@
+uuid: f101b039-2dd5-4b09-ac7f-3dc50c4000fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.book_a_party
+id: node.book_a_party.status
+field_name: status
+entity_type: node
+bundle: book_a_party
+label: 'Publishing status'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

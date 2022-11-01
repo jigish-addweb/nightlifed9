@@ -1,0 +1,21 @@
+uuid: ec69d4b9-5d11-4cf6-aa77-c70f49f70224
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.profile_lname
+  module:
+    - text
+    - user
+id: user.user.profile_lname
+field_name: profile_lname
+entity_type: user
+bundle: user
+label: 'Last Name'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

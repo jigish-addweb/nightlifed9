@@ -1,0 +1,19 @@
+uuid: 6ac3981b-8fad-49d8-88c7-f036709d2bd9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nightclubs_price
+    - node.type.nightclubs
+id: node.nightclubs.field_nightclubs_price
+field_name: field_nightclubs_price
+entity_type: node
+bundle: nightclubs
+label: Price
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,19 @@
+uuid: fb6df8ff-0b99-4777-a31d-9349fdb7d830
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_music_lang
+    - node.type.music
+id: node.music.field_music_lang
+field_name: field_music_lang
+entity_type: node
+bundle: music
+label: Language
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

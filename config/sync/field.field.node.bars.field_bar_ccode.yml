@@ -1,0 +1,21 @@
+uuid: 475bceec-1bb7-4a70-9c78-5b584979bdbc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bar_ccode
+    - node.type.bars
+  module:
+    - options
+id: node.bars.field_bar_ccode
+field_name: field_bar_ccode
+entity_type: node
+bundle: bars
+label: 'Country code'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

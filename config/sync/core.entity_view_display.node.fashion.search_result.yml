@@ -1,0 +1,249 @@
+uuid: 2f43c04b-403d-48c7-bd1e-8413d9d20aea
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.search_result
+    - field.field.node.fashion.body
+    - field.field.node.fashion.field_country
+    - field.field.node.fashion.field_fash_ccode
+    - field.field.node.fashion.field_fashion_agereq
+    - field.field.node.fashion.field_fashion_album
+    - field.field.node.fashion.field_fashion_allowrsvp
+    - field.field.node.fashion.field_fashion_buynow
+    - field.field.node.fashion.field_fashion_cname
+    - field.field.node.fashion.field_fashion_code
+    - field.field.node.fashion.field_fashion_cont_mail
+    - field.field.node.fashion.field_fashion_dresscode
+    - field.field.node.fashion.field_fashion_drinkspecials
+    - field.field.node.fashion.field_fashion_facebook
+    - field.field.node.fashion.field_fashion_google
+    - field.field.node.fashion.field_fashion_image
+    - field.field.node.fashion.field_fashion_mail
+    - field.field.node.fashion.field_fashion_mail_body
+    - field.field.node.fashion.field_fashion_mobile
+    - field.field.node.fashion.field_fashion_musicstyle
+    - field.field.node.fashion.field_fashion_parkingoptions
+    - field.field.node.fashion.field_fashion_prices
+    - field.field.node.fashion.field_fashion_priority
+    - field.field.node.fashion.field_fashion_reservation
+    - field.field.node.fashion.field_fashion_time
+    - field.field.node.fashion.field_fashion_timezone_cust
+    - field.field.node.fashion.field_fashion_twitter
+    - field.field.node.fashion.field_fashion_website
+    - field.field.node.fashion.field_hashtag
+    - field.field.node.fashion.field_private
+    - field.field.node.fashion.field_would_you_like_a_featured_
+    - node.type.fashion
+  module:
+    - datetime
+    - file
+    - image
+    - text
+    - user
+id: node.fashion.search_result
+targetEntityType: node
+bundle: fashion
+mode: search_result
+content:
+  field_fash_ccode:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_fashion_agereq:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_fashion_album:
+    type: file_default
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 21
+    region: content
+  field_fashion_allowrsvp:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 18
+    region: content
+  field_fashion_buynow:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 16
+    region: content
+  field_fashion_cname:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 25
+    region: content
+  field_fashion_code:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 27
+    region: content
+  field_fashion_cont_mail:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 29
+    region: content
+  field_fashion_dresscode:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  field_fashion_drinkspecials:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 15
+    region: content
+  field_fashion_facebook:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 22
+    region: content
+  field_fashion_google:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 24
+    region: content
+  field_fashion_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 20
+    region: content
+  field_fashion_mail:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_fashion_mail_body:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 19
+    region: content
+  field_fashion_mobile:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 28
+    region: content
+  field_fashion_musicstyle:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  field_fashion_parkingoptions:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 14
+    region: content
+  field_fashion_prices:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 13
+    region: content
+  field_fashion_priority:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  field_fashion_reservation:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 17
+    region: content
+  field_fashion_time:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: fallback
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_fashion_timezone_cust:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_fashion_twitter:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 23
+    region: content
+  field_fashion_website:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  field_private:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -3
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  field_country: true
+  field_hashtag: true
+  field_would_you_like_a_featured_: true

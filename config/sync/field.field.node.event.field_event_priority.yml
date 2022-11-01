@@ -1,0 +1,25 @@
+uuid: bbd6b211-2825-4991-9c18-d61d73691162
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_priority
+    - node.type.event
+id: node.event.field_event_priority
+field_name: field_event_priority
+entity_type: node
+bundle: event
+label: Priority
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 100
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

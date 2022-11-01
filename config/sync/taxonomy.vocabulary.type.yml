@@ -1,0 +1,8 @@
+uuid: 2ef1ea83-be61-485c-b04d-09638f10d611
+langcode: en
+status: true
+dependencies: {  }
+name: Type
+vid: type
+description: 'Bars type'
+weight: 10

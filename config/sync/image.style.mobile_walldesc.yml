@@ -1,0 +1,15 @@
+uuid: 89b4a87c-37eb-49b8-ac99-2eb6e6836cb6
+langcode: en
+status: true
+dependencies: {  }
+name: mobile_walldesc
+label: mobile_walldesc
+effects:
+  913c6fc1-6927-48bf-8c69-3e70c45fffb4:
+    uuid: 913c6fc1-6927-48bf-8c69-3e70c45fffb4
+    id: image_scale
+    weight: 0
+    data:
+      width: 346
+      height: 250
+      upscale: false

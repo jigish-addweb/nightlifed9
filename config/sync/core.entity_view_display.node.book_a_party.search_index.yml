@@ -1,0 +1,114 @@
+uuid: 51181d8f-0496-4dcc-915f-3bac36abaa3f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.search_index
+    - field.field.node.book_a_party.body
+    - field.field.node.book_a_party.field_bap_cc
+    - field.field.node.book_a_party.field_bap_comment
+    - field.field.node.book_a_party.field_bap_date
+    - field.field.node.book_a_party.field_bap_email
+    - field.field.node.book_a_party.field_bap_fname
+    - field.field.node.book_a_party.field_bap_guests
+    - field.field.node.book_a_party.field_bap_lname
+    - field.field.node.book_a_party.field_bap_mobile
+    - field.field.node.book_a_party.field_bap_party
+    - field.field.node.book_a_party.field_bap_share
+    - field.field.node.book_a_party.field_book_myparty_ref
+    - field.field.node.book_a_party.upload
+    - node.type.book_a_party
+  module:
+    - text
+    - user
+id: node.book_a_party.search_index
+targetEntityType: node
+bundle: book_a_party
+mode: search_index
+content:
+  field_bap_cc:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -3
+    region: content
+  field_bap_comment:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_bap_date:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_bap_email:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  field_bap_fname:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  field_bap_guests:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_bap_lname:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_bap_mobile:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -2
+    region: content
+  field_bap_party:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_bap_share:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_book_myparty_ref:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 15
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  upload: true

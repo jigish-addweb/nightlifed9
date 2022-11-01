@@ -1,0 +1,21 @@
+uuid: 3ef68fc9-9c1a-4879-9aca-e10d7c22f130
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_reser_share
+    - node.type.reservation
+  module:
+    - options
+id: node.reservation.field_reser_share
+field_name: field_reser_share
+entity_type: node
+bundle: reservation
+label: 'Post your Reservation ?'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

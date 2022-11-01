@@ -1,0 +1,15 @@
+uuid: a316d1b2-4ecf-4a77-9e07-8278ca3b981c
+langcode: en
+status: true
+dependencies: {  }
+name: mobile_descpop_video
+label: mobile_descpop_video
+effects:
+  113ae4c3-c07f-48ef-91e3-75f7da20c22c:
+    uuid: 113ae4c3-c07f-48ef-91e3-75f7da20c22c
+    id: image_scale
+    weight: 0
+    data:
+      width: 340
+      height: 236
+      upscale: false

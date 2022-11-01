@@ -1,0 +1,19 @@
+uuid: c9d9b6d2-6e28-4867-b908-f97561886f6f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fashion_musicstyle
+    - node.type.fashion
+id: node.fashion.field_fashion_musicstyle
+field_name: field_fashion_musicstyle
+entity_type: node
+bundle: fashion
+label: 'Music Style'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

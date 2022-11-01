@@ -1,0 +1,20 @@
+uuid: 3b293a9f-1c36-485c-809f-6bead248f2f4
+langcode: en
+status: true
+dependencies:
+  module:
+    - text
+    - user
+id: user.profile_school
+field_name: profile_school
+entity_type: user
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

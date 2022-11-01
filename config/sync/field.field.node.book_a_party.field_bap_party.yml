@@ -1,0 +1,21 @@
+uuid: 20258838-2560-42ca-b0b2-4720d767e6a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bap_party
+    - node.type.book_a_party
+  module:
+    - options
+id: node.book_a_party.field_bap_party
+field_name: field_bap_party
+entity_type: node
+bundle: book_a_party
+label: 'Select Your Party'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

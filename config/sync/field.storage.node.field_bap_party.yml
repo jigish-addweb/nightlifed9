@@ -1,0 +1,36 @@
+uuid: 93a931ee-b220-414d-bc81-3e3ba093c292
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_bap_party
+field_name: field_bap_party
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'Birthday Party'
+      label: 'Birthday Party'
+    -
+      value: 'Bachelor Party'
+      label: 'Bachelor Party'
+    -
+      value: 'Bachelorette Party'
+      label: 'Bachelorette Party'
+    -
+      value: 'Corporate Party or Event'
+      label: 'Corporate Party or Event'
+    -
+      value: 'Group VIP Party'
+      label: 'Group VIP Party'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

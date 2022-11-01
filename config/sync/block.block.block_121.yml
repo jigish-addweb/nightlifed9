@@ -1,0 +1,25 @@
+uuid: 59023f19-395a-497f-b693-e63ec43781d4
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:35c08047-8e18-409b-83ad-5f3a6a4dadd2'
+  module:
+    - block_content
+  theme:
+    - hhighlights
+id: block_121
+theme: hhighlights
+region: ''
+weight: 0
+provider: null
+plugin: 'block_content:35c08047-8e18-409b-83ad-5f3a6a4dadd2'
+settings:
+  id: 'block_content:35c08047-8e18-409b-83ad-5f3a6a4dadd2'
+  label: ''
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

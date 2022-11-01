@@ -1,0 +1,19 @@
+uuid: 7f77caa4-eb09-47b7-b9e7-d6b5655ea05a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rsvp_choosedate
+    - node.type.rsvp
+id: node.rsvp.field_rsvp_choosedate
+field_name: field_rsvp_choosedate
+entity_type: node
+bundle: rsvp
+label: ' Choose Your Date'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

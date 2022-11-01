@@ -1,0 +1,18 @@
+uuid: 374cd771-e0a5-42e8-87e3-2e1cd5d613ae
+langcode: en
+status: false
+dependencies:
+  theme:
+    - hhighlights
+id: menu_5
+theme: hhighlights
+region: ''
+weight: -6
+provider: null
+plugin: 'system_menu_block:menu-photo-categories'
+settings:
+  id: broken
+  label: ''
+  label_display: '0'
+  provider: core
+visibility: {  }

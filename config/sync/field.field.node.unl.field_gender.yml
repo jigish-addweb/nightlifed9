@@ -1,0 +1,21 @@
+uuid: 27342e00-e355-4dc7-8e41-827d4f26f752
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gender
+    - node.type.unl
+  module:
+    - options
+id: node.unl.field_gender
+field_name: field_gender
+entity_type: node
+bundle: unl
+label: Gender
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

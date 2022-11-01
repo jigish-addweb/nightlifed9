@@ -1,0 +1,21 @@
+uuid: 36d60ab6-4049-4160-85f0-04a76301fcef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_reservation_ref
+    - node.type.reservation
+id: node.reservation.field_reservation_ref
+field_name: field_reservation_ref
+entity_type: node
+bundle: reservation
+label: reference
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: entity_reference

@@ -1,0 +1,81 @@
+uuid: 3cda8deb-5f81-47d4-a66e-d8a59dd586dd
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - user
+id: user.profile_city
+field_name: profile_city
+entity_type: user
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: ''
+      label: ''
+    -
+      value: '342021'
+      label: '342021'
+    -
+      value: '65983'
+      label: '65983'
+    -
+      value: '342019'
+      label: '342019'
+    -
+      value: '289245'
+      label: '289245'
+    -
+      value: '289140'
+      label: '289140'
+    -
+      value: '341980'
+      label: '341980'
+    -
+      value: '342028'
+      label: '342028'
+    -
+      value: '289205'
+      label: '289205'
+    -
+      value: '342165'
+      label: '342165'
+    -
+      value: '342013'
+      label: '342013'
+    -
+      value: '342065'
+      label: '342065'
+    -
+      value: '324625'
+      label: '324625'
+    -
+      value: '273183'
+      label: '273183'
+    -
+      value: '293153'
+      label: '293153'
+    -
+      value: '249228'
+      label: '249228'
+    -
+      value: '338885'
+      label: '338885'
+    -
+      value: '354001'
+      label: '354001'
+    -
+      value: '289251'
+      label: '289251'
+    -
+      value: '359944'
+      label: '359944'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,20 @@
+uuid: 309b979c-cb77-4cfd-8ba6-cb8049200433
+langcode: en
+status: true
+dependencies:
+  module:
+    - text
+    - user
+id: user.profile_rss
+field_name: profile_rss
+entity_type: user
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

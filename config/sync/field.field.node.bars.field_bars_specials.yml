@@ -1,0 +1,19 @@
+uuid: 62e74c59-b64f-408b-908d-6f13304415b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bars_specials
+    - node.type.bars
+id: node.bars.field_bars_specials
+field_name: field_bars_specials
+entity_type: node
+bundle: bars
+label: 'Specials & Promotions'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

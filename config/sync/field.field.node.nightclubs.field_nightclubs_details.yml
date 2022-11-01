@@ -1,0 +1,19 @@
+uuid: 5bbaf651-5fe1-4ff1-a149-15fcb415f443
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nightclubs_details
+    - node.type.nightclubs
+id: node.nightclubs.field_nightclubs_details
+field_name: field_nightclubs_details
+entity_type: node
+bundle: nightclubs
+label: 'Additional Details'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

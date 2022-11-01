@@ -1,0 +1,35 @@
+uuid: 026b8f74-ca62-46ac-a8bb-bb711da49b5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.print
+    - field.field.node.test_unl.body
+    - field.field.node.test_unl.field_photo_categories
+    - field.field.node.test_unl.field_test_email
+    - field.field.node.test_unl.upload
+    - node.type.test_unl
+  module:
+    - text
+    - user
+id: node.test_unl.print
+targetEntityType: node
+bundle: test_unl
+mode: print
+content:
+  field_test_email:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -2
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  field_photo_categories: true
+  upload: true

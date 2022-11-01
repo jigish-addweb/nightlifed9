@@ -1,0 +1,21 @@
+uuid: 10e267f2-f776-4a1d-92a9-a3301c918872
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bars_gender
+    - node.type.bars
+  module:
+    - options
+id: node.bars.field_bars_gender
+field_name: field_bars_gender
+entity_type: node
+bundle: bars
+label: Gender
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

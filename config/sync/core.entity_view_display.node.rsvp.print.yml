@@ -1,0 +1,57 @@
+uuid: a8f5664b-c701-40c1-adf5-466189dac2ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.print
+    - field.field.node.rsvp.body
+    - field.field.node.rsvp.field_rsvp_cc
+    - field.field.node.rsvp.field_rsvp_choosedate
+    - field.field.node.rsvp.field_rsvp_comment
+    - field.field.node.rsvp.field_rsvp_email
+    - field.field.node.rsvp.field_rsvp_fname
+    - field.field.node.rsvp.field_rsvp_guests
+    - field.field.node.rsvp.field_rsvp_lname
+    - field.field.node.rsvp.field_rsvp_mobile
+    - field.field.node.rsvp.field_rsvp_postshare
+    - field.field.node.rsvp.field_rsvpref
+    - field.field.node.rsvp.upload
+    - node.type.rsvp
+  module:
+    - text
+    - user
+id: node.rsvp.print
+targetEntityType: node
+bundle: rsvp
+mode: print
+content:
+  field_rsvp_cc:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -3
+    region: content
+  field_rsvp_mobile:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -2
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  field_rsvp_choosedate: true
+  field_rsvp_comment: true
+  field_rsvp_email: true
+  field_rsvp_fname: true
+  field_rsvp_guests: true
+  field_rsvp_lname: true
+  field_rsvp_postshare: true
+  field_rsvpref: true
+  upload: true

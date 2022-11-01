@@ -1,0 +1,21 @@
+uuid: 6b206bd4-d995-40d7-9ba6-5d898e2cd571
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_trans_res
+    - node.type.transportation
+  module:
+    - options
+id: node.transportation.field_trans_res
+field_name: field_trans_res
+entity_type: node
+bundle: transportation
+label: 'Allow Reservation Requests?'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

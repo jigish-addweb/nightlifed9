@@ -1,0 +1,19 @@
+uuid: 13a4e19c-c525-4297-9495-b0e0b1840ce2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_uprofile_religion
+    - node.type.uprofile
+id: node.uprofile.field_uprofile_religion
+field_name: field_uprofile_religion
+entity_type: node
+bundle: uprofile
+label: 'Religious views'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

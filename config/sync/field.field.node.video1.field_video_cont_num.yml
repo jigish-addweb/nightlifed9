@@ -1,0 +1,19 @@
+uuid: 485a7b83-1016-4fe5-8fd3-ffa555e22000
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_video_cont_num
+    - node.type.video1
+id: node.video1.field_video_cont_num
+field_name: field_video_cont_num
+entity_type: node
+bundle: video1
+label: 'Contact Mobile Number'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

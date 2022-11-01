@@ -1,0 +1,15 @@
+uuid: 7e09310e-8fe9-40c9-ab1f-980668b25a85
+langcode: en
+status: true
+dependencies: {  }
+name: mobile_videodesc
+label: mobile_videodesc
+effects:
+  eed476d1-2e78-4f35-b7af-813cd31b9a63:
+    uuid: eed476d1-2e78-4f35-b7af-813cd31b9a63
+    id: image_scale
+    weight: 0
+    data:
+      width: 300
+      height: 250
+      upscale: false

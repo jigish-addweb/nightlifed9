@@ -1,0 +1,19 @@
+uuid: 5b364788-babe-4574-b3f0-553d23580566
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rsvp_cc
+    - node.type.rsvp
+id: node.rsvp.field_rsvp_cc
+field_name: field_rsvp_cc
+entity_type: node
+bundle: rsvp
+label: 'Country code'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

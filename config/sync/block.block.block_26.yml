@@ -1,0 +1,25 @@
+uuid: 256741bc-a050-42cb-b97b-a4aca3503828
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:cd030691-bd91-4b6f-ace6-84f96c8fd332'
+  module:
+    - block_content
+  theme:
+    - bluemarine
+id: block_26
+theme: bluemarine
+region: ''
+weight: 0
+provider: null
+plugin: 'block_content:cd030691-bd91-4b6f-ace6-84f96c8fd332'
+settings:
+  id: 'block_content:cd030691-bd91-4b6f-ace6-84f96c8fd332'
+  label: ''
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

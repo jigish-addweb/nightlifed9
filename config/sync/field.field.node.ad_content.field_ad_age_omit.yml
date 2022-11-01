@@ -1,0 +1,21 @@
+uuid: b32e4c60-f5ef-41c2-9a1b-d86883f26fbc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ad_age_omit
+    - node.type.ad_content
+id: node.ad_content.field_ad_age_omit
+field_name: field_ad_age_omit
+entity_type: node
+bundle: ad_content
+label: Omit
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

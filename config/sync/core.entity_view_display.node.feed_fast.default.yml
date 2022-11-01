@@ -1,0 +1,30 @@
+uuid: 3cfbde08-8e8a-44be-975f-993e4d7e3c1e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.feed_fast.body
+    - field.field.node.feed_fast.upload
+    - node.type.feed_fast
+  module:
+    - text
+    - user
+id: node.feed_fast.default
+targetEntityType: node
+bundle: feed_fast
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  upload: true

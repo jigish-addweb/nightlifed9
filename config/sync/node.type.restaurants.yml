@@ -1,0 +1,11 @@
+uuid: 774f8bb5-acb8-416a-a35d-2335b0752a10
+langcode: en
+status: true
+dependencies: {  }
+name: 'Restaurants & Dining'
+type: restaurants
+description: Restaurants
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

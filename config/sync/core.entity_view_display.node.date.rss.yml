@@ -1,0 +1,45 @@
+uuid: c3e319e4-2d68-4ecc-8124-b62a246c95fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.rss
+    - field.field.node.date.body
+    - field.field.node.date.field_date
+    - field.field.node.date.field_date1
+    - field.field.node.date.upload
+    - node.type.date
+  module:
+    - datetime
+    - user
+id: node.date.rss
+targetEntityType: node
+bundle: date
+mode: rss
+content:
+  field_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: fallback
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  field_date1:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: fallback
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  upload: true

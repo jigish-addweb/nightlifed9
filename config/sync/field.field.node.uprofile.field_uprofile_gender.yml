@@ -1,0 +1,21 @@
+uuid: d403638f-d131-4370-b38c-847d1beb5c5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_uprofile_gender
+    - node.type.uprofile
+  module:
+    - options
+id: node.uprofile.field_uprofile_gender
+field_name: field_uprofile_gender
+entity_type: node
+bundle: uprofile
+label: Gender
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

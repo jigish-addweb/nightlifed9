@@ -1,0 +1,19 @@
+uuid: 43eefb5e-9467-4240-9519-332eefea7bf6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mov_cont_mail
+    - node.type.movies
+id: node.movies.field_mov_cont_mail
+field_name: field_mov_cont_mail
+entity_type: node
+bundle: movies
+label: 'Contact Email'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

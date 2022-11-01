@@ -1,0 +1,342 @@
+uuid: 7a68afdb-15bc-4fc4-a81f-cb1b2c67029f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.bars.body
+    - field.field.node.bars.field_age_omit
+    - field.field.node.bars.field_bar_ccode
+    - field.field.node.bars.field_bar_reserv
+    - field.field.node.bars.field_bars_ad_sdate
+    - field.field.node.bars.field_bars_ad_shedule
+    - field.field.node.bars.field_bars_age
+    - field.field.node.bars.field_bars_age_from
+    - field.field.node.bars.field_bars_age_to
+    - field.field.node.bars.field_bars_album
+    - field.field.node.bars.field_bars_budjet
+    - field.field.node.bars.field_bars_budjet_amount
+    - field.field.node.bars.field_bars_ccode
+    - field.field.node.bars.field_bars_cont_mail
+    - field.field.node.bars.field_bars_cont_num
+    - field.field.node.bars.field_bars_contname
+    - field.field.node.bars.field_bars_days
+    - field.field.node.bars.field_bars_details
+    - field.field.node.bars.field_bars_dress_code
+    - field.field.node.bars.field_bars_edate
+    - field.field.node.bars.field_bars_email_body
+    - field.field.node.bars.field_bars_facebook
+    - field.field.node.bars.field_bars_gender
+    - field.field.node.bars.field_bars_google
+    - field.field.node.bars.field_bars_image
+    - field.field.node.bars.field_bars_music
+    - field.field.node.bars.field_bars_price
+    - field.field.node.bars.field_bars_priority
+    - field.field.node.bars.field_bars_specials
+    - field.field.node.bars.field_bars_status
+    - field.field.node.bars.field_bars_timings
+    - field.field.node.bars.field_bars_twitter
+    - field.field.node.bars.field_bars_website
+    - field.field.node.bars.field_click_cost
+    - field.field.node.bars.field_country
+    - field.field.node.bars.field_gender_omit
+    - field.field.node.bars.field_hashtag
+    - field.field.node.bars.field_private
+    - field.field.node.bars.field_type
+    - field.field.node.bars.field_would_you_like_a_featured_
+    - node.type.bars
+  module:
+    - datetime
+    - image
+    - text
+    - user
+id: node.bars.teaser
+targetEntityType: node
+bundle: bars
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_age_omit:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 34
+    region: content
+  field_bar_ccode:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_bar_reserv:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_bars_ad_sdate:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: fallback
+    third_party_settings: {  }
+    weight: 42
+    region: content
+  field_bars_ad_shedule:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 41
+    region: content
+  field_bars_age:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_bars_age_from:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 35
+    region: content
+  field_bars_age_to:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 36
+    region: content
+  field_bars_album:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 14
+    region: content
+  field_bars_budjet:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 39
+    region: content
+  field_bars_budjet_amount:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 40
+    region: content
+  field_bars_ccode:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 22
+    region: content
+  field_bars_cont_mail:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 24
+    region: content
+  field_bars_cont_num:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 23
+    region: content
+  field_bars_contname:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 21
+    region: content
+  field_bars_days:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  field_bars_details:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  field_bars_dress_code:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_bars_edate:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: fallback
+    third_party_settings: {  }
+    weight: 43
+    region: content
+  field_bars_email_body:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  field_bars_facebook:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 15
+    region: content
+  field_bars_gender:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 38
+    region: content
+  field_bars_google:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 17
+    region: content
+  field_bars_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 13
+    region: content
+  field_bars_music:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_bars_price:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_bars_priority:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  field_bars_specials:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  field_bars_status:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 25
+    region: content
+  field_bars_timings:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_bars_twitter:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 16
+    region: content
+  field_bars_website:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_click_cost:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 44
+    region: content
+  field_gender_omit:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 37
+    region: content
+  field_private:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 33
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_country: true
+  field_hashtag: true
+  field_type: true
+  field_would_you_like_a_featured_: true

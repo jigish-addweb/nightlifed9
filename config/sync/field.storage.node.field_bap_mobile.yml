@@ -1,0 +1,19 @@
+uuid: 8eb1af4f-5df2-4fdb-8a7d-cec7125a1ba4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_bap_mobile
+field_name: field_bap_mobile
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

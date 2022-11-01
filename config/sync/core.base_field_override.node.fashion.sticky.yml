@@ -1,0 +1,22 @@
+uuid: b12dc6a4-f7ea-4247-a6d6-1317b529392a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.fashion
+id: node.fashion.sticky
+field_name: sticky
+entity_type: node
+bundle: fashion
+label: 'Sticky at the top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

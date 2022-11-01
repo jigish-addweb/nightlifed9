@@ -1,0 +1,19 @@
+uuid: 0f7afc11-a987-4bea-a9aa-ac8cbb71018b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_music_cont_mail
+    - node.type.music
+id: node.music.field_music_cont_mail
+field_name: field_music_cont_mail
+entity_type: node
+bundle: music
+label: 'Contact Email'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,22 @@
+uuid: 3b2c70f0-64f5-4f10-87f2-c75e6b797c78
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.fashion_store
+id: node.fashion_store.promote
+field_name: promote
+entity_type: node
+bundle: fashion_store
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

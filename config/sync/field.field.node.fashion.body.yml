@@ -1,0 +1,23 @@
+uuid: d89fed2c-73ec-42af-bd4b-50cdf16855eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.fashion
+  module:
+    - text
+id: node.fashion.body
+field_name: body
+entity_type: node
+bundle: fashion
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

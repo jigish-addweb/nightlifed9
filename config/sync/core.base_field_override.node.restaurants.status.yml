@@ -1,0 +1,22 @@
+uuid: b800665f-2b2c-4043-85c6-4648e37597d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.restaurants
+id: node.restaurants.status
+field_name: status
+entity_type: node
+bundle: restaurants
+label: 'Publishing status'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

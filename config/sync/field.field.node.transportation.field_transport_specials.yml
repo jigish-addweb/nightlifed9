@@ -1,0 +1,19 @@
+uuid: fca0fa7e-5381-41a1-b6f1-758b2f309d19
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_transport_specials
+    - node.type.transportation
+id: node.transportation.field_transport_specials
+field_name: field_transport_specials
+entity_type: node
+bundle: transportation
+label: 'Specials & Promotions'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

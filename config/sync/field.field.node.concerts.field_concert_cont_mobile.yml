@@ -1,0 +1,19 @@
+uuid: 97045cbf-e1c5-4e93-b006-5365ae7f306b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_concert_cont_mobile
+    - node.type.concerts
+id: node.concerts.field_concert_cont_mobile
+field_name: field_concert_cont_mobile
+entity_type: node
+bundle: concerts
+label: 'Contact Email'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

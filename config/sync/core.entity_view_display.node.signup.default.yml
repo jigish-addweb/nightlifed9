@@ -1,0 +1,111 @@
+uuid: a7af827a-7ada-421d-8f59-dbbdc956e265
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.signup.field_comment
+    - field.field.node.signup.field_email
+    - field.field.node.signup.field_eventref
+    - field.field.node.signup.field_guests
+    - field.field.node.signup.field_reservation
+    - field.field.node.signup.field_rsvp_date
+    - field.field.node.signup.field_rsvp_share
+    - field.field.node.signup.field_signup_cc
+    - field.field.node.signup.field_signup_fname
+    - field.field.node.signup.field_signup_lname
+    - field.field.node.signup.field_signup_mobile
+    - field.field.node.signup.upload
+    - node.type.signup
+  module:
+    - text
+    - user
+id: node.signup.default
+targetEntityType: node
+bundle: signup
+mode: default
+content:
+  field_comment:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  field_email:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_eventref:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 13
+    region: content
+  field_guests:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_reservation:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  field_rsvp_date:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  field_rsvp_share:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_signup_cc:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_signup_fname:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_signup_lname:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_signup_mobile:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  upload: true

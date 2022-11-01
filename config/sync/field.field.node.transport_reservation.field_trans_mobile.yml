@@ -1,0 +1,19 @@
+uuid: baede4db-a8e3-43a7-9521-bbf3f37a2be5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_trans_mobile
+    - node.type.transport_reservation
+id: node.transport_reservation.field_trans_mobile
+field_name: field_trans_mobile
+entity_type: node
+bundle: transport_reservation
+label: Mobile
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

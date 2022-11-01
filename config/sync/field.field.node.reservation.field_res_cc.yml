@@ -1,0 +1,19 @@
+uuid: 30e4d0f1-ed87-4017-b309-43db7a1e9740
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_res_cc
+    - node.type.reservation
+id: node.reservation.field_res_cc
+field_name: field_res_cc
+entity_type: node
+bundle: reservation
+label: 'Country code'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,19 @@
+uuid: 7106ef68-f3db-4d24-bbcc-89b49d24407b
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_uprofile_website
+field_name: field_uprofile_website
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

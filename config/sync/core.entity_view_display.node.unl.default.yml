@@ -1,0 +1,147 @@
+uuid: 0338b364-253f-466b-a7ee-cf9346794223
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.unl.body
+    - field.field.node.unl.field_ad_shedule
+    - field.field.node.unl.field_bars_from_age
+    - field.field.node.unl.field_bars_to_age
+    - field.field.node.unl.field_budget
+    - field.field.node.unl.field_budget_amount
+    - field.field.node.unl.field_cost_per_click
+    - field.field.node.unl.field_edate
+    - field.field.node.unl.field_gender
+    - field.field.node.unl.field_omit_age
+    - field.field.node.unl.field_omit_gender
+    - field.field.node.unl.field_private
+    - field.field.node.unl.field_sdate
+    - field.field.node.unl.field_unl_req_featured
+    - field.field.node.unl.upload
+    - node.type.unl
+  module:
+    - datetime
+    - text
+    - user
+id: node.unl.default
+targetEntityType: node
+bundle: unl
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_ad_shedule:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 15
+    region: content
+  field_bars_from_age:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  field_bars_to_age:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  field_budget:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 13
+    region: content
+  field_budget_amount:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 14
+    region: content
+  field_cost_per_click:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 18
+    region: content
+  field_edate:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: fallback
+    third_party_settings: {  }
+    weight: 17
+    region: content
+  field_gender:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  field_omit_age:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_omit_gender:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_private:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_sdate:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: fallback
+    third_party_settings: {  }
+    weight: 16
+    region: content
+  field_unl_req_featured:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  upload: true

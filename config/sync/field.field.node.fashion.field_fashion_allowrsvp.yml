@@ -1,0 +1,21 @@
+uuid: bb756a39-d42a-417d-ae60-1ba90574fac0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fashion_allowrsvp
+    - node.type.fashion
+  module:
+    - options
+id: node.fashion.field_fashion_allowrsvp
+field_name: field_fashion_allowrsvp
+entity_type: node
+bundle: fashion
+label: 'Allow RSVP Requests?'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

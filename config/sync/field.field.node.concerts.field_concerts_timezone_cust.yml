@@ -1,0 +1,21 @@
+uuid: a3fb00cc-0591-4e4e-b979-c6dc820ad232
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_concerts_timezone_cust
+    - node.type.concerts
+  module:
+    - options
+id: node.concerts.field_concerts_timezone_cust
+field_name: field_concerts_timezone_cust
+entity_type: node
+bundle: concerts
+label: Timezone
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

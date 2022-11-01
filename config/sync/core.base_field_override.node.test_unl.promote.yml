@@ -1,0 +1,22 @@
+uuid: 679b1f78-3b26-498e-b5b2-a48ab9684c84
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.test_unl
+id: node.test_unl.promote
+field_name: promote
+entity_type: node
+bundle: test_unl
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

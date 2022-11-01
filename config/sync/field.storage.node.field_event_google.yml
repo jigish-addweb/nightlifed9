@@ -1,0 +1,19 @@
+uuid: f4e701e1-42f5-4e30-bbc3-bf48aba02f2f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_event_google
+field_name: field_event_google
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

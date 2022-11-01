@@ -1,0 +1,19 @@
+uuid: f5c33625-7bac-4227-9433-73ec9a1e5242
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_vid_ccode
+    - node.type.video_live
+id: node.video_live.field_vid_ccode
+field_name: field_vid_ccode
+entity_type: node
+bundle: video_live
+label: 'Country code'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

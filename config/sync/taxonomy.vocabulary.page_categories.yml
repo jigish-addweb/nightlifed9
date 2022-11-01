@@ -1,0 +1,8 @@
+uuid: 0e36be22-9bf3-4a10-bd22-8419b534d160
+langcode: en
+status: true
+dependencies: {  }
+name: 'Page Categories'
+vid: page_categories
+description: 'Page Categories'
+weight: 0

@@ -1,0 +1,18 @@
+uuid: b2e4fbe2-0c05-472f-bffc-f457ae29b482
+langcode: en
+status: false
+dependencies:
+  theme:
+    - unl_new
+id: menu_7
+theme: unl_new
+region: ''
+weight: -6
+provider: null
+plugin: 'system_menu_block:menu-photo-categories'
+settings:
+  id: broken
+  label: ''
+  label_display: '0'
+  provider: core
+visibility: {  }

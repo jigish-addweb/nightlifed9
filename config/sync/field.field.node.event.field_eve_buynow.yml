@@ -1,0 +1,21 @@
+uuid: d7841cdc-47ea-42e5-8273-92d1e877baf5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_eve_buynow
+    - node.type.event
+  module:
+    - options
+id: node.event.field_eve_buynow
+field_name: field_eve_buynow
+entity_type: node
+bundle: event
+label: 'Do You want to add a Buy Tickets now link for this event?'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

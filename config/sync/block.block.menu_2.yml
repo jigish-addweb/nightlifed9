@@ -1,0 +1,18 @@
+uuid: 725af41d-6b40-4b5f-91f7-22a888d1ecb9
+langcode: en
+status: true
+dependencies:
+  theme:
+    - olivero
+id: menu_2
+theme: olivero
+region: content
+weight: -6
+provider: null
+plugin: 'system_menu_block:menu-photo-categories'
+settings:
+  id: broken
+  label: ''
+  label_display: '0'
+  provider: core
+visibility: {  }

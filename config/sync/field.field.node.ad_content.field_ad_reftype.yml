@@ -1,0 +1,21 @@
+uuid: c9f5a758-9d6e-4704-9f1a-9cba65b6e81c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ad_reftype
+    - node.type.ad_content
+  module:
+    - options
+id: node.ad_content.field_ad_reftype
+field_name: field_ad_reftype
+entity_type: node
+bundle: ad_content
+label: 'Ref content type'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

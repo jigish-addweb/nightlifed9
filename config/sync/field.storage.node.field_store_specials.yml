@@ -1,0 +1,19 @@
+uuid: e20ed62f-7042-4176-9a3b-cab12aa3c621
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_store_specials
+field_name: field_store_specials
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

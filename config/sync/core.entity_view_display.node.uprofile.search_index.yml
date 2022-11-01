@@ -1,0 +1,115 @@
+uuid: 160188f5-86fb-4cdb-aaad-e84ca9e54f17
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.search_index
+    - field.field.node.uprofile.field_uprofile_about_me
+    - field.field.node.uprofile.field_uprofile_aim
+    - field.field.node.uprofile.field_uprofile_blog
+    - field.field.node.uprofile.field_uprofile_children
+    - field.field.node.uprofile.field_uprofile_ethnicity
+    - field.field.node.uprofile.field_uprofile_facebook
+    - field.field.node.uprofile.field_uprofile_favorite1
+    - field.field.node.uprofile.field_uprofile_favorite2
+    - field.field.node.uprofile.field_uprofile_favorite3
+    - field.field.node.uprofile.field_uprofile_friendfeed
+    - field.field.node.uprofile.field_uprofile_gender
+    - field.field.node.uprofile.field_uprofile_google
+    - field.field.node.uprofile.field_uprofile_icq
+    - field.field.node.uprofile.field_uprofile_interests
+    - field.field.node.uprofile.field_uprofile_linkedin
+    - field.field.node.uprofile.field_uprofile_location
+    - field.field.node.uprofile.field_uprofile_name
+    - field.field.node.uprofile.field_uprofile_occupation
+    - field.field.node.uprofile.field_uprofile_political
+    - field.field.node.uprofile.field_uprofile_relationship
+    - field.field.node.uprofile.field_uprofile_religion
+    - field.field.node.uprofile.field_uprofile_skype
+    - field.field.node.uprofile.field_uprofile_twitter
+    - field.field.node.uprofile.field_uprofile_website
+    - field.field.node.uprofile.field_uprofile_yahoo
+    - field.field.node.uprofile.field_uprofile_zodiac_sign
+    - field.field.node.uprofile.upload
+    - node.type.uprofile
+  module:
+    - link
+    - text
+    - user
+id: node.uprofile.search_index
+targetEntityType: node
+bundle: uprofile
+mode: search_index
+content:
+  field_uprofile_friendfeed:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  field_uprofile_linkedin:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    weight: -5
+    region: content
+  field_uprofile_location:
+    type: text_default
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: -2
+    region: content
+  field_uprofile_twitter:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    weight: -6
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_uprofile_about_me: true
+  field_uprofile_aim: true
+  field_uprofile_blog: true
+  field_uprofile_children: true
+  field_uprofile_ethnicity: true
+  field_uprofile_facebook: true
+  field_uprofile_favorite1: true
+  field_uprofile_favorite2: true
+  field_uprofile_favorite3: true
+  field_uprofile_gender: true
+  field_uprofile_google: true
+  field_uprofile_icq: true
+  field_uprofile_interests: true
+  field_uprofile_name: true
+  field_uprofile_occupation: true
+  field_uprofile_political: true
+  field_uprofile_relationship: true
+  field_uprofile_religion: true
+  field_uprofile_skype: true
+  field_uprofile_website: true
+  field_uprofile_yahoo: true
+  field_uprofile_zodiac_sign: true
+  upload: true

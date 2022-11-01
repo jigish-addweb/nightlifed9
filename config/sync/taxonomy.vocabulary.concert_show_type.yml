@@ -1,0 +1,8 @@
+uuid: d8b81dc2-ce85-400c-b5fa-078cbfe66544
+langcode: en
+status: true
+dependencies: {  }
+name: 'Concert/Show Type'
+vid: concert_show_type
+description: 'Concert Type'
+weight: -7

@@ -1,0 +1,25 @@
+uuid: 09b571ed-d8d9-4fad-9a99-2ec1da69cb8d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hashtag
+    - node.type.video_live
+    - taxonomy.vocabulary.hashtag
+id: node.video_live.field_hashtag
+field_name: field_hashtag
+entity_type: node
+bundle: video_live
+label: Hashtag
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      hashtag: hashtag
+    auto_create: true
+field_type: entity_reference

@@ -1,0 +1,25 @@
+uuid: c4324270-1bc1-469b-9bac-318b57c8cf8d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_country
+    - node.type.bars
+    - taxonomy.vocabulary.country
+id: node.bars.field_country
+field_name: field_country
+entity_type: node
+bundle: bars
+label: Country
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      country: country
+    auto_create: true
+field_type: entity_reference

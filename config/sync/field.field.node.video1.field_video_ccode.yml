@@ -1,0 +1,19 @@
+uuid: 8cf0a07e-9ed1-4217-8704-1c94a7f17d04
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_video_ccode
+    - node.type.video1
+id: node.video1.field_video_ccode
+field_name: field_video_ccode
+entity_type: node
+bundle: video1
+label: 'Country code'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

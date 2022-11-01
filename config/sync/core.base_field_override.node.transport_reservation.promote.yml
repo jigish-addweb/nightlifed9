@@ -1,0 +1,22 @@
+uuid: c571bae1-7a2e-4df1-a8cf-5096752f12eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.transport_reservation
+id: node.transport_reservation.promote
+field_name: promote
+entity_type: node
+bundle: transport_reservation
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

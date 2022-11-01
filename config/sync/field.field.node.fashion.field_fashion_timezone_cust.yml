@@ -1,0 +1,21 @@
+uuid: 0b5f4a79-3f8e-4a94-b96d-9f867fcf1cdf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fashion_timezone_cust
+    - node.type.fashion
+  module:
+    - options
+id: node.fashion.field_fashion_timezone_cust
+field_name: field_fashion_timezone_cust
+entity_type: node
+bundle: fashion
+label: Timezone
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

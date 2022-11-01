@@ -1,0 +1,14 @@
+uuid: 6541a237-b271-4a55-aca0-6614b154ca9d
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.video_editors
+  module:
+    - user
+id: user_add_role_action.video_editors
+label: 'Add the video editors role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: video_editors

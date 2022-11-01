@@ -1,0 +1,51 @@
+uuid: 7bda99a1-a5ef-4033-8ce2-b6b85443ee33
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.date.body
+    - field.field.node.date.field_date
+    - field.field.node.date.field_date1
+    - field.field.node.date.upload
+    - node.type.date
+  module:
+    - datetime
+    - text
+    - user
+id: node.date.default
+targetEntityType: node
+bundle: date
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: fallback
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  field_date1:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: fallback
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  upload: true

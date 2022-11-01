@@ -1,0 +1,19 @@
+uuid: b13f769f-1408-4c84-9f4c-63f76a5198b8
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_hot_website
+field_name: field_hot_website
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

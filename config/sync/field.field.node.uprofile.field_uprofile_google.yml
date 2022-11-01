@@ -1,0 +1,19 @@
+uuid: 72b9f407-6e81-43db-a0f8-2d8f727f1555
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_uprofile_google
+    - node.type.uprofile
+id: node.uprofile.field_uprofile_google
+field_name: field_uprofile_google
+entity_type: node
+bundle: uprofile
+label: Google
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

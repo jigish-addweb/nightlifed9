@@ -1,0 +1,21 @@
+uuid: 43469dea-497d-46eb-9c66-a0d59f9cc877
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_private
+    - node.type.restaurants
+  module:
+    - options
+id: node.restaurants.field_private
+field_name: field_private
+entity_type: node
+bundle: restaurants
+label: 'Publish this content?'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

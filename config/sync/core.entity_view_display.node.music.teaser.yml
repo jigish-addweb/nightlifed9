@@ -1,0 +1,152 @@
+uuid: 679cc2f8-dd37-439e-b1aa-072a59160f52
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.music.body
+    - field.field.node.music.field_artist
+    - field.field.node.music.field_country
+    - field.field.node.music.field_genre
+    - field.field.node.music.field_hashtag
+    - field.field.node.music.field_music_album
+    - field.field.node.music.field_music_ccode
+    - field.field.node.music.field_music_check_single
+    - field.field.node.music.field_music_cont_mail
+    - field.field.node.music.field_music_cont_num
+    - field.field.node.music.field_music_contname
+    - field.field.node.music.field_music_file
+    - field.field.node.music.field_music_image
+    - field.field.node.music.field_music_lang
+    - field.field.node.music.field_music_photo_album
+    - field.field.node.music.field_music_priority
+    - field.field.node.music.field_music_record_label
+    - field.field.node.music.field_music_release_date
+    - field.field.node.music.field_music_reservation
+    - field.field.node.music.field_musics_reservation
+    - field.field.node.music.field_private
+    - field.field.node.music.field_would_you_like_a_featured_
+    - node.type.music
+  module:
+    - datetime
+    - image
+    - text
+    - user
+id: node.music.teaser
+targetEntityType: node
+bundle: music
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_music_album:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_music_ccode:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 15
+    region: content
+  field_music_cont_mail:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 17
+    region: content
+  field_music_cont_num:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 16
+    region: content
+  field_music_contname:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 14
+    region: content
+  field_music_lang:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_music_photo_album:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 13
+    region: content
+  field_music_record_label:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_music_release_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: fallback
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_music_reservation:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_musics_reservation:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_private:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 25
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_artist: true
+  field_country: true
+  field_genre: true
+  field_hashtag: true
+  field_music_check_single: true
+  field_music_file: true
+  field_music_image: true
+  field_music_priority: true
+  field_would_you_like_a_featured_: true

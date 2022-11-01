@@ -1,0 +1,19 @@
+uuid: e53449b1-7a4d-477d-82a4-c6e0537e4674
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_mevent_musicstyle
+field_name: field_mevent_musicstyle
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

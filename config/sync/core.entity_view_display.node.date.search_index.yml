@@ -1,0 +1,45 @@
+uuid: 5e2bf822-4a98-4957-a240-d1745fb11e9b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.search_index
+    - field.field.node.date.body
+    - field.field.node.date.field_date
+    - field.field.node.date.field_date1
+    - field.field.node.date.upload
+    - node.type.date
+  module:
+    - datetime
+    - user
+id: node.date.search_index
+targetEntityType: node
+bundle: date
+mode: search_index
+content:
+  field_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: fallback
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  field_date1:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: fallback
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  upload: true

@@ -1,0 +1,14 @@
+uuid: 5b939db8-27b9-439b-ae78-56b478c5612c
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.paid_user
+  module:
+    - user
+id: user_remove_role_action.paid_user
+label: 'Remove the paid user role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: paid_user

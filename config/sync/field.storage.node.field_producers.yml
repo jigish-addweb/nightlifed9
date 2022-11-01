@@ -1,0 +1,19 @@
+uuid: 884b460d-6dbc-4c21-8244-c685902170f5
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_producers
+field_name: field_producers
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

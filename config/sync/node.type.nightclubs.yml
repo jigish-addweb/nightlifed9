@@ -1,0 +1,11 @@
+uuid: ba423206-472d-46ce-89a3-dd239fcc25f2
+langcode: en
+status: true
+dependencies: {  }
+name: Nightclub
+type: nightclubs
+description: 'Nightclubs & Bars'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,38 @@
+uuid: b09770f3-c875-4b47-bb5a-a531881f9997
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_upload_photo
+    - node.type.photos
+  module:
+    - image
+id: node.photos.field_upload_photo
+field_name: field_upload_photo
+entity_type: node
+bundle: photos
+label: 'Upload Photos'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: ''
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: 4MB
+  max_resolution: ''
+  min_resolution: 95x65
+  alt_field: false
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: null
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

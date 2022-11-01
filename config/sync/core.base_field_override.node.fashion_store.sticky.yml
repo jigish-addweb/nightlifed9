@@ -1,0 +1,22 @@
+uuid: 0472c842-242c-4461-bbed-1ee4fcad9468
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.fashion_store
+id: node.fashion_store.sticky
+field_name: sticky
+entity_type: node
+bundle: fashion_store
+label: 'Sticky at the top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

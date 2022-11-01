@@ -1,0 +1,19 @@
+uuid: 548de102-cb0a-4eb1-a46c-c56495189bb4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_res_guests
+    - node.type.reservation
+id: node.reservation.field_res_guests
+field_name: field_res_guests
+entity_type: node
+bundle: reservation
+label: 'Number of Guests Requested'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

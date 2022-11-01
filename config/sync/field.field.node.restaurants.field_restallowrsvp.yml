@@ -1,0 +1,21 @@
+uuid: ab0c9e5a-20af-44b4-85a0-ddce387138fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_restallowrsvp
+    - node.type.restaurants
+  module:
+    - options
+id: node.restaurants.field_restallowrsvp
+field_name: field_restallowrsvp
+entity_type: node
+bundle: restaurants
+label: 'Allow Reservation Requests?'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

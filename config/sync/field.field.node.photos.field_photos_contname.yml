@@ -1,0 +1,19 @@
+uuid: 229c7fec-cc89-4536-af7f-65a054a4a9b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_photos_contname
+    - node.type.photos
+id: node.photos.field_photos_contname
+field_name: field_photos_contname
+entity_type: node
+bundle: photos
+label: 'Contact Name'
+description: 'Please provide your contact info in case we need to verify your news info and/or sources.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

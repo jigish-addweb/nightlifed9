@@ -1,0 +1,21 @@
+uuid: 744031ad-411b-468f-9941-6d5d9fa3feb6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ad_edate
+    - node.type.ad_content
+  module:
+    - datetime
+id: node.ad_content.field_ad_edate
+field_name: field_ad_edate
+entity_type: node
+bundle: ad_content
+label: 'End Date'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

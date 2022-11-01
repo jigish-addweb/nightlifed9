@@ -1,0 +1,21 @@
+uuid: 0e8fcf6d-f4de-4132-b889-d198ee825d3f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bar_reserv
+    - node.type.bars
+  module:
+    - options
+id: node.bars.field_bar_reserv
+field_name: field_bar_reserv
+entity_type: node
+bundle: bars
+label: 'Allow Reservation Requests?'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

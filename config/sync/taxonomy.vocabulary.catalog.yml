@@ -1,0 +1,8 @@
+uuid: 13614f96-c248-40c7-bdf8-cd3fbe007cee
+langcode: en
+status: true
+dependencies: {  }
+name: Catalog
+vid: catalog
+description: ''
+weight: -9

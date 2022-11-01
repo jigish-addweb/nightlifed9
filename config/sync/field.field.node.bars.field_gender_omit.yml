@@ -1,0 +1,21 @@
+uuid: 137b2fc8-af21-4e4c-a2aa-97dfc737af11
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gender_omit
+    - node.type.bars
+id: node.bars.field_gender_omit
+field_name: field_gender_omit
+entity_type: node
+bundle: bars
+label: Omit
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

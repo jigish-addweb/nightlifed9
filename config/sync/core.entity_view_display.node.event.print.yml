@@ -1,0 +1,107 @@
+uuid: 85f8c7c2-9a0d-46f9-80b2-def612dd1e67
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.print
+    - field.field.node.event.body
+    - field.field.node.event.field_country
+    - field.field.node.event.field_eve_buynow
+    - field.field.node.event.field_eve_ccode
+    - field.field.node.event.field_event_ccode
+    - field.field.node.event.field_event_cname
+    - field.field.node.event.field_event_cont_mail
+    - field.field.node.event.field_event_cont_mobile
+    - field.field.node.event.field_event_facebook
+    - field.field.node.event.field_event_google
+    - field.field.node.event.field_event_mail
+    - field.field.node.event.field_event_mail_body
+    - field.field.node.event.field_event_priority
+    - field.field.node.event.field_event_reservation
+    - field.field.node.event.field_event_time
+    - field.field.node.event.field_event_timezone_cust
+    - field.field.node.event.field_event_twitter
+    - field.field.node.event.field_event_type
+    - field.field.node.event.field_event_website
+    - field.field.node.event.field_eventallowrsvp
+    - field.field.node.event.field_hashtag
+    - field.field.node.event.field_mevent_agereq
+    - field.field.node.event.field_mevent_album
+    - field.field.node.event.field_mevent_dresscode
+    - field.field.node.event.field_mevent_drinkspecials
+    - field.field.node.event.field_mevent_image
+    - field.field.node.event.field_mevent_musicstyle
+    - field.field.node.event.field_mevent_parkingoptions
+    - field.field.node.event.field_mevent_prices
+    - field.field.node.event.field_private
+    - field.field.node.event.field_would_you_like_a_featured_
+    - node.type.event
+  module:
+    - text
+    - user
+id: node.event.print
+targetEntityType: node
+bundle: event
+mode: print
+content:
+  field_eve_ccode:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_event_ccode:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 28
+    region: content
+  field_event_timezone_cust:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_private:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -3
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  field_country: true
+  field_eve_buynow: true
+  field_event_cname: true
+  field_event_cont_mail: true
+  field_event_cont_mobile: true
+  field_event_facebook: true
+  field_event_google: true
+  field_event_mail: true
+  field_event_mail_body: true
+  field_event_priority: true
+  field_event_reservation: true
+  field_event_time: true
+  field_event_twitter: true
+  field_event_type: true
+  field_event_website: true
+  field_eventallowrsvp: true
+  field_hashtag: true
+  field_mevent_agereq: true
+  field_mevent_album: true
+  field_mevent_dresscode: true
+  field_mevent_drinkspecials: true
+  field_mevent_image: true
+  field_mevent_musicstyle: true
+  field_mevent_parkingoptions: true
+  field_mevent_prices: true
+  field_would_you_like_a_featured_: true

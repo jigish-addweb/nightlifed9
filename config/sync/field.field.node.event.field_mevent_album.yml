@@ -1,0 +1,38 @@
+uuid: 77488ef1-e52e-44f6-9357-2c84399ce3bd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mevent_album
+    - node.type.event
+  module:
+    - image
+id: node.event.field_mevent_album
+field_name: field_mevent_album
+entity_type: node
+bundle: event
+label: 'Photo Gallery (Add more Party or Event images)'
+description: 'This is your Event Photo Album.Here you can Upload your Pre-Event Photos to promote your Event and/or come back after your event and Post your favorite Photos from the event.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: ''
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: false
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: null
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

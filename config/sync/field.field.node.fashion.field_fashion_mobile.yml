@@ -1,0 +1,19 @@
+uuid: 56287ac9-a469-44af-a0b8-6f65c4530eb1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fashion_mobile
+    - node.type.fashion
+id: node.fashion.field_fashion_mobile
+field_name: field_fashion_mobile
+entity_type: node
+bundle: fashion
+label: 'Contact Mobile Number'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

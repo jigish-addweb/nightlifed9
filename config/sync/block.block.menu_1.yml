@@ -1,0 +1,18 @@
+uuid: f24c4aee-8c4f-431a-b08b-fd40680dca0f
+langcode: en
+status: false
+dependencies:
+  theme:
+    - zen
+id: menu_1
+theme: zen
+region: ''
+weight: -6
+provider: null
+plugin: 'system_menu_block:menu-photo-categories'
+settings:
+  id: broken
+  label: ''
+  label_display: '0'
+  provider: core
+visibility: {  }

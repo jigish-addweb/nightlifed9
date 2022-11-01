@@ -1,0 +1,15 @@
+uuid: 05a597a0-cc34-4ea4-a27f-6eb514540259
+langcode: en
+status: true
+dependencies: {  }
+name: mobile_pmphoto
+label: mobile_pmphoto
+effects:
+  6224e253-f4a7-4ee5-83b6-0a242eb6f4d0:
+    uuid: 6224e253-f4a7-4ee5-83b6-0a242eb6f4d0
+    id: image_scale
+    weight: 0
+    data:
+      width: 250
+      height: 210
+      upscale: false

@@ -1,0 +1,19 @@
+uuid: 89707ac4-99c4-428d-adcf-c6953bbf9076
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_producers
+    - node.type.movies
+id: node.movies.field_producers
+field_name: field_producers
+entity_type: node
+bundle: movies
+label: Producers
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

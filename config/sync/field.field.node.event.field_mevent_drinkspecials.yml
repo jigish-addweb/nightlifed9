@@ -1,0 +1,19 @@
+uuid: 36585a1f-4ea4-48ec-b4dd-6d62c68fe1e9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mevent_drinkspecials
+    - node.type.event
+id: node.event.field_mevent_drinkspecials
+field_name: field_mevent_drinkspecials
+entity_type: node
+bundle: event
+label: 'Drink Specials'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

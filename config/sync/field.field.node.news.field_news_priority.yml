@@ -1,0 +1,25 @@
+uuid: b4f61a36-df6c-4a8f-847d-2791ede1bc6e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_news_priority
+    - node.type.news
+id: node.news.field_news_priority
+field_name: field_news_priority
+entity_type: node
+bundle: news
+label: Priority
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 100
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,21 @@
+uuid: 5db4aea7-5607-44b0-8fc2-937e1768f476
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_restaurant_ccode
+    - node.type.restaurants
+  module:
+    - options
+id: node.restaurants.field_restaurant_ccode
+field_name: field_restaurant_ccode
+entity_type: node
+bundle: restaurants
+label: 'Country code'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

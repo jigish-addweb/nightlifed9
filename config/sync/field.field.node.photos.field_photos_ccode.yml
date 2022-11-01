@@ -1,0 +1,19 @@
+uuid: 63ed63ee-c26c-4d4f-92d5-0eef23183243
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_photos_ccode
+    - node.type.photos
+id: node.photos.field_photos_ccode
+field_name: field_photos_ccode
+entity_type: node
+bundle: photos
+label: 'Country code'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

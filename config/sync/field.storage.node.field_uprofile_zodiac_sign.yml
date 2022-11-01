@@ -1,0 +1,57 @@
+uuid: e4eeaec8-33b6-4c26-a32b-bfe3d778eec3
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_uprofile_zodiac_sign
+field_name: field_uprofile_zodiac_sign
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'Aries (Mar 21-Apr 19)'
+      label: 'Aries (Mar 21-Apr 19)'
+    -
+      value: 'Taurus (Apr 20-May 20)'
+      label: 'Taurus (Apr 20-May 20)'
+    -
+      value: 'Gemini (May 21-Jun 20)'
+      label: 'Gemini (May 21-Jun 20)'
+    -
+      value: 'Cancer (Jun 21-Jul 22)'
+      label: 'Cancer (Jun 21-Jul 22)'
+    -
+      value: 'Leo (Jul 23-Aug 22)'
+      label: 'Leo (Jul 23-Aug 22)'
+    -
+      value: 'Virgo (Aug 23-Sep 22)'
+      label: 'Virgo (Aug 23-Sep 22)'
+    -
+      value: 'Libra (Sep 23-Oct 22)'
+      label: 'Libra (Sep 23-Oct 22)'
+    -
+      value: 'Scorpio (Oct 23-Nov 21)'
+      label: 'Scorpio (Oct 23-Nov 21)'
+    -
+      value: 'Sagittarius (Nov 22-Dec 21)'
+      label: 'Sagittarius (Nov 22-Dec 21)'
+    -
+      value: 'Capricorn (Dec 22-Jan 19)'
+      label: 'Capricorn (Dec 22-Jan 19)'
+    -
+      value: 'Aquarius (Jan 20-Feb 18)'
+      label: 'Aquarius (Jan 20-Feb 18)'
+    -
+      value: 'Pisces (Feb 19-Mar 20)'
+      label: 'Pisces (Feb 19-Mar 20)'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

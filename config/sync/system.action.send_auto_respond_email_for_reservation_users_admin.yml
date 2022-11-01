@@ -1,0 +1,12 @@
+uuid: d049e7c5-3022-4897-a4b9-b0598dd74228
+langcode: en
+status: true
+dependencies: {  }
+id: send_auto_respond_email_for_reservation_users_admin
+label: 'Send auto respond email for Reservation Users - Admin'
+type: system
+plugin: action_send_email_action
+configuration:
+  recipient: '%author'
+  subject: 'Test - Thank you for Reservation'
+  message: 'Thank you for Reservation.'

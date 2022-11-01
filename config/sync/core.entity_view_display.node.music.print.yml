@@ -1,0 +1,77 @@
+uuid: a2f20641-bb23-488e-a78d-5a170c17d8b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.print
+    - field.field.node.music.body
+    - field.field.node.music.field_artist
+    - field.field.node.music.field_country
+    - field.field.node.music.field_genre
+    - field.field.node.music.field_hashtag
+    - field.field.node.music.field_music_album
+    - field.field.node.music.field_music_ccode
+    - field.field.node.music.field_music_check_single
+    - field.field.node.music.field_music_cont_mail
+    - field.field.node.music.field_music_cont_num
+    - field.field.node.music.field_music_contname
+    - field.field.node.music.field_music_file
+    - field.field.node.music.field_music_image
+    - field.field.node.music.field_music_lang
+    - field.field.node.music.field_music_photo_album
+    - field.field.node.music.field_music_priority
+    - field.field.node.music.field_music_record_label
+    - field.field.node.music.field_music_release_date
+    - field.field.node.music.field_music_reservation
+    - field.field.node.music.field_musics_reservation
+    - field.field.node.music.field_private
+    - field.field.node.music.field_would_you_like_a_featured_
+    - node.type.music
+  module:
+    - text
+    - user
+id: node.music.print
+targetEntityType: node
+bundle: music
+mode: print
+content:
+  field_music_ccode:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 15
+    region: content
+  field_private:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 25
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  field_artist: true
+  field_country: true
+  field_genre: true
+  field_hashtag: true
+  field_music_album: true
+  field_music_check_single: true
+  field_music_cont_mail: true
+  field_music_cont_num: true
+  field_music_contname: true
+  field_music_file: true
+  field_music_image: true
+  field_music_lang: true
+  field_music_photo_album: true
+  field_music_priority: true
+  field_music_record_label: true
+  field_music_release_date: true
+  field_music_reservation: true
+  field_musics_reservation: true
+  field_would_you_like_a_featured_: true

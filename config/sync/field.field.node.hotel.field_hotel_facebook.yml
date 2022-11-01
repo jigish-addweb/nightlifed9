@@ -1,0 +1,19 @@
+uuid: 7b26854a-9eed-4095-a326-175af4c8029c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hotel_facebook
+    - node.type.hotel
+id: node.hotel.field_hotel_facebook
+field_name: field_hotel_facebook
+entity_type: node
+bundle: hotel
+label: ' Facebook link'
+description: 'Please type complete URL like ''http://www.example.com'''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

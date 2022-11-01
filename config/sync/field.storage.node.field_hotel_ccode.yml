@@ -1,0 +1,717 @@
+uuid: 8dd1fdf8-51b9-4f6a-81e5-8987a0d0aa2b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_hotel_ccode
+field_name: field_hotel_ccode
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: AF-+93
+      label: 'Afghanistan (+93)'
+    -
+      value: AL-+355
+      label: 'Albania (+355)'
+    -
+      value: DZ-+213
+      label: 'Algeria (+213)'
+    -
+      value: 'AS-+1 684'
+      label: 'American Samoa (+1 684)'
+    -
+      value: AD-+376
+      label: 'Andorra (+376)'
+    -
+      value: AO-+244
+      label: 'Angola (+244)'
+    -
+      value: 'AI-+1 264'
+      label: 'Anguilla (+1 264)'
+    -
+      value: AQ-+672
+      label: Antarctica(+672)
+    -
+      value: 'AG-+1 268'
+      label: 'Antigua and Barbuda (+1 268)'
+    -
+      value: AR-+54
+      label: 'Argentina (+54)'
+    -
+      value: AM-+374
+      label: 'Armenia (+374)'
+    -
+      value: AW-+297
+      label: 'Aruba (+297)'
+    -
+      value: AU-+61
+      label: 'Australia (+61)'
+    -
+      value: AT-+43
+      label: 'Austria (+43)'
+    -
+      value: AZ-+994
+      label: 'Azerbaijan (+994)'
+    -
+      value: 'BS-+1 242'
+      label: 'Bahamas, The (+1 242)'
+    -
+      value: BH-+973
+      label: 'Bahrain (+973)'
+    -
+      value: BD-+880
+      label: 'Bangladesh (+880)'
+    -
+      value: 'BB-+1 246'
+      label: 'Barbados (+1 246)'
+    -
+      value: BY-+375
+      label: 'Belarus (+375)'
+    -
+      value: BE-+32
+      label: 'Belgium (+32)'
+    -
+      value: BZ-+501
+      label: 'Belize (+501)'
+    -
+      value: BJ-+229
+      label: 'Benin (+229)'
+    -
+      value: 'BM-+1 441'
+      label: 'Bermuda (+1 441)'
+    -
+      value: BT-+975
+      label: 'Bhutan (+975)'
+    -
+      value: BO-+591
+      label: 'Bolivia (+591)'
+    -
+      value: BA-+387
+      label: 'Bosnia and Herzegovina (+387)'
+    -
+      value: BW-+267
+      label: 'Botswana (+267)'
+    -
+      value: BR-+55
+      label: 'Brazil (+55)'
+    -
+      value: IO-+246
+      label: 'British Indian Ocean Territory (+246)'
+    -
+      value: 'VG-+1 284'
+      label: 'British Virgin Islands (+1 284)'
+    -
+      value: BN-+673
+      label: 'Brunei (+673)'
+    -
+      value: BG-+359
+      label: 'Bulgaria (+359)'
+    -
+      value: BF-+226
+      label: 'Burkina Faso (+226)'
+    -
+      value: MM-+95
+      label: 'Burma(Myanmar) (+95)'
+    -
+      value: BI-+257
+      label: 'Burundi (+257)'
+    -
+      value: KH-+855
+      label: 'Cambodia (+855)'
+    -
+      value: CM-+237
+      label: 'Cameroon (+237)'
+    -
+      value: CA-+1
+      label: 'Canada (+1)'
+    -
+      value: CV-+238
+      label: 'Cape Verde (+238)'
+    -
+      value: 'KY-+1 345'
+      label: 'Cayman Islands (+1 345)'
+    -
+      value: CF-+236
+      label: 'Central African Republic (+236)'
+    -
+      value: TD-+235
+      label: 'Chad (+235)'
+    -
+      value: CL-+56
+      label: 'Chile (+56)'
+    -
+      value: CN-+86
+      label: 'China (+86)'
+    -
+      value: CX-+61
+      label: 'Christmas Island (+61)'
+    -
+      value: CC-+891
+      label: 'Cocos-Keeling Islands (+891)'
+    -
+      value: CO-+57
+      label: 'Colombia (+57)'
+    -
+      value: KM-+269
+      label: 'Comoros (+269)'
+    -
+      value: CG-+242
+      label: 'Congo, Republic of the (+242)'
+    -
+      value: CD-+243
+      label: 'Congo, Democratic Republic of (+243)'
+    -
+      value: CK-+682
+      label: 'Cook Islands (+682)'
+    -
+      value: CR-+506
+      label: 'Costa Rica (+506)'
+    -
+      value: HR-+385
+      label: 'Croatia (+385)'
+    -
+      value: 'CU-+53 '
+      label: 'Cuba (+53)'
+    -
+      value: CY-+357
+      label: 'Cyprus (+357)'
+    -
+      value: CZ-+420
+      label: 'Czech Republic (+420)'
+    -
+      value: DK-+45
+      label: 'Denmark (+45)'
+    -
+      value: DJ-+253
+      label: 'Djibouti (+253)'
+    -
+      value: 'DM-+1 767'
+      label: 'Dominica (+1 767)'
+    -
+      value: 'DO-+1 809'
+      label: 'Dominican Republic (+1 809)'
+    -
+      value: TL-+670
+      label: 'Timor-Leste (+670)'
+    -
+      value: EC-+593
+      label: 'Ecuador (+593)'
+    -
+      value: EG-+20
+      label: 'Egypt (+20)'
+    -
+      value: SV-+503
+      label: 'El Salvador (+503)'
+    -
+      value: GQ-+240
+      label: 'Equatorial Guinea (+240)'
+    -
+      value: ER-+291
+      label: 'Eritrea (+291)'
+    -
+      value: EE-+372
+      label: 'Estonia (+372)'
+    -
+      value: ET-+251
+      label: 'Ethiopia (+251)'
+    -
+      value: FK-+500
+      label: 'Falkland Islands (+500)'
+    -
+      value: FO-+298
+      label: 'Faroe Islands (+298)'
+    -
+      value: FJ-+679
+      label: 'Fiji (+679)'
+    -
+      value: FI-+358
+      label: 'Finland (+358)'
+    -
+      value: FR-+33
+      label: 'France (+33)'
+    -
+      value: PF-+689
+      label: 'French Polynesia (+689)'
+    -
+      value: GA-+241
+      label: 'Gabon (+241)'
+    -
+      value: GM-+220
+      label: 'Gambia, The (+220)'
+    -
+      value: GE-+995
+      label: 'Georgia (+995)'
+    -
+      value: DE-+49
+      label: 'Germany (+49)'
+    -
+      value: GH-+233
+      label: 'Ghana (+233)'
+    -
+      value: GI-+350
+      label: 'Gibraltar (+350)'
+    -
+      value: GR-+30
+      label: 'Greece (+30)'
+    -
+      value: GL-+299
+      label: 'Greenland (+299)'
+    -
+      value: 'GD-+1 473'
+      label: 'Grenada (+1 473)'
+    -
+      value: BL-+590
+      label: 'Saint Barthelemy (+590)'
+    -
+      value: 'GU-+1 671'
+      label: 'Guam (+1 671)'
+    -
+      value: GT-+502
+      label: 'Guatemala (+502)'
+    -
+      value: GN-+224
+      label: 'Guinea (+224)'
+    -
+      value: GW-+245
+      label: 'Guinea-Bissau (+245)'
+    -
+      value: GY-+592
+      label: 'Guyana (+592)'
+    -
+      value: HT-+509
+      label: 'Haiti (+509)'
+    -
+      value: VA-+39
+      label: 'Holy See (Vatican City) (+39)'
+    -
+      value: HN-+504
+      label: 'Honduras (+504)'
+    -
+      value: HK-+852
+      label: 'Hong Kong (+852)'
+    -
+      value: HU-+36
+      label: 'Hungary (+36)'
+    -
+      value: IS-+354
+      label: 'Iceland (+354)'
+    -
+      value: IN-+91
+      label: 'India (+91)'
+    -
+      value: ID-+62
+      label: 'Indonesia (+62)'
+    -
+      value: IR-+98
+      label: 'Iran (+98)'
+    -
+      value: IQ-+964
+      label: 'Iraq (+964)'
+    -
+      value: IE-+353
+      label: 'Ireland (+353)'
+    -
+      value: IM-+44
+      label: 'Isle of Man (+44)'
+    -
+      value: IL-+972
+      label: 'Israel (+972)'
+    -
+      value: IT-+39
+      label: 'Italy (+39)'
+    -
+      value: CI-+225
+      label: 'Ivory Coast (+225)'
+    -
+      value: 'JM-+1 876'
+      label: 'Jamaica (+1 876)'
+    -
+      value: JP-+81
+      label: 'Japan (+81)'
+    -
+      value: JO-+962
+      label: 'Jordan (+962)'
+    -
+      value: KZ-+7
+      label: 'Kazakhstan (+7)'
+    -
+      value: KE-+254
+      label: 'Kenya (+254)'
+    -
+      value: KI-+686
+      label: 'Kiribati (+686)'
+    -
+      value: KW-+965
+      label: 'Kuwait (+965)'
+    -
+      value: KG-+996
+      label: 'Kyrgyzstan (+996)'
+    -
+      value: LA-+856
+      label: 'Laos (+856)'
+    -
+      value: LV-+371
+      label: 'Latvia (+371)'
+    -
+      value: LB-+961
+      label: 'Lebanon (+961)'
+    -
+      value: LS-+266
+      label: 'Lesotho (+266)'
+    -
+      value: LR-+231
+      label: 'Liberia (+231)'
+    -
+      value: LY-+218
+      label: 'Libya (+218)'
+    -
+      value: LI-+423
+      label: 'Liechtenstein (+423)'
+    -
+      value: LT-+370
+      label: 'Lithuania (+370)'
+    -
+      value: LU-+352
+      label: 'Luxembourg (+352)'
+    -
+      value: MO-+853
+      label: 'Macau (+853)'
+    -
+      value: MK-+389
+      label: 'Macedonia (+389)'
+    -
+      value: MD-+261
+      label: 'Madagascar (+261)'
+    -
+      value: MW-+265
+      label: 'Malawi (+265)'
+    -
+      value: MY-+60
+      label: 'Malaysia (+60)'
+    -
+      value: MV-+960
+      label: 'Maldives (+960)'
+    -
+      value: ML-+223
+      label: 'Mali (+223)'
+    -
+      value: MT-+356
+      label: 'Malta (+356)'
+    -
+      value: MH-+692
+      label: 'Marshall Islands (+692)'
+    -
+      value: MR-+222
+      label: 'Mauritania (+222)'
+    -
+      value: MU-+230
+      label: 'Mauritius (+230)'
+    -
+      value: YT-+269
+      label: 'Mayotte (+269)'
+    -
+      value: MX-+52
+      label: 'Mexico (+52)'
+    -
+      value: FM-+691
+      label: 'Micronesia, Federated States of (+691)'
+    -
+      value: MD-+373
+      label: 'Moldova (+373)'
+    -
+      value: MC-+377
+      label: 'Monaco (+377)'
+    -
+      value: MN-+976
+      label: 'Mongolia (+976)'
+    -
+      value: ME-+382
+      label: 'Montenegro (+382)'
+    -
+      value: 'MS-+1 664'
+      label: 'Montserrat (+1 664)'
+    -
+      value: MA-+212
+      label: 'Morocco (+212)'
+    -
+      value: MZ-+258
+      label: 'Mozambique (+258)'
+    -
+      value: NA-+264
+      label: 'Namibia (+264)'
+    -
+      value: NR-+674
+      label: 'Nauru (+674)'
+    -
+      value: NP-+977
+      label: 'Nepal (+977)'
+    -
+      value: NL-+31
+      label: 'Netherlands (+31)'
+    -
+      value: AN-+599
+      label: 'Netherlands Antilles (+599)'
+    -
+      value: NC-+687
+      label: 'New Caledonia (+687)'
+    -
+      value: NZ-+64
+      label: 'New Zealand (+64)'
+    -
+      value: NI-+505
+      label: 'Nicaragua (+505)'
+    -
+      value: NE-+227
+      label: 'Niger (+227)'
+    -
+      value: NG-+234
+      label: 'Nigeria (+234)'
+    -
+      value: NU-+683
+      label: 'Niue (+683)'
+    -
+      value: NFK-+672
+      label: 'Norfolk Island (+672)'
+    -
+      value: KP-+850
+      label: 'North Korea (+850)'
+    -
+      value: 'MP-+1 670'
+      label: 'Northern Mariana Islands (+1 670)'
+    -
+      value: NO-+47
+      label: 'Norway (+47)'
+    -
+      value: OM-+968
+      label: 'Oman (+968)'
+    -
+      value: PK-+92
+      label: 'Pakistan (+92)'
+    -
+      value: PW-+680
+      label: 'Palau (+680)'
+    -
+      value: GST-+970
+      label: 'Gaza Strip (+970)'
+    -
+      value: PA-+507
+      label: 'Panama (+507)'
+    -
+      value: PG-+675
+      label: 'Papua New Guinea (+675)'
+    -
+      value: PY-+595
+      label: 'Paraguay (+595)'
+    -
+      value: PE-+51
+      label: 'Peru (+51)'
+    -
+      value: PH-+63
+      label: 'Philippines (+63)'
+    -
+      value: PL-+48
+      label: 'Poland (+48)'
+    -
+      value: PT-+351
+      label: 'Portugal (+351)'
+    -
+      value: PR-+1
+      label: 'Puerto Rico (+1)'
+    -
+      value: QA-+974
+      label: 'Qatar (+974)'
+    -
+      value: RO-+40
+      label: 'Romania (+40)'
+    -
+      value: RU-+7
+      label: 'Russia (+7)'
+    -
+      value: RW-+250
+      label: 'Rwanda (+250)'
+    -
+      value: SH-+590
+      label: 'Saint Barthelemy (+590)'
+    -
+      value: SH-+290
+      label: 'Saint Helena (+290)'
+    -
+      value: 'KN-+1 869'
+      label: 'Saint Kitts and Nevis (+1 869)'
+    -
+      value: 'LC-+1 758'
+      label: 'Saint Lucia (+1 758)'
+    -
+      value: 'MF-+1 599'
+      label: 'Saint Martin (+1 599)'
+    -
+      value: PM-+508
+      label: 'Saint Pierre and Miquelon (+508)'
+    -
+      value: VC-+1
+      label: 'Saint Vincent and the Grenadines (+1)'
+    -
+      value: WS-+685
+      label: 'Samoa (+685)'
+    -
+      value: SM-+378
+      label: 'San Marino (+378)'
+    -
+      value: ST-+239
+      label: 'Sao Tome and Principe (+239)'
+    -
+      value: SA-+966
+      label: 'Saudi Arabia (+966)'
+    -
+      value: SN-+221
+      label: 'Senegal (+221)'
+    -
+      value: RS-+381
+      label: 'Serbia (+381)'
+    -
+      value: SC-+248
+      label: 'Seychelles (+248)'
+    -
+      value: SL-+232
+      label: 'Sierra Leone (+232)'
+    -
+      value: SG-+65
+      label: 'Singapore (+65)'
+    -
+      value: SI-+65
+      label: 'Slovakia (+421)'
+    -
+      value: SI-+386
+      label: 'Slovenia (+386)'
+    -
+      value: SB-+677
+      label: 'Solomon Islands (+677)'
+    -
+      value: SO-+252
+      label: 'Somalia (+252)'
+    -
+      value: ZA-+27
+      label: 'South Africa (+27)'
+    -
+      value: KR-+82
+      label: 'South Korea (+82)'
+    -
+      value: ES-+34
+      label: 'Spain (+34)'
+    -
+      value: LK-+94
+      label: 'Sri Lanka (+94)'
+    -
+      value: SD-+249
+      label: 'Sudan (+249)'
+    -
+      value: SR-+597
+      label: 'Suriname (+597)'
+    -
+      value: SZ-+268
+      label: 'Swaziland (+268)'
+    -
+      value: SE-+46
+      label: 'Sweden (+46)'
+    -
+      value: CH-+41
+      label: 'Switzerland (+41)'
+    -
+      value: SY-+963
+      label: 'Syria (+963)'
+    -
+      value: TW-+886
+      label: 'Taiwan (+886)'
+    -
+      value: TJ-+992
+      label: 'Tajikistan (+992)'
+    -
+      value: TZ-+255
+      label: 'Tanzania (+255)'
+    -
+      value: TH-+66
+      label: 'Thailand (+66)'
+    -
+      value: TG-+228
+      label: 'Togo (+228)'
+    -
+      value: TK-+690
+      label: 'Tokelau (+690)'
+    -
+      value: TO-+676
+      label: 'Tonga (+676)'
+    -
+      value: 'TT-+1 868'
+      label: 'Trinidad and Tobago (+1 868)'
+    -
+      value: TN-+216
+      label: 'Tunisia (+216)'
+    -
+      value: TR-+90
+      label: 'Turkey (+90)'
+    -
+      value: TM-+993
+      label: 'Turkmenistan (+993)'
+    -
+      value: 'TC-+1 649'
+      label: 'Turks and Caicos Islands (+1 649)'
+    -
+      value: TV-+688
+      label: 'Tuvalu (+688)'
+    -
+      value: UG-+256
+      label: 'Uganda (+256)'
+    -
+      value: UA-+380
+      label: 'Ukraine (+380)'
+    -
+      value: AE-+971
+      label: 'United Arab Emirates (+971)'
+    -
+      value: GB-+44
+      label: 'United Kingdom (+44)'
+    -
+      value: US-+1
+      label: 'United States (+1)'
+    -
+      value: UY-+598
+      label: 'Uruguay (+598)'
+    -
+      value: VI-+1
+      label: 'US Virgin Islands (+1)'
+    -
+      value: UZ-+998
+      label: 'Uzbekistan (+998)'
+    -
+      value: VU-+678
+      label: 'Vanuatu (+678)'
+    -
+      value: VE-+58
+      label: 'Venezuela (+58)'
+    -
+      value: VN-+84
+      label: 'Vietnam (+84)'
+    -
+      value: WF-+681
+      label: 'Wallis and Futuna (+681)'
+    -
+      value: YE-+967
+      label: 'Yemen (+967)'
+    -
+      value: ZM-+260
+      label: 'Zambia (+260)'
+    -
+      value: ZW-+263
+      label: 'Zimbabwe (+263)'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

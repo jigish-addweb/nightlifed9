@@ -1,0 +1,19 @@
+uuid: 17ce8d58-fa19-4fbf-8237-3f2f9c769f34
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_news_mail
+    - node.type.news
+id: node.news.field_news_mail
+field_name: field_news_mail
+entity_type: node
+bundle: news
+label: 'Contact Email'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

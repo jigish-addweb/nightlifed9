@@ -1,0 +1,36 @@
+uuid: 0738536c-4b22-419e-bdad-ed3a3f90d1b4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_uprofile_children
+field_name: field_uprofile_children
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'No children: not planning on having any'
+      label: 'No children: not planning on having any'
+    -
+      value: 'No children: would like some now or in the future'
+      label: 'No children: would like some now or in the future'
+    -
+      value: 'Have young child(ren)'
+      label: 'Have young child(ren)'
+    -
+      value: 'Have grown children'
+      label: 'Have grown children'
+    -
+      value: 'My pets are my kids'
+      label: 'My pets are my kids'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

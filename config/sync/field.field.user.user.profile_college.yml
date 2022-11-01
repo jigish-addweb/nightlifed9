@@ -1,0 +1,21 @@
+uuid: d079d10f-dffe-4a8f-af43-55d7a6d3bf2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.profile_college
+  module:
+    - text
+    - user
+id: user.user.profile_college
+field_name: profile_college
+entity_type: user
+bundle: user
+label: College
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

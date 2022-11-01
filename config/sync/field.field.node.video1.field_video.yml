@@ -1,0 +1,27 @@
+uuid: 28328d3c-79e4-43f3-a28a-ad4e3419b9f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_video
+    - node.type.video1
+  module:
+    - file
+id: node.video1.field_video
+field_name: field_video
+entity_type: node
+bundle: video1
+label: 'Upload Video'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: txt
+  max_filesize: ''
+  description_field: false
+field_type: file

@@ -1,0 +1,21 @@
+uuid: 62fc9d64-4e1f-4336-9c1c-315a30c9fc39
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ad_budget
+    - node.type.ad_content
+  module:
+    - options
+id: node.ad_content.field_ad_budget
+field_name: field_ad_budget
+entity_type: node
+bundle: ad_content
+label: Budget
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

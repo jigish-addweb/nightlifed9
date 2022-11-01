@@ -1,0 +1,25 @@
+uuid: 7803c234-3ccd-48d6-add5-69834447b0ee
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:2932eb66-06ca-4168-a038-45806832e09e'
+  module:
+    - block_content
+  theme:
+    - hhighlights
+id: block_126
+theme: hhighlights
+region: ''
+weight: 0
+provider: null
+plugin: 'block_content:2932eb66-06ca-4168-a038-45806832e09e'
+settings:
+  id: 'block_content:2932eb66-06ca-4168-a038-45806832e09e'
+  label: ''
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,33 @@
+uuid: cd24f69a-7754-40ce-8499-3776caba30a4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_rest_dining
+field_name: field_rest_dining
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'Please Choose'
+      label: 'Please Choose'
+    -
+      value: 'Buffet/Family Style'
+      label: 'Buffet/Family Style'
+    -
+      value: 'Casual Dining'
+      label: 'Casual Dining'
+    -
+      value: 'Fine Dining'
+      label: 'Fine Dining'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

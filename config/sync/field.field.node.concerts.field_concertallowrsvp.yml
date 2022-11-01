@@ -1,0 +1,21 @@
+uuid: dc8ac9b3-2ee6-4c9d-bfca-9c0ad6962170
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_concertallowrsvp
+    - node.type.concerts
+  module:
+    - options
+id: node.concerts.field_concertallowrsvp
+field_name: field_concertallowrsvp
+entity_type: node
+bundle: concerts
+label: 'Allow RSVP Requests?'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

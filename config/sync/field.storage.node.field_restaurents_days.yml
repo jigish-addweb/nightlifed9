@@ -1,0 +1,42 @@
+uuid: 6a444452-d9f8-4f24-9d57-776f1d0fe769
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_restaurents_days
+field_name: field_restaurents_days
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '0'
+      label: Sunday
+    -
+      value: '1'
+      label: Monday
+    -
+      value: '2'
+      label: Tuesday
+    -
+      value: '3'
+      label: Wednesday
+    -
+      value: '4'
+      label: Thursday
+    -
+      value: '5'
+      label: Friday
+    -
+      value: '6'
+      label: Saturday
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

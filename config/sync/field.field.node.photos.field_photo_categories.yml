@@ -1,0 +1,25 @@
+uuid: 8ec7b974-0c19-433b-98b3-5143bc9dc6f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_photo_categories
+    - node.type.photos
+    - taxonomy.vocabulary.photo_categories
+id: node.photos.field_photo_categories
+field_name: field_photo_categories
+entity_type: node
+bundle: photos
+label: 'Photo Categories'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      photo_categories: photo_categories
+    auto_create: true
+field_type: entity_reference

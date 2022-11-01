@@ -1,0 +1,25 @@
+uuid: bf8e9f9e-72f8-4e54-827b-abc49093b896
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nightclub_priority
+    - node.type.nightclubs
+id: node.nightclubs.field_nightclub_priority
+field_name: field_nightclub_priority
+entity_type: node
+bundle: nightclubs
+label: Priority
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 100
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

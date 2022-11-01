@@ -1,0 +1,19 @@
+uuid: 35c4849a-cd12-4f04-9fb8-103b1413a8ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_transport_cont_mobile
+    - node.type.transportation
+id: node.transportation.field_transport_cont_mobile
+field_name: field_transport_cont_mobile
+entity_type: node
+bundle: transportation
+label: 'Contact Mobile Number'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

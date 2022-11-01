@@ -1,0 +1,21 @@
+uuid: 3e2554d5-7d54-4071-9b5b-308429a7a82c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_private
+    - node.type.event
+  module:
+    - options
+id: node.event.field_private
+field_name: field_private
+entity_type: node
+bundle: event
+label: 'Publish this content?'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

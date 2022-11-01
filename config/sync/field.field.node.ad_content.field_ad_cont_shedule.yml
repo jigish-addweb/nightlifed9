@@ -1,0 +1,21 @@
+uuid: bb145e5b-784f-4bf2-8f43-5ddedf202743
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ad_cont_shedule
+    - node.type.ad_content
+  module:
+    - options
+id: node.ad_content.field_ad_cont_shedule
+field_name: field_ad_cont_shedule
+entity_type: node
+bundle: ad_content
+label: Shedule
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

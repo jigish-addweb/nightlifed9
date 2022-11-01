@@ -1,0 +1,25 @@
+uuid: 7f71b890-a532-4ceb-9be0-2e88acef9ab2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_photos_priority
+    - node.type.photos
+id: node.photos.field_photos_priority
+field_name: field_photos_priority
+entity_type: node
+bundle: photos
+label: Priority
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 100
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

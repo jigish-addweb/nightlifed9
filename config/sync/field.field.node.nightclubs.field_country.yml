@@ -1,0 +1,25 @@
+uuid: 5d182313-e0e0-411c-a8ae-e9b54b738ce5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_country
+    - node.type.nightclubs
+    - taxonomy.vocabulary.country
+id: node.nightclubs.field_country
+field_name: field_country
+entity_type: node
+bundle: nightclubs
+label: Country
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      country: country
+    auto_create: true
+field_type: entity_reference

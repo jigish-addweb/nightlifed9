@@ -1,0 +1,21 @@
+uuid: e90ab466-bcb5-469b-b01a-aafe52808525
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_private
+    - node.type.nightclubs
+  module:
+    - options
+id: node.nightclubs.field_private
+field_name: field_private
+entity_type: node
+bundle: nightclubs
+label: 'Publish this content?'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

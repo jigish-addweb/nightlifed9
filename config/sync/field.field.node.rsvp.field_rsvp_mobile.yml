@@ -1,0 +1,19 @@
+uuid: 81339762-35a2-46fe-b617-a10b1f6dce3f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rsvp_mobile
+    - node.type.rsvp
+id: node.rsvp.field_rsvp_mobile
+field_name: field_rsvp_mobile
+entity_type: node
+bundle: rsvp
+label: Mobile
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

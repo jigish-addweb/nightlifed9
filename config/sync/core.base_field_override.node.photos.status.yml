@@ -1,0 +1,22 @@
+uuid: 551ddeb5-d486-40d2-b209-e7013f5a8208
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.photos
+id: node.photos.status
+field_name: status
+entity_type: node
+bundle: photos
+label: 'Publishing status'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

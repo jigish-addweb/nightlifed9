@@ -1,0 +1,19 @@
+uuid: 40828c1d-62fb-462f-b48e-9141b92757c2
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_news_mail
+field_name: field_news_mail
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

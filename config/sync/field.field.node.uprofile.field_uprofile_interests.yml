@@ -1,0 +1,21 @@
+uuid: 5d1e4004-a6ae-44f4-920f-e25bdbf1a008
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_uprofile_interests
+    - node.type.uprofile
+  module:
+    - text
+id: node.uprofile.field_uprofile_interests
+field_name: field_uprofile_interests
+entity_type: node
+bundle: uprofile
+label: Interests
+description: 'Describe your interests and hobbies. This section is for whole sentences, not tags.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

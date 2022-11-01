@@ -1,0 +1,19 @@
+uuid: ba740d8c-322b-440a-ad18-8411ee4040f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_music_album
+    - node.type.music
+id: node.music.field_music_album
+field_name: field_music_album
+entity_type: node
+bundle: music
+label: Album
+description: 'Please enter name of artist''s album on which this song appears.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

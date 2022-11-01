@@ -1,0 +1,19 @@
+uuid: cff0fa57-a1d1-4365-b2ee-8c8f689cd9c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_movie_website
+    - node.type.movies
+id: node.movies.field_movie_website
+field_name: field_movie_website
+entity_type: node
+bundle: movies
+label: 'Official Website'
+description: 'Please type complete URL like ''http://www.example.com'''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

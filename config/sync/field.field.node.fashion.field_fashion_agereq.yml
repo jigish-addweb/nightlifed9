@@ -1,0 +1,19 @@
+uuid: c8067a1a-40d9-44be-8151-31f6205a5f07
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fashion_agereq
+    - node.type.fashion
+id: node.fashion.field_fashion_agereq
+field_name: field_fashion_agereq
+entity_type: node
+bundle: fashion
+label: 'Age Requirements'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

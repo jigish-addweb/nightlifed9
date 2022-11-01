@@ -1,0 +1,105 @@
+uuid: f87ecb5b-9ccd-4c09-8089-c1531e15695c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.print
+    - field.field.node.fashion.body
+    - field.field.node.fashion.field_country
+    - field.field.node.fashion.field_fash_ccode
+    - field.field.node.fashion.field_fashion_agereq
+    - field.field.node.fashion.field_fashion_album
+    - field.field.node.fashion.field_fashion_allowrsvp
+    - field.field.node.fashion.field_fashion_buynow
+    - field.field.node.fashion.field_fashion_cname
+    - field.field.node.fashion.field_fashion_code
+    - field.field.node.fashion.field_fashion_cont_mail
+    - field.field.node.fashion.field_fashion_dresscode
+    - field.field.node.fashion.field_fashion_drinkspecials
+    - field.field.node.fashion.field_fashion_facebook
+    - field.field.node.fashion.field_fashion_google
+    - field.field.node.fashion.field_fashion_image
+    - field.field.node.fashion.field_fashion_mail
+    - field.field.node.fashion.field_fashion_mail_body
+    - field.field.node.fashion.field_fashion_mobile
+    - field.field.node.fashion.field_fashion_musicstyle
+    - field.field.node.fashion.field_fashion_parkingoptions
+    - field.field.node.fashion.field_fashion_prices
+    - field.field.node.fashion.field_fashion_priority
+    - field.field.node.fashion.field_fashion_reservation
+    - field.field.node.fashion.field_fashion_time
+    - field.field.node.fashion.field_fashion_timezone_cust
+    - field.field.node.fashion.field_fashion_twitter
+    - field.field.node.fashion.field_fashion_website
+    - field.field.node.fashion.field_hashtag
+    - field.field.node.fashion.field_private
+    - field.field.node.fashion.field_would_you_like_a_featured_
+    - node.type.fashion
+  module:
+    - text
+    - user
+id: node.fashion.print
+targetEntityType: node
+bundle: fashion
+mode: print
+content:
+  field_fash_ccode:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_fashion_code:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 27
+    region: content
+  field_fashion_timezone_cust:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_private:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -3
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  field_country: true
+  field_fashion_agereq: true
+  field_fashion_album: true
+  field_fashion_allowrsvp: true
+  field_fashion_buynow: true
+  field_fashion_cname: true
+  field_fashion_cont_mail: true
+  field_fashion_dresscode: true
+  field_fashion_drinkspecials: true
+  field_fashion_facebook: true
+  field_fashion_google: true
+  field_fashion_image: true
+  field_fashion_mail: true
+  field_fashion_mail_body: true
+  field_fashion_mobile: true
+  field_fashion_musicstyle: true
+  field_fashion_parkingoptions: true
+  field_fashion_prices: true
+  field_fashion_priority: true
+  field_fashion_reservation: true
+  field_fashion_time: true
+  field_fashion_twitter: true
+  field_fashion_website: true
+  field_hashtag: true
+  field_would_you_like_a_featured_: true

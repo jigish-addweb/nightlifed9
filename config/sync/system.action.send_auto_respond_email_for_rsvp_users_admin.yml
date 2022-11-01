@@ -1,0 +1,12 @@
+uuid: 30424632-e56a-4365-bbc1-bf39edf15655
+langcode: en
+status: true
+dependencies: {  }
+id: send_auto_respond_email_for_rsvp_users_admin
+label: 'Send auto respond email for RSVP Users - Admin'
+type: system
+plugin: action_send_email_action
+configuration:
+  recipient: '%author'
+  subject: 'Test - Thank you for RSVP'
+  message: "YOUR RSVP HAS BEEN RECEIVED & CONFIRMED. THIS FRIDAY FEBRUARY 8th, YOU \r\n\r\n& UP TO 5 GUESTS WILL RECEIVE FREE ADMISSION BEFORE MIDNIGHT as well \r\n\r\nas PRIORITY ACCESS & EXPRESS LINE ENTRY ALL NIGHT LONG. VISION is \r\n\r\nlocated at 632 N. Dearborn, Downtown Chicago. Your VIP Password is \r\n\r\nCHICAGONIGHTLIFE.COM Please Print Out this Confirmation & Periodically \r\n\r\nCheck Your Email and/or Mobile Phone in case we send you additional \r\n\r\nemail and/or text confirmation, alerts, or instructions. GENERAL \r\n\r\nADMISSION WITHOUT VIP PASSWORD OR CONFIRMATION IS $10-$20 PER PERSON \r\n"

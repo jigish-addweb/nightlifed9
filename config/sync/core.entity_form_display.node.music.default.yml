@@ -1,0 +1,260 @@
+uuid: c4d5c6ca-1859-432c-b984-ac155d3cde6c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.music.body
+    - field.field.node.music.field_artist
+    - field.field.node.music.field_country
+    - field.field.node.music.field_genre
+    - field.field.node.music.field_hashtag
+    - field.field.node.music.field_music_album
+    - field.field.node.music.field_music_ccode
+    - field.field.node.music.field_music_check_single
+    - field.field.node.music.field_music_cont_mail
+    - field.field.node.music.field_music_cont_num
+    - field.field.node.music.field_music_contname
+    - field.field.node.music.field_music_file
+    - field.field.node.music.field_music_image
+    - field.field.node.music.field_music_lang
+    - field.field.node.music.field_music_photo_album
+    - field.field.node.music.field_music_priority
+    - field.field.node.music.field_music_record_label
+    - field.field.node.music.field_music_release_date
+    - field.field.node.music.field_music_reservation
+    - field.field.node.music.field_musics_reservation
+    - field.field.node.music.field_private
+    - field.field.node.music.field_would_you_like_a_featured_
+    - image.style.thumbnail
+    - node.type.music
+  module:
+    - datetime
+    - file
+    - image
+    - path
+    - text
+id: node.music.default
+targetEntityType: node
+bundle: music
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 121
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_artist:
+    type: entity_reference_autocomplete_tags
+    weight: 20
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_country:
+    type: options_select
+    weight: 20
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_genre:
+    type: options_select
+    weight: 20
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_hashtag:
+    type: entity_reference_autocomplete_tags
+    weight: 20
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_music_album:
+    type: text_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_music_ccode:
+    type: text_textfield
+    weight: 15
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_music_check_single:
+    type: text_textfield
+    weight: 11
+    region: content
+    settings:
+      size: 4
+      placeholder: ''
+    third_party_settings: {  }
+  field_music_cont_mail:
+    type: text_textfield
+    weight: 17
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_music_cont_num:
+    type: text_textfield
+    weight: 16
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_music_contname:
+    type: text_textfield
+    weight: 14
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_music_file:
+    type: file_generic
+    weight: -1
+    region: content
+    settings:
+      progress_indicator: bar
+    third_party_settings: {  }
+  field_music_image:
+    type: image_image
+    weight: 10
+    region: content
+    settings:
+      progress_indicator: bar
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_music_lang:
+    type: text_textfield
+    weight: 5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_music_photo_album:
+    type: image_image
+    weight: 13
+    region: content
+    settings:
+      progress_indicator: bar
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_music_priority:
+    type: number
+    weight: 12
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_music_record_label:
+    type: text_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_music_release_date:
+    type: datetime_default
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_music_reservation:
+    type: options_buttons
+    weight: 7
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_musics_reservation:
+    type: text_textfield
+    weight: 8
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_private:
+    type: options_buttons
+    weight: 25
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_would_you_like_a_featured_:
+    type: options_select
+    weight: 20
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    weight: 15
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 120
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    weight: 16
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

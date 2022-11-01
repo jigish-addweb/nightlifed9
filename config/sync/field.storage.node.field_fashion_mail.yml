@@ -1,0 +1,19 @@
+uuid: 119073d7-355d-4b4f-8376-4f4fc672215e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_fashion_mail
+field_name: field_fashion_mail
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

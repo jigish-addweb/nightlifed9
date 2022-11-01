@@ -1,0 +1,27 @@
+uuid: face03eb-91cb-4b57-831e-05aa52b28c39
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_restau_menu
+    - node.type.restaurants
+  module:
+    - file
+id: node.restaurants.field_restau_menu
+field_name: field_restau_menu
+entity_type: node
+bundle: restaurants
+label: 'Upload Menu'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: ''
+  file_extensions: 'png gif jpg jpeg pdf'
+  max_filesize: ''
+  description_field: false
+field_type: file

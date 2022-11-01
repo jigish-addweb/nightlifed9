@@ -1,0 +1,19 @@
+uuid: 8f015fd0-6bab-4e79-8542-c6e2735511df
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_bap_lname
+field_name: field_bap_lname
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

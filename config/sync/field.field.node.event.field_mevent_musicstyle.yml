@@ -1,0 +1,19 @@
+uuid: 431e7e1d-4baf-46de-adec-d1b44495553c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mevent_musicstyle
+    - node.type.event
+id: node.event.field_mevent_musicstyle
+field_name: field_mevent_musicstyle
+entity_type: node
+bundle: event
+label: 'Music Style'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,21 @@
+uuid: edca6d1e-fd6e-4d80-bc76-a54f328534c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_transport_payment
+    - node.type.transportation
+  module:
+    - options
+id: node.transportation.field_transport_payment
+field_name: field_transport_payment
+entity_type: node
+bundle: transportation
+label: 'Payment Options'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

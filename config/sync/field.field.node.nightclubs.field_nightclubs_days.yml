@@ -1,0 +1,21 @@
+uuid: eb3ae2bf-7734-4c19-8c29-ceb44d29645b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nightclubs_days
+    - node.type.nightclubs
+  module:
+    - options
+id: node.nightclubs.field_nightclubs_days
+field_name: field_nightclubs_days
+entity_type: node
+bundle: nightclubs
+label: 'What days of the week are you open?'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

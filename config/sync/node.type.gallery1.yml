@@ -1,0 +1,11 @@
+uuid: ce08c553-ad50-4f80-acf9-71f15cecc8b0
+langcode: en
+status: true
+dependencies: {  }
+name: Gallery1
+type: gallery1
+description: Gallery
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

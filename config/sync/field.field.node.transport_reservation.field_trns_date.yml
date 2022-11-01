@@ -1,0 +1,19 @@
+uuid: 706f1422-1105-4096-8090-e4e73add94c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_trns_date
+    - node.type.transport_reservation
+id: node.transport_reservation.field_trns_date
+field_name: field_trns_date
+entity_type: node
+bundle: transport_reservation
+label: Date
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,19 @@
+uuid: ca153ab3-3466-41ab-8546-a5466eff1bac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_store_hours
+    - node.type.fashion_store
+id: node.fashion_store.field_store_hours
+field_name: field_store_hours
+entity_type: node
+bundle: fashion_store
+label: 'Store Hours'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

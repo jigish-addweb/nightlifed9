@@ -1,0 +1,116 @@
+uuid: 148fb2d2-026e-471d-b69f-312bd5b8d936
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.print
+    - field.field.node.video_live.body
+    - field.field.node.video_live.field_categories
+    - field.field.node.video_live.field_country
+    - field.field.node.video_live.field_hashtag
+    - field.field.node.video_live.field_live_video
+    - field.field.node.video_live.field_live_video_ref
+    - field.field.node.video_live.field_private
+    - field.field.node.video_live.field_rtmp_video
+    - field.field.node.video_live.field_thumbnail
+    - field.field.node.video_live.field_vid_ccode
+    - field.field.node.video_live.field_vid_cont_mail
+    - field.field.node.video_live.field_vid_cont_num
+    - field.field.node.video_live.field_vid_contname
+    - field.field.node.video_live.field_video_keywords
+    - field.field.node.video_live.field_videos_priority
+    - field.field.node.video_live.field_would_you_like_a_featured_
+    - node.type.video_live
+  module:
+    - file
+    - text
+    - user
+id: node.video_live.print
+targetEntityType: node
+bundle: video_live
+mode: print
+content:
+  field_live_video:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -2
+    region: content
+  field_live_video_ref:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 14
+    region: content
+  field_private:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  field_rtmp_video:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  field_thumbnail:
+    type: file_default
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  field_vid_ccode:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_vid_cont_mail:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 13
+    region: content
+  field_vid_cont_num:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  field_vid_contname:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  field_video_keywords:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  field_categories: true
+  field_country: true
+  field_hashtag: true
+  field_videos_priority: true
+  field_would_you_like_a_featured_: true

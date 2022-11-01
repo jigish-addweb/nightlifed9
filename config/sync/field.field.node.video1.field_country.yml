@@ -1,0 +1,25 @@
+uuid: 0fe2d717-e326-455a-bc3c-58675720450f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_country
+    - node.type.video1
+    - taxonomy.vocabulary.country
+id: node.video1.field_country
+field_name: field_country
+entity_type: node
+bundle: video1
+label: Country
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      country: country
+    auto_create: true
+field_type: entity_reference

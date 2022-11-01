@@ -1,0 +1,19 @@
+uuid: 8326c292-e8ec-4427-abd8-a1d6f2f8c35e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_transport_google
+    - node.type.transportation
+id: node.transportation.field_transport_google
+field_name: field_transport_google
+entity_type: node
+bundle: transportation
+label: 'Google+ link'
+description: 'Please type complete URL like ''http://www.example.com'''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,22 @@
+uuid: 33bb20f7-8a39-409a-9feb-3df8cfe50990
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.hotel_booking
+id: node.hotel_booking.sticky
+field_name: sticky
+entity_type: node
+bundle: hotel_booking
+label: 'Sticky at the top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

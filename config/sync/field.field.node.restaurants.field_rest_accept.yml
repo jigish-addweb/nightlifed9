@@ -1,0 +1,21 @@
+uuid: 40667021-b9e4-4c59-b0fc-33893dbc1b1d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rest_accept
+    - node.type.restaurants
+  module:
+    - options
+id: node.restaurants.field_rest_accept
+field_name: field_rest_accept
+entity_type: node
+bundle: restaurants
+label: 'Accepts Walk-Ins'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

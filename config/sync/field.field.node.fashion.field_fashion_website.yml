@@ -1,0 +1,19 @@
+uuid: 81475084-8a93-47f1-97ce-ecc8735d4ef8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fashion_website
+    - node.type.fashion
+id: node.fashion.field_fashion_website
+field_name: field_fashion_website
+entity_type: node
+bundle: fashion
+label: Website
+description: 'Please type complete URL like ''http://www.example.com'''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

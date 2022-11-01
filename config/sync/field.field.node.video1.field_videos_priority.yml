@@ -1,0 +1,25 @@
+uuid: 03a4e29a-1547-4fcf-b141-0301ba0e6772
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_videos_priority
+    - node.type.video1
+id: node.video1.field_videos_priority
+field_name: field_videos_priority
+entity_type: node
+bundle: video1
+label: Priority
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 100
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

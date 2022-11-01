@@ -1,0 +1,24 @@
+uuid: bfe357a7-4022-4469-9981-4aac4f2e79f1
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_bar_reserv
+field_name: field_bar_reserv
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Allow
+      label: Allow
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

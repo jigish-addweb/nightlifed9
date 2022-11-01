@@ -1,0 +1,227 @@
+uuid: 480f8198-299e-4b08-afb5-e31bb6c838c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.transportation.body
+    - field.field.node.transportation.field_country
+    - field.field.node.transportation.field_hashtag
+    - field.field.node.transportation.field_private
+    - field.field.node.transportation.field_trans_ccode
+    - field.field.node.transportation.field_trans_mail_body
+    - field.field.node.transportation.field_trans_priority
+    - field.field.node.transportation.field_trans_res
+    - field.field.node.transportation.field_transport_album
+    - field.field.node.transportation.field_transport_ccode
+    - field.field.node.transportation.field_transport_cont_email
+    - field.field.node.transportation.field_transport_cont_mobile
+    - field.field.node.transportation.field_transport_cont_name
+    - field.field.node.transportation.field_transport_facebook
+    - field.field.node.transportation.field_transport_google
+    - field.field.node.transportation.field_transport_payment
+    - field.field.node.transportation.field_transport_price
+    - field.field.node.transportation.field_transport_specials
+    - field.field.node.transportation.field_transport_timings
+    - field.field.node.transportation.field_transport_twitter
+    - field.field.node.transportation.field_transport_website
+    - field.field.node.transportation.field_transportation_image
+    - field.field.node.transportation.field_transportation_type
+    - field.field.node.transportation.field_would_you_like_a_featured_
+    - node.type.transportation
+  module:
+    - image
+    - text
+    - user
+id: node.transportation.default
+targetEntityType: node
+bundle: transportation
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_country:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 20
+    region: content
+  field_hashtag:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 20
+    region: content
+  field_private:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 26
+    region: content
+  field_trans_ccode:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 16
+    region: content
+  field_trans_mail_body:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_trans_priority:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  field_trans_res:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_transport_album:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  field_transport_ccode:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_transport_cont_email:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 18
+    region: content
+  field_transport_cont_mobile:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 17
+    region: content
+  field_transport_cont_name:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 15
+    region: content
+  field_transport_facebook:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_transport_google:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 13
+    region: content
+  field_transport_payment:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_transport_price:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_transport_specials:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_transport_timings:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  field_transport_twitter:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  field_transport_website:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_transportation_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  field_transportation_type:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 20
+    region: content
+  field_would_you_like_a_featured_:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 20
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

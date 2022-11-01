@@ -1,0 +1,31 @@
+uuid: 40bac7f8-616c-4779-b39c-dca9586f0b05
+langcode: en
+status: true
+dependencies: {  }
+name: mobile_myvideos
+label: mobile_myvideos
+effects:
+  04ab40b9-6c06-41b3-82ca-97280a87466e:
+    uuid: 04ab40b9-6c06-41b3-82ca-97280a87466e
+    id: image_scale
+    weight: -10
+    data:
+      width: null
+      height: 95
+      upscale: true
+  6e4a4e6c-4843-4bce-a683-a8f04031bacb:
+    uuid: 6e4a4e6c-4843-4bce-a683-a8f04031bacb
+    id: image_crop
+    weight: -8
+    data:
+      width: 138
+      height: 95
+      anchor: center-top
+  645e31d9-4684-4c45-b4db-66c93326a173:
+    uuid: 645e31d9-4684-4c45-b4db-66c93326a173
+    id: image_scale
+    weight: -9
+    data:
+      width: 125
+      height: null
+      upscale: false

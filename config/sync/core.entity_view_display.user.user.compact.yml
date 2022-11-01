@@ -1,0 +1,67 @@
+uuid: a3bd5807-1345-4236-ac4d-d89fe4f90247
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.user.compact
+    - field.field.user.user.profile_aboutu
+    - field.field.user.user.profile_cc
+    - field.field.user.user.profile_city
+    - field.field.user.user.profile_college
+    - field.field.user.user.profile_company
+    - field.field.user.user.profile_country
+    - field.field.user.user.profile_date
+    - field.field.user.user.profile_designation
+    - field.field.user.user.profile_dob
+    - field.field.user.user.profile_gender
+    - field.field.user.user.profile_lname
+    - field.field.user.user.profile_mobile
+    - field.field.user.user.profile_name
+    - field.field.user.user.profile_numberofguests
+    - field.field.user.user.profile_rss
+    - field.field.user.user.profile_school
+    - field.field.user.user.profile_state
+    - field.field.user.user.profile_tablereservation
+    - field.field.user.user.user_picture
+    - image.style.thumbnail
+  module:
+    - image
+    - user
+_core:
+  default_config_hash: 00zr_RBdTjPjBGITD3h4c1ESQZimjdVCcHGt1trLqIY
+id: user.user.compact
+targetEntityType: user
+bundle: user
+mode: compact
+content:
+  user_picture:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: thumbnail
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  member_for: true
+  profile_aboutu: true
+  profile_cc: true
+  profile_city: true
+  profile_college: true
+  profile_company: true
+  profile_country: true
+  profile_date: true
+  profile_designation: true
+  profile_dob: true
+  profile_gender: true
+  profile_lname: true
+  profile_mobile: true
+  profile_name: true
+  profile_numberofguests: true
+  profile_rss: true
+  profile_school: true
+  profile_state: true
+  profile_tablereservation: true

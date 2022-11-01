@@ -1,0 +1,100 @@
+uuid: 4ad60385-cd85-40bf-b5f0-002d31e10ad5
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.rss
+    - field.field.node.video1.body
+    - field.field.node.video1.field_categories
+    - field.field.node.video1.field_country
+    - field.field.node.video1.field_hashtag
+    - field.field.node.video1.field_keywords
+    - field.field.node.video1.field_private
+    - field.field.node.video1.field_video
+    - field.field.node.video1.field_video_ccode
+    - field.field.node.video1.field_video_cont_mail
+    - field.field.node.video1.field_video_cont_num
+    - field.field.node.video1.field_video_contname
+    - field.field.node.video1.field_video_ref
+    - field.field.node.video1.field_videos_priority
+    - field.field.node.video1.field_would_you_like_a_featured_
+    - node.type.video1
+  module:
+    - text
+    - user
+id: node.video1.rss
+targetEntityType: node
+bundle: video1
+mode: rss
+content:
+  field_keywords:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 19
+    region: content
+  field_private:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 22
+    region: content
+  field_video_ccode:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 25
+    region: content
+  field_video_cont_mail:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 27
+    region: content
+  field_video_cont_num:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 26
+    region: content
+  field_video_contname:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 24
+    region: content
+  field_video_ref:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  field_videos_priority:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 13
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  field_categories: true
+  field_country: true
+  field_hashtag: true
+  field_video: true
+  field_would_you_like_a_featured_: true

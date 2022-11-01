@@ -1,0 +1,19 @@
+uuid: 5134df22-1611-49c1-b36b-d7daf3b8af53
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hotb_mobile
+    - node.type.hotel_booking
+id: node.hotel_booking.field_hotb_mobile
+field_name: field_hotb_mobile
+entity_type: node
+bundle: hotel_booking
+label: Mobile
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

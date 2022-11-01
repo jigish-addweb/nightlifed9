@@ -1,0 +1,25 @@
+uuid: 54d2913b-c4b0-4a6f-a25c-96c3c26dbe67
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hashtag
+    - node.type.transportation
+    - taxonomy.vocabulary.hashtag
+id: node.transportation.field_hashtag
+field_name: field_hashtag
+entity_type: node
+bundle: transportation
+label: Hashtag
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      hashtag: hashtag
+    auto_create: true
+field_type: entity_reference

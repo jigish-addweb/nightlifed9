@@ -1,0 +1,25 @@
+uuid: 3c39d091-8176-4f2c-a0a8-fbfa859b0fe7
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:e5f44500-1c77-4266-a8db-64fe4bad38a0'
+  module:
+    - block_content
+  theme:
+    - hhighlights
+id: block_124
+theme: hhighlights
+region: ''
+weight: 0
+provider: null
+plugin: 'block_content:e5f44500-1c77-4266-a8db-64fe4bad38a0'
+settings:
+  id: 'block_content:e5f44500-1c77-4266-a8db-64fe4bad38a0'
+  label: ''
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

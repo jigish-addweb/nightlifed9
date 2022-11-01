@@ -1,0 +1,8 @@
+uuid: 5342f823-d6b5-47f8-9039-a13ad4cac6f3
+langcode: en
+status: true
+dependencies: {  }
+name: 'Nightclub Type'
+vid: nightclub_type
+description: 'Nightclub Type'
+weight: 5

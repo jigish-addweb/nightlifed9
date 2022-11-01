@@ -1,0 +1,25 @@
+uuid: 2a6c5200-d487-4500-a693-0c8201c9e8f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hot_priority
+    - node.type.hotel
+id: node.hotel.field_hot_priority
+field_name: field_hot_priority
+entity_type: node
+bundle: hotel
+label: Priority
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 100
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

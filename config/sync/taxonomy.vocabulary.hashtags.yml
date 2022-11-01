@@ -1,0 +1,8 @@
+uuid: 3a782653-e61e-43a4-a11f-0aece9c9ed39
+langcode: en
+status: true
+dependencies: {  }
+name: Hashtags
+vid: hashtags
+description: 'Contains #hashtags used in Facebook-style Statuses.'
+weight: -4

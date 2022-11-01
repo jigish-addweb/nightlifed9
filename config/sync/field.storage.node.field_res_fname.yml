@@ -1,0 +1,19 @@
+uuid: c9315e01-dc7b-4659-bfa5-f7c5dc1c1a85
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_res_fname
+field_name: field_res_fname
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

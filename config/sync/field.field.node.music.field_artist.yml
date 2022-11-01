@@ -1,0 +1,25 @@
+uuid: 40c1eff0-b54d-4e27-b494-406127e4366e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_artist
+    - node.type.music
+    - taxonomy.vocabulary.artist
+id: node.music.field_artist
+field_name: field_artist
+entity_type: node
+bundle: music
+label: Artist
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      artist: artist
+    auto_create: true
+field_type: entity_reference

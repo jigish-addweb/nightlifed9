@@ -1,0 +1,21 @@
+uuid: f3f5ab9d-dbdb-40e5-99c3-0bdf4720a8b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_edate
+    - node.type.unl
+  module:
+    - datetime
+id: node.unl.field_edate
+field_name: field_edate
+entity_type: node
+bundle: unl
+label: 'End Date'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

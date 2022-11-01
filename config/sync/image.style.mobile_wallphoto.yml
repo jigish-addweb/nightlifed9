@@ -1,0 +1,15 @@
+uuid: 0025783b-5049-4b21-810b-87a0bf810e86
+langcode: en
+status: true
+dependencies: {  }
+name: mobile_wallphoto
+label: mobile_wallphoto
+effects:
+  ea3d42d8-7817-4b13-bac9-c4f9a198ab2e:
+    uuid: ea3d42d8-7817-4b13-bac9-c4f9a198ab2e
+    id: image_scale
+    weight: 0
+    data:
+      width: 289
+      height: 250
+      upscale: false

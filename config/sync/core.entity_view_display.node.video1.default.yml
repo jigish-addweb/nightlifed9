@@ -1,0 +1,126 @@
+uuid: 209f88e4-872d-4c93-b466-bc5fc27cf3d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.video1.body
+    - field.field.node.video1.field_categories
+    - field.field.node.video1.field_country
+    - field.field.node.video1.field_hashtag
+    - field.field.node.video1.field_keywords
+    - field.field.node.video1.field_private
+    - field.field.node.video1.field_video
+    - field.field.node.video1.field_video_ccode
+    - field.field.node.video1.field_video_cont_mail
+    - field.field.node.video1.field_video_cont_num
+    - field.field.node.video1.field_video_contname
+    - field.field.node.video1.field_video_ref
+    - field.field.node.video1.field_videos_priority
+    - field.field.node.video1.field_would_you_like_a_featured_
+    - node.type.video1
+  module:
+    - text
+    - user
+id: node.video1.default
+targetEntityType: node
+bundle: video1
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_categories:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 20
+    region: content
+  field_country:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 20
+    region: content
+  field_hashtag:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 20
+    region: content
+  field_keywords:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 19
+    region: content
+  field_private:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 22
+    region: content
+  field_video_ccode:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 25
+    region: content
+  field_video_cont_mail:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 27
+    region: content
+  field_video_cont_num:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 26
+    region: content
+  field_video_contname:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 24
+    region: content
+  field_videos_priority:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 13
+    region: content
+  field_would_you_like_a_featured_:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 20
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_video: true
+  field_video_ref: true

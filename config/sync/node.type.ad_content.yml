@@ -1,0 +1,11 @@
+uuid: f00d1dd0-54d5-4fed-80c5-d85040ccda1a
+langcode: en
+status: true
+dependencies: {  }
+name: 'Ad content'
+type: ad_content
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,11 @@
+uuid: 4fc3f4d5-4891-470f-bb0e-82651533de90
+langcode: en
+status: true
+dependencies: {  }
+name: Movie
+type: movies
+description: 'defined movie reviews'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

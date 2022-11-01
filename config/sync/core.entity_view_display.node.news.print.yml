@@ -1,0 +1,59 @@
+uuid: 58200bf1-9834-4f61-a37c-2d8a82be1967
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.print
+    - field.field.node.news.body
+    - field.field.node.news.field_country
+    - field.field.node.news.field_hashtag
+    - field.field.node.news.field_news_album
+    - field.field.node.news.field_news_categories
+    - field.field.node.news.field_news_ccode
+    - field.field.node.news.field_news_cont_num
+    - field.field.node.news.field_news_contname
+    - field.field.node.news.field_news_image
+    - field.field.node.news.field_news_mail
+    - field.field.node.news.field_news_priority
+    - field.field.node.news.field_private
+    - field.field.node.news.field_would_you_like_a_featured_
+    - node.type.news
+  module:
+    - text
+    - user
+id: node.news.print
+targetEntityType: node
+bundle: news
+mode: print
+content:
+  field_news_ccode:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_private:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 14
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  field_country: true
+  field_hashtag: true
+  field_news_album: true
+  field_news_categories: true
+  field_news_cont_num: true
+  field_news_contname: true
+  field_news_image: true
+  field_news_mail: true
+  field_news_priority: true
+  field_would_you_like_a_featured_: true

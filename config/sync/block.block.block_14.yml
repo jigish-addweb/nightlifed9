@@ -1,0 +1,25 @@
+uuid: a96a45f7-eead-4b71-848f-aa0ebea9c98f
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:85b64262-b9f6-4783-a7ca-accc9de65fc5'
+  module:
+    - block_content
+  theme:
+    - unl_new
+id: block_14
+theme: unl_new
+region: ''
+weight: -1
+provider: null
+plugin: 'block_content:85b64262-b9f6-4783-a7ca-accc9de65fc5'
+settings:
+  id: 'block_content:85b64262-b9f6-4783-a7ca-accc9de65fc5'
+  label: 'New menu'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

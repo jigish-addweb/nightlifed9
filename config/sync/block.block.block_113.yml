@@ -1,0 +1,25 @@
+uuid: 134ff357-6936-47e2-9273-f5508ea6378a
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:cd030691-bd91-4b6f-ace6-84f96c8fd332'
+  module:
+    - block_content
+  theme:
+    - musicland
+id: block_113
+theme: musicland
+region: ''
+weight: 0
+provider: null
+plugin: 'block_content:cd030691-bd91-4b6f-ace6-84f96c8fd332'
+settings:
+  id: 'block_content:cd030691-bd91-4b6f-ace6-84f96c8fd332'
+  label: ''
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

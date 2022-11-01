@@ -1,0 +1,19 @@
+uuid: 64127d93-bf7f-43b5-8e77-529b5a495951
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_photo_check_single
+field_name: field_photo_check_single
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

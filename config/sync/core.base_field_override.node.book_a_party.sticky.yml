@@ -1,0 +1,22 @@
+uuid: 90e03ec4-eda1-4dfb-96aa-8e05308a3fd3
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.book_a_party
+id: node.book_a_party.sticky
+field_name: sticky
+entity_type: node
+bundle: book_a_party
+label: 'Sticky at the top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,19 @@
+uuid: 9527cda6-4d70-4e59-8206-9c1f666913c6
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_nightclubs_facebook
+field_name: field_nightclubs_facebook
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,22 @@
+uuid: 7075e207-ebd6-42d8-b6f6-d530aca12848
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.transport_reservation
+id: node.transport_reservation.status
+field_name: status
+entity_type: node
+bundle: transport_reservation
+label: 'Publishing status'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

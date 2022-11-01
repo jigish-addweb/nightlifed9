@@ -1,0 +1,54 @@
+uuid: bbe72396-6782-475e-9a38-584c70ba2795
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - user
+id: user.profile_country
+field_name: profile_country
+entity_type: user
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: ''
+      label: ''
+    -
+      value: '48892'
+      label: '48892'
+    -
+      value: '301707'
+      label: '301707'
+    -
+      value: '79714'
+      label: '79714'
+    -
+      value: '289136'
+      label: '289136'
+    -
+      value: '367925'
+      label: '367925'
+    -
+      value: '324611'
+      label: '324611'
+    -
+      value: '273179'
+      label: '273179'
+    -
+      value: '293142'
+      label: '293142'
+    -
+      value: '249220'
+      label: '249220'
+    -
+      value: '335589'
+      label: '335589'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

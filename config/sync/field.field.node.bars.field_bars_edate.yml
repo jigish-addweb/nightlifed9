@@ -1,0 +1,21 @@
+uuid: 4c745f20-cd75-4ad8-8586-c84ff9365a16
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bars_edate
+    - node.type.bars
+  module:
+    - datetime
+id: node.bars.field_bars_edate
+field_name: field_bars_edate
+entity_type: node
+bundle: bars
+label: 'End Date'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

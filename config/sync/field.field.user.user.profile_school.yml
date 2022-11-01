@@ -1,0 +1,21 @@
+uuid: 5932524c-aee5-4b25-9440-f06495ebaf3d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.profile_school
+  module:
+    - text
+    - user
+id: user.user.profile_school
+field_name: profile_school
+entity_type: user
+bundle: user
+label: 'High School'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

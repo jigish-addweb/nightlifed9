@@ -1,0 +1,106 @@
+uuid: ff3ec2b3-94fd-481e-8be3-8763f64215c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.rss
+    - field.field.node.rsvp.body
+    - field.field.node.rsvp.field_rsvp_cc
+    - field.field.node.rsvp.field_rsvp_choosedate
+    - field.field.node.rsvp.field_rsvp_comment
+    - field.field.node.rsvp.field_rsvp_email
+    - field.field.node.rsvp.field_rsvp_fname
+    - field.field.node.rsvp.field_rsvp_guests
+    - field.field.node.rsvp.field_rsvp_lname
+    - field.field.node.rsvp.field_rsvp_mobile
+    - field.field.node.rsvp.field_rsvp_postshare
+    - field.field.node.rsvp.field_rsvpref
+    - field.field.node.rsvp.upload
+    - node.type.rsvp
+  module:
+    - text
+    - user
+id: node.rsvp.rss
+targetEntityType: node
+bundle: rsvp
+mode: rss
+content:
+  field_rsvp_cc:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -3
+    region: content
+  field_rsvp_choosedate:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_rsvp_comment:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_rsvp_email:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  field_rsvp_fname:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  field_rsvp_guests:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_rsvp_lname:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_rsvp_mobile:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -2
+    region: content
+  field_rsvp_postshare:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_rsvpref:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 14
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  upload: true

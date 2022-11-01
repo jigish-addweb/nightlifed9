@@ -1,0 +1,19 @@
+uuid: 4ef9b7de-a07b-4aa2-9644-2ff248ab5afa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fashion_facebook
+    - node.type.fashion
+id: node.fashion.field_fashion_facebook
+field_name: field_fashion_facebook
+entity_type: node
+bundle: fashion
+label: 'Facebook link'
+description: 'Please type complete URL like ''http://www.example.com'''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

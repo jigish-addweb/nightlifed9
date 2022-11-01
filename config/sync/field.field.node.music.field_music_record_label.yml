@@ -1,0 +1,19 @@
+uuid: bf7462f5-7e82-42b6-975e-2296241af1f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_music_record_label
+    - node.type.music
+id: node.music.field_music_record_label
+field_name: field_music_record_label
+entity_type: node
+bundle: music
+label: 'Record Label'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

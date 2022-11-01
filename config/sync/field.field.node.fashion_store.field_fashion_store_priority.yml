@@ -1,0 +1,25 @@
+uuid: ff210366-f3e4-47e8-9ea3-b5d8e78918a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fashion_store_priority
+    - node.type.fashion_store
+id: node.fashion_store.field_fashion_store_priority
+field_name: field_fashion_store_priority
+entity_type: node
+bundle: fashion_store
+label: Priority
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 100
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

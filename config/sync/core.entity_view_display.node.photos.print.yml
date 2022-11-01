@@ -1,0 +1,59 @@
+uuid: 36f9b4f1-40d2-4e83-b0d2-94a495cb54fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.print
+    - field.field.node.photos.body
+    - field.field.node.photos.field_country
+    - field.field.node.photos.field_hashtag
+    - field.field.node.photos.field_photo_categories
+    - field.field.node.photos.field_photo_check_single
+    - field.field.node.photos.field_photos_ccode
+    - field.field.node.photos.field_photos_cont_mail
+    - field.field.node.photos.field_photos_cont_num
+    - field.field.node.photos.field_photos_contname
+    - field.field.node.photos.field_photos_priority
+    - field.field.node.photos.field_private
+    - field.field.node.photos.field_upload_photo
+    - field.field.node.photos.field_would_you_like_a_featured_
+    - node.type.photos
+  module:
+    - text
+    - user
+id: node.photos.print
+targetEntityType: node
+bundle: photos
+mode: print
+content:
+  field_photos_ccode:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_private:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  field_country: true
+  field_hashtag: true
+  field_photo_categories: true
+  field_photo_check_single: true
+  field_photos_cont_mail: true
+  field_photos_cont_num: true
+  field_photos_contname: true
+  field_photos_priority: true
+  field_upload_photo: true
+  field_would_you_like_a_featured_: true

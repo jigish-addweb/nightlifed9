@@ -1,0 +1,104 @@
+uuid: aa47dff3-5f2b-49f1-9c01-a3b80ecb0f73
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.search_result
+    - field.field.node.reservation.field_date_reser
+    - field.field.node.reservation.field_res_cc
+    - field.field.node.reservation.field_res_comment
+    - field.field.node.reservation.field_res_email
+    - field.field.node.reservation.field_res_fname
+    - field.field.node.reservation.field_res_guests
+    - field.field.node.reservation.field_res_lname
+    - field.field.node.reservation.field_res_mobile
+    - field.field.node.reservation.field_reser_share
+    - field.field.node.reservation.field_reservation_ref
+    - field.field.node.reservation.upload
+    - node.type.reservation
+  module:
+    - text
+    - user
+id: node.reservation.search_result
+targetEntityType: node
+bundle: reservation
+mode: search_result
+content:
+  field_date_reser:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_res_cc:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -3
+    region: content
+  field_res_comment:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_res_email:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  field_res_fname:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  field_res_guests:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_res_lname:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_res_mobile:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -2
+    region: content
+  field_reser_share:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_reservation_ref:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 13
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  upload: true

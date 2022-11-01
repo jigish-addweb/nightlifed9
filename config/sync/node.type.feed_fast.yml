@@ -1,0 +1,11 @@
+uuid: eb6eb78a-07ca-40c5-8f56-af83a76bae1a
+langcode: en
+status: true
+dependencies: {  }
+name: 'Fast feed'
+type: feed_fast
+description: 'Subscribe to RSS or Atom feeds. Create light weight database records from feed content.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,19 @@
+uuid: 34e331ef-f0d3-46a1-b544-fe4356b5a34f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bars_email_body
+    - node.type.bars
+id: node.bars.field_bars_email_body
+field_name: field_bars_email_body
+entity_type: node
+bundle: bars
+label: 'Enter Automated Reservation Confirmation Message (optional)'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

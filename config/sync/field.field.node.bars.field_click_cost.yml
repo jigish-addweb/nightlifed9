@@ -1,0 +1,19 @@
+uuid: 27058107-f8af-45ee-a0cc-c9412c7dfd8b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_click_cost
+    - node.type.bars
+id: node.bars.field_click_cost
+field_name: field_click_cost
+entity_type: node
+bundle: bars
+label: 'Cost per click'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

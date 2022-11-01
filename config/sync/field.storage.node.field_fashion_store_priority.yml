@@ -1,0 +1,20 @@
+uuid: e58f277f-6b9f-497b-98c1-e0443407e13a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_fashion_store_priority
+field_name: field_fashion_store_priority
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,11 @@
+uuid: a6f89770-72ca-4c48-aaca-af9a306d14bd
+langcode: en
+status: true
+dependencies: {  }
+name: 'Fashion Event'
+type: fashion
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

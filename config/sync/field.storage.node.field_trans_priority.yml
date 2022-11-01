@@ -1,0 +1,20 @@
+uuid: 663cf8e8-5b3f-4ac2-a5f3-ca9f72ca51e5
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_trans_priority
+field_name: field_trans_priority
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

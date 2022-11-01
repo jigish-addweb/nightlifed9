@@ -1,0 +1,25 @@
+uuid: 2e354e7c-24f7-4687-ac36-43fdc9916053
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_trans_priority
+    - node.type.transportation
+id: node.transportation.field_trans_priority
+field_name: field_trans_priority
+entity_type: node
+bundle: transportation
+label: Priority
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 100
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

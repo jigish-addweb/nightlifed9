@@ -1,0 +1,22 @@
+uuid: 122b1c1c-cca1-4d21-ba20-416390ad7287
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.rsvp
+id: node.rsvp.sticky
+field_name: sticky
+entity_type: node
+bundle: rsvp
+label: 'Sticky at the top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

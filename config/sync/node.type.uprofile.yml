@@ -1,0 +1,11 @@
+uuid: 39551684-5399-4b41-aaaf-24365818e8fe
+langcode: en
+status: true
+dependencies: {  }
+name: 'User Profile'
+type: uprofile
+description: 'Holds the data for a user''s profile. This type is provided by Advanced Profile Kit as an import file and can be changed or deleted as needed. If you don''t want it to have a title, look at the Automatic Nodetitles module.  If you don''t see a "Content profile" tab at the top, be sure "Use this content type as a content profile for users" is checked. Commenting is off by default but can be turned on in the Comment Settings section.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,21 @@
+uuid: c1b35508-458c-46ca-9c74-2ec46ac653e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hotb_reser_share
+    - node.type.hotel_booking
+  module:
+    - options
+id: node.hotel_booking.field_hotb_reser_share
+field_name: field_hotb_reser_share
+entity_type: node
+bundle: hotel_booking
+label: 'Post your Reservation'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

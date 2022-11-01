@@ -1,0 +1,8 @@
+uuid: 615a2821-a77d-4e6d-94c1-9f0a89d73543
+langcode: en
+status: true
+dependencies: {  }
+name: 'Hotel and Resort Type'
+vid: hotel_and_resort_type
+description: ''
+weight: -3
