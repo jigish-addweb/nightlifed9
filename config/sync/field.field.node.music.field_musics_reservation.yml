@@ -1,4 +1,4 @@
-uuid: 52dab234-e971-4b2f-8602-e895d5ef0e0c
+uuid: f1fcdea6-085d-402d-ae9f-fbb72eeeee13
 langcode: en
 status: true
 dependencies:
@@ -12,10 +12,10 @@ field_name: field_musics_reservation
 entity_type: node
 bundle: music
 label: 'Enter Buy now link'
-description: 'http://50.28.20.212/music/index?tab=search&query=daft%20punk'
+description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: text_long
+field_type: text

@@ -1,4 +1,4 @@
-uuid: 09adced9-608b-47f9-baef-d31a82841b16
+uuid: c7e67597-d442-4e9f-aef7-ef6b083e4b57
 langcode: en
 status: true
 dependencies:
@@ -10,10 +10,10 @@ field_name: field_transport_facebook
 entity_type: node
 bundle: transportation
 label: 'Facebook link'
-description: 'Please type complete URL like ''http://www.example.com'''
+description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

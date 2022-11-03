@@ -1,4 +1,4 @@
-uuid: 0e55571f-e157-414c-b199-f40312bc7a25
+uuid: 05e2ff08-a2c9-4d6c-b57e-5b846fa926d9
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_fashion_google
 field_name: field_fashion_google
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

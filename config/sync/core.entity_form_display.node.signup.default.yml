@@ -39,16 +39,16 @@ content:
       placeholder: ''
     third_party_settings: {  }
   field_email:
-    type: text_textfield
-    weight: 3
+    type: string_textfield
+    weight: 123
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_guests:
-    type: text_textfield
-    weight: 8
+    type: string_textfield
+    weight: 127
     region: content
     settings:
       size: 60
@@ -61,8 +61,8 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_rsvp_date:
-    type: text_textfield
-    weight: 9
+    type: string_textfield
+    weight: 121
     region: content
     settings:
       size: 60
@@ -75,32 +75,32 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_signup_cc:
-    type: text_textfield
-    weight: 4
+    type: string_textfield
+    weight: 122
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_signup_fname:
-    type: text_textfield
-    weight: 6
+    type: string_textfield
+    weight: 124
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_signup_lname:
-    type: text_textfield
-    weight: 7
+    type: string_textfield
+    weight: 125
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_signup_mobile:
-    type: text_textfield
-    weight: 5
+    type: string_textfield
+    weight: 126
     region: content
     settings:
       size: 60

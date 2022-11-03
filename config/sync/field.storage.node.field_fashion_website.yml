@@ -1,4 +1,4 @@
-uuid: b3cd7136-f307-4daf-8812-cd8d9099079e
+uuid: bf23970f-433e-4c1d-9087-0c018ce3e9b3
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_fashion_website
 field_name: field_fashion_website
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

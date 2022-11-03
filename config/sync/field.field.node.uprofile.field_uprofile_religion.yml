@@ -1,4 +1,4 @@
-uuid: 13a4e19c-c525-4297-9495-b0e0b1840ce2
+uuid: cf5e77fe-6eeb-4cd9-a468-dbc200a34e5a
 langcode: en
 status: true
 dependencies:
@@ -12,8 +12,8 @@ bundle: uprofile
 label: 'Religious views'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

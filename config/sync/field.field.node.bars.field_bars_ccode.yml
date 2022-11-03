@@ -1,4 +1,4 @@
-uuid: 65c1c49a-e626-40ff-a2e6-5ed155073c76
+uuid: a9f5f241-d5e8-4d3e-8a8f-766952c929ff
 langcode: en
 status: true
 dependencies:
@@ -12,8 +12,8 @@ bundle: bars
 label: 'Country code'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

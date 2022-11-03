@@ -1,4 +1,4 @@
-uuid: 3614dbe7-969b-43cc-b4c2-1f18c1896727
+uuid: cad758c1-44f7-4e4a-94a6-0b2a6313e1c2
 langcode: en
 status: true
 dependencies:
@@ -12,10 +12,8 @@ bundle: music
 label: 'Is Single File'
 description: ''
 required: false
-translatable: true
-default_value:
-  -
-    value: 'No'
+translatable: false
+default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

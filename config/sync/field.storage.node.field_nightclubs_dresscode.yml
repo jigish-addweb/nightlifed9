@@ -1,4 +1,4 @@
-uuid: 3b818bed-2114-498a-b740-660b2271e355
+uuid: 31ba9a5f-99f9-4eed-88b9-30b4e8e0a526
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_nightclubs_dresscode
 field_name: field_nightclubs_dresscode
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

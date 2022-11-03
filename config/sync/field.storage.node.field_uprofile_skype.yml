@@ -1,4 +1,4 @@
-uuid: 3cb6d890-814f-4b2b-84d4-a00e0a18f23b
+uuid: 363825c7-57fd-4c61-9d70-b2e0437b90ac
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_uprofile_skype
 field_name: field_uprofile_skype
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

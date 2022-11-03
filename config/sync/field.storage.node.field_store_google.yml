@@ -1,4 +1,4 @@
-uuid: 94709ee1-c552-433d-9d96-b8178feca8ff
+uuid: 00c04e57-06a0-4718-898c-13e1885358ce
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_store_google
 field_name: field_store_google
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

@@ -1,4 +1,4 @@
-uuid: c84f34a0-1512-472f-9a4e-a43b268c0fb6
+uuid: b2912f8c-3b18-415c-86d2-fcb995c776cb
 langcode: en
 status: true
 dependencies:
@@ -11,9 +11,9 @@ entity_type: node
 bundle: rsvp
 label: 'Last Name'
 description: ''
-required: true
-translatable: true
+required: false
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

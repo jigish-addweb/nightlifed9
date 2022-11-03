@@ -1,4 +1,4 @@
-uuid: e74eda63-ed38-4a7c-a259-5c7fceb9802f
+uuid: 63c5c687-10c0-4718-82e1-45698aa2e7a4
 langcode: en
 status: true
 dependencies:
@@ -11,9 +11,9 @@ entity_type: node
 bundle: nightclubs
 label: 'Contact Email'
 description: ''
-required: true
-translatable: true
+required: false
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

@@ -1,4 +1,4 @@
-uuid: f933a455-4d87-4681-a23c-078e8917102b
+uuid: 18436630-13b8-495c-a011-ba0b80feff29
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_concerts_website
 field_name: field_concerts_website
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

@@ -1,4 +1,4 @@
-uuid: c78a9d96-8c46-44e7-928f-1622dd88f157
+uuid: 8b6bd755-6d13-49f1-8973-b5b67e68ff53
 langcode: en
 status: true
 dependencies:
@@ -10,10 +10,10 @@ field_name: field_event_reservation
 entity_type: node
 bundle: event
 label: 'Buy tickets link'
-description: 'Example: http://www.gottahavetickets.com/myevent'
+description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

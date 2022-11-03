@@ -19,27 +19,12 @@ dependencies:
     - field.field.node.book_a_party.upload
     - node.type.book_a_party
   module:
-    - text
     - user
 id: node.book_a_party.print
 targetEntityType: node
 bundle: book_a_party
 mode: print
 content:
-  field_bap_cc:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: -3
-    region: content
-  field_bap_mobile:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: -2
-    region: content
   links:
     settings: {  }
     third_party_settings: {  }
@@ -47,12 +32,14 @@ content:
     region: content
 hidden:
   body: true
+  field_bap_cc: true
   field_bap_comment: true
   field_bap_date: true
   field_bap_email: true
   field_bap_fname: true
   field_bap_guests: true
   field_bap_lname: true
+  field_bap_mobile: true
   field_bap_party: true
   field_bap_share: true
   field_book_myparty_ref: true

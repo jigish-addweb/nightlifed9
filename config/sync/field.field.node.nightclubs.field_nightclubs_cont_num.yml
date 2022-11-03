@@ -1,4 +1,4 @@
-uuid: 6bdd1e97-1709-4cbc-8edb-8cc1d53bee06
+uuid: bd3865ee-1e8c-404b-91b3-84174d571c0f
 langcode: en
 status: true
 dependencies:
@@ -11,9 +11,9 @@ entity_type: node
 bundle: nightclubs
 label: 'Contact Mobile Number'
 description: ''
-required: true
-translatable: true
+required: false
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

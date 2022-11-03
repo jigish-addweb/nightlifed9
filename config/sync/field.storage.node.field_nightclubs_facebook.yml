@@ -1,4 +1,4 @@
-uuid: 9527cda6-4d70-4e59-8206-9c1f666913c6
+uuid: 0b3e13e0-897e-4667-9dc2-9cc77748bd7d
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_nightclubs_facebook
 field_name: field_nightclubs_facebook
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

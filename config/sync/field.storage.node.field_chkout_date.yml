@@ -1,4 +1,4 @@
-uuid: ce78f804-cd19-4048-9d10-2c3130e94bf0
+uuid: 969b2cb1-32a2-4cef-af04-b0965e8df57f
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_chkout_date
 field_name: field_chkout_date
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

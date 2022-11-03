@@ -1,4 +1,4 @@
-uuid: aa67cd85-6d2b-4da6-a316-151b2cab3028
+uuid: 2d0ef443-a7fb-4011-b268-48dddc9f1284
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_rest_twitter
 field_name: field_rest_twitter
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

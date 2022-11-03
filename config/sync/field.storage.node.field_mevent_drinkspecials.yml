@@ -1,4 +1,4 @@
-uuid: 9a00911b-1a69-43ef-bf3f-5646b6edbdf0
+uuid: c36c3c6a-d3ed-4af2-8864-8979455d44af
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_mevent_drinkspecials
 field_name: field_mevent_drinkspecials
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

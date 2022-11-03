@@ -65,11 +65,11 @@ content:
       placeholder: ''
     third_party_settings: {  }
   field_keywords:
-    type: text_textarea
-    weight: 19
+    type: string_textfield
+    weight: 126
     region: content
     settings:
-      rows: 3
+      size: 60
       placeholder: ''
     third_party_settings: {  }
   field_private:
@@ -79,32 +79,32 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_video_ccode:
-    type: text_textfield
-    weight: 25
+    type: string_textfield
+    weight: 125
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_video_cont_mail:
-    type: text_textfield
-    weight: 27
+    type: string_textfield
+    weight: 122
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_video_cont_num:
-    type: text_textfield
-    weight: 26
+    type: string_textfield
+    weight: 123
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_video_contname:
-    type: text_textfield
-    weight: 24
+    type: string_textfield
+    weight: 124
     region: content
     settings:
       size: 60

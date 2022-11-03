@@ -1,4 +1,4 @@
-uuid: 3bb2e105-4e53-4086-9f98-bf407440f780
+uuid: d7b6da10-62d2-4d97-9acf-aa5bcf3cc19f
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_rest_goole
 field_name: field_rest_goole
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

@@ -1,4 +1,4 @@
-uuid: ffd34431-d211-4bdc-9b27-e85f8fdd2f9e
+uuid: ee78452a-ad73-40f8-9b83-913d21bb17ae
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_music_contname
 field_name: field_music_contname
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

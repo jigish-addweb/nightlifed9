@@ -1,4 +1,4 @@
-uuid: baede4db-a8e3-43a7-9521-bbf3f37a2be5
+uuid: 411a6135-6111-4f98-ac3b-73d101f3e2ef
 langcode: en
 status: true
 dependencies:
@@ -12,8 +12,8 @@ bundle: transport_reservation
 label: Mobile
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

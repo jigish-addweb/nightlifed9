@@ -1,4 +1,4 @@
-uuid: 66bfd45c-2f45-439a-81a8-ccccfbe37acd
+uuid: 0900a291-f392-4f41-8aa5-52189b5af447
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_ad_ref_priority
 field_name: field_ad_ref_priority
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

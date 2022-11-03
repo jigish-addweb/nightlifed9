@@ -1,4 +1,4 @@
-uuid: 167c2236-c39b-451f-94aa-d611bdf57d3f
+uuid: f4d65616-a245-4df0-9789-e85b071d863b
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_mov_cont_ccode
 field_name: field_mov_cont_ccode
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

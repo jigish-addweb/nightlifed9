@@ -1,4 +1,4 @@
-uuid: a7b6c9ad-a870-4701-a6bd-efa6914ad4f2
+uuid: 47138d8e-5f30-4ce5-abd9-0127a1971837
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_fashion_mobile
 field_name: field_fashion_mobile
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

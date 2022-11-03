@@ -1,4 +1,4 @@
-uuid: e07b91f5-af45-4791-9221-d386c92a0e0d
+uuid: 5225a1be-2f21-4226-8475-435b31fc1c6c
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_rest_chef
 field_name: field_rest_chef
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

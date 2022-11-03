@@ -1,4 +1,4 @@
-uuid: 0fa4cefd-18ec-4196-a53b-d311eab6d995
+uuid: 940fe421-3807-44b6-bbeb-2fd603376b88
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_bars_age
 field_name: field_bars_age
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

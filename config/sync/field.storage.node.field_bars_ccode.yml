@@ -1,4 +1,4 @@
-uuid: f64e3372-f230-4b6d-b06a-ddf9ea13af35
+uuid: b9e6b6b3-dadd-48ce-b9a8-1ae0101071d0
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_bars_ccode
 field_name: field_bars_ccode
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

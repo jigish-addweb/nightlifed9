@@ -1,4 +1,4 @@
-uuid: e7d5ecf5-0509-428e-b8a7-ab2a824574b2
+uuid: 5cabc6b5-1481-424f-b265-49bd6407a22c
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_photos_ccode
 field_name: field_photos_ccode
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

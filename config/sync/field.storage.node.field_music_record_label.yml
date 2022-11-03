@@ -1,4 +1,4 @@
-uuid: 3a1e5822-856c-4274-bea3-e72fe24c48d9
+uuid: 3f834b95-bb7a-44e5-8dde-1d60cabb683b
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_music_record_label
 field_name: field_music_record_label
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

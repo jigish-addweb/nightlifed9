@@ -1,4 +1,4 @@
-uuid: c3558135-d7b7-41da-a3a1-1f49cdf665f3
+uuid: b4194977-3665-409a-955d-7be9fe4c046c
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_transport_facebook
 field_name: field_transport_facebook
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

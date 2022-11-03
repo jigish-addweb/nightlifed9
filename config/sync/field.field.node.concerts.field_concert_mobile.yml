@@ -1,4 +1,4 @@
-uuid: bc91efef-6331-45b4-b132-6c8f7c4dee8d
+uuid: a6213b64-4ebc-476b-a7c8-d1caafabc1bd
 langcode: en
 status: true
 dependencies:
@@ -11,9 +11,9 @@ entity_type: node
 bundle: concerts
 label: 'Contact Mobile Number'
 description: ''
-required: true
-translatable: true
+required: false
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

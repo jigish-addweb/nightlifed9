@@ -1,4 +1,4 @@
-uuid: 5e9cd38a-7b0e-4229-a4a8-400ebbc56a12
+uuid: 5b290cd9-1e14-468a-9bcd-c4035fefa743
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_news_ccode
 field_name: field_news_ccode
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

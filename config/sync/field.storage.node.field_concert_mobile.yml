@@ -1,4 +1,4 @@
-uuid: 02c3edc3-26d3-45ee-81a4-e943d294f306
+uuid: 8b2a1aef-4dac-43d2-b8e3-63313ee3ff92
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_concert_mobile
 field_name: field_concert_mobile
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

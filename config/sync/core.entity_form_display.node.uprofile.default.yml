@@ -55,8 +55,8 @@ content:
       placeholder: ''
     third_party_settings: {  }
   field_uprofile_aim:
-    type: text_textfield
-    weight: 1
+    type: string_textfield
+    weight: 121
     region: content
     settings:
       size: 60
@@ -77,8 +77,8 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_uprofile_ethnicity:
-    type: text_textfield
-    weight: -8
+    type: string_textfield
+    weight: 122
     region: content
     settings:
       size: 60
@@ -131,16 +131,16 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_uprofile_google:
-    type: text_textfield
-    weight: 2
+    type: string_textfield
+    weight: 123
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_uprofile_icq:
-    type: text_textfield
-    weight: 4
+    type: string_textfield
+    weight: 124
     region: content
     settings:
       size: 60
@@ -163,16 +163,16 @@ content:
       placeholder_title: ''
     third_party_settings: {  }
   field_uprofile_location:
-    type: text_textfield
-    weight: -2
+    type: string_textfield
+    weight: 125
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_uprofile_name:
-    type: text_textfield
-    weight: -3
+    type: string_textfield
+    weight: 126
     region: content
     settings:
       size: 60
@@ -187,8 +187,8 @@ content:
       placeholder: ''
     third_party_settings: {  }
   field_uprofile_political:
-    type: text_textfield
-    weight: -2
+    type: string_textfield
+    weight: 127
     region: content
     settings:
       size: 60
@@ -201,16 +201,16 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_uprofile_religion:
-    type: text_textfield
-    weight: -3
+    type: string_textfield
+    weight: 128
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_uprofile_skype:
-    type: text_textfield
-    weight: 0
+    type: string_textfield
+    weight: 129
     region: content
     settings:
       size: 60
@@ -233,8 +233,8 @@ content:
       placeholder_title: ''
     third_party_settings: {  }
   field_uprofile_yahoo:
-    type: text_textfield
-    weight: 3
+    type: string_textfield
+    weight: 130
     region: content
     settings:
       size: 60

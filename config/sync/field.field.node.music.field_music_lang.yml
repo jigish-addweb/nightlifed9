@@ -1,4 +1,4 @@
-uuid: fb6df8ff-0b99-4777-a31d-9349fdb7d830
+uuid: 58658db3-9129-48da-a42f-80c6329d247c
 langcode: en
 status: true
 dependencies:
@@ -11,9 +11,9 @@ entity_type: node
 bundle: music
 label: Language
 description: ''
-required: true
-translatable: true
+required: false
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

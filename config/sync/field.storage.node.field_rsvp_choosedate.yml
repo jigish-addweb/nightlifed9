@@ -1,4 +1,4 @@
-uuid: c2b9a5d3-f4ec-4e3f-9817-fc333a6a4174
+uuid: 63588462-5cf1-4afe-8b4e-2891a350ae96
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_rsvp_choosedate
 field_name: field_rsvp_choosedate
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

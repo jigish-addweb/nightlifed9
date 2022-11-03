@@ -1,4 +1,4 @@
-uuid: b59730eb-9a17-48be-9f23-3e3351ebfa76
+uuid: cfe370ca-0c28-4b42-aba0-49a2f58664de
 langcode: en
 status: true
 dependencies:
@@ -10,10 +10,10 @@ field_name: field_nightclubs_website
 entity_type: node
 bundle: nightclubs
 label: Website
-description: 'Please type complete URL like ''http://www.example.com'''
+description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

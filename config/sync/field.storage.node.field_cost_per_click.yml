@@ -1,4 +1,4 @@
-uuid: ebf77426-f6c6-4973-8476-7df52fa96a45
+uuid: dfa17422-fb89-4a38-beeb-480ea908a258
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_cost_per_click
 field_name: field_cost_per_click
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

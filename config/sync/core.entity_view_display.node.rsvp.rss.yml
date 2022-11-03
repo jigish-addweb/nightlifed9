@@ -25,61 +25,12 @@ targetEntityType: node
 bundle: rsvp
 mode: rss
 content:
-  field_rsvp_cc:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: -3
-    region: content
-  field_rsvp_choosedate:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 2
-    region: content
   field_rsvp_comment:
     type: text_default
     label: above
     settings: {  }
     third_party_settings: {  }
     weight: 5
-    region: content
-  field_rsvp_email:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: -4
-    region: content
-  field_rsvp_fname:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: -1
-    region: content
-  field_rsvp_guests:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 1
-    region: content
-  field_rsvp_lname:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 0
-    region: content
-  field_rsvp_mobile:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: -2
     region: content
   field_rsvp_postshare:
     type: text_default
@@ -103,4 +54,11 @@ content:
     region: content
 hidden:
   body: true
+  field_rsvp_cc: true
+  field_rsvp_choosedate: true
+  field_rsvp_email: true
+  field_rsvp_fname: true
+  field_rsvp_guests: true
+  field_rsvp_lname: true
+  field_rsvp_mobile: true
   upload: true

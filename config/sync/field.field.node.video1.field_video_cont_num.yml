@@ -1,4 +1,4 @@
-uuid: 485a7b83-1016-4fe5-8fd3-ffa555e22000
+uuid: 8ae7f91a-6573-4c93-9b51-ea8c4e44b43f
 langcode: en
 status: true
 dependencies:
@@ -11,9 +11,9 @@ entity_type: node
 bundle: video1
 label: 'Contact Mobile Number'
 description: ''
-required: true
-translatable: true
+required: false
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

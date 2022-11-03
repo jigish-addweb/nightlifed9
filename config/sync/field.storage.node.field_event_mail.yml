@@ -1,4 +1,4 @@
-uuid: b4d161d6-61ec-4766-9409-7a06b9942227
+uuid: 0d590fd1-8dac-4b0e-8174-d3d5450df3d4
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_event_mail
 field_name: field_event_mail
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

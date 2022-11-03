@@ -1,4 +1,4 @@
-uuid: 36bc4115-7c4f-49b6-89bc-7aa7e75df484
+uuid: be10fdd7-96d8-445b-9dfd-531613bc4cd5
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_ad_budget_amount
 field_name: field_ad_budget_amount
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

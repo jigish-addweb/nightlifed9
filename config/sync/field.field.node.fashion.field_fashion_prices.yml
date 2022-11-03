@@ -1,4 +1,4 @@
-uuid: 76e78df2-3613-4d2f-8591-07501aa028c9
+uuid: c7e53c86-d5a9-4306-b583-8c3deb467429
 langcode: en
 status: true
 dependencies:
@@ -12,8 +12,8 @@ bundle: fashion
 label: Prices
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

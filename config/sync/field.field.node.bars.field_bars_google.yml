@@ -1,4 +1,4 @@
-uuid: 9e2b1a20-43cc-4c41-839d-15a13d9dfbab
+uuid: bdfc74f0-6a05-4137-b80c-5e0f2bf88b78
 langcode: en
 status: true
 dependencies:
@@ -10,10 +10,10 @@ field_name: field_bars_google
 entity_type: node
 bundle: bars
 label: 'Google+ link'
-description: 'Please type complete URL like ''http://www.example.com'''
+description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

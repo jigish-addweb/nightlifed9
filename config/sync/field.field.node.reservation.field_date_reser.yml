@@ -1,4 +1,4 @@
-uuid: 50d28d4e-157d-4b84-9426-f0ee4f90b50f
+uuid: 62c588dc-2085-4005-91a7-c5de6a9a4108
 langcode: en
 status: true
 dependencies:
@@ -11,9 +11,9 @@ entity_type: node
 bundle: reservation
 label: 'Choose your date'
 description: ''
-required: true
-translatable: true
+required: false
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

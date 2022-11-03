@@ -1,4 +1,4 @@
-uuid: bbbca25a-5f82-4bd3-8db0-efdd757a93ac
+uuid: 4dad6073-2a96-4810-8356-7b5e9ba4f490
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_bars_cont_mail
 field_name: field_bars_cont_mail
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

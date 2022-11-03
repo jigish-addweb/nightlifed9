@@ -1,4 +1,4 @@
-uuid: 8b5ee543-7e85-4778-8f5c-f8707ecbd31d
+uuid: ed873a99-2345-464f-b1d0-cf834b48b581
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_uprofile_political
 field_name: field_uprofile_political
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

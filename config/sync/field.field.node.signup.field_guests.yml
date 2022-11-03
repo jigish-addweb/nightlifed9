@@ -1,4 +1,4 @@
-uuid: 95a0d157-966c-463d-b9dc-7c36f33d10ca
+uuid: 84329c1c-61f2-4568-8f8e-21ac7dec3c78
 langcode: en
 status: true
 dependencies:
@@ -9,11 +9,11 @@ id: node.signup.field_guests
 field_name: field_guests
 entity_type: node
 bundle: signup
-label: 'Number of Guests Requested'
+label: guests
 description: ''
-required: true
-translatable: true
+required: false
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

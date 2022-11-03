@@ -36,13 +36,6 @@ targetEntityType: node
 bundle: movies
 mode: print
 content:
-  field_mov_cont_ccode:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 20
-    region: content
   field_private:
     type: text_default
     label: above
@@ -62,6 +55,7 @@ hidden:
   field_genres: true
   field_hashtag: true
   field_language: true
+  field_mov_cont_ccode: true
   field_mov_cont_mail: true
   field_mov_cont_num: true
   field_movie_image: true

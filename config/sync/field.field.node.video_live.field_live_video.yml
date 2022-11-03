@@ -1,4 +1,4 @@
-uuid: a277e088-7573-4e02-9526-cfaeb00a0893
+uuid: 3ffffb9b-3c40-4790-9d4a-7afbc955c4e7
 langcode: en
 status: true
 dependencies:
@@ -11,9 +11,9 @@ entity_type: node
 bundle: video_live
 label: 'Enter HLS VIDEO URL'
 description: 'Please type complete URL like ''http://www.example.com'''
-required: true
-translatable: true
+required: false
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

@@ -48,20 +48,6 @@ content:
     third_party_settings: {  }
     weight: 3
     region: content
-  field_nightclubs_age:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 6
-    region: content
-  field_nightclubs_ccode:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 20
-    region: content
   field_nightclubs_days:
     type: text_default
     label: above
@@ -89,7 +75,9 @@ hidden:
   field_nightclub_reserv: true
   field_nightclub_timings: true
   field_nightclub_type: true
+  field_nightclubs_age: true
   field_nightclubs_album: true
+  field_nightclubs_ccode: true
   field_nightclubs_cont_num: true
   field_nightclubs_contname: true
   field_nightclubs_details: true

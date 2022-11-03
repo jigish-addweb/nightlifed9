@@ -80,56 +80,56 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_event_ccode:
-    type: text_textfield
-    weight: 28
+    type: string_textfield
+    weight: 126
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_event_cname:
-    type: text_textfield
-    weight: 27
+    type: string_textfield
+    weight: 125
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_event_cont_mail:
-    type: text_textfield
-    weight: 30
+    type: string_textfield
+    weight: 124
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_event_cont_mobile:
-    type: text_textfield
-    weight: 29
+    type: string_textfield
+    weight: 134
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_event_facebook:
-    type: text_textfield
-    weight: 23
+    type: string_textfield
+    weight: 130
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_event_google:
-    type: text_textfield
-    weight: 25
+    type: string_textfield
+    weight: 131
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_event_mail:
-    type: text_textfield
-    weight: 8
+    type: string_textfield
+    weight: 129
     region: content
     settings:
       size: 60
@@ -151,8 +151,8 @@ content:
       placeholder: ''
     third_party_settings: {  }
   field_event_reservation:
-    type: text_textfield
-    weight: 19
+    type: string_textfield
+    weight: 123
     region: content
     settings:
       size: 60
@@ -165,8 +165,8 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_event_twitter:
-    type: text_textfield
-    weight: 24
+    type: string_textfield
+    weight: 136
     region: content
     settings:
       size: 60
@@ -179,8 +179,8 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_event_website:
-    type: text_textfield
-    weight: 9
+    type: string_textfield
+    weight: 137
     region: content
     settings:
       size: 60
@@ -203,8 +203,8 @@ content:
       placeholder: ''
     third_party_settings: {  }
   field_mevent_agereq:
-    type: text_textfield
-    weight: 11
+    type: string_textfield
+    weight: 122
     region: content
     settings:
       size: 60
@@ -219,16 +219,16 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
   field_mevent_dresscode:
-    type: text_textfield
-    weight: 12
+    type: string_textfield
+    weight: 127
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_mevent_drinkspecials:
-    type: text_textfield
-    weight: 17
+    type: string_textfield
+    weight: 128
     region: content
     settings:
       size: 60
@@ -243,24 +243,24 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
   field_mevent_musicstyle:
-    type: text_textfield
-    weight: 10
+    type: string_textfield
+    weight: 132
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_mevent_parkingoptions:
-    type: text_textfield
-    weight: 16
+    type: string_textfield
+    weight: 133
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_mevent_prices:
-    type: text_textfield
-    weight: 15
+    type: string_textfield
+    weight: 135
     region: content
     settings:
       size: 60

@@ -1,4 +1,4 @@
-uuid: ca82aec4-a7a3-4796-ba1d-d67b96cd9f24
+uuid: dbd7f403-c516-4b88-94a1-445f62d64204
 langcode: en
 status: true
 dependencies:
@@ -11,9 +11,9 @@ entity_type: node
 bundle: transport_reservation
 label: Email
 description: ''
-required: true
-translatable: true
+required: false
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

@@ -68,11 +68,12 @@ content:
     weight: 26
     region: content
   field_trans_ccode:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 16
+    weight: 105
     region: content
   field_trans_mail_body:
     type: text_default
@@ -116,39 +117,44 @@ content:
     weight: 2
     region: content
   field_transport_cont_email:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 18
+    weight: 102
     region: content
   field_transport_cont_mobile:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 17
+    weight: 103
     region: content
   field_transport_cont_name:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 15
+    weight: 104
     region: content
   field_transport_facebook:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 11
+    weight: 106
     region: content
   field_transport_google:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 13
+    weight: 107
     region: content
   field_transport_payment:
     type: text_default
@@ -165,11 +171,12 @@ content:
     weight: 4
     region: content
   field_transport_specials:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 6
+    weight: 108
     region: content
   field_transport_timings:
     type: text_default
@@ -179,18 +186,20 @@ content:
     weight: -1
     region: content
   field_transport_twitter:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 12
+    weight: 109
     region: content
   field_transport_website:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 3
+    weight: 110
     region: content
   field_transportation_image:
     type: image

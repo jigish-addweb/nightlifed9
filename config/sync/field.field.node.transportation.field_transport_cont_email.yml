@@ -1,4 +1,4 @@
-uuid: 49817122-3125-4588-9f46-2806a01f9d54
+uuid: 9edcfedc-27f2-4b15-a3c1-2987e949aa4f
 langcode: en
 status: true
 dependencies:
@@ -11,9 +11,9 @@ entity_type: node
 bundle: transportation
 label: 'Contact Email'
 description: ''
-required: true
-translatable: true
+required: false
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

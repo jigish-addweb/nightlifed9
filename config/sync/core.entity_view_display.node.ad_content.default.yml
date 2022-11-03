@@ -70,18 +70,20 @@ content:
     weight: 4
     region: content
   field_ad_budget_amount:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 5
+    weight: 101
     region: content
   field_ad_click_cost:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 9
+    weight: 102
     region: content
   field_ad_cont_shedule:
     type: text_default
@@ -124,11 +126,12 @@ content:
     weight: 10
     region: content
   field_ad_ref_priority:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 21
+    weight: 103
     region: content
   field_ad_reftype:
     type: text_default

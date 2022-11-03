@@ -1,4 +1,4 @@
-uuid: 2e01d176-c65a-497c-b726-e25fc8d05c8b
+uuid: de55d3d4-7cb7-4ed0-89b4-83e406fdf8eb
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_vid_cont_num
 field_name: field_vid_cont_num
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

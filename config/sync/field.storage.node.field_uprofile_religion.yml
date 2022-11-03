@@ -1,4 +1,4 @@
-uuid: 989c7932-78d5-457c-ba2f-5d47fc328683
+uuid: 2d3c469d-a1b1-459a-b044-d9afc00275d1
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_uprofile_religion
 field_name: field_uprofile_religion
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

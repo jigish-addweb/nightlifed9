@@ -76,13 +76,6 @@ content:
     third_party_settings: {  }
     weight: 9
     region: content
-  field_rest_additional:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 12
-    region: content
   field_rest_album:
     type: image
     label: above
@@ -94,68 +87,12 @@ content:
     third_party_settings: {  }
     weight: 18
     region: content
-  field_rest_ccode:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 26
-    region: content
-  field_rest_chef:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 11
-    region: content
-  field_rest_contmail:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 28
-    region: content
-  field_rest_contmobile:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 27
-    region: content
-  field_rest_contname:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 25
-    region: content
   field_rest_dining:
     type: text_default
     label: above
     settings: {  }
     third_party_settings: {  }
     weight: 7
-    region: content
-  field_rest_dress_code:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 8
-    region: content
-  field_rest_facebook:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 19
-    region: content
-  field_rest_goole:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 21
     region: content
   field_rest_payment:
     type: text_default
@@ -170,27 +107,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 1
-    region: content
-  field_rest_specials:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 10
-    region: content
-  field_rest_twitter:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 20
-    region: content
-  field_rest_website:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 5
     region: content
   field_restallowrsvp:
     type: text_default
@@ -248,5 +164,17 @@ hidden:
   body: true
   field_country: true
   field_hashtag: true
+  field_rest_additional: true
+  field_rest_ccode: true
+  field_rest_chef: true
+  field_rest_contmail: true
+  field_rest_contmobile: true
+  field_rest_contname: true
+  field_rest_dress_code: true
+  field_rest_facebook: true
+  field_rest_goole: true
+  field_rest_specials: true
+  field_rest_twitter: true
+  field_rest_website: true
   field_restaurant_type: true
   field_would_you_like_a_featured_: true

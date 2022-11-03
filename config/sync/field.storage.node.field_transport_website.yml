@@ -1,4 +1,4 @@
-uuid: 05098a3b-97be-4612-9ccd-af7eea662824
+uuid: 3cb2feea-84f8-4eee-aeb4-a58b89b4f0ff
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_transport_website
 field_name: field_transport_website
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

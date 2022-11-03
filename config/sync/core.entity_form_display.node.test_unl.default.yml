@@ -39,8 +39,8 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_test_email:
-    type: text_textfield
-    weight: -2
+    type: string_textfield
+    weight: 122
     region: content
     settings:
       size: 60

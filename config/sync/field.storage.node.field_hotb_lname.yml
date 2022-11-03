@@ -1,4 +1,4 @@
-uuid: 48e86bfe-03b2-4151-914a-76a9748cee4f
+uuid: 14bca703-274f-4358-88ea-73b9bb859062
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_hotb_lname
 field_name: field_hotb_lname
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

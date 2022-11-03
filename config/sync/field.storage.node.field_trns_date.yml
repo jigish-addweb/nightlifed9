@@ -1,4 +1,4 @@
-uuid: 0cf13429-5504-4665-9286-bf1910f805f7
+uuid: b87d308d-f96b-436f-8a6e-7051e93fdd38
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_trns_date
 field_name: field_trns_date
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

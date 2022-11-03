@@ -1,4 +1,4 @@
-uuid: 35e0a97b-39e1-442c-9f76-eee84a949a5c
+uuid: d8c33134-ab5e-4b30-b524-576976b86ae8
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_event_cname
 field_name: field_event_cname
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

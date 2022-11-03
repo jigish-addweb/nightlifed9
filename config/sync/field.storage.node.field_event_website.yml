@@ -1,4 +1,4 @@
-uuid: 47ce4aa0-98c0-4f7e-a7d3-124c618cbe04
+uuid: bf1cf40a-e1e2-430b-8164-4a4207708efd
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_event_website
 field_name: field_event_website
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

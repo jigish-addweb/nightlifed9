@@ -38,48 +38,6 @@ targetEntityType: node
 bundle: music
 mode: search_index
 content:
-  field_music_album:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 0
-    region: content
-  field_music_ccode:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 15
-    region: content
-  field_music_check_single:
-    type: text_default
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    weight: 11
-    region: content
-  field_music_cont_mail:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 17
-    region: content
-  field_music_cont_num:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 16
-    region: content
-  field_music_contname:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 14
-    region: content
   field_music_file:
     type: file_default
     label: above
@@ -98,13 +56,6 @@ content:
         attribute: lazy
     third_party_settings: {  }
     weight: 10
-    region: content
-  field_music_lang:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 5
     region: content
   field_music_photo_album:
     type: image
@@ -126,13 +77,6 @@ content:
     third_party_settings: {  }
     weight: 12
     region: content
-  field_music_record_label:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 2
-    region: content
   field_music_release_date:
     type: datetime_default
     label: above
@@ -148,13 +92,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 7
-    region: content
-  field_musics_reservation:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 8
     region: content
   field_private:
     type: text_default
@@ -174,4 +111,13 @@ hidden:
   field_country: true
   field_genre: true
   field_hashtag: true
+  field_music_album: true
+  field_music_ccode: true
+  field_music_check_single: true
+  field_music_cont_mail: true
+  field_music_cont_num: true
+  field_music_contname: true
+  field_music_lang: true
+  field_music_record_label: true
+  field_musics_reservation: true
   field_would_you_like_a_featured_: true

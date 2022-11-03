@@ -69,8 +69,8 @@ content:
       placeholder: ''
     third_party_settings: {  }
   field_live_video:
-    type: text_textfield
-    weight: -2
+    type: string_textfield
+    weight: 126
     region: content
     settings:
       size: 60
@@ -83,8 +83,8 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_rtmp_video:
-    type: text_textfield
-    weight: -1
+    type: string_textfield
+    weight: 127
     region: content
     settings:
       size: 60
@@ -99,32 +99,32 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
   field_vid_ccode:
-    type: text_textfield
-    weight: 11
+    type: string_textfield
+    weight: 125
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_vid_cont_mail:
-    type: text_textfield
-    weight: 13
+    type: string_textfield
+    weight: 122
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_vid_cont_num:
-    type: text_textfield
-    weight: 12
+    type: string_textfield
+    weight: 123
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_vid_contname:
-    type: text_textfield
-    weight: 10
+    type: string_textfield
+    weight: 124
     region: content
     settings:
       size: 60

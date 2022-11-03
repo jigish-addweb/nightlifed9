@@ -1,4 +1,4 @@
-uuid: 87c97295-0c01-4872-b081-ad15393402cc
+uuid: 0217f7db-eb34-4e19-a061-ebc319d1ebb7
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_rest_specials
 field_name: field_rest_specials
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

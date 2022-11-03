@@ -1,4 +1,4 @@
-uuid: f70c2f2b-5ecb-4ea2-b6c0-7a4db4362518
+uuid: 2cd6285a-e0f1-44a0-b925-292aca74028b
 langcode: en
 status: true
 dependencies:
@@ -11,9 +11,9 @@ entity_type: node
 bundle: transport_reservation
 label: 'Last Name'
 description: ''
-required: true
-translatable: true
+required: false
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

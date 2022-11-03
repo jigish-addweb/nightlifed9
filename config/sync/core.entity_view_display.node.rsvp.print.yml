@@ -18,27 +18,12 @@ dependencies:
     - field.field.node.rsvp.upload
     - node.type.rsvp
   module:
-    - text
     - user
 id: node.rsvp.print
 targetEntityType: node
 bundle: rsvp
 mode: print
 content:
-  field_rsvp_cc:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: -3
-    region: content
-  field_rsvp_mobile:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: -2
-    region: content
   links:
     settings: {  }
     third_party_settings: {  }
@@ -46,12 +31,14 @@ content:
     region: content
 hidden:
   body: true
+  field_rsvp_cc: true
   field_rsvp_choosedate: true
   field_rsvp_comment: true
   field_rsvp_email: true
   field_rsvp_fname: true
   field_rsvp_guests: true
   field_rsvp_lname: true
+  field_rsvp_mobile: true
   field_rsvp_postshare: true
   field_rsvpref: true
   upload: true

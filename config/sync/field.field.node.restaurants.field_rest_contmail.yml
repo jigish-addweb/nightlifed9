@@ -1,4 +1,4 @@
-uuid: f6e573c9-8adc-453d-a91a-d5484b3ce4f2
+uuid: 8956d476-fbda-4e71-b5e7-3d749fdfc5a0
 langcode: en
 status: true
 dependencies:
@@ -11,9 +11,9 @@ entity_type: node
 bundle: restaurants
 label: 'Contact Email'
 description: ''
-required: true
-translatable: true
+required: false
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

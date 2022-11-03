@@ -1,4 +1,4 @@
-uuid: 41cd2724-40ac-4adf-94e8-85a5af5c2437
+uuid: 95ed271a-2f53-4c90-975f-d87bccdabd3a
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_fashion_prices
 field_name: field_fashion_prices
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

@@ -31,24 +31,24 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_chkin_date:
-    type: text_textfield
-    weight: 1
+    type: string_textfield
+    weight: 121
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_chkout_date:
-    type: text_textfield
-    weight: 2
+    type: string_textfield
+    weight: 122
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_hotb_cc:
-    type: text_textfield
-    weight: -3
+    type: string_textfield
+    weight: 123
     region: content
     settings:
       size: 60
@@ -63,32 +63,32 @@ content:
       placeholder: ''
     third_party_settings: {  }
   field_hotb_email:
-    type: text_textfield
-    weight: -4
+    type: string_textfield
+    weight: 124
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_hotb_fname:
-    type: text_textfield
-    weight: -1
+    type: string_textfield
+    weight: 125
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_hotb_lname:
-    type: text_textfield
-    weight: 0
+    type: string_textfield
+    weight: 126
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_hotb_mobile:
-    type: text_textfield
-    weight: -2
+    type: string_textfield
+    weight: 127
     region: content
     settings:
       size: 60

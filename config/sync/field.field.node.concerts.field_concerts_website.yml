@@ -1,4 +1,4 @@
-uuid: efbcbbc1-8da0-4b70-bd4d-62bbd063cade
+uuid: 41baaaba-a688-4f3b-9965-8b81b3db12d2
 langcode: en
 status: true
 dependencies:
@@ -10,10 +10,10 @@ field_name: field_concerts_website
 entity_type: node
 bundle: concerts
 label: Website
-description: 'Please type complete URL like ''http://www.example.com'''
+description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

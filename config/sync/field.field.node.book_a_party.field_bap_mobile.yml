@@ -1,4 +1,4 @@
-uuid: 746988b3-2f8f-4dc4-8cb2-3ad0b909e78f
+uuid: 9a33415e-50e1-4b4e-a389-668608b378ba
 langcode: en
 status: true
 dependencies:
@@ -12,8 +12,8 @@ bundle: book_a_party
 label: Mobile
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

@@ -1,4 +1,4 @@
-uuid: ddd7226a-7459-468e-ba57-ea881b111284
+uuid: 7c66d080-5b5e-4e32-bb0d-be496021f498
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_store_contmail
 field_name: field_store_contmail
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

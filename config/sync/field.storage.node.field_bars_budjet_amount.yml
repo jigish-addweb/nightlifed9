@@ -1,4 +1,4 @@
-uuid: 7856ef07-496a-4586-a614-218a21b3503d
+uuid: 51776f2c-d972-4f45-919a-6d8a865f5d6c
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_bars_budjet_amount
 field_name: field_bars_budjet_amount
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

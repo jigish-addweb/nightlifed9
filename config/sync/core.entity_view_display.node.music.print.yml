@@ -35,13 +35,6 @@ targetEntityType: node
 bundle: music
 mode: print
 content:
-  field_music_ccode:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 15
-    region: content
   field_private:
     type: text_default
     label: above
@@ -61,6 +54,7 @@ hidden:
   field_genre: true
   field_hashtag: true
   field_music_album: true
+  field_music_ccode: true
   field_music_check_single: true
   field_music_cont_mail: true
   field_music_cont_num: true

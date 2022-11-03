@@ -26,13 +26,6 @@ targetEntityType: node
 bundle: news
 mode: print
 content:
-  field_news_ccode:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 4
-    region: content
   field_private:
     type: text_default
     label: above
@@ -51,6 +44,7 @@ hidden:
   field_hashtag: true
   field_news_album: true
   field_news_categories: true
+  field_news_ccode: true
   field_news_cont_num: true
   field_news_contname: true
   field_news_image: true

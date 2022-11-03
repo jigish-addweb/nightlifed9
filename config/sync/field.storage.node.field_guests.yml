@@ -1,4 +1,4 @@
-uuid: ba6bbe7c-3bd0-48a2-b2c9-cc16be2bd79a
+uuid: ecb0652a-3e59-447a-b3f0-16e301654f60
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_guests
 field_name: field_guests
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

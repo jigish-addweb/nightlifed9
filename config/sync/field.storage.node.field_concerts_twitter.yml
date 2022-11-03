@@ -1,4 +1,4 @@
-uuid: b0838fdb-a19f-41cb-bfaf-32153d0a7f47
+uuid: b608cf7b-b507-4217-8c57-9aae9c3e12fd
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_concerts_twitter
 field_name: field_concerts_twitter
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

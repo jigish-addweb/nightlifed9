@@ -1,4 +1,4 @@
-uuid: 870f86ac-243a-4bd4-8ec2-d7a397d676b2
+uuid: 47a32889-6b20-46cd-8fd3-7f1ef2ceaeb9
 langcode: en
 status: true
 dependencies:
@@ -10,10 +10,10 @@ field_name: field_bars_twitter
 entity_type: node
 bundle: bars
 label: 'Twitter link'
-description: 'Please type complete URL like ''http://www.example.com'''
+description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

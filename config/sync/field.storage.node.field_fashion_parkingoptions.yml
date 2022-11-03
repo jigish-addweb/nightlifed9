@@ -1,4 +1,4 @@
-uuid: ada6d1e9-392b-4509-b371-fcd783d26a99
+uuid: 0949124a-0128-44cf-985b-ed9947d3378a
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_fashion_parkingoptions
 field_name: field_fashion_parkingoptions
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

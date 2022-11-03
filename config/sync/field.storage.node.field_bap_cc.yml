@@ -1,4 +1,4 @@
-uuid: 16379950-586e-40ea-bf4d-fdd549268158
+uuid: f1c17c70-94a9-4302-8efd-791372c0bdf7
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_bap_cc
 field_name: field_bap_cc
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

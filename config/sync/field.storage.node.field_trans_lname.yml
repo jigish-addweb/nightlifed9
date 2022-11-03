@@ -1,4 +1,4 @@
-uuid: e353c665-d1bd-4cc3-8352-794bf6cd91e4
+uuid: 9217d7e3-805a-483c-905e-3a16b4880f3d
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_trans_lname
 field_name: field_trans_lname
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

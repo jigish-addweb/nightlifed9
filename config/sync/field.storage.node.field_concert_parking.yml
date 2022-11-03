@@ -1,4 +1,4 @@
-uuid: 350a176f-ed39-4bf3-8f81-dca7a00eef42
+uuid: 0e5efc61-87e5-468e-a989-5d4c81ce7ffd
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_concert_parking
 field_name: field_concert_parking
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

@@ -1,4 +1,4 @@
-uuid: 78b0e9f3-2fed-468d-afa2-86f1466bce27
+uuid: b147067f-f8aa-4993-9059-318fa2fecb2e
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_mevent_parkingoptions
 field_name: field_mevent_parkingoptions
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

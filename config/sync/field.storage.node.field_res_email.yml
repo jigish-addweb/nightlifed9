@@ -1,4 +1,4 @@
-uuid: df4005b9-8aac-49e1-9298-08b3b71bdc53
+uuid: fb49f2b9-b169-4faf-8f0f-abf24532605d
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_res_email
 field_name: field_res_email
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

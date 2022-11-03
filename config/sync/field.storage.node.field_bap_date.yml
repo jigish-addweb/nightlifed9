@@ -1,4 +1,4 @@
-uuid: ac81dcd7-638c-4a78-a274-354ae28f433e
+uuid: 85aff98c-a2bf-490e-9ff3-7dddacaa3d74
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_bap_date
 field_name: field_bap_date
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

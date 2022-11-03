@@ -58,39 +58,44 @@ content:
     weight: 20
     region: content
   field_photo_check_single:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 17
+    weight: 106
     region: content
   field_photos_ccode:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 8
+    weight: 105
     region: content
   field_photos_cont_mail:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 10
+    weight: 102
     region: content
   field_photos_cont_num:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 9
+    weight: 103
     region: content
   field_photos_contname:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 7
+    weight: 104
     region: content
   field_photos_priority:
     type: number_integer

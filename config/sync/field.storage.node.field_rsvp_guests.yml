@@ -1,4 +1,4 @@
-uuid: 9e7a7559-8def-442f-8b77-a09297ee3e37
+uuid: a1dde5e0-4310-4784-a714-a45be2a2606e
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_rsvp_guests
 field_name: field_rsvp_guests
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

@@ -1,4 +1,4 @@
-uuid: 2a780aae-62fd-4ae1-92eb-9734935076c7
+uuid: 2ee14217-a83e-426d-bee0-2b67cd3a36fe
 langcode: en
 status: true
 dependencies:
@@ -12,8 +12,8 @@ bundle: event
 label: Prices
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

@@ -1,4 +1,4 @@
-uuid: 3cab2311-52bf-45af-a316-acc17a508407
+uuid: 4f83288f-dcb8-4a1c-a58d-4ecc99b88663
 langcode: en
 status: true
 dependencies:
@@ -10,10 +10,10 @@ field_name: field_rest_facebook
 entity_type: node
 bundle: restaurants
 label: 'Facebook link'
-description: 'Please type complete URL like ''http://www.example.com'''
+description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

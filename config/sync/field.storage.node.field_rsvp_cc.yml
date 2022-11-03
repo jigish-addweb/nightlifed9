@@ -1,4 +1,4 @@
-uuid: a622bfed-981e-42c0-b291-8459f6ae42fe
+uuid: 887f055c-08f6-41ff-8b06-94868dc95d83
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_rsvp_cc
 field_name: field_rsvp_cc
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

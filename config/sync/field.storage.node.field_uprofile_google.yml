@@ -1,4 +1,4 @@
-uuid: 1dce11c1-9769-4964-bfda-da8444dd2684
+uuid: 28bfda24-448f-4b9a-bd85-0b6f88b82000
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_uprofile_google
 field_name: field_uprofile_google
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

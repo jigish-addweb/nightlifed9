@@ -1,4 +1,4 @@
-uuid: d37cc291-3e38-4228-aa88-3df908ac3351
+uuid: 6e209e13-1655-4d34-afb0-a641bb569cf6
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_event_cont_mail
 field_name: field_event_cont_mail
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

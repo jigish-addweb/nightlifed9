@@ -1,4 +1,4 @@
-uuid: 8eb1af4f-5df2-4fdb-8a7d-cec7125a1ba4
+uuid: 99108b6b-16f7-4cfc-a3b7-6f39b1393ca2
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_bap_mobile
 field_name: field_bap_mobile
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

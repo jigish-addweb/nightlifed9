@@ -1,4 +1,4 @@
-uuid: e03221de-bcaa-4216-9388-d4c960fc62fe
+uuid: f69be261-337e-4bfc-9306-325566c1fa23
 langcode: en
 status: true
 dependencies:
@@ -11,9 +11,9 @@ entity_type: node
 bundle: book_a_party
 label: 'First Name'
 description: ''
-required: true
-translatable: true
+required: false
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

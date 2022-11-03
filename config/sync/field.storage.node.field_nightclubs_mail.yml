@@ -1,4 +1,4 @@
-uuid: dc71d7a5-f777-468a-828f-0c5c2ed491f9
+uuid: 2c9b2bed-ebd0-4633-8489-617362da2179
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_nightclubs_mail
 field_name: field_nightclubs_mail
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

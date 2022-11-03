@@ -1,4 +1,4 @@
-uuid: 986f7f42-b3a9-4351-b19c-9ae3b16e56fe
+uuid: 9cd85580-77d0-4d52-86c4-fa774c337dd8
 langcode: en
 status: true
 dependencies:
@@ -10,10 +10,10 @@ field_name: field_store_contname
 entity_type: node
 bundle: fashion_store
 label: 'Contact Name'
-description: 'Please provide your contact info in case we need to verify your news info and/or sources.'
-required: true
-translatable: true
+description: ''
+required: false
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

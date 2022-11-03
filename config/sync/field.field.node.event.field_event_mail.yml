@@ -1,4 +1,4 @@
-uuid: ee8d74f0-6582-4de7-9ef5-6c18ebb3790b
+uuid: 5cf15b98-11cb-44cd-a004-7db155aaf85c
 langcode: en
 status: true
 dependencies:
@@ -12,8 +12,8 @@ bundle: event
 label: 'Event Email'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

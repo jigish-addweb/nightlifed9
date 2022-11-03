@@ -1,4 +1,4 @@
-uuid: 5e6850a7-3287-4247-b77a-4a2ed5e8f27c
+uuid: 8c6550eb-b7c8-4d0e-8678-1deed4c2f14c
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_fashion_musicstyle
 field_name: field_fashion_musicstyle
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

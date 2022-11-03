@@ -1,4 +1,4 @@
-uuid: 3ed78924-d34a-493e-8a72-eb854b645ae1
+uuid: a54d8b0d-3863-428e-bc0c-82b313875238
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_nightclubs_twitter
 field_name: field_nightclubs_twitter
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

@@ -34,7 +34,6 @@ dependencies:
     - node.type.uprofile
   module:
     - link
-    - text
     - user
 id: node.uprofile.rss
 targetEntityType: node
@@ -64,13 +63,6 @@ content:
       target: '0'
     third_party_settings: {  }
     weight: -5
-    region: content
-  field_uprofile_location:
-    type: text_default
-    label: inline
-    settings: {  }
-    third_party_settings: {  }
-    weight: -2
     region: content
   field_uprofile_twitter:
     type: link
@@ -103,6 +95,7 @@ hidden:
   field_uprofile_google: true
   field_uprofile_icq: true
   field_uprofile_interests: true
+  field_uprofile_location: true
   field_uprofile_name: true
   field_uprofile_occupation: true
   field_uprofile_political: true

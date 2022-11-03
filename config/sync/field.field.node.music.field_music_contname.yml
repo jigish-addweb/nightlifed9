@@ -1,4 +1,4 @@
-uuid: 0b3f6c56-b5d6-4ec1-86c2-6b3f07f2f705
+uuid: 484ef2ad-fbaa-4638-ac91-37e9acc313bd
 langcode: en
 status: true
 dependencies:
@@ -10,10 +10,10 @@ field_name: field_music_contname
 entity_type: node
 bundle: music
 label: 'Contact Name'
-description: 'Please provide your contact info in case we need to verify your news info and/or sources.'
-required: true
-translatable: true
+description: ''
+required: false
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

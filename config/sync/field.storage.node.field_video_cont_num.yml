@@ -1,4 +1,4 @@
-uuid: 67121c0c-90de-48cf-a0af-884a0cb136ee
+uuid: 6c03d783-009e-457b-aac5-b142824746e8
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_video_cont_num
 field_name: field_video_cont_num
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

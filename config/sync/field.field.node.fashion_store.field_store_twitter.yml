@@ -1,4 +1,4 @@
-uuid: 510ae06a-7bc9-4d47-9dc2-72a0c6b7df86
+uuid: c741091b-b7ad-4c16-8ba5-8b259cceb5f4
 langcode: en
 status: true
 dependencies:
@@ -10,10 +10,10 @@ field_name: field_store_twitter
 entity_type: node
 bundle: fashion_store
 label: 'Twitter link'
-description: 'Please type complete URL like ''http://www.example.com'''
+description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

@@ -1,4 +1,4 @@
-uuid: 703e90b8-5fa7-464b-b29e-660f678dc179
+uuid: 3d8544bc-cd2a-49a1-a131-9986cb3bcff1
 langcode: en
 status: true
 dependencies:
@@ -10,10 +10,10 @@ field_name: field_transport_website
 entity_type: node
 bundle: transportation
 label: Website
-description: 'Please type complete URL like ''http://www.example.com'''
+description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

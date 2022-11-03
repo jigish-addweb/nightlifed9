@@ -1,4 +1,4 @@
-uuid: 3f4ebdb7-c4e8-4e2a-a16a-e7c68138d713
+uuid: 7da676cf-879e-443f-8330-d58efdac25e4
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_trans_fname
 field_name: field_trans_fname
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

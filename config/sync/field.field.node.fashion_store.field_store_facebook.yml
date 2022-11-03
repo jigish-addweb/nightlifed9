@@ -1,4 +1,4 @@
-uuid: 5030143d-da1f-4190-98b1-4baf916a2e0b
+uuid: fa3a66c8-a000-4ceb-b5b8-3362315f0b1c
 langcode: en
 status: true
 dependencies:
@@ -10,10 +10,10 @@ field_name: field_store_facebook
 entity_type: node
 bundle: fashion_store
 label: 'Facebook link'
-description: 'Please type complete URL like ''http://www.example.com'''
+description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

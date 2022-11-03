@@ -1,4 +1,4 @@
-uuid: 1ef24fe9-6120-4344-8350-a8f89f6f0563
+uuid: 435570d4-30e5-4534-96d3-8db368dfeafb
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_music_check_single
 field_name: field_music_check_single
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

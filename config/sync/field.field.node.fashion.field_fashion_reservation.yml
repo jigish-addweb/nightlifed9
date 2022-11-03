@@ -1,4 +1,4 @@
-uuid: ecf92294-f7e6-44c8-82a2-283af273ba17
+uuid: 3de58457-f6d7-48d3-ae07-b3dfcaccde87
 langcode: en
 status: true
 dependencies:
@@ -12,10 +12,10 @@ field_name: field_fashion_reservation
 entity_type: node
 bundle: fashion
 label: 'Buy tickets link'
-description: 'Example: http://www.gottahavetickets.com/myevent'
+description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: text_long
+field_type: text

@@ -1,4 +1,4 @@
-uuid: 4b223958-ab24-478a-b288-8c982ebec47b
+uuid: 004a924b-db66-4de0-879d-eb3957369a00
 langcode: en
 status: true
 dependencies:
@@ -10,10 +10,10 @@ field_name: field_keywords
 entity_type: node
 bundle: video1
 label: Keywords
-description: "Keywords will be usefull for search-algorithm to crawl your videos. Enter appropriate keywords with comma separated.\r\n"
+description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

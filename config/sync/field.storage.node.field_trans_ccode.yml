@@ -1,4 +1,4 @@
-uuid: 33f98e18-5eee-4c32-8b76-f05b81bf03d2
+uuid: 5a736024-9bc7-4dee-8ef9-ce83d1d1d6b6
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_trans_ccode
 field_name: field_trans_ccode
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

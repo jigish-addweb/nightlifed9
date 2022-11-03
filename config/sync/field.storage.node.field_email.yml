@@ -1,4 +1,4 @@
-uuid: bdb5404b-be89-4c36-9bcc-9fecc8f815da
+uuid: a0ffad00-d907-47d3-89b2-6370b12dd757
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_email
 field_name: field_email
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

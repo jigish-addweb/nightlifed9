@@ -1,4 +1,4 @@
-uuid: 7461b87a-85cc-4911-aab1-8292551cb209
+uuid: 9ce12c19-9c02-41a2-a95f-533201afb378
 langcode: en
 status: true
 dependencies:
@@ -10,10 +10,10 @@ field_name: field_event_website
 entity_type: node
 bundle: event
 label: Website
-description: 'Please type complete URL like ''http://www.example.com'''
+description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

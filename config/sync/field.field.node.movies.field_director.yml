@@ -1,4 +1,4 @@
-uuid: df0c11d1-0da3-4c8e-b165-98e45de649ba
+uuid: 140f9b52-be55-48bb-8989-813ffeffda47
 langcode: en
 status: true
 dependencies:
@@ -11,9 +11,9 @@ entity_type: node
 bundle: movies
 label: Director
 description: ''
-required: true
-translatable: true
+required: false
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

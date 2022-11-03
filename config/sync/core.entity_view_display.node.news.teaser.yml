@@ -44,27 +44,6 @@ content:
     third_party_settings: {  }
     weight: 1
     region: content
-  field_news_ccode:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 4
-    region: content
-  field_news_cont_num:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 5
-    region: content
-  field_news_contname:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 3
-    region: content
   field_news_image:
     type: image
     label: above
@@ -75,13 +54,6 @@ content:
         attribute: lazy
     third_party_settings: {  }
     weight: 0
-    region: content
-  field_news_mail:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 6
     region: content
   field_news_priority:
     type: number_integer
@@ -108,4 +80,8 @@ hidden:
   field_country: true
   field_hashtag: true
   field_news_categories: true
+  field_news_ccode: true
+  field_news_cont_num: true
+  field_news_contname: true
+  field_news_mail: true
   field_would_you_like_a_featured_: true

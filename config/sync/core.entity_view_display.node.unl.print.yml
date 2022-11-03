@@ -61,20 +61,6 @@ content:
     third_party_settings: {  }
     weight: 13
     region: content
-  field_budget_amount:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 14
-    region: content
-  field_cost_per_click:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 18
-    region: content
   field_edate:
     type: datetime_default
     label: above
@@ -132,5 +118,7 @@ content:
     region: content
 hidden:
   body: true
+  field_budget_amount: true
+  field_cost_per_click: true
   field_unl_req_featured: true
   upload: true

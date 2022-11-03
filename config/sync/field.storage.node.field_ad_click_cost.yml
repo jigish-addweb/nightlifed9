@@ -1,4 +1,4 @@
-uuid: 0096e238-f151-4c04-9b46-5bdc692e6ea2
+uuid: 03e350d9-40de-4f43-8abf-57cf197f060c
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_ad_click_cost
 field_name: field_ad_click_cost
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

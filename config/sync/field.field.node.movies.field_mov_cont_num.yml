@@ -1,4 +1,4 @@
-uuid: 20e157d7-1610-4d1d-b42c-f699c7868f70
+uuid: cc16960e-0593-42fb-ab9f-c1b89a5e7cf4
 langcode: en
 status: true
 dependencies:
@@ -11,9 +11,9 @@ entity_type: node
 bundle: movies
 label: 'Contact Mobile Number'
 description: ''
-required: true
-translatable: true
+required: false
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

@@ -10,20 +10,12 @@ dependencies:
     - field.field.node.test_unl.upload
     - node.type.test_unl
   module:
-    - text
     - user
 id: node.test_unl.search_result
 targetEntityType: node
 bundle: test_unl
 mode: search_result
 content:
-  field_test_email:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: -2
-    region: content
   links:
     settings: {  }
     third_party_settings: {  }
@@ -32,4 +24,5 @@ content:
 hidden:
   body: true
   field_photo_categories: true
+  field_test_email: true
   upload: true

@@ -1,4 +1,4 @@
-uuid: 8955d76b-c3f4-4c1d-a50b-2d49a490675b
+uuid: f7e61d1d-b381-4608-9f42-f35001e3c002
 langcode: en
 status: true
 dependencies:
@@ -12,8 +12,8 @@ bundle: fashion_store
 label: 'Special & Promotions'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

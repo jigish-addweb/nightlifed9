@@ -1,4 +1,4 @@
-uuid: 97cd67e9-ce81-42fb-8cf0-c9fdf0655919
+uuid: 3d60ac79-787a-4b45-95f4-be9239300855
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_fashion_facebook
 field_name: field_fashion_facebook
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

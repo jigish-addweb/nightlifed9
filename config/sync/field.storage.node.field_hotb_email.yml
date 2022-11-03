@@ -1,4 +1,4 @@
-uuid: fe12a7fe-83ac-4144-863f-6c3f2fe65f46
+uuid: ab345f1f-b8e2-4d99-92f3-261bef3dd8cb
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_hotb_email
 field_name: field_hotb_email
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

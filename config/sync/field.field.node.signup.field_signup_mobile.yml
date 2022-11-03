@@ -1,4 +1,4 @@
-uuid: a74e3b96-0406-4815-af9e-9dde43260c9a
+uuid: 82652fc6-ad0c-415d-945f-8b8aa0e0c800
 langcode: en
 status: true
 dependencies:
@@ -12,8 +12,8 @@ bundle: signup
 label: Mobile
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

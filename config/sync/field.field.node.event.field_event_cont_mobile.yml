@@ -1,4 +1,4 @@
-uuid: 46916bdf-160a-49cc-a51d-c7eaa5a934ea
+uuid: 5971db73-a514-4edf-b5c1-19011c5ceb5f
 langcode: en
 status: true
 dependencies:
@@ -11,9 +11,9 @@ entity_type: node
 bundle: event
 label: 'Phone Number'
 description: ''
-required: true
-translatable: true
+required: false
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

@@ -51,13 +51,6 @@ content:
     third_party_settings: {  }
     weight: 7
     region: content
-  field_event_ccode:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 28
-    region: content
   field_event_timezone_cust:
     type: text_default
     label: above
@@ -81,6 +74,7 @@ hidden:
   body: true
   field_country: true
   field_eve_buynow: true
+  field_event_ccode: true
   field_event_cname: true
   field_event_cont_mail: true
   field_event_cont_mobile: true

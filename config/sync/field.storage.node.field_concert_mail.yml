@@ -1,4 +1,4 @@
-uuid: 2899af16-753b-4a70-b6ec-8742ade10a46
+uuid: a052b307-2cd0-4b3c-819e-565f18e14f6f
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_concert_mail
 field_name: field_concert_mail
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

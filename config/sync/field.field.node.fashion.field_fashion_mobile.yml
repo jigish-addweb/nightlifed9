@@ -1,4 +1,4 @@
-uuid: 56287ac9-a469-44af-a0b8-6f65c4530eb1
+uuid: 37a1d581-5211-40cb-abc7-7398c5dc376e
 langcode: en
 status: true
 dependencies:
@@ -11,9 +11,9 @@ entity_type: node
 bundle: fashion
 label: 'Contact Mobile Number'
 description: ''
-required: true
-translatable: true
+required: false
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

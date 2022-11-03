@@ -18,27 +18,12 @@ dependencies:
     - field.field.node.signup.upload
     - node.type.signup
   module:
-    - text
     - user
 id: node.signup.print
 targetEntityType: node
 bundle: signup
 mode: print
 content:
-  field_signup_cc:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 4
-    region: content
-  field_signup_mobile:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 5
-    region: content
   links:
     settings: {  }
     third_party_settings: {  }
@@ -52,6 +37,8 @@ hidden:
   field_reservation: true
   field_rsvp_date: true
   field_rsvp_share: true
+  field_signup_cc: true
   field_signup_fname: true
   field_signup_lname: true
+  field_signup_mobile: true
   upload: true

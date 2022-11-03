@@ -1,4 +1,4 @@
-uuid: 64127d93-bf7f-43b5-8e77-529b5a495951
+uuid: 5bf5bf91-c183-4ae5-925b-e8b90dc83770
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_photo_check_single
 field_name: field_photo_check_single
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

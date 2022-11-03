@@ -44,13 +44,6 @@ content:
     third_party_settings: {  }
     weight: 26
     region: content
-  field_trans_ccode:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 16
-    region: content
   field_transport_ccode:
     type: text_default
     label: above
@@ -67,6 +60,7 @@ hidden:
   body: true
   field_country: true
   field_hashtag: true
+  field_trans_ccode: true
   field_trans_mail_body: true
   field_trans_priority: true
   field_trans_res: true

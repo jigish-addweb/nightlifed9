@@ -1,4 +1,4 @@
-uuid: cec92622-c62c-4073-abed-be440d2ee90f
+uuid: a3f475fb-7358-4323-b6a4-0336e33584f4
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_music_album
 field_name: field_music_album
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

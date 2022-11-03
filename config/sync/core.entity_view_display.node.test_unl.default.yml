@@ -32,11 +32,12 @@ content:
     weight: 20
     region: content
   field_test_email:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: -2
+    weight: 102
     region: content
   links:
     settings: {  }

@@ -25,13 +25,6 @@ content:
     third_party_settings: {  }
     weight: 101
     region: content
-  field_test_email:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: -2
-    region: content
   links:
     settings: {  }
     third_party_settings: {  }
@@ -39,4 +32,5 @@ content:
     region: content
 hidden:
   field_photo_categories: true
+  field_test_email: true
   upload: true

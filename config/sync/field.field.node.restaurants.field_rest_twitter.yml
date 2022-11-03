@@ -1,4 +1,4 @@
-uuid: 4add0035-3002-44ba-9ebf-701c0e38f48b
+uuid: 0ffe7ba8-bee2-4a17-b70c-74d791b049a7
 langcode: en
 status: true
 dependencies:
@@ -10,10 +10,10 @@ field_name: field_rest_twitter
 entity_type: node
 bundle: restaurants
 label: 'Twitter link'
-description: 'Please type complete URL like ''http://www.example.com'''
+description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

@@ -1,4 +1,4 @@
-uuid: 28c87674-2e6e-4f1f-98ce-727aa72b065e
+uuid: 6b0af092-43d9-4d0d-9716-1c69e8b880dd
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_mevent_dresscode
 field_name: field_mevent_dresscode
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

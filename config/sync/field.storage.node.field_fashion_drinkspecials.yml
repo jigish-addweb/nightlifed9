@@ -1,4 +1,4 @@
-uuid: e12b3d37-9ff9-457d-b4a4-23e0c6eda107
+uuid: 10ddfd6e-6ab6-47ee-ad91-71db032d20f2
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_fashion_drinkspecials
 field_name: field_fashion_drinkspecials
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

@@ -53,11 +53,12 @@ content:
     weight: 20
     region: content
   field_director:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 5
+    weight: 106
     region: content
   field_genres:
     type: text_default
@@ -75,32 +76,36 @@ content:
     weight: 20
     region: content
   field_language:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 9
+    weight: 107
     region: content
   field_mov_cont_ccode:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 20
+    weight: 105
     region: content
   field_mov_cont_mail:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 22
+    weight: 102
     region: content
   field_mov_cont_num:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 21
+    weight: 103
     region: content
   field_movie_image:
     type: image
@@ -137,18 +142,20 @@ content:
     weight: -3
     region: content
   field_movie_website:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 10
+    weight: 108
     region: content
   field_movies_contname:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 19
+    weight: 104
     region: content
   field_private:
     type: text_default
@@ -158,11 +165,12 @@ content:
     weight: 24
     region: content
   field_producers:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 7
+    weight: 109
     region: content
   field_rel_date:
     type: datetime_default
@@ -185,11 +193,12 @@ content:
     weight: 12
     region: content
   field_runtime:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 3
+    weight: 110
     region: content
   field_starring:
     type: text_default
@@ -207,11 +216,12 @@ content:
     weight: 20
     region: content
   field_writers:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 8
+    weight: 111
     region: content
   links:
     settings: {  }

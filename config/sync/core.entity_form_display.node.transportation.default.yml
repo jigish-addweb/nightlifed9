@@ -77,8 +77,8 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_trans_ccode:
-    type: text_textfield
-    weight: 16
+    type: string_textfield
+    weight: 125
     region: content
     settings:
       size: 60
@@ -120,40 +120,40 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_transport_cont_email:
-    type: text_textfield
-    weight: 18
+    type: string_textfield
+    weight: 122
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_transport_cont_mobile:
-    type: text_textfield
-    weight: 17
+    type: string_textfield
+    weight: 123
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_transport_cont_name:
-    type: text_textfield
-    weight: 15
+    type: string_textfield
+    weight: 124
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_transport_facebook:
-    type: text_textfield
-    weight: 11
+    type: string_textfield
+    weight: 126
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_transport_google:
-    type: text_textfield
-    weight: 13
+    type: string_textfield
+    weight: 127
     region: content
     settings:
       size: 60
@@ -174,8 +174,8 @@ content:
       placeholder: ''
     third_party_settings: {  }
   field_transport_specials:
-    type: text_textfield
-    weight: 6
+    type: string_textfield
+    weight: 128
     region: content
     settings:
       size: 60
@@ -190,16 +190,16 @@ content:
       placeholder: ''
     third_party_settings: {  }
   field_transport_twitter:
-    type: text_textfield
-    weight: 12
+    type: string_textfield
+    weight: 129
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_transport_website:
-    type: text_textfield
-    weight: 3
+    type: string_textfield
+    weight: 130
     region: content
     settings:
       size: 60

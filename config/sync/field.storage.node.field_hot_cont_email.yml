@@ -1,4 +1,4 @@
-uuid: 38c8388c-56b3-45a3-8ce8-0122cd919d53
+uuid: a358a578-8f15-4275-a50e-643e1ead2272
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_hot_cont_email
 field_name: field_hot_cont_email
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

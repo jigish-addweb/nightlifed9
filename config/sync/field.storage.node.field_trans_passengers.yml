@@ -1,4 +1,4 @@
-uuid: 74fa5236-a1a3-4b96-8015-283a34a9e88d
+uuid: a300b185-6ae8-437f-a0f8-9f127e672681
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_trans_passengers
 field_name: field_trans_passengers
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

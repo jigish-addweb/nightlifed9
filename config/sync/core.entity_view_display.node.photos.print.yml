@@ -26,13 +26,6 @@ targetEntityType: node
 bundle: photos
 mode: print
 content:
-  field_photos_ccode:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 8
-    region: content
   field_private:
     type: text_default
     label: above
@@ -51,6 +44,7 @@ hidden:
   field_hashtag: true
   field_photo_categories: true
   field_photo_check_single: true
+  field_photos_ccode: true
   field_photos_cont_mail: true
   field_photos_cont_num: true
   field_photos_contname: true

@@ -1,4 +1,4 @@
-uuid: 90de0335-110b-425f-af81-0d40208646cd
+uuid: a0e93f94-cade-425b-98ab-020407c8f74e
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_mevent_agereq
 field_name: field_mevent_agereq
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

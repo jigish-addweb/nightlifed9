@@ -1,4 +1,4 @@
-uuid: d785475d-5deb-41bd-b34a-96bdf3e5ba2e
+uuid: 0d38d3cf-1e3c-4547-8507-5956c74fcf8b
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_transport_twitter
 field_name: field_transport_twitter
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

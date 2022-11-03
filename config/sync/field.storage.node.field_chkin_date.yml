@@ -1,4 +1,4 @@
-uuid: e32eeb0d-c992-4e42-af77-f9595cc9c888
+uuid: b679eb75-b017-4d64-b7ab-129082dbce72
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_chkin_date
 field_name: field_chkin_date
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

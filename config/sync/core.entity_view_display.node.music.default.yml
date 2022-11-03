@@ -76,46 +76,60 @@ content:
     weight: 20
     region: content
   field_music_album:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 0
+    weight: 102
     region: content
   field_music_ccode:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 15
+    weight: 106
+    region: content
+  field_music_check_single:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 108
     region: content
   field_music_cont_mail:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 17
+    weight: 103
     region: content
   field_music_cont_num:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 16
+    weight: 104
     region: content
   field_music_contname:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 14
+    weight: 105
     region: content
   field_music_lang:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 5
+    weight: 109
     region: content
   field_music_photo_album:
     type: image
@@ -129,11 +143,12 @@ content:
     weight: 13
     region: content
   field_music_record_label:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 2
+    weight: 110
     region: content
   field_music_release_date:
     type: datetime_default
@@ -156,7 +171,7 @@ content:
     label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 8
+    weight: 107
     region: content
   field_private:
     type: text_default
@@ -179,7 +194,6 @@ content:
     weight: 100
     region: content
 hidden:
-  field_music_check_single: true
   field_music_file: true
   field_music_image: true
   field_music_priority: true

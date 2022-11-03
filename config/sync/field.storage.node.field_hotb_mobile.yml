@@ -1,4 +1,4 @@
-uuid: 02568712-8247-43ac-99ca-da145868349b
+uuid: 7de5a572-6d77-432f-ad1d-fa0eaad02130
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_hotb_mobile
 field_name: field_hotb_mobile
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

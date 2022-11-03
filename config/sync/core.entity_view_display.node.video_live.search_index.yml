@@ -30,13 +30,6 @@ targetEntityType: node
 bundle: video_live
 mode: search_index
 content:
-  field_live_video:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: -2
-    region: content
   field_live_video_ref:
     type: entity_reference_label
     label: above
@@ -52,13 +45,6 @@ content:
     third_party_settings: {  }
     weight: 9
     region: content
-  field_rtmp_video:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: -1
-    region: content
   field_thumbnail:
     type: file_default
     label: above
@@ -66,34 +52,6 @@ content:
       use_description_as_link_text: true
     third_party_settings: {  }
     weight: -4
-    region: content
-  field_vid_ccode:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 11
-    region: content
-  field_vid_cont_mail:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 13
-    region: content
-  field_vid_cont_num:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 12
-    region: content
-  field_vid_contname:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 10
     region: content
   field_video_keywords:
     type: text_default
@@ -121,4 +79,10 @@ hidden:
   field_categories: true
   field_country: true
   field_hashtag: true
+  field_live_video: true
+  field_rtmp_video: true
+  field_vid_ccode: true
+  field_vid_cont_mail: true
+  field_vid_cont_num: true
+  field_vid_contname: true
   field_would_you_like_a_featured_: true

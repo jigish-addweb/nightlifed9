@@ -1,4 +1,4 @@
-uuid: 6f38bf0b-6c0b-465c-9ff0-2fe525ebac65
+uuid: 1b1ee065-9d1d-4a98-a76b-ed5ec6199e06
 langcode: en
 status: true
 dependencies:
@@ -11,9 +11,9 @@ entity_type: node
 bundle: fashion
 label: 'Contact Email'
 description: ''
-required: true
-translatable: true
+required: false
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

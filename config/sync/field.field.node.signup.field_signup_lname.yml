@@ -1,4 +1,4 @@
-uuid: ec47f052-6fc6-4816-9419-13de2a636228
+uuid: ea2a2d52-0649-486c-bbbc-4388ebca8944
 langcode: en
 status: true
 dependencies:
@@ -11,9 +11,9 @@ entity_type: node
 bundle: signup
 label: 'Last Name'
 description: ''
-required: true
-translatable: true
+required: false
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

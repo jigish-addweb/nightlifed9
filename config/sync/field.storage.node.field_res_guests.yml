@@ -1,4 +1,4 @@
-uuid: 8316cb77-9a6a-438d-9d3e-eb5dd3b249a1
+uuid: ea8020e2-c3ee-4295-8cba-365a2b7585a2
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_res_guests
 field_name: field_res_guests
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

@@ -1,4 +1,4 @@
-uuid: 9555ac72-0f7f-4ff4-b8ac-3927770f222b
+uuid: 7c02764f-5832-4f66-9bbd-7cf5272fdaaf
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_res_cc
 field_name: field_res_cc
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

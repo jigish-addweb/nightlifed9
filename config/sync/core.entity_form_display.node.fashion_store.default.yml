@@ -94,48 +94,48 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
   field_store_ccode:
-    type: text_textfield
-    weight: 14
+    type: string_textfield
+    weight: 125
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_store_contmail:
-    type: text_textfield
-    weight: 16
+    type: string_textfield
+    weight: 122
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_store_contname:
-    type: text_textfield
-    weight: 13
+    type: string_textfield
+    weight: 124
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_store_contnum:
-    type: text_textfield
-    weight: 15
+    type: string_textfield
+    weight: 123
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_store_facebook:
-    type: text_textfield
-    weight: 9
+    type: string_textfield
+    weight: 126
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_store_google:
-    type: text_textfield
-    weight: 11
+    type: string_textfield
+    weight: 127
     region: content
     settings:
       size: 60
@@ -158,16 +158,16 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
   field_store_specials:
-    type: text_textfield
-    weight: 6
+    type: string_textfield
+    weight: 128
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_store_twitter:
-    type: text_textfield
-    weight: 10
+    type: string_textfield
+    weight: 129
     region: content
     settings:
       size: 60
@@ -180,8 +180,8 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_store_website:
-    type: text_textfield
-    weight: 4
+    type: string_textfield
+    weight: 130
     region: content
     settings:
       size: 60

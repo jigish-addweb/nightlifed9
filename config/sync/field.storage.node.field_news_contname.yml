@@ -1,4 +1,4 @@
-uuid: bc61790d-8410-4c72-84cd-6ef4e36f6e83
+uuid: 3b0347f4-78a6-4db9-8a13-690411449fc6
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_news_contname
 field_name: field_news_contname
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

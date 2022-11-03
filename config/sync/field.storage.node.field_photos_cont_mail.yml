@@ -1,4 +1,4 @@
-uuid: 9b5cf5e3-13dc-4aca-aa44-ae94cb1b4aea
+uuid: ff949b40-8d8d-4ed7-a957-977d92285d9e
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_photos_cont_mail
 field_name: field_photos_cont_mail
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

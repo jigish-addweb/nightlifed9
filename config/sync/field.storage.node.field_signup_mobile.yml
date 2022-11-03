@@ -1,4 +1,4 @@
-uuid: 3f80b26f-534a-4c98-bcbf-4ebc32e3b99c
+uuid: c226333c-7c4c-454f-ad29-e52d785d88ff
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_signup_mobile
 field_name: field_signup_mobile
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

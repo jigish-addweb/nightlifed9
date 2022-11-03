@@ -38,47 +38,12 @@ targetEntityType: node
 bundle: movies
 mode: rss
 content:
-  field_director:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 5
-    region: content
   field_genres:
     type: text_default
     label: above
     settings: {  }
     third_party_settings: {  }
     weight: 4
-    region: content
-  field_language:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 9
-    region: content
-  field_mov_cont_ccode:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 20
-    region: content
-  field_mov_cont_mail:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 22
-    region: content
-  field_mov_cont_num:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 21
     region: content
   field_movie_image:
     type: image
@@ -114,33 +79,12 @@ content:
     third_party_settings: {  }
     weight: -3
     region: content
-  field_movie_website:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 10
-    region: content
-  field_movies_contname:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 19
-    region: content
   field_private:
     type: text_default
     label: above
     settings: {  }
     third_party_settings: {  }
     weight: 24
-    region: content
-  field_producers:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 7
     region: content
   field_rel_date:
     type: datetime_default
@@ -162,26 +106,12 @@ content:
     third_party_settings: {  }
     weight: 12
     region: content
-  field_runtime:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 3
-    region: content
   field_starring:
     type: text_default
     label: above
     settings: {  }
     third_party_settings: {  }
     weight: 6
-    region: content
-  field_writers:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 8
     region: content
   links:
     settings: {  }
@@ -191,5 +121,15 @@ content:
 hidden:
   body: true
   field_country: true
+  field_director: true
   field_hashtag: true
+  field_language: true
+  field_mov_cont_ccode: true
+  field_mov_cont_mail: true
+  field_mov_cont_num: true
+  field_movie_website: true
+  field_movies_contname: true
+  field_producers: true
+  field_runtime: true
   field_would_you_like_a_featured_: true
+  field_writers: true

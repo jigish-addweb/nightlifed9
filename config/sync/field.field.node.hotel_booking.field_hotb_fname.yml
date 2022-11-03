@@ -1,4 +1,4 @@
-uuid: 2e318d48-7020-4d80-83b6-54dd2d429442
+uuid: 9a3e6a32-3bd2-42fb-b357-fdb6f5b13191
 langcode: en
 status: true
 dependencies:
@@ -11,9 +11,9 @@ entity_type: node
 bundle: hotel_booking
 label: 'First Name'
 description: ''
-required: true
-translatable: true
+required: false
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

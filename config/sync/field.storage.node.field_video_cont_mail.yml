@@ -1,4 +1,4 @@
-uuid: fb78bb17-8d64-46a4-964b-d9ea75942ed6
+uuid: f555662f-2469-4c97-b998-603791269b52
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_video_cont_mail
 field_name: field_video_cont_mail
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

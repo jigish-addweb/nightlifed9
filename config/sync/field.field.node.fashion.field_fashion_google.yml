@@ -1,4 +1,4 @@
-uuid: e5650f2f-de85-415d-affa-34b38f77ca1a
+uuid: 9473bd4b-6807-4b1b-8bd3-5f209c27bbac
 langcode: en
 status: true
 dependencies:
@@ -10,10 +10,10 @@ field_name: field_fashion_google
 entity_type: node
 bundle: fashion
 label: 'Google link'
-description: 'Please type complete URL like ''http://www.example.com'''
+description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

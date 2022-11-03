@@ -1,4 +1,4 @@
-uuid: 28fd8800-2e3e-4879-b3e8-73c241634301
+uuid: 277402aa-aeeb-48f3-b3ea-3778ed9e2b10
 langcode: en
 status: true
 dependencies:
@@ -12,8 +12,8 @@ bundle: bars
 label: 'Age Requirements'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

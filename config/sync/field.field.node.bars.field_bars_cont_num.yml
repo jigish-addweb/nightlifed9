@@ -1,4 +1,4 @@
-uuid: 8475e88f-14d4-44be-a2e4-cad397fb6964
+uuid: d83aa82a-5eeb-4acc-8381-afc638a76373
 langcode: en
 status: true
 dependencies:
@@ -11,9 +11,9 @@ entity_type: node
 bundle: bars
 label: 'Contact Mobile Number'
 description: ''
-required: true
-translatable: true
+required: false
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

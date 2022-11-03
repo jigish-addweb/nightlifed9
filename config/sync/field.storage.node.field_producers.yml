@@ -1,4 +1,4 @@
-uuid: 884b460d-6dbc-4c21-8244-c685902170f5
+uuid: 9647c2ac-ed9c-4cf9-a7fd-17211bc32372
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_producers
 field_name: field_producers
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

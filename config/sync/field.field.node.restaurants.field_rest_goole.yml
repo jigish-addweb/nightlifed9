@@ -1,4 +1,4 @@
-uuid: 6421089e-eb4b-434a-9f21-d04b2423d2dd
+uuid: edcf6c41-0bb8-4acc-b6e0-ea7912d9acbd
 langcode: en
 status: true
 dependencies:
@@ -10,10 +10,10 @@ field_name: field_rest_goole
 entity_type: node
 bundle: restaurants
 label: 'Google+ link'
-description: 'Please type complete URL like ''http://www.example.com'''
+description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

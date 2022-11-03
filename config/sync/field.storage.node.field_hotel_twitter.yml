@@ -1,4 +1,4 @@
-uuid: dd0174a6-bf17-4c96-80bf-1fa6ae06e844
+uuid: 9ecfb222-846e-4272-888a-793846a3fec8
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_hotel_twitter
 field_name: field_hotel_twitter
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

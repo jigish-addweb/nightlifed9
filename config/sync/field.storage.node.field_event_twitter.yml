@@ -1,4 +1,4 @@
-uuid: d2870af6-2da3-45ca-8258-538d2aa147ba
+uuid: c064e5be-d208-4776-aa75-d80c84c892fd
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_event_twitter
 field_name: field_event_twitter
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

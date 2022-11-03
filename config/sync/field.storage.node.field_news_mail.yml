@@ -1,4 +1,4 @@
-uuid: 40828c1d-62fb-462f-b48e-9141b92757c2
+uuid: ab2b2a70-ef79-4528-b418-3f2d2479a87a
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_news_mail
 field_name: field_news_mail
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

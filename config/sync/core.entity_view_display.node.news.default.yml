@@ -67,25 +67,28 @@ content:
     weight: 20
     region: content
   field_news_ccode:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 4
+    weight: 105
     region: content
   field_news_cont_num:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 5
+    weight: 103
     region: content
   field_news_contname:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 3
+    weight: 104
     region: content
   field_news_image:
     type: image
@@ -99,11 +102,12 @@ content:
     weight: 0
     region: content
   field_news_mail:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 6
+    weight: 102
     region: content
   field_news_priority:
     type: number_integer

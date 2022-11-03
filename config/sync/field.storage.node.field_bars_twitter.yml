@@ -1,4 +1,4 @@
-uuid: 69568e65-b010-4cb0-94f3-2ef220b599db
+uuid: b389960a-61e4-42ae-b3c1-857de905a279
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_bars_twitter
 field_name: field_bars_twitter
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

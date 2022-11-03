@@ -1,4 +1,4 @@
-uuid: a80afb24-b61f-49c3-bc26-4c4af88faf3f
+uuid: 9301b2ba-ae60-428e-b408-582c2e14c850
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_nightclubs_cont_num
 field_name: field_nightclubs_cont_num
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

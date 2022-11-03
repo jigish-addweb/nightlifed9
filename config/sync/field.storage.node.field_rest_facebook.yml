@@ -1,4 +1,4 @@
-uuid: c4c66a49-7634-4b38-912d-74cb43e25d8f
+uuid: e60372b5-4c01-4dfd-905e-270b22d629f0
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_rest_facebook
 field_name: field_rest_facebook
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

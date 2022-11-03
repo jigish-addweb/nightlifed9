@@ -1,4 +1,4 @@
-uuid: e936be74-b7a7-4a7a-b563-2c18e48a50a2
+uuid: df218317-565a-4a2d-ab69-52f00da7dae5
 langcode: en
 status: true
 dependencies:
@@ -8,8 +8,9 @@ dependencies:
 id: node.field_musics_reservation
 field_name: field_musics_reservation
 entity_type: node
-type: text_long
-settings: {  }
+type: text
+settings:
+  max_length: 255
 module: text
 locked: false
 cardinality: 1

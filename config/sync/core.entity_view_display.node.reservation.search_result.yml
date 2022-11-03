@@ -24,61 +24,12 @@ targetEntityType: node
 bundle: reservation
 mode: search_result
 content:
-  field_date_reser:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 2
-    region: content
-  field_res_cc:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: -3
-    region: content
   field_res_comment:
     type: text_default
     label: above
     settings: {  }
     third_party_settings: {  }
     weight: 5
-    region: content
-  field_res_email:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: -4
-    region: content
-  field_res_fname:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: -1
-    region: content
-  field_res_guests:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 1
-    region: content
-  field_res_lname:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 0
-    region: content
-  field_res_mobile:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: -2
     region: content
   field_reser_share:
     type: text_default
@@ -101,4 +52,11 @@ content:
     weight: 100
     region: content
 hidden:
+  field_date_reser: true
+  field_res_cc: true
+  field_res_email: true
+  field_res_fname: true
+  field_res_guests: true
+  field_res_lname: true
+  field_res_mobile: true
   upload: true

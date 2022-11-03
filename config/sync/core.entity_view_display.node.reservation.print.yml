@@ -17,27 +17,12 @@ dependencies:
     - field.field.node.reservation.upload
     - node.type.reservation
   module:
-    - text
     - user
 id: node.reservation.print
 targetEntityType: node
 bundle: reservation
 mode: print
 content:
-  field_res_cc:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: -3
-    region: content
-  field_res_mobile:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: -2
-    region: content
   links:
     settings: {  }
     third_party_settings: {  }
@@ -45,11 +30,13 @@ content:
     region: content
 hidden:
   field_date_reser: true
+  field_res_cc: true
   field_res_comment: true
   field_res_email: true
   field_res_fname: true
   field_res_guests: true
   field_res_lname: true
+  field_res_mobile: true
   field_reser_share: true
   field_reservation_ref: true
   upload: true

@@ -1,4 +1,4 @@
-uuid: 3d973f86-6843-4e88-a450-0083256490eb
+uuid: c53e3fa2-7c50-4428-91e7-78a0a0b1d85e
 langcode: en
 status: true
 dependencies:
@@ -11,9 +11,9 @@ entity_type: node
 bundle: movies
 label: Writers
 description: ''
-required: true
-translatable: true
+required: false
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

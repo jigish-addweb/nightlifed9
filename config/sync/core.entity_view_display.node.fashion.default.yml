@@ -68,11 +68,12 @@ content:
     weight: 7
     region: content
   field_fashion_agereq:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 11
+    weight: 102
     region: content
   field_fashion_album:
     type: file_default
@@ -97,53 +98,60 @@ content:
     weight: 16
     region: content
   field_fashion_cname:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 25
+    weight: 106
     region: content
   field_fashion_code:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 27
+    weight: 107
     region: content
   field_fashion_cont_mail:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 29
+    weight: 104
     region: content
   field_fashion_dresscode:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 12
+    weight: 117
     region: content
   field_fashion_drinkspecials:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 15
+    weight: 108
     region: content
   field_fashion_facebook:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 22
+    weight: 109
     region: content
   field_fashion_google:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 24
+    weight: 111
     region: content
   field_fashion_image:
     type: image
@@ -157,11 +165,12 @@ content:
     weight: 20
     region: content
   field_fashion_mail:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 8
+    weight: 110
     region: content
   field_fashion_mail_body:
     type: text_default
@@ -171,32 +180,36 @@ content:
     weight: 19
     region: content
   field_fashion_mobile:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 28
+    weight: 105
     region: content
   field_fashion_musicstyle:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 10
+    weight: 112
     region: content
   field_fashion_parkingoptions:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 14
+    weight: 113
     region: content
   field_fashion_prices:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 13
+    weight: 114
     region: content
   field_fashion_priority:
     type: number_integer
@@ -212,7 +225,7 @@ content:
     label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 17
+    weight: 103
     region: content
   field_fashion_time:
     type: datetime_default
@@ -231,18 +244,20 @@ content:
     weight: 2
     region: content
   field_fashion_twitter:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 23
+    weight: 115
     region: content
   field_fashion_website:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 9
+    weight: 116
     region: content
   field_hashtag:
     type: entity_reference_label

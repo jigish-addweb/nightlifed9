@@ -1,4 +1,4 @@
-uuid: 7f290fa1-ddc8-4757-80d7-e793b8464b2e
+uuid: e4f61ebc-717c-4b32-82c9-88653d5b04f3
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_runtime
 field_name: field_runtime
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

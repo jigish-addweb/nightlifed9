@@ -1,4 +1,4 @@
-uuid: b82a697e-0adf-4636-b290-c6219a2a9823
+uuid: cb0d525c-9f2e-4f29-8714-3385889370ef
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_store_ccode
 field_name: field_store_ccode
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

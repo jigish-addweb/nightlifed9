@@ -1,4 +1,4 @@
-uuid: 4b00ba3a-8713-462c-a7da-ecedb489909a
+uuid: 06851398-d09a-40b4-9b1f-4a14dd768f17
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_uprofile_location
 field_name: field_uprofile_location
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

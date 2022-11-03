@@ -1,4 +1,4 @@
-uuid: 75888164-ac97-4b1d-879c-0d5c60dda73d
+uuid: de235925-7a40-423e-9d59-09fbaa4386a3
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_rest_contmobile
 field_name: field_rest_contmobile
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

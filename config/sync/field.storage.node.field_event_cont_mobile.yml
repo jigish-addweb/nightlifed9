@@ -1,4 +1,4 @@
-uuid: 0f7a9b84-5249-470b-b572-25062ecc2acc
+uuid: a2655f91-c421-4416-b5ce-5f19c0c311e5
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_event_cont_mobile
 field_name: field_event_cont_mobile
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

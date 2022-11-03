@@ -1,4 +1,4 @@
-uuid: ece2e0e2-8eca-4fb2-90d7-65b19a84c7dc
+uuid: 2a4e5204-15e8-473d-891c-d6140cc2dd8d
 langcode: en
 status: true
 dependencies:
@@ -11,8 +11,8 @@ entity_type: node
 bundle: book_a_party
 label: Email
 description: ''
-required: true
-translatable: true
+required: false
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

@@ -1,4 +1,4 @@
-uuid: 706f1422-1105-4096-8090-e4e73add94c9
+uuid: faad2011-ff77-4888-8e74-908fcc3a2ccc
 langcode: en
 status: true
 dependencies:
@@ -11,9 +11,9 @@ entity_type: node
 bundle: transport_reservation
 label: Date
 description: ''
-required: true
-translatable: true
+required: false
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

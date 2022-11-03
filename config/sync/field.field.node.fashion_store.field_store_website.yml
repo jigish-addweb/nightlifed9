@@ -1,4 +1,4 @@
-uuid: 767c17fc-b213-4cef-8373-c90b54cdd350
+uuid: 33575a87-cafe-4e9e-bebc-5993f1742525
 langcode: en
 status: true
 dependencies:
@@ -10,10 +10,10 @@ field_name: field_store_website
 entity_type: node
 bundle: fashion_store
 label: Website
-description: 'Please type complete URL like ''http://www.example.com'''
+description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

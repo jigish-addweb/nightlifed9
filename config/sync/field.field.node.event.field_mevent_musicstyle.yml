@@ -1,4 +1,4 @@
-uuid: 431e7e1d-4baf-46de-adec-d1b44495553c
+uuid: 81d85d10-354c-4e19-a288-1cdd037c6c21
 langcode: en
 status: true
 dependencies:
@@ -12,8 +12,8 @@ bundle: event
 label: 'Music Style'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

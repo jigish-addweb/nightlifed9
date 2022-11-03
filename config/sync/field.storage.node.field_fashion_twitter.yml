@@ -1,4 +1,4 @@
-uuid: 991e9bab-1a72-49ec-b5c8-b01d7fb14b23
+uuid: 51126ea2-1e44-4b65-abc3-4da26525efe3
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_fashion_twitter
 field_name: field_fashion_twitter
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

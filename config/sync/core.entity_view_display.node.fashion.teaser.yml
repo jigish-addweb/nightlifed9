@@ -61,13 +61,6 @@ content:
     third_party_settings: {  }
     weight: 7
     region: content
-  field_fashion_agereq:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 11
-    region: content
   field_fashion_album:
     type: file_default
     label: above
@@ -90,55 +83,6 @@ content:
     third_party_settings: {  }
     weight: 16
     region: content
-  field_fashion_cname:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 25
-    region: content
-  field_fashion_code:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 27
-    region: content
-  field_fashion_cont_mail:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 29
-    region: content
-  field_fashion_dresscode:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 12
-    region: content
-  field_fashion_drinkspecials:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 15
-    region: content
-  field_fashion_facebook:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 22
-    region: content
-  field_fashion_google:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 24
-    region: content
   field_fashion_image:
     type: image
     label: above
@@ -150,47 +94,12 @@ content:
     third_party_settings: {  }
     weight: 20
     region: content
-  field_fashion_mail:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 8
-    region: content
   field_fashion_mail_body:
     type: text_default
     label: above
     settings: {  }
     third_party_settings: {  }
     weight: 19
-    region: content
-  field_fashion_mobile:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 28
-    region: content
-  field_fashion_musicstyle:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 10
-    region: content
-  field_fashion_parkingoptions:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 14
-    region: content
-  field_fashion_prices:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 13
     region: content
   field_fashion_priority:
     type: number_integer
@@ -200,13 +109,6 @@ content:
       prefix_suffix: true
     third_party_settings: {  }
     weight: -1
-    region: content
-  field_fashion_reservation:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 17
     region: content
   field_fashion_time:
     type: datetime_default
@@ -224,20 +126,6 @@ content:
     third_party_settings: {  }
     weight: 2
     region: content
-  field_fashion_twitter:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 23
-    region: content
-  field_fashion_website:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 9
-    region: content
   field_private:
     type: text_default
     label: above
@@ -252,5 +140,21 @@ content:
     region: content
 hidden:
   field_country: true
+  field_fashion_agereq: true
+  field_fashion_cname: true
+  field_fashion_code: true
+  field_fashion_cont_mail: true
+  field_fashion_dresscode: true
+  field_fashion_drinkspecials: true
+  field_fashion_facebook: true
+  field_fashion_google: true
+  field_fashion_mail: true
+  field_fashion_mobile: true
+  field_fashion_musicstyle: true
+  field_fashion_parkingoptions: true
+  field_fashion_prices: true
+  field_fashion_reservation: true
+  field_fashion_twitter: true
+  field_fashion_website: true
   field_hashtag: true
   field_would_you_like_a_featured_: true

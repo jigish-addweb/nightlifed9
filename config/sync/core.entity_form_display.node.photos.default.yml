@@ -66,40 +66,40 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_photo_check_single:
-    type: text_textfield
-    weight: 17
+    type: string_textfield
+    weight: 126
     region: content
     settings:
-      size: 4
+      size: 60
       placeholder: ''
     third_party_settings: {  }
   field_photos_ccode:
-    type: text_textfield
-    weight: 8
+    type: string_textfield
+    weight: 125
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_photos_cont_mail:
-    type: text_textfield
-    weight: 10
+    type: string_textfield
+    weight: 122
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_photos_cont_num:
-    type: text_textfield
-    weight: 9
+    type: string_textfield
+    weight: 123
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_photos_contname:
-    type: text_textfield
-    weight: 7
+    type: string_textfield
+    weight: 124
     region: content
     settings:
       size: 60

@@ -24,48 +24,6 @@ targetEntityType: node
 bundle: transport_reservation
 mode: rss
 content:
-  field_trans_cc:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: -3
-    region: content
-  field_trans_email:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: -4
-    region: content
-  field_trans_fname:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: -1
-    region: content
-  field_trans_lname:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 0
-    region: content
-  field_trans_mobile:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: -2
-    region: content
-  field_trans_passengers:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 1
-    region: content
   field_trans_ref:
     type: entity_reference_label
     label: above
@@ -88,17 +46,17 @@ content:
     third_party_settings: {  }
     weight: 5
     region: content
-  field_trns_date:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 2
-    region: content
   links:
     settings: {  }
     third_party_settings: {  }
     weight: 100
     region: content
 hidden:
+  field_trans_cc: true
+  field_trans_email: true
+  field_trans_fname: true
+  field_trans_lname: true
+  field_trans_mobile: true
+  field_trans_passengers: true
+  field_trns_date: true
   upload: true

@@ -1,4 +1,4 @@
-uuid: 35c4849a-cd12-4f04-9fb8-103b1413a8ec
+uuid: f523baf1-c2ff-4dd5-9ed2-34102de6e2b9
 langcode: en
 status: true
 dependencies:
@@ -11,9 +11,9 @@ entity_type: node
 bundle: transportation
 label: 'Contact Mobile Number'
 description: ''
-required: true
-translatable: true
+required: false
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

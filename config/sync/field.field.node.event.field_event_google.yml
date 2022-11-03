@@ -1,4 +1,4 @@
-uuid: ea961564-163b-4dd5-8ca0-676d1415415b
+uuid: c8841c10-858d-4739-943d-2ce3bc67a82a
 langcode: en
 status: true
 dependencies:
@@ -10,10 +10,10 @@ field_name: field_event_google
 entity_type: node
 bundle: event
 label: 'Google+ link'
-description: 'Please type complete URL like ''http://www.example.com'''
+description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

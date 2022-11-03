@@ -1,4 +1,4 @@
-uuid: 3b9f41ef-2fa0-4cb1-8018-0db621a9d62c
+uuid: 80151a70-7dd9-41dc-97ed-e9bf17d9c53c
 langcode: en
 status: true
 dependencies:
@@ -11,9 +11,9 @@ entity_type: node
 bundle: nightclubs
 label: 'Dress Code'
 description: ''
-required: true
-translatable: true
+required: false
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

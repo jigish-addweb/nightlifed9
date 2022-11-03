@@ -1,4 +1,4 @@
-uuid: a4bc68f2-c41c-4b93-bda9-082aa07b8aca
+uuid: abc8992a-a529-47bb-836e-d00af034c1a0
 langcode: en
 status: true
 dependencies:
@@ -9,11 +9,11 @@ id: node.hotel.field_hotel_google
 field_name: field_hotel_google
 entity_type: node
 bundle: hotel
-label: ' Google+ link'
-description: 'Please type complete URL like ''http://www.example.com'''
+label: 'Google+ link'
+description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

@@ -1,4 +1,4 @@
-uuid: bf7462f5-7e82-42b6-975e-2296241af1f5
+uuid: f424d6f8-c163-40a8-8bda-735c3f289880
 langcode: en
 status: true
 dependencies:
@@ -11,9 +11,9 @@ entity_type: node
 bundle: music
 label: 'Record Label'
 description: ''
-required: true
-translatable: true
+required: false
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

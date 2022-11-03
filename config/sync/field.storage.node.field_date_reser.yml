@@ -1,4 +1,4 @@
-uuid: 3dd50a7c-1c39-4a5c-bb8d-1fc143ecf32c
+uuid: 3d514613-c58d-4489-b9d8-4bcea694dc5f
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_date_reser
 field_name: field_date_reser
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

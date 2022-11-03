@@ -1,4 +1,4 @@
-uuid: b637fbe0-4ba7-48b7-9ea5-ff9dbee1e56f
+uuid: a8aa6c70-3d2e-4535-b7ca-be053256ee14
 langcode: en
 status: true
 dependencies:
@@ -9,11 +9,11 @@ id: node.hotel.field_hot_cont_num
 field_name: field_hot_cont_num
 entity_type: node
 bundle: hotel
-label: ' Contact Mobile Number'
+label: 'Contact Mobile Number'
 description: ''
-required: true
-translatable: true
+required: false
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

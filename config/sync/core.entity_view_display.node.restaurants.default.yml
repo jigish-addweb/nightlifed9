@@ -99,11 +99,12 @@ content:
     weight: 9
     region: content
   field_rest_additional:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 12
+    weight: 102
     region: content
   field_rest_album:
     type: image
@@ -117,39 +118,44 @@ content:
     weight: 18
     region: content
   field_rest_ccode:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 26
+    weight: 106
     region: content
   field_rest_chef:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 11
+    weight: 108
     region: content
   field_rest_contmail:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 28
+    weight: 103
     region: content
   field_rest_contmobile:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 27
+    weight: 104
     region: content
   field_rest_contname:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 25
+    weight: 105
     region: content
   field_rest_dining:
     type: text_default
@@ -159,25 +165,28 @@ content:
     weight: 7
     region: content
   field_rest_dress_code:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 8
+    weight: 107
     region: content
   field_rest_facebook:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 19
+    weight: 109
     region: content
   field_rest_goole:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 21
+    weight: 110
     region: content
   field_rest_payment:
     type: text_default
@@ -194,25 +203,28 @@ content:
     weight: 1
     region: content
   field_rest_specials:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 10
+    weight: 111
     region: content
   field_rest_twitter:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 20
+    weight: 112
     region: content
   field_rest_website:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 5
+    weight: 113
     region: content
   field_restallowrsvp:
     type: text_default

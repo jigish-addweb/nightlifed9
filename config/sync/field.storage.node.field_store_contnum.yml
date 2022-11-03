@@ -1,4 +1,4 @@
-uuid: 2dc15672-90cc-4df3-a84a-fb29c7447e2b
+uuid: 59058299-2c8b-472d-8734-4f0090bdc74d
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_store_contnum
 field_name: field_store_contnum
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

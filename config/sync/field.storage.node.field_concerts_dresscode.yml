@@ -1,4 +1,4 @@
-uuid: 8214d310-c5d8-4e75-902d-f2c583437ea5
+uuid: f25e7101-a378-4d45-93fd-727ea62f8f96
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_concerts_dresscode
 field_name: field_concerts_dresscode
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

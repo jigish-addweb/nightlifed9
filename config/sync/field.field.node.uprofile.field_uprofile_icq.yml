@@ -1,4 +1,4 @@
-uuid: f2cb9fb0-fca3-406d-a8d2-bc5677173ea9
+uuid: f8e63282-d425-4f31-b617-5bdefff603ff
 langcode: en
 status: true
 dependencies:
@@ -12,8 +12,8 @@ bundle: uprofile
 label: ICQ
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

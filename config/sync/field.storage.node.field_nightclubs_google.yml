@@ -1,4 +1,4 @@
-uuid: 617bf3de-1765-4877-9417-d16e8ca184bf
+uuid: ac0cb92a-9144-493e-bc46-eed094224a89
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_nightclubs_google
 field_name: field_nightclubs_google
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

@@ -1,4 +1,4 @@
-uuid: bcea491d-9d4b-4311-b221-3f3ea68be0e2
+uuid: 4052dc90-7d4a-46c5-91b5-440e2070fb68
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_fashion_agereq
 field_name: field_fashion_agereq
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

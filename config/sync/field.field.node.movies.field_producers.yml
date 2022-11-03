@@ -1,4 +1,4 @@
-uuid: 89707ac4-99c4-428d-adcf-c6953bbf9076
+uuid: 047f471d-014f-4294-a613-012dc8c04ee0
 langcode: en
 status: true
 dependencies:
@@ -11,9 +11,9 @@ entity_type: node
 bundle: movies
 label: Producers
 description: ''
-required: true
-translatable: true
+required: false
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

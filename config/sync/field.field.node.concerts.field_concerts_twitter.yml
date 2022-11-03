@@ -1,4 +1,4 @@
-uuid: ab1c1268-3cf4-44d9-a14f-9780679e12f4
+uuid: 98aca3b7-710d-4240-ba1a-df1d66186215
 langcode: en
 status: true
 dependencies:
@@ -10,10 +10,10 @@ field_name: field_concerts_twitter
 entity_type: node
 bundle: concerts
 label: 'Twitter link'
-description: 'Please type complete URL like ''http://www.example.com'''
+description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

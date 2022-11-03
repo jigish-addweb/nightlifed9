@@ -1,4 +1,4 @@
-uuid: bf43f366-3ce5-4754-bb19-480e7d143461
+uuid: d9c7db8b-3b40-41ef-9aae-9b65635c4437
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_movies_contname
 field_name: field_movies_contname
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

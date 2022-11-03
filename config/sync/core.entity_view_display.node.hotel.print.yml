@@ -35,13 +35,6 @@ targetEntityType: node
 bundle: hotel
 mode: print
 content:
-  field_hot_ccode:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 14
-    region: content
   field_hotel_ccode:
     type: text_default
     label: above
@@ -66,6 +59,7 @@ hidden:
   field_country: true
   field_hashtag: true
   field_hot_album: true
+  field_hot_ccode: true
   field_hot_cont_email: true
   field_hot_cont_num: true
   field_hot_contname: true

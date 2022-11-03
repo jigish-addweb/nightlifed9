@@ -1,4 +1,4 @@
-uuid: f4e701e1-42f5-4e30-bbc3-bf48aba02f2f
+uuid: 39be4609-6a41-4b3c-a240-e105fc7b4c8a
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_event_google
 field_name: field_event_google
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

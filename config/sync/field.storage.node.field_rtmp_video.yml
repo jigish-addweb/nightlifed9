@@ -1,4 +1,4 @@
-uuid: 2be547a1-da15-41d0-98b3-703b905999cb
+uuid: 6360f44d-cca6-4790-86e7-4e9b1b3628b4
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_rtmp_video
 field_name: field_rtmp_video
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

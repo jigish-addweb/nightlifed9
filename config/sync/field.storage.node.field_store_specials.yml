@@ -1,4 +1,4 @@
-uuid: e20ed62f-7042-4176-9a3b-cab12aa3c621
+uuid: cf2eb7bc-7157-4939-a2db-d633908ae3b2
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_store_specials
 field_name: field_store_specials
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

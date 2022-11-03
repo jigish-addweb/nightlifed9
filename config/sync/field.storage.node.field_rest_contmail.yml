@@ -1,4 +1,4 @@
-uuid: 4bf340eb-754e-4665-8699-9e3db8967a8c
+uuid: 9f70c56c-ecf9-466d-8b8a-61d7f579a968
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_rest_contmail
 field_name: field_rest_contmail
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

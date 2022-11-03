@@ -76,53 +76,60 @@ content:
     weight: 7
     region: content
   field_event_ccode:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 28
+    weight: 106
     region: content
   field_event_cname:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 27
+    weight: 105
     region: content
   field_event_cont_mail:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 30
+    weight: 104
     region: content
   field_event_cont_mobile:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 29
+    weight: 114
     region: content
   field_event_facebook:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 23
+    weight: 110
     region: content
   field_event_google:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 25
+    weight: 111
     region: content
   field_event_mail:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 8
+    weight: 109
     region: content
   field_event_mail_body:
     type: text_default
@@ -141,11 +148,12 @@ content:
     weight: -1
     region: content
   field_event_reservation:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 19
+    weight: 103
     region: content
   field_event_time:
     type: datetime_default
@@ -164,11 +172,12 @@ content:
     weight: 2
     region: content
   field_event_twitter:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 24
+    weight: 116
     region: content
   field_event_type:
     type: entity_reference_label
@@ -179,11 +188,12 @@ content:
     weight: 20
     region: content
   field_event_website:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 9
+    weight: 117
     region: content
   field_eventallowrsvp:
     type: text_default
@@ -201,11 +211,12 @@ content:
     weight: 20
     region: content
   field_mevent_agereq:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 11
+    weight: 102
     region: content
   field_mevent_album:
     type: image
@@ -219,18 +230,20 @@ content:
     weight: 26
     region: content
   field_mevent_dresscode:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 12
+    weight: 107
     region: content
   field_mevent_drinkspecials:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 17
+    weight: 108
     region: content
   field_mevent_image:
     type: file_default
@@ -241,25 +254,28 @@ content:
     weight: 22
     region: content
   field_mevent_musicstyle:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 10
+    weight: 112
     region: content
   field_mevent_parkingoptions:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 16
+    weight: 113
     region: content
   field_mevent_prices:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 15
+    weight: 115
     region: content
   field_private:
     type: text_default

@@ -1,4 +1,4 @@
-uuid: bc6ea7fc-8c2b-4b71-a658-5988038bbc9e
+uuid: f863e5ed-d311-4ad2-89f6-704846d36bf6
 langcode: en
 status: true
 dependencies:
@@ -12,8 +12,8 @@ bundle: bars
 label: Amount
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

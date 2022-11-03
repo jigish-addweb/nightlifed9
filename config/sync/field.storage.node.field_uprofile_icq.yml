@@ -1,4 +1,4 @@
-uuid: 4751f793-7acd-49ea-a8ad-f140d51abce0
+uuid: 603763f4-3908-44b0-bace-d3b788d2e881
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_uprofile_icq
 field_name: field_uprofile_icq
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

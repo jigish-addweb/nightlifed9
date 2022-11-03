@@ -103,8 +103,8 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_bars_age:
-    type: text_textfield
-    weight: 6
+    type: string_textfield
+    weight: 122
     region: content
     settings:
       size: 60
@@ -137,40 +137,40 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_bars_budjet_amount:
-    type: text_textfield
-    weight: 40
+    type: string_textfield
+    weight: 123
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_bars_ccode:
-    type: text_textfield
-    weight: 22
+    type: string_textfield
+    weight: 128
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_bars_cont_mail:
-    type: text_textfield
-    weight: 24
+    type: string_textfield
+    weight: 124
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_bars_cont_num:
-    type: text_textfield
-    weight: 23
+    type: string_textfield
+    weight: 125
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_bars_contname:
-    type: text_textfield
-    weight: 21
+    type: string_textfield
+    weight: 126
     region: content
     settings:
       size: 60
@@ -191,8 +191,8 @@ content:
       placeholder: ''
     third_party_settings: {  }
   field_bars_dress_code:
-    type: text_textfield
-    weight: 8
+    type: string_textfield
+    weight: 129
     region: content
     settings:
       size: 60
@@ -213,8 +213,8 @@ content:
       placeholder: ''
     third_party_settings: {  }
   field_bars_facebook:
-    type: text_textfield
-    weight: 15
+    type: string_textfield
+    weight: 130
     region: content
     settings:
       size: 60
@@ -227,8 +227,8 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_bars_google:
-    type: text_textfield
-    weight: 17
+    type: string_textfield
+    weight: 131
     region: content
     settings:
       size: 60
@@ -266,8 +266,8 @@ content:
       placeholder: ''
     third_party_settings: {  }
   field_bars_specials:
-    type: text_textfield
-    weight: 9
+    type: string_textfield
+    weight: 132
     region: content
     settings:
       size: 60
@@ -288,24 +288,24 @@ content:
       placeholder: ''
     third_party_settings: {  }
   field_bars_twitter:
-    type: text_textfield
-    weight: 16
+    type: string_textfield
+    weight: 133
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_bars_website:
-    type: text_textfield
-    weight: 3
+    type: string_textfield
+    weight: 134
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_click_cost:
-    type: text_textfield
-    weight: 44
+    type: string_textfield
+    weight: 127
     region: content
     settings:
       size: 60

@@ -1,4 +1,4 @@
-uuid: b1b0b32d-d4cf-442a-a157-61980593fb1e
+uuid: 2a8b5444-18ec-422f-a76f-238cfaf40894
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_transport_google
 field_name: field_transport_google
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

@@ -1,4 +1,4 @@
-uuid: 548de102-cb0a-4eb1-a46c-c56495189bb4
+uuid: bdf2b3ba-cea9-4116-be68-51548af3d449
 langcode: en
 status: true
 dependencies:
@@ -11,9 +11,9 @@ entity_type: node
 bundle: reservation
 label: 'Number of Guests Requested'
 description: ''
-required: true
-translatable: true
+required: false
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

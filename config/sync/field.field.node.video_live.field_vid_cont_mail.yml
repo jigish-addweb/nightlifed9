@@ -1,4 +1,4 @@
-uuid: d414d740-9f94-402e-9f80-1a712f83fec2
+uuid: 82937dc2-db8e-4b23-b993-fc68e937b5d5
 langcode: en
 status: true
 dependencies:
@@ -11,9 +11,9 @@ entity_type: node
 bundle: video_live
 label: 'Contact Email'
 description: ''
-required: true
-translatable: true
+required: false
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

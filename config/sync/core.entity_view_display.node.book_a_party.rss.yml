@@ -26,61 +26,12 @@ targetEntityType: node
 bundle: book_a_party
 mode: rss
 content:
-  field_bap_cc:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: -3
-    region: content
   field_bap_comment:
     type: text_default
     label: above
     settings: {  }
     third_party_settings: {  }
     weight: 6
-    region: content
-  field_bap_date:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 3
-    region: content
-  field_bap_email:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: -4
-    region: content
-  field_bap_fname:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: -1
-    region: content
-  field_bap_guests:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 2
-    region: content
-  field_bap_lname:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 0
-    region: content
-  field_bap_mobile:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: -2
     region: content
   field_bap_party:
     type: text_default
@@ -111,4 +62,11 @@ content:
     region: content
 hidden:
   body: true
+  field_bap_cc: true
+  field_bap_date: true
+  field_bap_email: true
+  field_bap_fname: true
+  field_bap_guests: true
+  field_bap_lname: true
+  field_bap_mobile: true
   upload: true

@@ -1,4 +1,4 @@
-uuid: b7a5c213-db1f-4b0c-9162-739d5979e1a6
+uuid: be7a948a-9d21-46bc-9c22-93522b00769b
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_store_facebook
 field_name: field_store_facebook
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

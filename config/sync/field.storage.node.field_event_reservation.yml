@@ -1,4 +1,4 @@
-uuid: f2518106-8c48-4c70-be27-fd3aaf944bd2
+uuid: dcbbed02-1a56-4e6f-b57e-6d0b3ec1e460
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_event_reservation
 field_name: field_event_reservation
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

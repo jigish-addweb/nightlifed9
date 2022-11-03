@@ -52,13 +52,6 @@ content:
     third_party_settings: {  }
     weight: 36
     region: content
-  field_rest_ccode:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 26
-    region: content
   field_restau_menu:
     type: file_default
     label: above
@@ -95,6 +88,7 @@ hidden:
   field_rest_accept: true
   field_rest_additional: true
   field_rest_album: true
+  field_rest_ccode: true
   field_rest_chef: true
   field_rest_contmail: true
   field_rest_contmobile: true

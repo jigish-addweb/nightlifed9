@@ -1,4 +1,4 @@
-uuid: f801d445-ec00-4aa0-9276-99e45d003c6e
+uuid: b886398f-f96e-4d44-ab8f-c28a04d6637e
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_vid_ccode
 field_name: field_vid_ccode
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

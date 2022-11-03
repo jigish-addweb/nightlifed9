@@ -1,4 +1,4 @@
-uuid: 6ccc63a3-ba08-46c7-9382-38e61cfb1d73
+uuid: 7bb90e99-d79b-4b85-8f58-8aa73f91a033
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_rest_dress_code
 field_name: field_rest_dress_code
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

@@ -1,4 +1,4 @@
-uuid: d574d8c8-2b87-40d0-8d54-eb18a4d25041
+uuid: ed8af6a7-398a-4374-b4af-c8e57465cbb9
 langcode: en
 status: true
 dependencies:
@@ -10,10 +10,10 @@ field_name: field_nightclubs_facebook
 entity_type: node
 bundle: nightclubs
 label: 'Facebook link'
-description: 'Please type complete URL like ''http://www.example.com'''
+description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

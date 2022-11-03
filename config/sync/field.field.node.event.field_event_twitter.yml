@@ -1,4 +1,4 @@
-uuid: 3c45ccd6-6767-4511-a343-6d5861ecdfe1
+uuid: a08a05b6-fbf9-4476-bb7f-5534426c7806
 langcode: en
 status: true
 dependencies:
@@ -10,10 +10,10 @@ field_name: field_event_twitter
 entity_type: node
 bundle: event
 label: 'Twitter link'
-description: 'Please type complete URL like ''http://www.example.com'''
+description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

@@ -1,4 +1,4 @@
-uuid: 02774a71-c1c7-413e-991e-0aa2c58a2823
+uuid: 83d91276-2b71-4528-aa5c-4d3c9c1a09e0
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_uprofile_yahoo
 field_name: field_uprofile_yahoo
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

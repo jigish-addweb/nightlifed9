@@ -1,4 +1,4 @@
-uuid: 92132c29-d053-48bf-9e26-c51b56ce49bb
+uuid: 05c0c017-5365-4c3e-ab94-2cee264d1507
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_bars_website
 field_name: field_bars_website
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

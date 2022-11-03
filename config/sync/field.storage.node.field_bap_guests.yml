@@ -1,4 +1,4 @@
-uuid: f9707974-7b2b-4a41-b921-a2f3a95090f7
+uuid: ddcb93e7-9ebb-442e-a76e-c1d59acec8e7
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_bap_guests
 field_name: field_bap_guests
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

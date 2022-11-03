@@ -73,8 +73,8 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_fashion_agereq:
-    type: text_textfield
-    weight: 11
+    type: string_textfield
+    weight: 122
     region: content
     settings:
       size: 60
@@ -101,56 +101,56 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_fashion_cname:
-    type: text_textfield
-    weight: 25
+    type: string_textfield
+    weight: 126
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_fashion_code:
-    type: text_textfield
-    weight: 27
+    type: string_textfield
+    weight: 127
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_fashion_cont_mail:
-    type: text_textfield
-    weight: 29
+    type: string_textfield
+    weight: 124
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_fashion_dresscode:
-    type: text_textfield
-    weight: 12
+    type: string_textfield
+    weight: 137
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_fashion_drinkspecials:
-    type: text_textfield
-    weight: 15
+    type: string_textfield
+    weight: 128
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_fashion_facebook:
-    type: text_textfield
-    weight: 22
+    type: string_textfield
+    weight: 129
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_fashion_google:
-    type: text_textfield
-    weight: 24
+    type: string_textfield
+    weight: 131
     region: content
     settings:
       size: 60
@@ -165,8 +165,8 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
   field_fashion_mail:
-    type: text_textfield
-    weight: 8
+    type: string_textfield
+    weight: 130
     region: content
     settings:
       size: 60
@@ -181,32 +181,32 @@ content:
       placeholder: ''
     third_party_settings: {  }
   field_fashion_mobile:
-    type: text_textfield
-    weight: 28
+    type: string_textfield
+    weight: 125
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_fashion_musicstyle:
-    type: text_textfield
-    weight: 10
+    type: string_textfield
+    weight: 132
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_fashion_parkingoptions:
-    type: text_textfield
-    weight: 14
+    type: string_textfield
+    weight: 133
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_fashion_prices:
-    type: text_textfield
-    weight: 13
+    type: string_textfield
+    weight: 134
     region: content
     settings:
       size: 60
@@ -221,7 +221,7 @@ content:
     third_party_settings: {  }
   field_fashion_reservation:
     type: text_textfield
-    weight: 17
+    weight: 123
     region: content
     settings:
       size: 60
@@ -234,16 +234,16 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_fashion_twitter:
-    type: text_textfield
-    weight: 23
+    type: string_textfield
+    weight: 135
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_fashion_website:
-    type: text_textfield
-    weight: 9
+    type: string_textfield
+    weight: 136
     region: content
     settings:
       size: 60

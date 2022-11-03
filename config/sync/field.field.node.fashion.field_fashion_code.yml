@@ -1,4 +1,4 @@
-uuid: d4f52c8c-88f7-4598-a97c-7f56cf07bf55
+uuid: 5e8699d3-dc5d-4414-830b-de79f4523faa
 langcode: en
 status: true
 dependencies:
@@ -11,9 +11,9 @@ entity_type: node
 bundle: fashion
 label: 'Country code'
 description: ''
-required: true
-translatable: true
+required: false
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

@@ -25,25 +25,28 @@ bundle: hotel_booking
 mode: default
 content:
   field_chkin_date:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 1
+    weight: 101
     region: content
   field_chkout_date:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 2
+    weight: 102
     region: content
   field_hotb_cc:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: -3
+    weight: 103
     region: content
   field_hotb_comment:
     type: text_default
@@ -53,32 +56,36 @@ content:
     weight: 7
     region: content
   field_hotb_email:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: -4
+    weight: 104
     region: content
   field_hotb_fname:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: -1
+    weight: 105
     region: content
   field_hotb_lname:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 0
+    weight: 106
     region: content
   field_hotb_mobile:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: -2
+    weight: 107
     region: content
   field_hotb_reser_share:
     type: text_default

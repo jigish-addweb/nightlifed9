@@ -1,4 +1,4 @@
-uuid: 6ceebad2-a181-48ce-a5fc-885970f7c0d3
+uuid: 42ecddbe-26ca-465d-859d-0bfb77cdadb1
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_signup_fname
 field_name: field_signup_fname
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

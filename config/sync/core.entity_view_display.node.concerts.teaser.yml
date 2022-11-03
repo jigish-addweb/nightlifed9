@@ -66,68 +66,12 @@ content:
     third_party_settings: {  }
     weight: 13
     region: content
-  field_concert_ccode:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 23
-    region: content
-  field_concert_cname:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 22
-    region: content
-  field_concert_cont_mobile:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 25
-    region: content
-  field_concert_mail:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 7
-    region: content
-  field_concert_mobile:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 24
-    region: content
-  field_concert_parking:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 12
-    region: content
-  field_concert_reservation:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 14
-    region: content
   field_concertallowrsvp:
     type: text_default
     label: above
     settings: {  }
     third_party_settings: {  }
     weight: 15
-    region: content
-  field_concerts_agereq:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 9
     region: content
   field_concerts_album:
     type: image
@@ -139,27 +83,6 @@ content:
         attribute: lazy
     third_party_settings: {  }
     weight: 18
-    region: content
-  field_concerts_dresscode:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 10
-    region: content
-  field_concerts_facebook:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 19
-    region: content
-  field_concerts_google:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 21
     region: content
   field_concerts_image:
     type: image
@@ -178,13 +101,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 16
-    region: content
-  field_concerts_prices:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 11
     region: content
   field_concerts_priority:
     type: number_integer
@@ -211,20 +127,6 @@ content:
     third_party_settings: {  }
     weight: 6
     region: content
-  field_concerts_twitter:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 20
-    region: content
-  field_concerts_website:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 8
-    region: content
   field_private:
     type: text_default
     label: above
@@ -238,7 +140,21 @@ content:
     weight: 100
     region: content
 hidden:
+  field_concert_ccode: true
+  field_concert_cname: true
+  field_concert_cont_mobile: true
+  field_concert_mail: true
+  field_concert_mobile: true
+  field_concert_parking: true
+  field_concert_reservation: true
   field_concert_show_type: true
+  field_concerts_agereq: true
+  field_concerts_dresscode: true
+  field_concerts_facebook: true
+  field_concerts_google: true
+  field_concerts_prices: true
+  field_concerts_twitter: true
+  field_concerts_website: true
   field_country: true
   field_hashtag: true
   field_would_you_like_a_featured_: true

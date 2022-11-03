@@ -58,11 +58,12 @@ content:
     weight: 20
     region: content
   field_keywords:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 19
+    weight: 106
     region: content
   field_private:
     type: text_default
@@ -72,32 +73,36 @@ content:
     weight: 22
     region: content
   field_video_ccode:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 25
+    weight: 105
     region: content
   field_video_cont_mail:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 27
+    weight: 102
     region: content
   field_video_cont_num:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 26
+    weight: 103
     region: content
   field_video_contname:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 24
+    weight: 104
     region: content
   field_videos_priority:
     type: number_integer

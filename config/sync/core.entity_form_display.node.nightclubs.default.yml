@@ -108,8 +108,8 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_nightclubs_age:
-    type: text_textfield
-    weight: 6
+    type: string_textfield
+    weight: 123
     region: content
     settings:
       size: 60
@@ -124,24 +124,24 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
   field_nightclubs_ccode:
-    type: text_textfield
-    weight: 20
+    type: string_textfield
+    weight: 127
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_nightclubs_cont_num:
-    type: text_textfield
-    weight: 21
+    type: string_textfield
+    weight: 125
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_nightclubs_contname:
-    type: text_textfield
-    weight: 19
+    type: string_textfield
+    weight: 126
     region: content
     settings:
       size: 60
@@ -154,32 +154,32 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_nightclubs_details:
-    type: text_textarea
-    weight: 10
+    type: string_textfield
+    weight: 122
     region: content
     settings:
-      rows: 5
+      size: 60
       placeholder: ''
     third_party_settings: {  }
   field_nightclubs_dresscode:
-    type: text_textfield
-    weight: 8
+    type: string_textfield
+    weight: 128
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_nightclubs_facebook:
-    type: text_textfield
-    weight: 15
+    type: string_textfield
+    weight: 129
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_nightclubs_google:
-    type: text_textfield
-    weight: 17
+    type: string_textfield
+    weight: 130
     region: content
     settings:
       size: 60
@@ -194,8 +194,8 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
   field_nightclubs_mail:
-    type: text_textfield
-    weight: 22
+    type: string_textfield
+    weight: 124
     region: content
     settings:
       size: 60
@@ -226,24 +226,24 @@ content:
       placeholder: ''
     third_party_settings: {  }
   field_nightclubs_specials:
-    type: text_textfield
-    weight: 9
+    type: string_textfield
+    weight: 131
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_nightclubs_twitter:
-    type: text_textfield
-    weight: 16
+    type: string_textfield
+    weight: 132
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_nightclubs_website:
-    type: text_textfield
-    weight: 4
+    type: string_textfield
+    weight: 133
     region: content
     settings:
       size: 60

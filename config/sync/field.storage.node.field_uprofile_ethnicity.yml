@@ -1,4 +1,4 @@
-uuid: ef44ac8e-bff2-46c2-a0a8-60688ca26b57
+uuid: f6dcd7ae-06cf-4124-8db8-397e29598041
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_uprofile_ethnicity
 field_name: field_uprofile_ethnicity
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

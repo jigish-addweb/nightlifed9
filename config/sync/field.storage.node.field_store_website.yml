@@ -1,4 +1,4 @@
-uuid: 307fb3d2-aaa9-46c2-af0d-6f7bec79921d
+uuid: 480b771c-9bda-4d6a-81b2-9f93313c4f69
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,11 @@ dependencies:
 id: node.field_store_website
 field_name: field_store_website
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1
