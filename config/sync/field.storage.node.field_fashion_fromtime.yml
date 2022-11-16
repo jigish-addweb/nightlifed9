@@ -1,0 +1,20 @@
+uuid: 78f6ccb4-8698-4b32-9a77-4311f057370d
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+id: node.field_fashion_fromtime
+field_name: field_fashion_fromtime
+entity_type: node
+type: datetime
+settings:
+  datetime_type: datetime
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

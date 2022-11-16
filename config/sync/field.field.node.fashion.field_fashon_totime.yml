@@ -1,0 +1,21 @@
+uuid: 69b480d7-0fc7-45ae-adc9-be0944897101
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fashon_totime
+    - node.type.fashion
+  module:
+    - datetime
+id: node.fashion.field_fashon_totime
+field_name: field_fashon_totime
+entity_type: node
+bundle: fashion
+label: 'End Time'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

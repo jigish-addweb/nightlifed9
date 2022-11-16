@@ -1,0 +1,21 @@
+uuid: 18cd8c65-bc03-46a1-a88e-c47d74c507c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fashion_fromtime
+    - node.type.fashion
+  module:
+    - datetime
+id: node.fashion.field_fashion_fromtime
+field_name: field_fashion_fromtime
+entity_type: node
+bundle: fashion
+label: 'Start Time'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime
