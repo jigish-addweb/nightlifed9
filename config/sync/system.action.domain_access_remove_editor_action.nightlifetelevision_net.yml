@@ -1,0 +1,14 @@
+uuid: 9cb6b18f-5d75-44b3-a9ef-d85e190d99e2
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.nightlifetelevision_net
+  module:
+    - domain_access
+id: domain_access_remove_editor_action.nightlifetelevision_net
+label: 'Remove editors from the Nightlife Television domain'
+type: user
+plugin: domain_access_remove_editor_action
+configuration:
+  domain_id: nightlifetelevision_net

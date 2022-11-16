@@ -1,0 +1,14 @@
+uuid: 8155bb38-0507-41f3-b5ac-a92852be5779
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.hollywoodhighlights_tv
+  module:
+    - domain_access
+id: domain_access_remove_editor_action.hollywoodhighlights_tv
+label: 'Remove editors from the HollywoodHighlights domain'
+type: user
+plugin: domain_access_remove_editor_action
+configuration:
+  domain_id: hollywoodhighlights_tv

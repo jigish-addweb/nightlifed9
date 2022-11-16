@@ -1,0 +1,14 @@
+uuid: efd4d5db-5115-40e7-bffb-d0e22ca2520d
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.hollywoodhighlights_tv
+  module:
+    - domain_access
+id: domain_access_add_editor_action.hollywoodhighlights_tv
+label: 'Add editors to the HollywoodHighlights domain'
+type: user
+plugin: domain_access_add_editor_action
+configuration:
+  domain_id: hollywoodhighlights_tv

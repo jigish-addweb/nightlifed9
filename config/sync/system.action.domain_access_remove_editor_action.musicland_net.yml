@@ -1,0 +1,14 @@
+uuid: da9027f3-5714-4f6d-9acf-ad01450176b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.musicland_net
+  module:
+    - domain_access
+id: domain_access_remove_editor_action.musicland_net
+label: 'Remove editors from the Musicland.net domain'
+type: user
+plugin: domain_access_remove_editor_action
+configuration:
+  domain_id: musicland_net

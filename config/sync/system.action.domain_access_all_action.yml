@@ -1,0 +1,14 @@
+uuid: b5999b11-c745-4c28-ad43-cb81c4718d88
+langcode: en
+status: true
+dependencies:
+  module:
+    - domain_access
+_core:
+  default_config_hash: 1JWyzsu7w-WFCcw9q6gjKvOnNQweDxZxjQV8slWRIuI
+id: domain_access_all_action
+label: 'Assign content to all affiliates'
+type: node
+plugin: domain_access_all_action
+configuration:
+  domain_id: ''

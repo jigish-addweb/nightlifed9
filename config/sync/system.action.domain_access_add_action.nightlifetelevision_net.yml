@@ -1,0 +1,14 @@
+uuid: 330d1541-5d4e-4e56-89b1-69519d787dd1
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.nightlifetelevision_net
+  module:
+    - domain_access
+id: domain_access_add_action.nightlifetelevision_net
+label: 'Add selected content to the Nightlife Television domain'
+type: node
+plugin: domain_access_add_action
+configuration:
+  domain_id: nightlifetelevision_net

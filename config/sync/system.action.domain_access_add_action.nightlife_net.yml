@@ -1,0 +1,14 @@
+uuid: 4ba4256a-3686-48d3-85ab-ff2b7aa54bca
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.nightlife_net
+  module:
+    - domain_access
+id: domain_access_add_action.nightlife_net
+label: 'Add selected content to the Nightlife.net domain'
+type: node
+plugin: domain_access_add_action
+configuration:
+  domain_id: nightlife_net

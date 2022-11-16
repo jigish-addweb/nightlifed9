@@ -1,0 +1,14 @@
+uuid: c357b131-6caf-40ba-b72e-1e599cf842f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.musicland_net
+  module:
+    - domain_access
+id: domain_access_add_editor_action.musicland_net
+label: 'Add editors to the Musicland.net domain'
+type: user
+plugin: domain_access_add_editor_action
+configuration:
+  domain_id: musicland_net

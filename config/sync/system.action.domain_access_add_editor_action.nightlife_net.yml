@@ -1,0 +1,14 @@
+uuid: 79617ec3-e425-4a9e-b1f0-0b51d9de3d18
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.nightlife_net
+  module:
+    - domain_access
+id: domain_access_add_editor_action.nightlife_net
+label: 'Add editors to the Nightlife.net domain'
+type: user
+plugin: domain_access_add_editor_action
+configuration:
+  domain_id: nightlife_net

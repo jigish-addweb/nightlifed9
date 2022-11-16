@@ -1,0 +1,14 @@
+uuid: 9b723293-5cdc-421d-8eab-61cf12ac9ea7
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.nightlife_net
+  module:
+    - domain_access
+id: domain_access_remove_action.nightlife_net
+label: 'Remove selected content from the Nightlife.net domain'
+type: node
+plugin: domain_access_remove_action
+configuration:
+  domain_id: nightlife_net

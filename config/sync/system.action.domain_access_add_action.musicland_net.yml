@@ -1,0 +1,14 @@
+uuid: 08349f9c-8605-4b85-8947-7d770ba0526d
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.musicland_net
+  module:
+    - domain_access
+id: domain_access_add_action.musicland_net
+label: 'Add selected content to the Musicland.net domain'
+type: node
+plugin: domain_access_add_action
+configuration:
+  domain_id: musicland_net

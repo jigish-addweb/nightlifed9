@@ -1,0 +1,14 @@
+uuid: 86b2ee2c-6583-4219-afa4-7f63eb13e533
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.hollywoodhighlights_com
+  module:
+    - domain_access
+id: domain_access_remove_action.hollywoodhighlights_com
+label: 'Remove selected content from the HollywoodHighlights.com domain'
+type: node
+plugin: domain_access_remove_action
+configuration:
+  domain_id: hollywoodhighlights_com

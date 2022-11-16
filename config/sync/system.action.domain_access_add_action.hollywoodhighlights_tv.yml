@@ -1,0 +1,14 @@
+uuid: 95327828-6ced-4bc9-a5a8-05dbd7e361d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.hollywoodhighlights_tv
+  module:
+    - domain_access
+id: domain_access_add_action.hollywoodhighlights_tv
+label: 'Add selected content to the HollywoodHighlights domain'
+type: node
+plugin: domain_access_add_action
+configuration:
+  domain_id: hollywoodhighlights_tv
