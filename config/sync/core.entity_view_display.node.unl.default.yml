@@ -10,6 +10,8 @@ dependencies:
     - field.field.node.unl.field_budget
     - field.field.node.unl.field_budget_amount
     - field.field.node.unl.field_cost_per_click
+    - field.field.node.unl.field_domain_access
+    - field.field.node.unl.field_domain_all_affiliates
     - field.field.node.unl.field_edate
     - field.field.node.unl.field_gender
     - field.field.node.unl.field_omit_age
@@ -145,5 +147,15 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
 hidden:
+  field_domain_access: true
+  field_domain_all_affiliates: true
   upload: true

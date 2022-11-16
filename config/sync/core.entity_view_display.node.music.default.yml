@@ -6,6 +6,8 @@ dependencies:
     - field.field.node.music.body
     - field.field.node.music.field_artist
     - field.field.node.music.field_country
+    - field.field.node.music.field_domain_access
+    - field.field.node.music.field_domain_all_affiliates
     - field.field.node.music.field_genre
     - field.field.node.music.field_hashtag
     - field.field.node.music.field_music_album
@@ -193,7 +195,17 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
 hidden:
+  field_domain_access: true
+  field_domain_all_affiliates: true
   field_music_file: true
   field_music_image: true
   field_music_priority: true

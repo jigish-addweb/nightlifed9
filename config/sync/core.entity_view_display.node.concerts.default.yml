@@ -3,17 +3,21 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_display.comment.comment.default
     - field.field.node.concerts.body
+    - field.field.node.concerts.field_comment_settings
     - field.field.node.concerts.field_conc_ccode
     - field.field.node.concerts.field_concert_buynow
     - field.field.node.concerts.field_concert_ccode
     - field.field.node.concerts.field_concert_cname
     - field.field.node.concerts.field_concert_cont_mobile
+    - field.field.node.concerts.field_concert_fromtime
     - field.field.node.concerts.field_concert_mail
     - field.field.node.concerts.field_concert_mobile
     - field.field.node.concerts.field_concert_parking
     - field.field.node.concerts.field_concert_reservation
     - field.field.node.concerts.field_concert_show_type
+    - field.field.node.concerts.field_concert_totime
     - field.field.node.concerts.field_concertallowrsvp
     - field.field.node.concerts.field_concerts_agereq
     - field.field.node.concerts.field_concerts_album
@@ -29,13 +33,19 @@ dependencies:
     - field.field.node.concerts.field_concerts_twitter
     - field.field.node.concerts.field_concerts_website
     - field.field.node.concerts.field_country
+    - field.field.node.concerts.field_domain_access
+    - field.field.node.concerts.field_domain_all_affiliates
     - field.field.node.concerts.field_hashtag
+    - field.field.node.concerts.field_location
     - field.field.node.concerts.field_private
     - field.field.node.concerts.field_would_you_like_a_featured_
     - node.type.concerts
   module:
+    - address
+    - comment
     - datetime
     - image
+    - options
     - text
     - user
 id: node.concerts.default
@@ -50,15 +60,24 @@ content:
     third_party_settings: {  }
     weight: 101
     region: content
+  field_comment_settings:
+    type: comment_default
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 118
+    region: content
   field_conc_ccode:
-    type: text_default
+    type: list_key
     label: above
     settings: {  }
     third_party_settings: {  }
     weight: 5
     region: content
   field_concert_buynow:
-    type: text_default
+    type: list_key
     label: above
     settings: {  }
     third_party_settings: {  }
@@ -87,6 +106,15 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     weight: 105
+    region: content
+  field_concert_fromtime:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 116
     region: content
   field_concert_mail:
     type: string
@@ -128,8 +156,17 @@ content:
     third_party_settings: {  }
     weight: 20
     region: content
+  field_concert_totime:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 117
+    region: content
   field_concertallowrsvp:
-    type: text_default
+    type: list_key
     label: above
     settings: {  }
     third_party_settings: {  }
@@ -190,7 +227,7 @@ content:
     weight: 17
     region: content
   field_concerts_mail_body:
-    type: text_default
+    type: basic_string
     label: above
     settings: {  }
     third_party_settings: {  }
@@ -223,7 +260,7 @@ content:
     weight: 0
     region: content
   field_concerts_timezone_cust:
-    type: text_default
+    type: list_key
     label: above
     settings: {  }
     third_party_settings: {  }
@@ -261,8 +298,15 @@ content:
     third_party_settings: {  }
     weight: 20
     region: content
+  field_location:
+    type: address_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 119
+    region: content
   field_private:
-    type: text_default
+    type: list_key
     label: above
     settings: {  }
     third_party_settings: {  }
@@ -276,9 +320,29 @@ content:
     third_party_settings: {  }
     weight: 20
     region: content
+  flag_like_it:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  flag_share_it:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
   links:
     settings: {  }
     third_party_settings: {  }
     weight: 100
     region: content
-hidden: {  }
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+hidden:
+  field_domain_access: true
+  field_domain_all_affiliates: true

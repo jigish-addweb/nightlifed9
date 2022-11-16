@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.field.node.hotel_booking.field_chkin_date
     - field.field.node.hotel_booking.field_chkout_date
+    - field.field.node.hotel_booking.field_domain_access
+    - field.field.node.hotel_booking.field_domain_all_affiliates
     - field.field.node.hotel_booking.field_hotb_cc
     - field.field.node.hotel_booking.field_hotb_comment
     - field.field.node.hotel_booking.field_hotb_email
@@ -114,5 +116,15 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
 hidden:
+  field_domain_access: true
+  field_domain_all_affiliates: true
   upload: true

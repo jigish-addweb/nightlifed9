@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.field.node.videos.body
     - field.field.node.videos.field_categories
+    - field.field.node.videos.field_domain_access
+    - field.field.node.videos.field_domain_all_affiliates
     - field.field.node.videos.upload
     - node.type.videos
   module:
@@ -35,5 +37,15 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
 hidden:
+  field_domain_access: true
+  field_domain_all_affiliates: true
   upload: true

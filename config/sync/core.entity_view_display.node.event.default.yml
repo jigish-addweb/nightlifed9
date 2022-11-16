@@ -3,8 +3,12 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_display.comment.comment.default
     - field.field.node.event.body
+    - field.field.node.event.field_comment_settings
     - field.field.node.event.field_country
+    - field.field.node.event.field_domain_access
+    - field.field.node.event.field_domain_all_affiliates
     - field.field.node.event.field_eve_buynow
     - field.field.node.event.field_eve_ccode
     - field.field.node.event.field_event_ccode
@@ -12,6 +16,7 @@ dependencies:
     - field.field.node.event.field_event_cont_mail
     - field.field.node.event.field_event_cont_mobile
     - field.field.node.event.field_event_facebook
+    - field.field.node.event.field_event_fromtime
     - field.field.node.event.field_event_google
     - field.field.node.event.field_event_mail
     - field.field.node.event.field_event_mail_body
@@ -19,11 +24,13 @@ dependencies:
     - field.field.node.event.field_event_reservation
     - field.field.node.event.field_event_time
     - field.field.node.event.field_event_timezone_cust
+    - field.field.node.event.field_event_totime
     - field.field.node.event.field_event_twitter
     - field.field.node.event.field_event_type
     - field.field.node.event.field_event_website
     - field.field.node.event.field_eventallowrsvp
     - field.field.node.event.field_hashtag
+    - field.field.node.event.field_location
     - field.field.node.event.field_mevent_agereq
     - field.field.node.event.field_mevent_album
     - field.field.node.event.field_mevent_dresscode
@@ -36,6 +43,8 @@ dependencies:
     - field.field.node.event.field_would_you_like_a_featured_
     - node.type.event
   module:
+    - address
+    - comment
     - datetime
     - file
     - image
@@ -52,6 +61,25 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 101
+    region: content
+  bookaparty_entity_view_1:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  bookaparty_entity_view_1_form:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  field_comment_settings:
+    type: comment_default
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 120
     region: content
   field_country:
     type: entity_reference_label
@@ -115,6 +143,15 @@ content:
     third_party_settings: {  }
     weight: 110
     region: content
+  field_event_fromtime:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 118
+    region: content
   field_event_google:
     type: string
     label: above
@@ -171,6 +208,15 @@ content:
     third_party_settings: {  }
     weight: 2
     region: content
+  field_event_totime:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 119
+    region: content
   field_event_twitter:
     type: string
     label: above
@@ -209,6 +255,13 @@ content:
       link: true
     third_party_settings: {  }
     weight: 20
+    region: content
+  field_location:
+    type: address_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 121
     region: content
   field_mevent_agereq:
     type: string
@@ -292,9 +345,29 @@ content:
     third_party_settings: {  }
     weight: 20
     region: content
+  flag_like_it:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  flag_share_it:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
   links:
     settings: {  }
     third_party_settings: {  }
     weight: 100
     region: content
-hidden: {  }
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+hidden:
+  field_domain_access: true
+  field_domain_all_affiliates: true

@@ -4,6 +4,8 @@ status: true
 dependencies:
   config:
     - field.field.node.profile.body
+    - field.field.node.profile.field_domain_access
+    - field.field.node.profile.field_domain_all_affiliates
     - field.field.node.profile.upload
     - node.type.profile
   module:
@@ -26,5 +28,15 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
 hidden:
+  field_domain_access: true
+  field_domain_all_affiliates: true
   upload: true

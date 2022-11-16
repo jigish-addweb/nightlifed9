@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.field.node.transportation.body
     - field.field.node.transportation.field_country
+    - field.field.node.transportation.field_domain_access
+    - field.field.node.transportation.field_domain_all_affiliates
     - field.field.node.transportation.field_hashtag
     - field.field.node.transportation.field_private
     - field.field.node.transportation.field_trans_ccode
@@ -233,4 +235,14 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
-hidden: {  }
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+hidden:
+  field_domain_access: true
+  field_domain_all_affiliates: true

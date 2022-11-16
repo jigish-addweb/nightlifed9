@@ -7,6 +7,8 @@ dependencies:
     - field.field.node.movies.body
     - field.field.node.movies.field_country
     - field.field.node.movies.field_director
+    - field.field.node.movies.field_domain_access
+    - field.field.node.movies.field_domain_all_affiliates
     - field.field.node.movies.field_genres
     - field.field.node.movies.field_hashtag
     - field.field.node.movies.field_language
@@ -126,9 +128,19 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
 hidden:
   field_country: true
   field_director: true
+  field_domain_access: true
+  field_domain_all_affiliates: true
   field_hashtag: true
   field_language: true
   field_mov_cont_ccode: true

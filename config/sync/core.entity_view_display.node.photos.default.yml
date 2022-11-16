@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.field.node.photos.body
     - field.field.node.photos.field_country
+    - field.field.node.photos.field_domain_access
+    - field.field.node.photos.field_domain_all_affiliates
     - field.field.node.photos.field_hashtag
     - field.field.node.photos.field_photo_categories
     - field.field.node.photos.field_photo_check_single
@@ -137,4 +139,14 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
-hidden: {  }
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+hidden:
+  field_domain_access: true
+  field_domain_all_affiliates: true

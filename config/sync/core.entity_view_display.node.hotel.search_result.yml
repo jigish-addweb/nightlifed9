@@ -6,6 +6,8 @@ dependencies:
     - core.entity_view_mode.node.search_result
     - field.field.node.hotel.body
     - field.field.node.hotel.field_country
+    - field.field.node.hotel.field_domain_access
+    - field.field.node.hotel.field_domain_all_affiliates
     - field.field.node.hotel.field_hashtag
     - field.field.node.hotel.field_hot_album
     - field.field.node.hotel.field_hot_ccode
@@ -107,9 +109,19 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
 hidden:
   body: true
   field_country: true
+  field_domain_access: true
+  field_domain_all_affiliates: true
   field_hashtag: true
   field_hot_ccode: true
   field_hot_cont_email: true

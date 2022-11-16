@@ -5,6 +5,8 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.gallery1.body
+    - field.field.node.gallery1.field_domain_access
+    - field.field.node.gallery1.field_domain_all_affiliates
     - field.field.node.gallery1.field_gallery
     - field.field.node.gallery1.upload
     - node.type.gallery1
@@ -29,6 +31,16 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
 hidden:
+  field_domain_access: true
+  field_domain_all_affiliates: true
   field_gallery: true
   upload: true

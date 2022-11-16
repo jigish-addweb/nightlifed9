@@ -5,16 +5,19 @@ dependencies:
   config:
     - core.entity_view_mode.node.search_result
     - field.field.node.concerts.body
+    - field.field.node.concerts.field_comment_settings
     - field.field.node.concerts.field_conc_ccode
     - field.field.node.concerts.field_concert_buynow
     - field.field.node.concerts.field_concert_ccode
     - field.field.node.concerts.field_concert_cname
     - field.field.node.concerts.field_concert_cont_mobile
+    - field.field.node.concerts.field_concert_fromtime
     - field.field.node.concerts.field_concert_mail
     - field.field.node.concerts.field_concert_mobile
     - field.field.node.concerts.field_concert_parking
     - field.field.node.concerts.field_concert_reservation
     - field.field.node.concerts.field_concert_show_type
+    - field.field.node.concerts.field_concert_totime
     - field.field.node.concerts.field_concertallowrsvp
     - field.field.node.concerts.field_concerts_agereq
     - field.field.node.concerts.field_concerts_album
@@ -30,7 +33,10 @@ dependencies:
     - field.field.node.concerts.field_concerts_twitter
     - field.field.node.concerts.field_concerts_website
     - field.field.node.concerts.field_country
+    - field.field.node.concerts.field_domain_access
+    - field.field.node.concerts.field_domain_all_affiliates
     - field.field.node.concerts.field_hashtag
+    - field.field.node.concerts.field_location
     - field.field.node.concerts.field_private
     - field.field.node.concerts.field_would_you_like_a_featured_
     - node.type.concerts
@@ -126,21 +132,42 @@ content:
     third_party_settings: {  }
     weight: -3
     region: content
+  flag_like_it:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  flag_share_it:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
   links:
     settings: {  }
     third_party_settings: {  }
     weight: 100
     region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
 hidden:
   body: true
+  field_comment_settings: true
   field_concert_ccode: true
   field_concert_cname: true
   field_concert_cont_mobile: true
+  field_concert_fromtime: true
   field_concert_mail: true
   field_concert_mobile: true
   field_concert_parking: true
   field_concert_reservation: true
   field_concert_show_type: true
+  field_concert_totime: true
   field_concerts_agereq: true
   field_concerts_dresscode: true
   field_concerts_facebook: true
@@ -149,5 +176,8 @@ hidden:
   field_concerts_twitter: true
   field_concerts_website: true
   field_country: true
+  field_domain_access: true
+  field_domain_all_affiliates: true
   field_hashtag: true
+  field_location: true
   field_would_you_like_a_featured_: true

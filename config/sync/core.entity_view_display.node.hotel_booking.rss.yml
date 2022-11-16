@@ -6,6 +6,8 @@ dependencies:
     - core.entity_view_mode.node.rss
     - field.field.node.hotel_booking.field_chkin_date
     - field.field.node.hotel_booking.field_chkout_date
+    - field.field.node.hotel_booking.field_domain_access
+    - field.field.node.hotel_booking.field_domain_all_affiliates
     - field.field.node.hotel_booking.field_hotb_cc
     - field.field.node.hotel_booking.field_hotb_comment
     - field.field.node.hotel_booking.field_hotb_email
@@ -59,9 +61,19 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
 hidden:
   field_chkin_date: true
   field_chkout_date: true
+  field_domain_access: true
+  field_domain_all_affiliates: true
   field_hotb_cc: true
   field_hotb_email: true
   field_hotb_fname: true

@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.search_result
     - field.field.node.bars.body
+    - field.field.node.bars.feeds_item
     - field.field.node.bars.field_age_omit
     - field.field.node.bars.field_bar_ccode
     - field.field.node.bars.field_bar_reserv
@@ -39,6 +40,8 @@ dependencies:
     - field.field.node.bars.field_bars_website
     - field.field.node.bars.field_click_cost
     - field.field.node.bars.field_country
+    - field.field.node.bars.field_domain_access
+    - field.field.node.bars.field_domain_all_affiliates
     - field.field.node.bars.field_gender_omit
     - field.field.node.bars.field_hashtag
     - field.field.node.bars.field_private
@@ -231,13 +234,32 @@ content:
     third_party_settings: {  }
     weight: 33
     region: content
+  flag_like_it:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  flag_share_it:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
   links:
     settings: {  }
     third_party_settings: {  }
     weight: 100
     region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
 hidden:
   body: true
+  feeds_item: true
   field_bars_age: true
   field_bars_budjet_amount: true
   field_bars_ccode: true
@@ -252,6 +274,8 @@ hidden:
   field_bars_website: true
   field_click_cost: true
   field_country: true
+  field_domain_access: true
+  field_domain_all_affiliates: true
   field_hashtag: true
   field_type: true
   field_would_you_like_a_featured_: true

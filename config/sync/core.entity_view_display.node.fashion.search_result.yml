@@ -6,6 +6,8 @@ dependencies:
     - core.entity_view_mode.node.search_result
     - field.field.node.fashion.body
     - field.field.node.fashion.field_country
+    - field.field.node.fashion.field_domain_access
+    - field.field.node.fashion.field_domain_all_affiliates
     - field.field.node.fashion.field_fash_ccode
     - field.field.node.fashion.field_fashion_agereq
     - field.field.node.fashion.field_fashion_album
@@ -130,9 +132,19 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
 hidden:
   body: true
   field_country: true
+  field_domain_access: true
+  field_domain_all_affiliates: true
   field_fashion_agereq: true
   field_fashion_cname: true
   field_fashion_code: true

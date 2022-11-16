@@ -3,6 +3,8 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.uprofile.field_domain_access
+    - field.field.node.uprofile.field_domain_all_affiliates
     - field.field.node.uprofile.field_uprofile_about_me
     - field.field.node.uprofile.field_uprofile_aim
     - field.field.node.uprofile.field_uprofile_blog
@@ -282,5 +284,15 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
 hidden:
+  field_domain_access: true
+  field_domain_all_affiliates: true
   upload: true

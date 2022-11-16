@@ -4,6 +4,8 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.rss
+    - field.field.node.transport_reservation.field_domain_access
+    - field.field.node.transport_reservation.field_domain_all_affiliates
     - field.field.node.transport_reservation.field_trans_cc
     - field.field.node.transport_reservation.field_trans_email
     - field.field.node.transport_reservation.field_trans_fname
@@ -51,7 +53,17 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
 hidden:
+  field_domain_access: true
+  field_domain_all_affiliates: true
   field_trans_cc: true
   field_trans_email: true
   field_trans_fname: true

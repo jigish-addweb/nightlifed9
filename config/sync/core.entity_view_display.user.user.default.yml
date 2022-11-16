@@ -3,6 +3,10 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.user.user.feeds_item
+    - field.field.user.user.field_domain_access
+    - field.field.user.user.field_domain_admin
+    - field.field.user.user.field_domain_all_affiliates
     - field.field.user.user.profile_aboutu
     - field.field.user.user.profile_cc
     - field.field.user.user.profile_city
@@ -34,6 +38,11 @@ targetEntityType: user
 bundle: user
 mode: default
 content:
+  flag_following:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
   member_for:
     weight: 5
     region: content
@@ -133,6 +142,10 @@ content:
     weight: 18
     region: content
 hidden:
+  feeds_item: true
+  field_domain_access: true
+  field_domain_admin: true
+  field_domain_all_affiliates: true
   profile_aboutu: true
   profile_cc: true
   profile_dob: true

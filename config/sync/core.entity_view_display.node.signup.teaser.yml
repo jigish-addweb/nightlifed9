@@ -5,6 +5,8 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.signup.field_comment
+    - field.field.node.signup.field_domain_access
+    - field.field.node.signup.field_domain_all_affiliates
     - field.field.node.signup.field_email
     - field.field.node.signup.field_eventref
     - field.field.node.signup.field_guests
@@ -59,7 +61,17 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
 hidden:
+  field_domain_access: true
+  field_domain_all_affiliates: true
   field_email: true
   field_guests: true
   field_rsvp_date: true

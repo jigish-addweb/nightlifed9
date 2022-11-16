@@ -6,6 +6,8 @@ dependencies:
     - core.entity_view_mode.node.print
     - field.field.node.restaurants.body
     - field.field.node.restaurants.field_country
+    - field.field.node.restaurants.field_domain_access
+    - field.field.node.restaurants.field_domain_all_affiliates
     - field.field.node.restaurants.field_hashtag
     - field.field.node.restaurants.field_mail_body
     - field.field.node.restaurants.field_private
@@ -79,9 +81,19 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
 hidden:
   body: true
   field_country: true
+  field_domain_access: true
+  field_domain_all_affiliates: true
   field_hashtag: true
   field_mail_body: true
   field_res_priority: true

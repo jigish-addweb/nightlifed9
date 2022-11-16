@@ -6,6 +6,8 @@ dependencies:
     - core.entity_view_mode.node.search_index
     - field.field.node.news.body
     - field.field.node.news.field_country
+    - field.field.node.news.field_domain_access
+    - field.field.node.news.field_domain_all_affiliates
     - field.field.node.news.field_hashtag
     - field.field.node.news.field_news_album
     - field.field.node.news.field_news_categories
@@ -68,9 +70,19 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
 hidden:
   body: true
   field_country: true
+  field_domain_access: true
+  field_domain_all_affiliates: true
   field_hashtag: true
   field_news_categories: true
   field_news_ccode: true

@@ -15,6 +15,8 @@ dependencies:
     - field.field.node.book_a_party.field_bap_party
     - field.field.node.book_a_party.field_bap_share
     - field.field.node.book_a_party.field_book_myparty_ref
+    - field.field.node.book_a_party.field_domain_access
+    - field.field.node.book_a_party.field_domain_all_affiliates
     - field.field.node.book_a_party.upload
     - node.type.book_a_party
   module:
@@ -122,5 +124,15 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
 hidden:
+  field_domain_access: true
+  field_domain_all_affiliates: true
   upload: true

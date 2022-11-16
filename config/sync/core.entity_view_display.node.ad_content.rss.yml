@@ -19,6 +19,8 @@ dependencies:
     - field.field.node.ad_content.field_ad_ref_priority
     - field.field.node.ad_content.field_ad_reftype
     - field.field.node.ad_content.field_ad_sdate
+    - field.field.node.ad_content.field_domain_access
+    - field.field.node.ad_content.field_domain_all_affiliates
     - node.type.ad_content
   module:
     - datetime
@@ -131,7 +133,17 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
 hidden:
   field_ad_budget_amount: true
   field_ad_click_cost: true
   field_ad_ref_priority: true
+  field_domain_access: true
+  field_domain_all_affiliates: true

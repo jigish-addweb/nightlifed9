@@ -6,6 +6,8 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.nightclubs.body
     - field.field.node.nightclubs.field_country
+    - field.field.node.nightclubs.field_domain_access
+    - field.field.node.nightclubs.field_domain_all_affiliates
     - field.field.node.nightclubs.field_hashtag
     - field.field.node.nightclubs.field_nightclub_ccode
     - field.field.node.nightclubs.field_nightclub_priority
@@ -142,8 +144,18 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
 hidden:
   field_country: true
+  field_domain_access: true
+  field_domain_all_affiliates: true
   field_hashtag: true
   field_nightclub_type: true
   field_nightclubs_age: true
