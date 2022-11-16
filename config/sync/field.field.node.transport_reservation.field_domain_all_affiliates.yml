@@ -1,0 +1,21 @@
+uuid: f070a40c-92f5-4f1e-b3f1-ced3f80ac3f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_domain_all_affiliates
+    - node.type.transport_reservation
+id: node.transport_reservation.field_domain_all_affiliates
+field_name: field_domain_all_affiliates
+entity_type: node
+bundle: transport_reservation
+label: 'Send to all affiliates'
+description: 'Make this content available on all domains.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

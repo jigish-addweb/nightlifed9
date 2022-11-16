@@ -1,0 +1,21 @@
+uuid: d0d4f012-b88c-42e2-9135-b61fcce1d0af
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_concert_fromtime
+    - node.type.concerts
+  module:
+    - datetime
+id: node.concerts.field_concert_fromtime
+field_name: field_concert_fromtime
+entity_type: node
+bundle: concerts
+label: 'Start Time'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

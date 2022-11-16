@@ -1,0 +1,20 @@
+uuid: cd9b6034-5fdb-41b4-8dcb-9d744122a9a4
+langcode: en
+status: true
+dependencies:
+  module:
+    - feeds
+    - user
+id: user.feeds_item
+field_name: feeds_item
+entity_type: user
+type: feeds_item
+settings:
+  target_type: feeds_feed
+module: feeds
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

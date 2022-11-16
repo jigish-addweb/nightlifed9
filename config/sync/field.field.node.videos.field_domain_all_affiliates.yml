@@ -1,0 +1,21 @@
+uuid: 47036590-9135-4191-a2e1-19821c0db0b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_domain_all_affiliates
+    - node.type.videos
+id: node.videos.field_domain_all_affiliates
+field_name: field_domain_all_affiliates
+entity_type: node
+bundle: videos
+label: 'Send to all affiliates'
+description: 'Make this content available on all domains.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

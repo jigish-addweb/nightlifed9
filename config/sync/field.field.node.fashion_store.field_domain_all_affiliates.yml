@@ -1,0 +1,21 @@
+uuid: 62b33a2b-3a66-4eeb-9bd9-619b49c85712
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_domain_all_affiliates
+    - node.type.fashion_store
+id: node.fashion_store.field_domain_all_affiliates
+field_name: field_domain_all_affiliates
+entity_type: node
+bundle: fashion_store
+label: 'Send to all affiliates'
+description: 'Make this content available on all domains.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

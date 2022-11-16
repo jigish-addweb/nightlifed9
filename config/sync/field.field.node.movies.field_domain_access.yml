@@ -1,0 +1,25 @@
+uuid: 2c8dc8f6-1c5d-4a50-b645-c2f807635aad
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_domain_access
+    - node.type.movies
+id: node.movies.field_domain_access
+field_name: field_domain_access
+entity_type: node
+bundle: movies
+label: 'Domain Access'
+description: 'Select the affiliate domain(s) for this content'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: 'Drupal\domain_access\DomainAccessManager::getDefaultValue'
+settings:
+  handler: 'default:domain'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: weight
+      direction: ASC
+field_type: entity_reference

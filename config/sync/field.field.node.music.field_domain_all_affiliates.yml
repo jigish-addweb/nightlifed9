@@ -1,0 +1,21 @@
+uuid: 674b5271-fa6e-406a-9fa3-8b9584132c46
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_domain_all_affiliates
+    - node.type.music
+id: node.music.field_domain_all_affiliates
+field_name: field_domain_all_affiliates
+entity_type: node
+bundle: music
+label: 'Send to all affiliates'
+description: 'Make this content available on all domains.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

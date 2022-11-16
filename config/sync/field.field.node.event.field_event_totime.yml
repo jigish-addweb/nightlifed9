@@ -1,0 +1,21 @@
+uuid: 280a44a7-6b8c-4d58-860f-05c110e745be
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_totime
+    - node.type.event
+  module:
+    - datetime
+id: node.event.field_event_totime
+field_name: field_event_totime
+entity_type: node
+bundle: event
+label: 'End Time'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

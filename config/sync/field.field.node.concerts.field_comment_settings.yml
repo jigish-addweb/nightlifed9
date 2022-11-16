@@ -1,0 +1,33 @@
+uuid: f1cc706e-4189-4f43-b08e-8b43807d697a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_comment_settings
+    - node.type.concerts
+  module:
+    - comment
+id: node.concerts.field_comment_settings
+field_name: field_comment_settings
+entity_type: node
+bundle: concerts
+label: 'Comment & Reviews '
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    status: 2
+    cid: 0
+    last_comment_timestamp: 0
+    last_comment_name: null
+    last_comment_uid: 0
+    comment_count: 0
+default_value_callback: ''
+settings:
+  default_mode: 1
+  per_page: 50
+  anonymous: 0
+  form_location: true
+  preview: 1
+field_type: comment

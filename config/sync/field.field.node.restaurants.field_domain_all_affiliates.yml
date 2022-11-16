@@ -1,0 +1,21 @@
+uuid: d368f56c-1a44-4eee-867d-3cb4c21d2092
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_domain_all_affiliates
+    - node.type.restaurants
+id: node.restaurants.field_domain_all_affiliates
+field_name: field_domain_all_affiliates
+entity_type: node
+bundle: restaurants
+label: 'Send to all affiliates'
+description: 'Make this content available on all domains.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

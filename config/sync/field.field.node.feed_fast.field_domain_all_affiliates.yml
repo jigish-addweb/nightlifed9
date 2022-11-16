@@ -1,0 +1,21 @@
+uuid: 83804b84-8196-4518-bd06-352e84d543cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_domain_all_affiliates
+    - node.type.feed_fast
+id: node.feed_fast.field_domain_all_affiliates
+field_name: field_domain_all_affiliates
+entity_type: node
+bundle: feed_fast
+label: 'Send to all affiliates'
+description: 'Make this content available on all domains.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

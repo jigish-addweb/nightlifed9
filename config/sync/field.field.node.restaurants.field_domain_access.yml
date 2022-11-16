@@ -1,0 +1,25 @@
+uuid: 17462e8b-f3fe-412f-a3a1-d8a7c9e55959
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_domain_access
+    - node.type.restaurants
+id: node.restaurants.field_domain_access
+field_name: field_domain_access
+entity_type: node
+bundle: restaurants
+label: 'Domain Access'
+description: 'Select the affiliate domain(s) for this content'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: 'Drupal\domain_access\DomainAccessManager::getDefaultValue'
+settings:
+  handler: 'default:domain'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: weight
+      direction: ASC
+field_type: entity_reference

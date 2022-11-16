@@ -1,0 +1,21 @@
+uuid: dfa10183-545d-4f10-a9a9-6801c8ae139f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_domain_all_affiliates
+    - node.type.transportation
+id: node.transportation.field_domain_all_affiliates
+field_name: field_domain_all_affiliates
+entity_type: node
+bundle: transportation
+label: 'Send to all affiliates'
+description: 'Make this content available on all domains.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,47 @@
+uuid: 01f2dcca-f32e-44ac-9b1a-5da4967661ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_location
+    - node.type.concerts
+  module:
+    - address
+id: node.concerts.field_location
+field_name: field_location
+entity_type: node
+bundle: concerts
+label: Location
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  available_countries: {  }
+  langcode_override: ''
+  field_overrides:
+    givenName:
+      override: hidden
+    additionalName:
+      override: hidden
+    familyName:
+      override: hidden
+    organization:
+      override: hidden
+    addressLine1:
+      override: optional
+    addressLine2:
+      override: optional
+    postalCode:
+      override: optional
+    sortingCode:
+      override: hidden
+    dependentLocality:
+      override: hidden
+    locality:
+      override: optional
+    administrativeArea:
+      override: optional
+  fields: {  }
+field_type: address
