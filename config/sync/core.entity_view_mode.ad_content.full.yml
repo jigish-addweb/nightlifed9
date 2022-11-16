@@ -1,0 +1,12 @@
+uuid: 3f1cb9c1-d695-4e76-b368-92c38d125591
+langcode: en
+status: true
+dependencies:
+  module:
+    - ad_content
+_core:
+  default_config_hash: Ur00fMnQOhbJa8_RGeo5QyLIVWrvqKZxdQJ0w3z8cx8
+id: ad_content.full
+label: Preview
+targetEntityType: ad_content
+cache: true

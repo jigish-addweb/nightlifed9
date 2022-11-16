@@ -1,0 +1,12 @@
+uuid: f38d2577-954b-461f-9b8b-a6eb274b3fc9
+langcode: en
+status: true
+dependencies:
+  module:
+    - ad_content
+_core:
+  default_config_hash: JKTAiljobHqmwlVuwK1YuUf8mWZ8pKdgswmpPrgM98s
+id: ad_content.impression
+label: Impression
+targetEntityType: ad_content
+cache: true

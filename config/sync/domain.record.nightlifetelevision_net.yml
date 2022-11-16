@@ -1,0 +1,11 @@
+uuid: 12af8e6a-9b92-428a-bd0e-024d2241a453
+langcode: en
+status: true
+dependencies: {  }
+id: nightlifetelevision_net
+domain_id: 16167472
+hostname: nightlifetelevision.net
+name: 'Nightlife Television'
+scheme: http
+weight: 2
+is_default: false

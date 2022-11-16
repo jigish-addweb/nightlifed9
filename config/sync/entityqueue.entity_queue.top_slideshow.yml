@@ -1,0 +1,38 @@
+uuid: 7f9948de-9d98-402a-9c1b-ee0dfd0d317e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: top_slideshow
+label: 'Top slideshow'
+handler: simple
+handler_configuration: {  }
+entity_settings:
+  target_type: node
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      bars: bars
+      concerts: concerts
+      event: event
+      fashion: fashion
+      hotel: hotel
+      movies: movies
+      music: music
+      news: news
+      nightclubs: nightclubs
+      photos: photos
+      restaurants: restaurants
+      transportation: transportation
+      video1: video1
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: bars
+queue_settings:
+  min_size: 0
+  max_size: 20
+  act_as_queue: false
+  reverse: false

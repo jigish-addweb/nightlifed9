@@ -1,0 +1,11 @@
+uuid: 7debd3f9-da40-4e95-9d64-39e7055fdbb7
+langcode: en
+status: true
+dependencies: {  }
+id: musicland_net
+domain_id: 13828719
+hostname: musicland.net
+name: Musicland.net
+scheme: http
+weight: 3
+is_default: false

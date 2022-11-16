@@ -1,0 +1,11 @@
+uuid: 041ba7bd-c4ae-4969-b2ef-4ddc4bc83e3a
+langcode: en
+status: true
+dependencies: {  }
+id: hollywoodhighlights_tv
+domain_id: 11157114
+hostname: hollywoodhighlights.tv
+name: HollywoodHighlights
+scheme: http
+weight: 4
+is_default: false

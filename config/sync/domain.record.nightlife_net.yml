@@ -1,0 +1,11 @@
+uuid: 8f366fd1-8520-4675-aa40-60c086d0db40
+langcode: en
+status: true
+dependencies: {  }
+id: nightlife_net
+domain_id: 5380886
+hostname: nightlife.net
+name: Nightlife.net
+scheme: https
+weight: 1
+is_default: true
