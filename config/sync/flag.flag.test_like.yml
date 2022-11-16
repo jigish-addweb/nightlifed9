@@ -1,0 +1,30 @@
+uuid: 8f1f0bbc-6229-4906-b998-45175a73a1f4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: test_like
+label: 'Test Like'
+bundles:
+  - page
+entity_type: node
+global: false
+flag_short: 'Test Like'
+flag_long: ''
+flag_message: ''
+unflag_short: 'Test Unflag'
+unflag_long: ''
+unflag_message: ''
+unflag_denied_text: ''
+weight: 0
+flag_type: 'entity:node'
+link_type: ajax_link
+flagTypeConfig:
+  show_in_links: {  }
+  show_as_field: true
+  show_on_form: false
+  show_contextual_link: true
+  extra_permissions:
+    owner: '0'
+linkTypeConfig: {  }

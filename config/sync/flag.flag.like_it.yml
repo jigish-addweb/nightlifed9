@@ -1,0 +1,46 @@
+uuid: ab722324-83c4-411f-a8ac-ebc8c1947123
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: like_it
+label: 'Like it'
+bundles:
+  - bars
+  - concerts
+  - event
+  - fashion
+  - fashion_store
+  - hotel
+  - movies
+  - music
+  - news
+  - nightclubs
+  - photos
+  - reservation
+  - restaurants
+  - signup
+  - transportation
+  - video1
+  - video_live
+entity_type: node
+global: false
+flag_short: Like
+flag_long: 'Like this'
+flag_message: ''
+unflag_short: Unlike
+unflag_long: Unlike
+unflag_message: ''
+unflag_denied_text: ''
+weight: 0
+flag_type: 'entity:node'
+link_type: ajax_link
+flagTypeConfig:
+  show_in_links: {  }
+  show_as_field: true
+  show_on_form: false
+  show_contextual_link: false
+  extra_permissions:
+    owner: '0'
+linkTypeConfig: {  }
