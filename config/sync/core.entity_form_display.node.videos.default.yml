@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.field.node.videos.body
     - field.field.node.videos.field_categories
+    - field.field.node.videos.field_domain_access
+    - field.field.node.videos.field_domain_all_affiliates
     - field.field.node.videos.upload
     - node.type.videos
   module:
@@ -36,6 +38,19 @@ content:
     weight: 20
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_domain_access:
+    type: options_buttons
+    weight: 40
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_domain_all_affiliates:
+    type: boolean_checkbox
+    weight: 41
+    region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   path:
     type: path

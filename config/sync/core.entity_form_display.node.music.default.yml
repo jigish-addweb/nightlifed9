@@ -6,6 +6,8 @@ dependencies:
     - field.field.node.music.body
     - field.field.node.music.field_artist
     - field.field.node.music.field_country
+    - field.field.node.music.field_domain_access
+    - field.field.node.music.field_domain_all_affiliates
     - field.field.node.music.field_genre
     - field.field.node.music.field_hashtag
     - field.field.node.music.field_music_album
@@ -69,6 +71,19 @@ content:
     weight: 20
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_domain_access:
+    type: options_buttons
+    weight: 40
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_domain_all_affiliates:
+    type: boolean_checkbox
+    weight: 41
+    region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   field_genre:
     type: options_select

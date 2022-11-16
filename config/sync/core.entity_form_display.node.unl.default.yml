@@ -10,6 +10,8 @@ dependencies:
     - field.field.node.unl.field_budget
     - field.field.node.unl.field_budget_amount
     - field.field.node.unl.field_cost_per_click
+    - field.field.node.unl.field_domain_access
+    - field.field.node.unl.field_domain_all_affiliates
     - field.field.node.unl.field_edate
     - field.field.node.unl.field_gender
     - field.field.node.unl.field_omit_age
@@ -83,6 +85,19 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  field_domain_access:
+    type: options_buttons
+    weight: 40
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_domain_all_affiliates:
+    type: boolean_checkbox
+    weight: 41
+    region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   field_edate:
     type: datetime_default

@@ -18,6 +18,8 @@ dependencies:
     - field.field.node.ad_content.field_ad_ref_priority
     - field.field.node.ad_content.field_ad_reftype
     - field.field.node.ad_content.field_ad_sdate
+    - field.field.node.ad_content.field_domain_access
+    - field.field.node.ad_content.field_domain_all_affiliates
     - node.type.ad_content
   module:
     - datetime
@@ -124,6 +126,19 @@ content:
     weight: 7
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_domain_access:
+    type: options_buttons
+    weight: 40
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_domain_all_affiliates:
+    type: boolean_checkbox
+    weight: 41
+    region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   path:
     type: path

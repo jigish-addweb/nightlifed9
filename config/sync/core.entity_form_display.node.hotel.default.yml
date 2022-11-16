@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.field.node.hotel.body
     - field.field.node.hotel.field_country
+    - field.field.node.hotel.field_domain_access
+    - field.field.node.hotel.field_domain_all_affiliates
     - field.field.node.hotel.field_hashtag
     - field.field.node.hotel.field_hot_album
     - field.field.node.hotel.field_hot_ccode
@@ -57,6 +59,19 @@ content:
     weight: 20
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_domain_access:
+    type: options_buttons
+    weight: 40
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_domain_all_affiliates:
+    type: boolean_checkbox
+    weight: 41
+    region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   field_hashtag:
     type: entity_reference_autocomplete_tags

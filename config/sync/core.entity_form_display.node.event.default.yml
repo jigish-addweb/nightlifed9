@@ -4,7 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.node.event.body
+    - field.field.node.event.field_comment_settings
     - field.field.node.event.field_country
+    - field.field.node.event.field_domain_access
+    - field.field.node.event.field_domain_all_affiliates
     - field.field.node.event.field_eve_buynow
     - field.field.node.event.field_eve_ccode
     - field.field.node.event.field_event_ccode
@@ -12,6 +15,7 @@ dependencies:
     - field.field.node.event.field_event_cont_mail
     - field.field.node.event.field_event_cont_mobile
     - field.field.node.event.field_event_facebook
+    - field.field.node.event.field_event_fromtime
     - field.field.node.event.field_event_google
     - field.field.node.event.field_event_mail
     - field.field.node.event.field_event_mail_body
@@ -19,11 +23,13 @@ dependencies:
     - field.field.node.event.field_event_reservation
     - field.field.node.event.field_event_time
     - field.field.node.event.field_event_timezone_cust
+    - field.field.node.event.field_event_totime
     - field.field.node.event.field_event_twitter
     - field.field.node.event.field_event_type
     - field.field.node.event.field_event_website
     - field.field.node.event.field_eventallowrsvp
     - field.field.node.event.field_hashtag
+    - field.field.node.event.field_location
     - field.field.node.event.field_mevent_agereq
     - field.field.node.event.field_mevent_album
     - field.field.node.event.field_mevent_dresscode
@@ -37,6 +43,9 @@ dependencies:
     - image.style.thumbnail
     - node.type.event
   module:
+    - address
+    - comment
+    - datetime
     - image
     - path
     - text
@@ -47,7 +56,7 @@ mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 121
+    weight: 2
     region: content
     settings:
       rows: 9
@@ -57,31 +66,44 @@ content:
     third_party_settings: {  }
   created:
     type: datetime_timestamp
-    weight: 10
+    weight: 36
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_country:
-    type: options_select
-    weight: 20
+  field_comment_settings:
+    type: comment_default
+    weight: 42
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_domain_access:
+    type: options_buttons
+    weight: 11
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_domain_all_affiliates:
+    type: boolean_checkbox
+    weight: 40
+    region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   field_eve_buynow:
     type: options_buttons
-    weight: 18
+    weight: 23
     region: content
     settings: {  }
     third_party_settings: {  }
   field_eve_ccode:
     type: options_select
-    weight: 7
+    weight: 13
     region: content
     settings: {  }
     third_party_settings: {  }
   field_event_ccode:
     type: string_textfield
-    weight: 126
+    weight: 33
     region: content
     settings:
       size: 60
@@ -89,7 +111,7 @@ content:
     third_party_settings: {  }
   field_event_cname:
     type: string_textfield
-    weight: 125
+    weight: 32
     region: content
     settings:
       size: 60
@@ -97,7 +119,7 @@ content:
     third_party_settings: {  }
   field_event_cont_mail:
     type: string_textfield
-    weight: 124
+    weight: 35
     region: content
     settings:
       size: 60
@@ -105,7 +127,7 @@ content:
     third_party_settings: {  }
   field_event_cont_mobile:
     type: string_textfield
-    weight: 134
+    weight: 34
     region: content
     settings:
       size: 60
@@ -113,15 +135,21 @@ content:
     third_party_settings: {  }
   field_event_facebook:
     type: string_textfield
-    weight: 130
+    weight: 29
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  field_event_fromtime:
+    type: datetime_default
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   field_event_google:
     type: string_textfield
-    weight: 131
+    weight: 31
     region: content
     settings:
       size: 60
@@ -129,44 +157,92 @@ content:
     third_party_settings: {  }
   field_event_mail:
     type: string_textfield
-    weight: 129
+    weight: 14
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_event_mail_body:
-    type: text_textarea
-    weight: 21
+    type: string_textarea
+    weight: 26
     region: content
     settings:
       rows: 5
       placeholder: ''
-    third_party_settings: {  }
+    third_party_settings:
+      conditional_fields:
+        23dad81f-2f68-4d78-ada0-260340c99f8d:
+          entity_type: node
+          bundle: event
+          dependee: field_eventallowrsvp
+          settings:
+            state: visible
+            condition: value
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              -
+                value: Allow
+            effect: show
+            effect_options: {  }
+            selector: ''
   field_event_priority:
     type: number
-    weight: -1
+    weight: 6
     region: content
     settings:
       placeholder: ''
     third_party_settings: {  }
   field_event_reservation:
     type: string_textfield
-    weight: 123
+    weight: 24
     region: content
     settings:
       size: 60
       placeholder: ''
+    third_party_settings:
+      conditional_fields:
+        2703712c-6e09-4ddf-ad20-55b0293adce3:
+          entity_type: node
+          bundle: event
+          dependee: field_eve_buynow
+          settings:
+            state: visible
+            condition: value
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              -
+                value: 'Yes'
+            effect: show
+            effect_options: {  }
+            selector: ''
+  field_event_time:
+    type: datetime_default
+    weight: 7
+    region: content
+    settings: {  }
     third_party_settings: {  }
   field_event_timezone_cust:
     type: options_select
-    weight: 2
+    weight: 8
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_event_totime:
+    type: datetime_default
+    weight: 9
     region: content
     settings: {  }
     third_party_settings: {  }
   field_event_twitter:
     type: string_textfield
-    weight: 136
+    weight: 30
     region: content
     settings:
       size: 60
@@ -174,13 +250,13 @@ content:
     third_party_settings: {  }
   field_event_type:
     type: options_select
-    weight: 20
+    weight: 1
     region: content
     settings: {  }
     third_party_settings: {  }
   field_event_website:
     type: string_textfield
-    weight: 137
+    weight: 15
     region: content
     settings:
       size: 60
@@ -188,13 +264,13 @@ content:
     third_party_settings: {  }
   field_eventallowrsvp:
     type: options_buttons
-    weight: 20
+    weight: 25
     region: content
     settings: {  }
     third_party_settings: {  }
   field_hashtag:
     type: entity_reference_autocomplete_tags
-    weight: 20
+    weight: 3
     region: content
     settings:
       match_operator: CONTAINS
@@ -202,9 +278,15 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  field_location:
+    type: address_default
+    weight: 12
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   field_mevent_agereq:
     type: string_textfield
-    weight: 122
+    weight: 18
     region: content
     settings:
       size: 60
@@ -212,7 +294,7 @@ content:
     third_party_settings: {  }
   field_mevent_album:
     type: image_image
-    weight: 26
+    weight: 28
     region: content
     settings:
       progress_indicator: bar
@@ -220,7 +302,7 @@ content:
     third_party_settings: {  }
   field_mevent_dresscode:
     type: string_textfield
-    weight: 127
+    weight: 19
     region: content
     settings:
       size: 60
@@ -228,7 +310,7 @@ content:
     third_party_settings: {  }
   field_mevent_drinkspecials:
     type: string_textfield
-    weight: 128
+    weight: 22
     region: content
     settings:
       size: 60
@@ -236,7 +318,7 @@ content:
     third_party_settings: {  }
   field_mevent_image:
     type: image_image
-    weight: 22
+    weight: 27
     region: content
     settings:
       progress_indicator: bar
@@ -244,7 +326,7 @@ content:
     third_party_settings: {  }
   field_mevent_musicstyle:
     type: string_textfield
-    weight: 132
+    weight: 17
     region: content
     settings:
       size: 60
@@ -252,7 +334,7 @@ content:
     third_party_settings: {  }
   field_mevent_parkingoptions:
     type: string_textfield
-    weight: 133
+    weight: 21
     region: content
     settings:
       size: 60
@@ -260,7 +342,7 @@ content:
     third_party_settings: {  }
   field_mevent_prices:
     type: string_textfield
-    weight: 135
+    weight: 20
     region: content
     settings:
       size: 60
@@ -268,46 +350,46 @@ content:
     third_party_settings: {  }
   field_private:
     type: options_buttons
-    weight: -3
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
   field_would_you_like_a_featured_:
     type: options_select
-    weight: 20
+    weight: 4
     region: content
     settings: {  }
     third_party_settings: {  }
   path:
     type: path
-    weight: 30
+    weight: 39
     region: content
     settings: {  }
     third_party_settings: {  }
   promote:
     type: boolean_checkbox
-    weight: 15
+    weight: 37
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
   status:
     type: boolean_checkbox
-    weight: 120
+    weight: 41
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
-    weight: 16
+    weight: 38
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
   title:
     type: string_textfield
-    weight: -5
+    weight: 0
     region: content
     settings:
       size: 60
@@ -315,7 +397,7 @@ content:
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 5
+    weight: 16
     region: content
     settings:
       match_operator: CONTAINS
@@ -324,4 +406,4 @@ content:
       placeholder: ''
     third_party_settings: {  }
 hidden:
-  field_event_time: true
+  field_country: true

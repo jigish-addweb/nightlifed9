@@ -4,6 +4,8 @@ status: true
 dependencies:
   config:
     - field.field.node.reservation.field_date_reser
+    - field.field.node.reservation.field_domain_access
+    - field.field.node.reservation.field_domain_all_affiliates
     - field.field.node.reservation.field_res_cc
     - field.field.node.reservation.field_res_comment
     - field.field.node.reservation.field_res_email
@@ -36,6 +38,19 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  field_domain_access:
+    type: options_buttons
+    weight: 40
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_domain_all_affiliates:
+    type: boolean_checkbox
+    weight: 41
+    region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   field_res_cc:
     type: string_textfield

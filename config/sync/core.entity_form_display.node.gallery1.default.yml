@@ -4,6 +4,8 @@ status: true
 dependencies:
   config:
     - field.field.node.gallery1.body
+    - field.field.node.gallery1.field_domain_access
+    - field.field.node.gallery1.field_domain_all_affiliates
     - field.field.node.gallery1.field_gallery
     - field.field.node.gallery1.upload
     - image.style.thumbnail
@@ -32,6 +34,19 @@ content:
     weight: 10
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_domain_access:
+    type: options_buttons
+    weight: 40
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_domain_all_affiliates:
+    type: boolean_checkbox
+    weight: 41
+    region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   field_gallery:
     type: image_image

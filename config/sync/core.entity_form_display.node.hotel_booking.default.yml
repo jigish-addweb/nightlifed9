@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.field.node.hotel_booking.field_chkin_date
     - field.field.node.hotel_booking.field_chkout_date
+    - field.field.node.hotel_booking.field_domain_access
+    - field.field.node.hotel_booking.field_domain_all_affiliates
     - field.field.node.hotel_booking.field_hotb_cc
     - field.field.node.hotel_booking.field_hotb_comment
     - field.field.node.hotel_booking.field_hotb_email
@@ -45,6 +47,19 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  field_domain_access:
+    type: options_buttons
+    weight: 40
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_domain_all_affiliates:
+    type: boolean_checkbox
+    weight: 41
+    region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   field_hotb_cc:
     type: string_textfield

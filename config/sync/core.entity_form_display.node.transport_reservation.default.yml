@@ -3,6 +3,8 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.transport_reservation.field_domain_access
+    - field.field.node.transport_reservation.field_domain_all_affiliates
     - field.field.node.transport_reservation.field_trans_cc
     - field.field.node.transport_reservation.field_trans_email
     - field.field.node.transport_reservation.field_trans_fname
@@ -28,6 +30,19 @@ content:
     weight: 10
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_domain_access:
+    type: options_buttons
+    weight: 40
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_domain_all_affiliates:
+    type: boolean_checkbox
+    weight: 41
+    region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   field_trans_cc:
     type: string_textfield

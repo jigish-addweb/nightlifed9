@@ -6,6 +6,8 @@ dependencies:
     - field.field.node.video1.body
     - field.field.node.video1.field_categories
     - field.field.node.video1.field_country
+    - field.field.node.video1.field_domain_access
+    - field.field.node.video1.field_domain_all_affiliates
     - field.field.node.video1.field_hashtag
     - field.field.node.video1.field_keywords
     - field.field.node.video1.field_private
@@ -53,6 +55,19 @@ content:
     weight: 20
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_domain_access:
+    type: options_buttons
+    weight: 40
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_domain_all_affiliates:
+    type: boolean_checkbox
+    weight: 41
+    region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   field_hashtag:
     type: entity_reference_autocomplete_tags

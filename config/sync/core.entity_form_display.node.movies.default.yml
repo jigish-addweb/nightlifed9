@@ -6,6 +6,8 @@ dependencies:
     - field.field.node.movies.body
     - field.field.node.movies.field_country
     - field.field.node.movies.field_director
+    - field.field.node.movies.field_domain_access
+    - field.field.node.movies.field_domain_all_affiliates
     - field.field.node.movies.field_genres
     - field.field.node.movies.field_hashtag
     - field.field.node.movies.field_language
@@ -67,6 +69,19 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  field_domain_access:
+    type: options_buttons
+    weight: 40
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_domain_all_affiliates:
+    type: boolean_checkbox
+    weight: 41
+    region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   field_genres:
     type: options_buttons

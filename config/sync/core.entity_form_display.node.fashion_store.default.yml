@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.field.node.fashion_store.body
     - field.field.node.fashion_store.field_country
+    - field.field.node.fashion_store.field_domain_access
+    - field.field.node.fashion_store.field_domain_all_affiliates
     - field.field.node.fashion_store.field_fash_store_ccode
     - field.field.node.fashion_store.field_fashion_store_priority
     - field.field.node.fashion_store.field_hashtag
@@ -55,6 +57,19 @@ content:
     weight: 20
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_domain_access:
+    type: options_buttons
+    weight: 40
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_domain_all_affiliates:
+    type: boolean_checkbox
+    weight: 41
+    region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   field_fash_store_ccode:
     type: options_select
