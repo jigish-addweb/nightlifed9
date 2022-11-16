@@ -1,32 +1,96 @@
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
 module:
+  getid3: -10
+  actions_permissions: 0
+  ad: 0
+  ad_content: 0
+  ad_track: 0
+  address: 0
   admin_toolbar: 0
   admin_toolbar_links_access_filter: 0
   admin_toolbar_search: 0
   admin_toolbar_tools: 0
+  advagg: 0
+  advagg_bundler: 0
+  advagg_cdn: 0
+  advagg_css_minify: 0
+  advagg_ext_minify: 0
+  advagg_js_minify: 0
+  advagg_mod: 0
+  advagg_old_ie_compatibility: 0
+  advagg_validator: 0
   automated_cron: 0
+  backup_migrate: 0
   big_pipe: 0
   block: 0
   block_content: 0
   breakpoint: 0
+  calendar: 0
+  cer: 0
+  chosen: 0
+  chosen_lib: 0
   ckeditor: 0
   comment: 0
+  conditional_fields: 0
   config: 0
   contact: 0
   contextual: 0
+  ctools: 0
+  ctools_block: 0
+  ctools_views: 0
+  data: 0
+  data_search: 0
   datetime: 0
+  db_maintenance: 0
   dblog: 0
+  domain: 0
+  domain_access: 0
+  domain_config: 0
   dynamic_page_cache: 0
   editor: 0
+  entity_import: 0
+  entity_import_plus: 0
+  entityqueue: 0
+  entityqueue_smartqueue: 0
+  eva: 0
+  fblikebutton: 0
+  feeds: 0
   field: 0
+  field_inheritance: 0
   field_ui: 0
   file: 0
   filter: 0
+  filter_perms: 0
+  fivestar: 0
+  flag: 0
+  flag_bookmark: 0
+  flag_count: 0
+  flag_follower: 0
+  force_password_change: 0
+  front_page: 0
+  geolocation: 0
+  geolocation_address: 0
+  geolocation_baidu: 0
+  geolocation_demo: 0
+  geolocation_google_maps: 0
+  geolocation_google_maps_demo: 0
+  googlemaps: 0
   help: 0
   history: 0
   image: 0
+  inline_registration: 0
+  invite: 0
+  invite_by_email: 0
+  invite_link: 0
+  job_scheduler: 0
+  job_scheduler_waiting: 0
+  jquery_ui: 0
+  jquery_ui_accordion: 0
+  jquery_ui_tabs: 0
+  libraries: 0
   link: 0
+  mailsystem: 0
   menu_link_content: 0
   menu_ui: 0
   migrate: 0
@@ -34,24 +98,55 @@ module:
   migrate_drupal_ui: 0
   migrate_plus: 0
   migrate_tools: 0
+  mimemail: 0
+  mimemail_example: 0
   mysql: 0
   node: 0
   options: 0
   page_cache: 0
   path: 0
   path_alias: 0
+  privatemsg: 0
+  quicktabs: 0
+  quicktabs_accordion: 0
+  quicktabs_jqueryui: 0
   rdf: 0
+  record_shorten: 0
+  rules: 0
   search: 0
+  serialization: 0
+  services: 0
   shortcut: 0
+  shorten: 0
+  shorten_cs: 0
+  shortener: 0
+  shorturl: 0
+  shs: 0
+  shs_chosen: 0
+  simplenews: 0
+  simplenews_demo: 0
+  statistics: 0
   system: 0
   taxonomy: 0
   text: 0
+  timezone_detect: 0
+  token: 0
   toolbar: 0
   tour: 0
+  typed_data: 0
   update: 0
   user: 0
+  video: 0
+  video_transcode: 0
+  views_bulk_operations: 0
   views_ui: 0
+  voting_service: 0
+  votingapi: 0
+  votingapi_tokens: 0
+  webform: 0
+  pathauto: 1
   views: 10
+  formdefaults: 20
   standard: 1000
 theme:
   olivero: 0
