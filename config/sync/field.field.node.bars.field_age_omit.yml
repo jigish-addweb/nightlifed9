@@ -13,9 +13,11 @@ label: Omit
 description: ''
 required: false
 translatable: true
-default_value: {  }
+default_value:
+  -
+    value: 0
 default_value_callback: ''
 settings:
-  on_label: 'On'
+  on_label: 'Show Age'
   off_label: 'Off'
 field_type: boolean

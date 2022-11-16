@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.fashion.body
+    - field.field.node.fashion.comment
     - field.field.node.fashion.field_country
     - field.field.node.fashion.field_domain_access
     - field.field.node.fashion.field_domain_all_affiliates
@@ -18,6 +19,7 @@ dependencies:
     - field.field.node.fashion.field_fashion_dresscode
     - field.field.node.fashion.field_fashion_drinkspecials
     - field.field.node.fashion.field_fashion_facebook
+    - field.field.node.fashion.field_fashion_fromtime
     - field.field.node.fashion.field_fashion_google
     - field.field.node.fashion.field_fashion_image
     - field.field.node.fashion.field_fashion_mail
@@ -32,12 +34,18 @@ dependencies:
     - field.field.node.fashion.field_fashion_timezone_cust
     - field.field.node.fashion.field_fashion_twitter
     - field.field.node.fashion.field_fashion_website
+    - field.field.node.fashion.field_fashon_totime
     - field.field.node.fashion.field_hashtag
+    - field.field.node.fashion.field_location
     - field.field.node.fashion.field_private
     - field.field.node.fashion.field_would_you_like_a_featured_
     - image.style.thumbnail
     - node.type.fashion
   module:
+    - address
+    - comment
+    - conditional_fields
+    - datetime
     - image
     - path
     - text
@@ -48,7 +56,7 @@ mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 121
+    weight: 1
     region: content
     settings:
       rows: 9
@@ -56,40 +64,50 @@ content:
       placeholder: ''
       show_summary: false
     third_party_settings: {  }
+  comment:
+    type: comment_default
+    weight: 42
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   created:
     type: datetime_timestamp
-    weight: 10
+    weight: 29
     region: content
     settings: {  }
     third_party_settings: {  }
   field_country:
-    type: options_select
-    weight: 20
+    type: entity_reference_autocomplete_tags
+    weight: 41
     region: content
-    settings: {  }
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   field_domain_access:
     type: options_buttons
-    weight: 40
+    weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
   field_domain_all_affiliates:
     type: boolean_checkbox
-    weight: 41
+    weight: 38
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
   field_fash_ccode:
     type: options_select
-    weight: 7
+    weight: 12
     region: content
     settings: {  }
     third_party_settings: {  }
   field_fashion_agereq:
     type: string_textfield
-    weight: 122
+    weight: 16
     region: content
     settings:
       size: 60
@@ -97,7 +115,7 @@ content:
     third_party_settings: {  }
   field_fashion_album:
     type: image_image
-    weight: 21
+    weight: 26
     region: content
     settings:
       progress_indicator: bar
@@ -105,19 +123,19 @@ content:
     third_party_settings: {  }
   field_fashion_allowrsvp:
     type: options_buttons
-    weight: 18
+    weight: 23
     region: content
     settings: {  }
     third_party_settings: {  }
   field_fashion_buynow:
     type: options_buttons
-    weight: 16
+    weight: 21
     region: content
     settings: {  }
     third_party_settings: {  }
   field_fashion_cname:
     type: string_textfield
-    weight: 126
+    weight: 32
     region: content
     settings:
       size: 60
@@ -125,7 +143,7 @@ content:
     third_party_settings: {  }
   field_fashion_code:
     type: string_textfield
-    weight: 127
+    weight: 33
     region: content
     settings:
       size: 60
@@ -133,7 +151,7 @@ content:
     third_party_settings: {  }
   field_fashion_cont_mail:
     type: string_textfield
-    weight: 124
+    weight: 35
     region: content
     settings:
       size: 60
@@ -141,7 +159,7 @@ content:
     third_party_settings: {  }
   field_fashion_dresscode:
     type: string_textfield
-    weight: 137
+    weight: 17
     region: content
     settings:
       size: 60
@@ -149,7 +167,7 @@ content:
     third_party_settings: {  }
   field_fashion_drinkspecials:
     type: string_textfield
-    weight: 128
+    weight: 20
     region: content
     settings:
       size: 60
@@ -157,15 +175,21 @@ content:
     third_party_settings: {  }
   field_fashion_facebook:
     type: string_textfield
-    weight: 129
+    weight: 27
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  field_fashion_fromtime:
+    type: datetime_default
+    weight: 9
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   field_fashion_google:
     type: string_textfield
-    weight: 131
+    weight: 40
     region: content
     settings:
       size: 60
@@ -173,7 +197,7 @@ content:
     third_party_settings: {  }
   field_fashion_image:
     type: image_image
-    weight: 20
+    weight: 25
     region: content
     settings:
       progress_indicator: bar
@@ -181,23 +205,39 @@ content:
     third_party_settings: {  }
   field_fashion_mail:
     type: string_textfield
-    weight: 130
+    weight: 13
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_fashion_mail_body:
-    type: text_textarea
-    weight: 19
+    type: string_textarea
+    weight: 24
     region: content
     settings:
       rows: 5
       placeholder: ''
-    third_party_settings: {  }
+    third_party_settings:
+      conditional_fields:
+        65ffdc54-7f39-4e53-856b-bdf6a3ba2abf:
+          entity_type: node
+          bundle: fashion
+          dependee: field_fashion_allowrsvp
+          settings:
+            state: visible
+            condition: value
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form: {  }
+            effect: show
+            effect_options: {  }
+            selector: ''
   field_fashion_mobile:
     type: string_textfield
-    weight: 125
+    weight: 34
     region: content
     settings:
       size: 60
@@ -205,7 +245,7 @@ content:
     third_party_settings: {  }
   field_fashion_musicstyle:
     type: string_textfield
-    weight: 132
+    weight: 15
     region: content
     settings:
       size: 60
@@ -213,7 +253,7 @@ content:
     third_party_settings: {  }
   field_fashion_parkingoptions:
     type: string_textfield
-    weight: 133
+    weight: 19
     region: content
     settings:
       size: 60
@@ -221,7 +261,7 @@ content:
     third_party_settings: {  }
   field_fashion_prices:
     type: string_textfield
-    weight: 134
+    weight: 18
     region: content
     settings:
       size: 60
@@ -229,28 +269,50 @@ content:
     third_party_settings: {  }
   field_fashion_priority:
     type: number
-    weight: -1
+    weight: 4
     region: content
     settings:
       placeholder: ''
     third_party_settings: {  }
   field_fashion_reservation:
     type: text_textfield
-    weight: 123
+    weight: 22
     region: content
     settings:
       size: 60
       placeholder: ''
+    third_party_settings:
+      conditional_fields:
+        0cd3bea7-4f65-4f41-81ae-1cb31bdf459b:
+          entity_type: node
+          bundle: fashion
+          dependee: field_fashion_buynow
+          settings:
+            state: visible
+            condition: value
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form: {  }
+            effect: show
+            effect_options: {  }
+            selector: ''
+  field_fashion_time:
+    type: datetime_default
+    weight: 6
+    region: content
+    settings: {  }
     third_party_settings: {  }
   field_fashion_timezone_cust:
     type: options_select
-    weight: 2
+    weight: 7
     region: content
     settings: {  }
     third_party_settings: {  }
   field_fashion_twitter:
     type: string_textfield
-    weight: 135
+    weight: 31
     region: content
     settings:
       size: 60
@@ -258,15 +320,21 @@ content:
     third_party_settings: {  }
   field_fashion_website:
     type: string_textfield
-    weight: 136
+    weight: 14
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  field_fashon_totime:
+    type: datetime_default
+    weight: 8
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   field_hashtag:
     type: entity_reference_autocomplete_tags
-    weight: 20
+    weight: 2
     region: content
     settings:
       match_operator: CONTAINS
@@ -274,48 +342,54 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  field_location:
+    type: address_default
+    weight: 11
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   field_private:
     type: options_buttons
-    weight: -3
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
   field_would_you_like_a_featured_:
     type: options_select
-    weight: 20
+    weight: 3
     region: content
     settings: {  }
     third_party_settings: {  }
   path:
     type: path
-    weight: 30
+    weight: 37
     region: content
     settings: {  }
     third_party_settings: {  }
   promote:
     type: boolean_checkbox
-    weight: 15
+    weight: 30
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
   status:
     type: boolean_checkbox
-    weight: 120
+    weight: 39
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
-    weight: 16
+    weight: 36
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
   title:
     type: string_textfield
-    weight: -5
+    weight: 0
     region: content
     settings:
       size: 60
@@ -323,7 +397,7 @@ content:
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 5
+    weight: 28
     region: content
     settings:
       match_operator: CONTAINS
@@ -331,5 +405,4 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-hidden:
-  field_fashion_time: true
+hidden: {  }

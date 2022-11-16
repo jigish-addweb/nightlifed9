@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.bars.body
+    - field.field.node.bars.comment
     - field.field.node.bars.feeds_item
     - field.field.node.bars.field_age_omit
     - field.field.node.bars.field_bar_ccode
@@ -43,12 +44,15 @@ dependencies:
     - field.field.node.bars.field_domain_all_affiliates
     - field.field.node.bars.field_gender_omit
     - field.field.node.bars.field_hashtag
+    - field.field.node.bars.field_location
     - field.field.node.bars.field_private
     - field.field.node.bars.field_type
     - field.field.node.bars.field_would_you_like_a_featured_
     - image.style.thumbnail
     - node.type.bars
   module:
+    - address
+    - comment
     - conditional_fields
     - datetime
     - image
@@ -69,34 +73,40 @@ content:
       placeholder: ''
       show_summary: false
     third_party_settings: {  }
+  comment:
+    type: comment_default
+    weight: 48
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   created:
     type: datetime_timestamp
-    weight: 39
+    weight: 41
     region: content
     settings: {  }
     third_party_settings: {  }
   field_age_omit:
     type: boolean_checkbox
-    weight: 28
+    weight: 29
     region: content
     settings:
       display_label: false
     third_party_settings: {  }
   field_bar_ccode:
     type: options_select
-    weight: 10
+    weight: 11
     region: content
     settings: {  }
     third_party_settings: {  }
   field_bar_reserv:
     type: options_buttons
-    weight: 8
+    weight: 9
     region: content
     settings: {  }
     third_party_settings: {  }
   field_bars_ad_sdate:
     type: datetime_default
-    weight: 36
+    weight: 37
     region: content
     settings: {  }
     third_party_settings:
@@ -120,13 +130,13 @@ content:
             selector: ''
   field_bars_ad_shedule:
     type: options_select
-    weight: 35
+    weight: 36
     region: content
     settings: {  }
     third_party_settings: {  }
   field_bars_age:
     type: string_textfield
-    weight: 13
+    weight: 14
     region: content
     settings:
       size: 60
@@ -134,7 +144,7 @@ content:
     third_party_settings: {  }
   field_bars_age_from:
     type: options_select
-    weight: 29
+    weight: 30
     region: content
     settings: {  }
     third_party_settings:
@@ -157,7 +167,7 @@ content:
             selector: ''
   field_bars_age_to:
     type: options_select
-    weight: 30
+    weight: 31
     region: content
     settings: {  }
     third_party_settings:
@@ -180,7 +190,7 @@ content:
             selector: ''
   field_bars_album:
     type: image_image
-    weight: 19
+    weight: 20
     region: content
     settings:
       progress_indicator: bar
@@ -188,13 +198,13 @@ content:
     third_party_settings: {  }
   field_bars_budjet:
     type: options_select
-    weight: 33
+    weight: 34
     region: content
     settings: {  }
     third_party_settings: {  }
   field_bars_budjet_amount:
     type: string_textfield
-    weight: 34
+    weight: 35
     region: content
     settings:
       size: 60
@@ -218,7 +228,7 @@ content:
             selector: ''
   field_bars_ccode:
     type: string_textfield
-    weight: 24
+    weight: 25
     region: content
     settings:
       size: 60
@@ -226,7 +236,7 @@ content:
     third_party_settings: {  }
   field_bars_cont_mail:
     type: string_textfield
-    weight: 26
+    weight: 27
     region: content
     settings:
       size: 60
@@ -234,7 +244,7 @@ content:
     third_party_settings: {  }
   field_bars_cont_num:
     type: string_textfield
-    weight: 25
+    weight: 26
     region: content
     settings:
       size: 60
@@ -242,7 +252,7 @@ content:
     third_party_settings: {  }
   field_bars_contname:
     type: string_textfield
-    weight: 23
+    weight: 24
     region: content
     settings:
       size: 60
@@ -256,7 +266,7 @@ content:
     third_party_settings: {  }
   field_bars_details:
     type: string_textarea
-    weight: 17
+    weight: 18
     region: content
     settings:
       rows: 5
@@ -264,7 +274,7 @@ content:
     third_party_settings: {  }
   field_bars_dress_code:
     type: string_textfield
-    weight: 15
+    weight: 16
     region: content
     settings:
       size: 60
@@ -272,7 +282,7 @@ content:
     third_party_settings: {  }
   field_bars_edate:
     type: datetime_default
-    weight: 37
+    weight: 38
     region: content
     settings: {  }
     third_party_settings:
@@ -296,7 +306,7 @@ content:
             selector: ''
   field_bars_email_body:
     type: string_textarea
-    weight: 9
+    weight: 10
     region: content
     settings:
       rows: 5
@@ -322,7 +332,7 @@ content:
             selector: ''
   field_bars_facebook:
     type: string_textfield
-    weight: 20
+    weight: 21
     region: content
     settings:
       size: 60
@@ -330,7 +340,7 @@ content:
     third_party_settings: {  }
   field_bars_gender:
     type: options_select
-    weight: 32
+    weight: 33
     region: content
     settings: {  }
     third_party_settings:
@@ -353,7 +363,7 @@ content:
             selector: ''
   field_bars_google:
     type: string_textfield
-    weight: 22
+    weight: 23
     region: content
     settings:
       size: 60
@@ -361,7 +371,7 @@ content:
     third_party_settings: {  }
   field_bars_image:
     type: image_image
-    weight: 18
+    weight: 19
     region: content
     settings:
       progress_indicator: bar
@@ -369,7 +379,7 @@ content:
     third_party_settings: {  }
   field_bars_music:
     type: string_textfield
-    weight: 12
+    weight: 13
     region: content
     settings:
       size: 60
@@ -377,7 +387,7 @@ content:
     third_party_settings: {  }
   field_bars_price:
     type: string_textfield
-    weight: 14
+    weight: 15
     region: content
     settings:
       size: 60
@@ -392,7 +402,7 @@ content:
     third_party_settings: {  }
   field_bars_specials:
     type: string_textfield
-    weight: 16
+    weight: 17
     region: content
     settings:
       size: 60
@@ -400,7 +410,7 @@ content:
     third_party_settings: {  }
   field_bars_status:
     type: options_select
-    weight: 27
+    weight: 28
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -414,7 +424,7 @@ content:
     third_party_settings: {  }
   field_bars_twitter:
     type: string_textfield
-    weight: 21
+    weight: 22
     region: content
     settings:
       size: 60
@@ -422,7 +432,7 @@ content:
     third_party_settings: {  }
   field_bars_website:
     type: string_textfield
-    weight: 11
+    weight: 12
     region: content
     settings:
       size: 60
@@ -430,7 +440,7 @@ content:
     third_party_settings: {  }
   field_click_cost:
     type: string_textfield
-    weight: 47
+    weight: 39
     region: content
     settings:
       size: 60
@@ -438,20 +448,20 @@ content:
     third_party_settings: {  }
   field_domain_access:
     type: options_buttons
-    weight: 44
+    weight: 46
     region: content
     settings: {  }
     third_party_settings: {  }
   field_domain_all_affiliates:
     type: boolean_checkbox
-    weight: 45
+    weight: 47
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
   field_gender_omit:
     type: boolean_checkbox
-    weight: 31
+    weight: 32
     region: content
     settings:
       display_label: false
@@ -466,9 +476,15 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  field_location:
+    type: address_default
+    weight: 8
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   field_private:
     type: options_buttons
-    weight: 43
+    weight: 45
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -486,27 +502,27 @@ content:
     third_party_settings: {  }
   path:
     type: path
-    weight: 42
+    weight: 44
     region: content
     settings: {  }
     third_party_settings: {  }
   promote:
     type: boolean_checkbox
-    weight: 40
+    weight: 42
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
   status:
     type: boolean_checkbox
-    weight: 46
+    weight: 49
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
-    weight: 41
+    weight: 43
     region: content
     settings:
       display_label: true
@@ -521,7 +537,7 @@ content:
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 38
+    weight: 40
     region: content
     settings:
       match_operator: CONTAINS

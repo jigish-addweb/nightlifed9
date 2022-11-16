@@ -3,7 +3,9 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_display.comment.comment.default
     - field.field.node.bars.body
+    - field.field.node.bars.comment
     - field.field.node.bars.feeds_item
     - field.field.node.bars.field_age_omit
     - field.field.node.bars.field_bar_ccode
@@ -43,11 +45,14 @@ dependencies:
     - field.field.node.bars.field_domain_all_affiliates
     - field.field.node.bars.field_gender_omit
     - field.field.node.bars.field_hashtag
+    - field.field.node.bars.field_location
     - field.field.node.bars.field_private
     - field.field.node.bars.field_type
     - field.field.node.bars.field_would_you_like_a_featured_
     - node.type.bars
   module:
+    - address
+    - comment
     - datetime
     - image
     - text
@@ -63,6 +68,15 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 101
+    region: content
+  comment:
+    type: comment_default
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 116
     region: content
   field_age_omit:
     type: number_integer
@@ -352,6 +366,13 @@ content:
       link: true
     third_party_settings: {  }
     weight: 20
+    region: content
+  field_location:
+    type: address_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 115
     region: content
   field_private:
     type: text_default

@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.fashion.body
+    - field.field.node.fashion.comment
     - field.field.node.fashion.field_country
     - field.field.node.fashion.field_domain_access
     - field.field.node.fashion.field_domain_all_affiliates
@@ -19,6 +20,7 @@ dependencies:
     - field.field.node.fashion.field_fashion_dresscode
     - field.field.node.fashion.field_fashion_drinkspecials
     - field.field.node.fashion.field_fashion_facebook
+    - field.field.node.fashion.field_fashion_fromtime
     - field.field.node.fashion.field_fashion_google
     - field.field.node.fashion.field_fashion_image
     - field.field.node.fashion.field_fashion_mail
@@ -33,7 +35,9 @@ dependencies:
     - field.field.node.fashion.field_fashion_timezone_cust
     - field.field.node.fashion.field_fashion_twitter
     - field.field.node.fashion.field_fashion_website
+    - field.field.node.fashion.field_fashon_totime
     - field.field.node.fashion.field_hashtag
+    - field.field.node.fashion.field_location
     - field.field.node.fashion.field_private
     - field.field.node.fashion.field_would_you_like_a_featured_
     - node.type.fashion
@@ -135,6 +139,16 @@ content:
     third_party_settings: {  }
     weight: -3
     region: content
+  flag_like_it:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  flag_share_it:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
   links:
     settings: {  }
     third_party_settings: {  }
@@ -149,6 +163,7 @@ content:
     weight: -5
     region: content
 hidden:
+  comment: true
   field_country: true
   field_domain_access: true
   field_domain_all_affiliates: true
@@ -159,6 +174,7 @@ hidden:
   field_fashion_dresscode: true
   field_fashion_drinkspecials: true
   field_fashion_facebook: true
+  field_fashion_fromtime: true
   field_fashion_google: true
   field_fashion_mail: true
   field_fashion_mobile: true
@@ -168,5 +184,7 @@ hidden:
   field_fashion_reservation: true
   field_fashion_twitter: true
   field_fashion_website: true
+  field_fashon_totime: true
   field_hashtag: true
+  field_location: true
   field_would_you_like_a_featured_: true

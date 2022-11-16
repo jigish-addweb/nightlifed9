@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.bars.body
+    - field.field.node.bars.comment
     - field.field.node.bars.feeds_item
     - field.field.node.bars.field_age_omit
     - field.field.node.bars.field_bar_ccode
@@ -44,6 +45,7 @@ dependencies:
     - field.field.node.bars.field_domain_all_affiliates
     - field.field.node.bars.field_gender_omit
     - field.field.node.bars.field_hashtag
+    - field.field.node.bars.field_location
     - field.field.node.bars.field_private
     - field.field.node.bars.field_type
     - field.field.node.bars.field_would_you_like_a_featured_
@@ -266,6 +268,7 @@ content:
     weight: -5
     region: content
 hidden:
+  comment: true
   feeds_item: true
   field_bars_age: true
   field_bars_budjet_amount: true
@@ -284,5 +287,6 @@ hidden:
   field_domain_access: true
   field_domain_all_affiliates: true
   field_hashtag: true
+  field_location: true
   field_type: true
   field_would_you_like_a_featured_: true

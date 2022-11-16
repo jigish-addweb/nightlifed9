@@ -3,13 +3,16 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_display.comment.comment.default
     - field.field.node.fashion_store.body
+    - field.field.node.fashion_store.comment
     - field.field.node.fashion_store.field_country
     - field.field.node.fashion_store.field_domain_access
     - field.field.node.fashion_store.field_domain_all_affiliates
     - field.field.node.fashion_store.field_fash_store_ccode
     - field.field.node.fashion_store.field_fashion_store_priority
     - field.field.node.fashion_store.field_hashtag
+    - field.field.node.fashion_store.field_location
     - field.field.node.fashion_store.field_private
     - field.field.node.fashion_store.field_store_album
     - field.field.node.fashion_store.field_store_ccode
@@ -27,7 +30,10 @@ dependencies:
     - field.field.node.fashion_store.field_would_you_like_a_featured_
     - node.type.fashion_store
   module:
+    - address
+    - comment
     - image
+    - options
     - text
     - user
 id: node.fashion_store.default
@@ -40,7 +46,16 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 101
+    weight: 2
+    region: content
+  comment:
+    type: comment_default
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 24
     region: content
   field_country:
     type: entity_reference_label
@@ -48,14 +63,14 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 20
+    weight: 22
     region: content
   field_fash_store_ccode:
-    type: text_default
+    type: list_default
     label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 1
+    weight: 8
     region: content
   field_fashion_store_priority:
     type: number_integer
@@ -64,7 +79,7 @@ content:
       thousand_separator: ''
       prefix_suffix: true
     third_party_settings: {  }
-    weight: -2
+    weight: 6
     region: content
   field_hashtag:
     type: entity_reference_label
@@ -72,14 +87,21 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 20
+    weight: 3
     region: content
-  field_private:
-    type: text_default
+  field_location:
+    type: address_default
     label: above
     settings: {  }
     third_party_settings: {  }
-    weight: -3
+    weight: 7
+    region: content
+  field_private:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
     region: content
   field_store_album:
     type: image
@@ -90,7 +112,7 @@ content:
       image_loading:
         attribute: lazy
     third_party_settings: {  }
-    weight: 8
+    weight: 13
     region: content
   field_store_ccode:
     type: string
@@ -98,7 +120,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 105
+    weight: 18
     region: content
   field_store_contmail:
     type: string
@@ -106,7 +128,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 102
+    weight: 20
     region: content
   field_store_contname:
     type: string
@@ -114,7 +136,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 104
+    weight: 17
     region: content
   field_store_contnum:
     type: string
@@ -122,7 +144,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 103
+    weight: 19
     region: content
   field_store_facebook:
     type: string
@@ -130,7 +152,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 106
+    weight: 14
     region: content
   field_store_google:
     type: string
@@ -138,14 +160,15 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 107
+    weight: 16
     region: content
   field_store_hours:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 5
+    weight: 10
     region: content
   field_store_image:
     type: image
@@ -156,7 +179,7 @@ content:
       image_loading:
         attribute: lazy
     third_party_settings: {  }
-    weight: 7
+    weight: 12
     region: content
   field_store_specials:
     type: string
@@ -164,7 +187,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 108
+    weight: 11
     region: content
   field_store_twitter:
     type: string
@@ -172,7 +195,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 109
+    weight: 15
     region: content
   field_store_type:
     type: entity_reference_label
@@ -180,7 +203,7 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 20
+    weight: 1
     region: content
   field_store_website:
     type: string
@@ -188,7 +211,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 110
+    weight: 9
     region: content
   field_would_you_like_a_featured_:
     type: entity_reference_label
@@ -196,12 +219,17 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 20
+    weight: 4
+    region: content
+  flag_like_it:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 21
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 23
     region: content
   title:
     type: string
@@ -209,7 +237,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: -5
+    weight: 0
     region: content
 hidden:
   field_domain_access: true

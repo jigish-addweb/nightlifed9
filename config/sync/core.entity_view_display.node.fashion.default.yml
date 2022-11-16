@@ -3,7 +3,9 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_display.comment.comment.default
     - field.field.node.fashion.body
+    - field.field.node.fashion.comment
     - field.field.node.fashion.field_country
     - field.field.node.fashion.field_domain_access
     - field.field.node.fashion.field_domain_all_affiliates
@@ -18,6 +20,7 @@ dependencies:
     - field.field.node.fashion.field_fashion_dresscode
     - field.field.node.fashion.field_fashion_drinkspecials
     - field.field.node.fashion.field_fashion_facebook
+    - field.field.node.fashion.field_fashion_fromtime
     - field.field.node.fashion.field_fashion_google
     - field.field.node.fashion.field_fashion_image
     - field.field.node.fashion.field_fashion_mail
@@ -32,11 +35,15 @@ dependencies:
     - field.field.node.fashion.field_fashion_timezone_cust
     - field.field.node.fashion.field_fashion_twitter
     - field.field.node.fashion.field_fashion_website
+    - field.field.node.fashion.field_fashon_totime
     - field.field.node.fashion.field_hashtag
+    - field.field.node.fashion.field_location
     - field.field.node.fashion.field_private
     - field.field.node.fashion.field_would_you_like_a_featured_
     - node.type.fashion
   module:
+    - address
+    - comment
     - datetime
     - file
     - image
@@ -53,6 +60,15 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 101
+    region: content
+  comment:
+    type: comment_default
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 121
     region: content
   field_country:
     type: entity_reference_label
@@ -146,6 +162,15 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     weight: 109
+    region: content
+  field_fashion_fromtime:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 118
     region: content
   field_fashion_google:
     type: string
@@ -261,6 +286,15 @@ content:
     third_party_settings: {  }
     weight: 116
     region: content
+  field_fashon_totime:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 119
+    region: content
   field_hashtag:
     type: entity_reference_label
     label: hidden
@@ -268,6 +302,13 @@ content:
       link: true
     third_party_settings: {  }
     weight: 20
+    region: content
+  field_location:
+    type: address_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 120
     region: content
   field_private:
     type: text_default
@@ -283,6 +324,16 @@ content:
       link: true
     third_party_settings: {  }
     weight: 20
+    region: content
+  flag_like_it:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  flag_share_it:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
     region: content
   links:
     settings: {  }

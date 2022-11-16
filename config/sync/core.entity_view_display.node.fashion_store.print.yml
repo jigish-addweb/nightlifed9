@@ -5,12 +5,14 @@ dependencies:
   config:
     - core.entity_view_mode.node.print
     - field.field.node.fashion_store.body
+    - field.field.node.fashion_store.comment
     - field.field.node.fashion_store.field_country
     - field.field.node.fashion_store.field_domain_access
     - field.field.node.fashion_store.field_domain_all_affiliates
     - field.field.node.fashion_store.field_fash_store_ccode
     - field.field.node.fashion_store.field_fashion_store_priority
     - field.field.node.fashion_store.field_hashtag
+    - field.field.node.fashion_store.field_location
     - field.field.node.fashion_store.field_private
     - field.field.node.fashion_store.field_store_album
     - field.field.node.fashion_store.field_store_ccode
@@ -88,6 +90,11 @@ content:
     third_party_settings: {  }
     weight: 7
     region: content
+  flag_like_it:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
   links:
     settings: {  }
     third_party_settings: {  }
@@ -103,10 +110,12 @@ content:
     region: content
 hidden:
   body: true
+  comment: true
   field_country: true
   field_domain_access: true
   field_domain_all_affiliates: true
   field_hashtag: true
+  field_location: true
   field_store_ccode: true
   field_store_contmail: true
   field_store_contname: true

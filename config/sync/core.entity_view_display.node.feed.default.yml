@@ -3,12 +3,15 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_display.comment.comment.default
     - field.field.node.feed.body
+    - field.field.node.feed.comment
     - field.field.node.feed.field_domain_access
     - field.field.node.feed.field_domain_all_affiliates
     - field.field.node.feed.upload
     - node.type.feed
   module:
+    - comment
     - text
     - user
 id: node.feed.default
@@ -22,6 +25,15 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 101
+    region: content
+  comment:
+    type: comment_default
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 102
     region: content
   links:
     settings: {  }
