@@ -1,0 +1,15 @@
+uuid: 98c8dfdc-cba3-46f6-8d32-2377ed936af6
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.like_it
+  module:
+    - flag
+id: flag_action.like_it_flag
+label: Like
+type: node
+plugin: 'flag_action:like_it_flag'
+configuration:
+  flag_id: like_it
+  flag_action: flag

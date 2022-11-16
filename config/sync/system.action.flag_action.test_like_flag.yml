@@ -1,0 +1,15 @@
+uuid: 33f685e5-db1d-4a24-b91d-e0a8ef3ee6f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.test_like
+  module:
+    - flag
+id: flag_action.test_like_flag
+label: 'Test Like'
+type: node
+plugin: 'flag_action:test_like_flag'
+configuration:
+  flag_id: test_like
+  flag_action: flag

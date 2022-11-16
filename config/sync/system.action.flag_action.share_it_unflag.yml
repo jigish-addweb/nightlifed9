@@ -1,0 +1,15 @@
+uuid: f2351995-1598-4b8d-b34a-344646d8e667
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.share_it
+  module:
+    - flag
+id: flag_action.share_it_unflag
+label: Unshare
+type: node
+plugin: 'flag_action:share_it_unflag'
+configuration:
+  flag_id: share_it
+  flag_action: unflag

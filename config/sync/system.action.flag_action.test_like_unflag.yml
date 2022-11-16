@@ -1,0 +1,15 @@
+uuid: df9705a5-06e9-48f9-8438-1e8f16f075e3
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.test_like
+  module:
+    - flag
+id: flag_action.test_like_unflag
+label: 'Test Unflag'
+type: node
+plugin: 'flag_action:test_like_unflag'
+configuration:
+  flag_id: test_like
+  flag_action: unflag

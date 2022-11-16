@@ -1,0 +1,15 @@
+uuid: 8a4e3d27-994e-4122-b093-ac0673c48e73
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.share_it
+  module:
+    - flag
+id: flag_action.share_it_flag
+label: Share
+type: node
+plugin: 'flag_action:share_it_flag'
+configuration:
+  flag_id: share_it
+  flag_action: flag
