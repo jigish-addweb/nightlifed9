@@ -11,7 +11,7 @@ id: node.gallery1.upload
 field_name: upload
 entity_type: node
 bundle: gallery1
-label: upload
+label: 'File attachments'
 description: ''
 required: false
 translatable: true
@@ -21,7 +21,7 @@ settings:
   handler: 'default:file'
   handler_settings: {  }
   file_directory: '[date:custom:Y]-[date:custom:m]'
-  file_extensions: 'jpg jpeg gif png txt html doc xls pdf ppt pps avi mpeg mpg mov rm m4v flv wmv 3gp mp4 dir dcr ogg csv csv csv'
+  file_extensions: 'jpg jpeg gif png txt html doc xls pdf ppt pps avi mpeg mpg mov rm m4v flv wmv 3gp mp4 dir dcr ogg csv'
   max_filesize: 500MB
   description_field: true
 field_type: file

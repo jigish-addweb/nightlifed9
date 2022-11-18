@@ -3,6 +3,8 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_display.comment.comment.default
+    - field.field.node.hotel_booking.comment
     - field.field.node.hotel_booking.field_chkin_date
     - field.field.node.hotel_booking.field_chkout_date
     - field.field.node.hotel_booking.field_domain_access
@@ -19,6 +21,7 @@ dependencies:
     - field.field.node.hotel_booking.upload
     - node.type.hotel_booking
   module:
+    - comment
     - text
     - user
 id: node.hotel_booking.default
@@ -26,6 +29,15 @@ targetEntityType: node
 bundle: hotel_booking
 mode: default
 content:
+  comment:
+    type: comment_default
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 108
+    region: content
   field_chkin_date:
     type: string
     label: above

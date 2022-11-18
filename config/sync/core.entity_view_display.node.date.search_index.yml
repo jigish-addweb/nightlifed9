@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.search_index
     - field.field.node.date.body
+    - field.field.node.date.comment
     - field.field.node.date.field_date
     - field.field.node.date.field_date1
     - field.field.node.date.field_domain_access
@@ -52,6 +53,7 @@ content:
     region: content
 hidden:
   body: true
+  comment: true
   field_domain_access: true
   field_domain_all_affiliates: true
   upload: true

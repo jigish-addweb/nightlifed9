@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.event.body
+    - field.field.node.event.field_attached_images
     - field.field.node.event.field_comment_settings
     - field.field.node.event.field_country
     - field.field.node.event.field_domain_access
@@ -47,6 +48,7 @@ dependencies:
     - comment
     - datetime
     - image
+    - media_library
     - path
     - text
 id: node.event.default
@@ -69,6 +71,13 @@ content:
     weight: 36
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_attached_images:
+    type: media_library_widget
+    weight: 43
+    region: content
+    settings:
+      media_types: {  }
     third_party_settings: {  }
   field_comment_settings:
     type: comment_default

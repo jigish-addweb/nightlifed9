@@ -4,11 +4,14 @@ status: true
 dependencies:
   config:
     - field.field.node.feed_item.body
+    - field.field.node.feed_item.comment
     - field.field.node.feed_item.field_domain_access
     - field.field.node.feed_item.field_domain_all_affiliates
     - field.field.node.feed_item.upload
     - node.type.feed_item
   module:
+    - comment
+    - file
     - path
     - text
 id: node.feed_item.default
@@ -18,7 +21,7 @@ mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 121
+    weight: 1
     region: content
     settings:
       rows: 9
@@ -26,55 +29,61 @@ content:
       placeholder: ''
       show_summary: false
     third_party_settings: {  }
+  comment:
+    type: comment_default
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   created:
     type: datetime_timestamp
-    weight: 10
+    weight: 7
     region: content
     settings: {  }
     third_party_settings: {  }
   field_domain_access:
     type: options_buttons
-    weight: 40
+    weight: 3
     region: content
     settings: {  }
     third_party_settings: {  }
   field_domain_all_affiliates:
     type: boolean_checkbox
-    weight: 41
+    weight: 2
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
   path:
     type: path
-    weight: 30
+    weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
   promote:
     type: boolean_checkbox
-    weight: 15
+    weight: 8
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
   status:
     type: boolean_checkbox
-    weight: 120
+    weight: 11
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
-    weight: 16
+    weight: 9
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
   title:
     type: string_textfield
-    weight: -5
+    weight: 0
     region: content
     settings:
       size: 60
@@ -82,7 +91,7 @@ content:
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 5
+    weight: 6
     region: content
     settings:
       match_operator: CONTAINS
@@ -90,5 +99,11 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-hidden:
-  upload: true
+  upload:
+    type: file_generic
+    weight: 4
+    region: content
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+hidden: {  }

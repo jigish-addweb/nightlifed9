@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.feed_item.body
+    - field.field.node.feed_item.comment
     - field.field.node.feed_item.field_domain_access
     - field.field.node.feed_item.field_domain_all_affiliates
     - field.field.node.feed_item.upload
@@ -39,6 +40,7 @@ content:
     weight: -5
     region: content
 hidden:
+  comment: true
   field_domain_access: true
   field_domain_all_affiliates: true
   upload: true

@@ -10,7 +10,7 @@ field_name: field_music_album
 entity_type: node
 bundle: music
 label: Album
-description: ''
+description: 'Please enter name of artist''s album on which this song appears.'
 required: false
 translatable: false
 default_value: {  }

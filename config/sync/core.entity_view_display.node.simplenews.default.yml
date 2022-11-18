@@ -3,13 +3,16 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_display.comment.comment.default
     - field.field.node.simplenews.body
+    - field.field.node.simplenews.comment
     - field.field.node.simplenews.field_domain_access
     - field.field.node.simplenews.field_domain_all_affiliates
     - field.field.node.simplenews.field_newsletter
     - field.field.node.simplenews.upload
     - node.type.simplenews
   module:
+    - comment
     - text
     - user
 id: node.simplenews.default
@@ -23,6 +26,15 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 101
+    region: content
+  comment:
+    type: comment_default
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 102
     region: content
   field_newsletter:
     type: entity_reference_label

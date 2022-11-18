@@ -12,7 +12,7 @@ field_name: field_musics_reservation
 entity_type: node
 bundle: music
 label: 'Enter Buy now link'
-description: ''
+description: 'http://50.28.20.212/music/index?tab=search&query=daft%20punk'
 required: false
 translatable: false
 default_value: {  }

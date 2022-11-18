@@ -1,4 +1,4 @@
-uuid: e26395a8-9494-4281-91a9-28e4daa212c2
+uuid: 46eed376-f86d-46c3-8c99-96b79fccc55e
 langcode: en
 status: true
 dependencies:
@@ -13,7 +13,7 @@ entity_type: node
 bundle: fashion
 label: Location
 description: ''
-required: false
+required: true
 translatable: true
 default_value: {  }
 default_value_callback: ''
@@ -28,11 +28,11 @@ settings:
     familyName:
       override: hidden
     organization:
-      override: hidden
+      override: required
     addressLine1:
       override: required
     addressLine2:
-      override: optional
+      override: hidden
     postalCode:
       override: required
     sortingCode:

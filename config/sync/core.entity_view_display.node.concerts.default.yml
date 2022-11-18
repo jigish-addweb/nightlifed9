@@ -5,7 +5,7 @@ dependencies:
   config:
     - core.entity_view_display.comment.comment.default
     - field.field.node.concerts.body
-    - field.field.node.concerts.field_comment_settings
+    - field.field.node.concerts.comment
     - field.field.node.concerts.field_conc_ccode
     - field.field.node.concerts.field_concert_buynow
     - field.field.node.concerts.field_concert_ccode
@@ -60,14 +60,14 @@ content:
     third_party_settings: {  }
     weight: 101
     region: content
-  field_comment_settings:
+  comment:
     type: comment_default
     label: above
     settings:
       view_mode: default
       pager_id: 0
     third_party_settings: {  }
-    weight: 118
+    weight: 120
     region: content
   field_conc_ccode:
     type: list_key

@@ -5,7 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.rss
     - field.field.node.concerts.body
-    - field.field.node.concerts.field_comment_settings
+    - field.field.node.concerts.comment
     - field.field.node.concerts.field_conc_ccode
     - field.field.node.concerts.field_concert_buynow
     - field.field.node.concerts.field_concert_ccode
@@ -157,7 +157,7 @@ content:
     region: content
 hidden:
   body: true
-  field_comment_settings: true
+  comment: true
   field_concert_ccode: true
   field_concert_cname: true
   field_concert_cont_mobile: true

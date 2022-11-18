@@ -3,7 +3,9 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_display.comment.comment.default
     - field.field.node.movies.body
+    - field.field.node.movies.comment
     - field.field.node.movies.field_country
     - field.field.node.movies.field_director
     - field.field.node.movies.field_domain_access
@@ -11,6 +13,7 @@ dependencies:
     - field.field.node.movies.field_genres
     - field.field.node.movies.field_hashtag
     - field.field.node.movies.field_language
+    - field.field.node.movies.field_location
     - field.field.node.movies.field_mov_cont_ccode
     - field.field.node.movies.field_mov_cont_mail
     - field.field.node.movies.field_mov_cont_num
@@ -30,6 +33,8 @@ dependencies:
     - field.field.node.movies.field_writers
     - node.type.movies
   module:
+    - address
+    - comment
     - datetime
     - image
     - text
@@ -45,6 +50,15 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 101
+    region: content
+  comment:
+    type: comment_default
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 112
     region: content
   field_country:
     type: entity_reference_label
@@ -84,6 +98,13 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     weight: 107
+    region: content
+  field_location:
+    type: address_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 113
     region: content
   field_mov_cont_ccode:
     type: string
@@ -224,6 +245,16 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     weight: 111
+    region: content
+  flag_like_it:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  flag_share_it:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
     region: content
   links:
     settings: {  }

@@ -10,7 +10,7 @@ field_name: field_hotel_google
 entity_type: node
 bundle: hotel
 label: 'Google+ link'
-description: ''
+description: 'Please type complete URL like ''http://www.example.com'''
 required: false
 translatable: false
 default_value: {  }

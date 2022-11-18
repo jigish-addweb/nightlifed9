@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.search_result
     - field.field.node.event.body
+    - field.field.node.event.field_attached_images
     - field.field.node.event.field_comment_settings
     - field.field.node.event.field_country
     - field.field.node.event.field_domain_access
@@ -167,6 +168,7 @@ content:
     region: content
 hidden:
   body: true
+  field_attached_images: true
   field_comment_settings: true
   field_country: true
   field_domain_access: true

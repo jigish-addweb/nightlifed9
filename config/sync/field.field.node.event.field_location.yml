@@ -13,7 +13,7 @@ entity_type: node
 bundle: event
 label: Location
 description: ''
-required: false
+required: true
 translatable: true
 default_value: {  }
 default_value_callback: ''
@@ -28,20 +28,20 @@ settings:
     familyName:
       override: hidden
     organization:
-      override: hidden
+      override: required
     addressLine1:
-      override: optional
+      override: required
     addressLine2:
       override: optional
     postalCode:
-      override: optional
+      override: required
     sortingCode:
       override: hidden
     dependentLocality:
       override: hidden
     locality:
-      override: optional
+      override: required
     administrativeArea:
-      override: optional
+      override: required
   fields: {  }
 field_type: address

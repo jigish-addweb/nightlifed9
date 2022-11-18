@@ -13,7 +13,9 @@ label: 'Is Single File'
 description: ''
 required: false
 translatable: false
-default_value: {  }
+default_value:
+  -
+    value: 'No'
 default_value_callback: ''
 settings: {  }
 field_type: string

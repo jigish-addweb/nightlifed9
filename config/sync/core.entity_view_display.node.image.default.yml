@@ -3,13 +3,16 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_display.comment.comment.default
     - field.field.node.image.body
+    - field.field.node.image.comment
     - field.field.node.image.field_domain_access
     - field.field.node.image.field_domain_all_affiliates
     - field.field.node.image.field_image_galleries
     - field.field.node.image.upload
     - node.type.image
   module:
+    - comment
     - text
     - user
 id: node.image.default
@@ -23,6 +26,15 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 101
+    region: content
+  comment:
+    type: comment_default
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 102
     region: content
   field_image_galleries:
     type: entity_reference_label

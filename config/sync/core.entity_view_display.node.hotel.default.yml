@@ -3,7 +3,9 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_display.comment.comment.default
     - field.field.node.hotel.body
+    - field.field.node.hotel.comment
     - field.field.node.hotel.field_country
     - field.field.node.hotel.field_domain_access
     - field.field.node.hotel.field_domain_all_affiliates
@@ -24,11 +26,14 @@ dependencies:
     - field.field.node.hotel.field_hotel_google
     - field.field.node.hotel.field_hotel_payment
     - field.field.node.hotel.field_hotel_twitter
+    - field.field.node.hotel.field_location
     - field.field.node.hotel.field_private
     - field.field.node.hotel.field_upload_image_0
     - field.field.node.hotel.field_would_you_like_a_featured_
     - node.type.hotel
   module:
+    - address
+    - comment
     - image
     - text
     - user
@@ -43,6 +48,15 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 101
+    region: content
+  comment:
+    type: comment_default
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 112
     region: content
   field_country:
     type: entity_reference_label
@@ -188,6 +202,13 @@ content:
     third_party_settings: {  }
     weight: 109
     region: content
+  field_location:
+    type: address_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 111
+    region: content
   field_private:
     type: text_default
     label: above
@@ -213,6 +234,16 @@ content:
       link: true
     third_party_settings: {  }
     weight: 20
+    region: content
+  flag_like_it:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  flag_share_it:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
     region: content
   links:
     settings: {  }

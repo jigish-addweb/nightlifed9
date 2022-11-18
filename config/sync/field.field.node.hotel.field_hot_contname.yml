@@ -10,8 +10,8 @@ field_name: field_hot_contname
 entity_type: node
 bundle: hotel
 label: 'Contact Name'
-description: ''
-required: false
+description: 'Please provide your contact info in case we need to verify your news info and/or sources.'
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''

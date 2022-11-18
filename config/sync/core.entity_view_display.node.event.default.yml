@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_display.comment.comment.default
     - field.field.node.event.body
+    - field.field.node.event.field_attached_images
     - field.field.node.event.field_comment_settings
     - field.field.node.event.field_country
     - field.field.node.event.field_domain_access
@@ -71,6 +72,14 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 9
+    region: content
+  field_attached_images:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 122
     region: content
   field_comment_settings:
     type: comment_default

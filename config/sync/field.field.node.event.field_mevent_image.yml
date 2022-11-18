@@ -22,7 +22,7 @@ settings:
   handler_settings: {  }
   file_directory: ''
   file_extensions: 'png gif jpg jpeg'
-  max_filesize: ''
+  max_filesize: '200 MB'
   max_resolution: ''
   min_resolution: 300x225
   alt_field: false
@@ -30,7 +30,7 @@ settings:
   title_field: false
   title_field_required: false
   default_image:
-    uuid: null
+    uuid: ''
     alt: ''
     title: ''
     width: null

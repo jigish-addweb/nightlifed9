@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.print
+    - field.field.node.hotel_booking.comment
     - field.field.node.hotel_booking.field_chkin_date
     - field.field.node.hotel_booking.field_chkout_date
     - field.field.node.hotel_booking.field_domain_access
@@ -70,6 +71,7 @@ content:
     weight: -5
     region: content
 hidden:
+  comment: true
   field_chkin_date: true
   field_chkout_date: true
   field_domain_access: true

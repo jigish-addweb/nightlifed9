@@ -5,12 +5,14 @@ dependencies:
   config:
     - core.entity_view_mode.node.search_result
     - field.field.node.music.body
+    - field.field.node.music.comment
     - field.field.node.music.field_artist
     - field.field.node.music.field_country
     - field.field.node.music.field_domain_access
     - field.field.node.music.field_domain_all_affiliates
     - field.field.node.music.field_genre
     - field.field.node.music.field_hashtag
+    - field.field.node.music.field_location
     - field.field.node.music.field_music_album
     - field.field.node.music.field_music_ccode
     - field.field.node.music.field_music_check_single
@@ -102,6 +104,16 @@ content:
     third_party_settings: {  }
     weight: 25
     region: content
+  flag_like_it:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  flag_share_it:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
   links:
     settings: {  }
     third_party_settings: {  }
@@ -117,12 +129,14 @@ content:
     region: content
 hidden:
   body: true
+  comment: true
   field_artist: true
   field_country: true
   field_domain_access: true
   field_domain_all_affiliates: true
   field_genre: true
   field_hashtag: true
+  field_location: true
   field_music_album: true
   field_music_ccode: true
   field_music_check_single: true

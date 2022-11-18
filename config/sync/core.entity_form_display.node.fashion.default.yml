@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.fashion.body
     - field.field.node.fashion.comment
+    - field.field.node.fashion.field_attached_images
     - field.field.node.fashion.field_country
     - field.field.node.fashion.field_domain_access
     - field.field.node.fashion.field_domain_all_affiliates
@@ -47,6 +48,7 @@ dependencies:
     - conditional_fields
     - datetime
     - image
+    - media_library
     - path
     - text
 id: node.fashion.default
@@ -75,6 +77,13 @@ content:
     weight: 29
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_attached_images:
+    type: media_library_widget
+    weight: 43
+    region: content
+    settings:
+      media_types: {  }
     third_party_settings: {  }
   field_country:
     type: entity_reference_autocomplete_tags
@@ -344,7 +353,7 @@ content:
     third_party_settings: {  }
   field_location:
     type: address_default
-    weight: 11
+    weight: 45
     region: content
     settings: {  }
     third_party_settings: {  }
