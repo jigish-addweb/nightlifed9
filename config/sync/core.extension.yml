@@ -1,7 +1,6 @@
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
 module:
-  getid3: -10
   actions_permissions: 0
   ad: 0
   ad_content: 0
@@ -30,8 +29,6 @@ module:
   ctools: 0
   ctools_block: 0
   ctools_views: 0
-  data: 0
-  data_search: 0
   datetime: 0
   db_maintenance: 0
   dblog: 0
@@ -45,7 +42,6 @@ module:
   entityqueue: 0
   entityqueue_smartqueue: 0
   eva: 0
-  fblikebutton: 0
   feeds: 0
   field: 0
   field_inheritance: 0
@@ -75,6 +71,8 @@ module:
   libraries: 0
   link: 0
   mailsystem: 0
+  media: 0
+  media_library: 0
   menu_link_content: 0
   menu_ui: 0
   migrate: 0
@@ -96,15 +94,13 @@ module:
   quicktabs_jqueryui: 0
   rdf: 0
   record_shorten: 0
-  rules: 0
   search: 0
   serialization: 0
   services: 0
   shortcut: 0
   shorten: 0
   shorten_cs: 0
-  shortener: 0
-  shorturl: 0
+  shortener: 
   shs: 0
   shs_chosen: 0
   statistics: 0
@@ -122,12 +118,10 @@ module:
   video_transcode: 0
   views_bulk_operations: 0
   views_ui: 0
-  voting_service: 0
   votingapi: 0
   votingapi_tokens: 0
   pathauto: 1
   views: 10
-  formdefaults: 20
   standard: 1000
 theme:
   olivero: 0
