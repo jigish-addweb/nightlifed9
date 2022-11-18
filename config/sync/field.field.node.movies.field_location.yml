@@ -1,0 +1,47 @@
+uuid: 09a1a9a4-9efd-44e9-8987-e3b96ad0aed3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_location
+    - node.type.movies
+  module:
+    - address
+id: node.movies.field_location
+field_name: field_location
+entity_type: node
+bundle: movies
+label: Location
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  available_countries: {  }
+  langcode_override: ''
+  field_overrides:
+    givenName:
+      override: hidden
+    additionalName:
+      override: hidden
+    familyName:
+      override: hidden
+    organization:
+      override: hidden
+    addressLine1:
+      override: hidden
+    addressLine2:
+      override: hidden
+    postalCode:
+      override: hidden
+    sortingCode:
+      override: hidden
+    dependentLocality:
+      override: hidden
+    locality:
+      override: required
+    administrativeArea:
+      override: required
+  fields: {  }
+field_type: address

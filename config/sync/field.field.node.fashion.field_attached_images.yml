@@ -1,0 +1,29 @@
+uuid: 3d1213f0-6b1f-47c7-86e8-6d30c6a01ad3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_attached_images
+    - media.type.image
+    - node.type.fashion
+id: node.fashion.field_attached_images
+field_name: field_attached_images
+entity_type: node
+bundle: fashion
+label: 'Attached images'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
